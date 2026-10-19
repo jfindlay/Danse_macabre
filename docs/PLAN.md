@@ -22,8 +22,8 @@ arrangement/
     ep03-theme2-largamente.ily % bars  49–64
     ep04-theme1-exchanges.ily  % bars  65–116  (A)
     ep05-fragments-bones.ily   % bars 117–136  (B)  (status: DECIDED, draft below)
-    ep06-development.ily       % bars 137–172  (C)
-    ep07-skeletons.ily         % bars 173–204  (D)  — step-3 territory
+    ep06-fugato.ily            % bars 137–172  (C)  (status: DECIDED, draft below)
+    ep07-skeletons.ily         % bars 173–204  (D)  (status: DECIDED, draft + ossia below)
     ep08-lyrical-bmajor.ily    % bars 205–236  (E)
     ep09-spiky.ily             % bars 237–252  (F)
     ep10-whirl-vs-theme.ily    % bars 253–272  (G)  — the knot
@@ -37,9 +37,12 @@ arrangement/
     ep18-declame-coda.ily      % bars 455–477  (N)
 ```
 
-Each episode file is one `\fixed c' { \barNumberCheck #<first> … \barNumberCheck #<next> }`
-expression. The main file concatenates them inside `<< \trame \new Voice { … } >>` so the marks,
-key changes and bar numbers come from the Trame, never from the episode files.
+Each episode file is one `\absolute { \barNumberCheck #<first> … \barNumberCheck #<next> }`
+expression at **sounding, absolute pitch** — the same convention as the dump, so lifts are
+copy-paste (decided 2026-10-18, superseding `\fixed c'`; see NOTES "Conventions"). The main file
+concatenates them inside `<< \trame \new Staff = "solo" \new Voice { … } >>` so the marks, key
+changes and bar numbers come from the Trame, never from the episode files. The staff is named
+`"solo"` so ossia staves can `alignBelowContext` to it.
 
 ## Build pipeline
 
@@ -70,29 +73,40 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
 | 3 | 49–64 | solo verbatim; ad-lib LH-pizz open G on G-bass downbeats | **decided** — see NOTES |
 | 4 | 65–116 | Ob/Bn D-major head; Vln I 85–92 with downbeat chords; Theme 2 tutti 102–116 with written wind double-stops | **decided** — see NOTES |
 | 5 | 117–136 | pizz D-major stamps on 117.1/125.1/133.1; solo verbatim; wind/xylophone Theme 1 at g″ **col legno battuto** with string chords as battuto double-stops; 136.3 small-note f♯ | **decided** — draft below |
-| 6–18 | 137–477 | per transcript map, to be revised episode by episode | pending |
+| 6 | 137–172 | five-entry fugato: one surface line per entry (counter-lines, ascending register), subject entry-cues as double-stops (Bach Sonata-fugue allusion); 158 V2 trill; 172 wind line to d♯‴ | **decided** — draft below |
+| 7 | 173–204 | one 16-bar Phrygian strain twice (E, then A a 4th up): wind thirds as staccato double-stops, LH-pizz open G = cymbal, e–f–e turn attached to every `<cis'' e''>` chord; 189–204 Vln I pizz line in thirds, pizz harmonic e‴ = triangle; arco ossia | **decided** — draft below |
+| 8–18 | 205–477 | per transcript map, to be revised episode by episode | pending |
 
 ## Resume here (next session)
 
-1. `@build`: rescue the dump into `arrangement/dump/` (step 0), then steps 1–2 (converted
-   reference score compiles; `arrangement/` scaffold with 18 placeholder episodes passing bar
-   checks). Then enter Episodes 1–4 from the session transcript / NOTES and Episode 5 from the
-   draft below. Verify the `(?)` octaves of the 65–116 extraction against the dump before
-   entering Episode 4.
-2. `@architect`: resume at **Episode 6, bars 137–172 [C]** (development: bassoon staccato Theme 2
-   137–145, string fragments, wind scale ascents 163–172 — solo tacet throughout, so this is the
-   first all-lift episode; decide what carries when fragments are tossed between sections).
-   Extract with `slice.py` from the dump (fork `@general` for the slice; keep architect context
-   for decisions). Then Episode 7 [D] 173–204, the first step-3 (fill) territory.
+1. `@build`: the dump is already rescued (`arrangement/dump/` exists, step 0 done). Do steps 1–2
+   (converted reference score compiles; `arrangement/` scaffold with 18 placeholder episodes
+   passing bar checks). Then enter Episodes 1–4 from the session transcript / NOTES and Episodes
+   5–7 from the drafts below. Verify the `(?)` octaves of the 65–116 extraction against the dump
+   before entering Episode 4. **Pitch-convention tasks:** the **Episode 5 draft is `\fixed c'`
+   — shift every pitch up an octave** when entering it as `\absolute`; the **Episode 6 draft is
+   already absolute** (verified: its 137.1 `<g d' bes' g''>` is V1a's open-string chord) despite
+   its old heading — enter it unchanged. Episode 7 is absolute. Note `slice.py` preset names are
+   `cl-bb`, `horn-g`, `horn-d`, `tp-d`.
+2. `@architect`: resume at **Episode 8, bars 205–236 [E]** — B-major lyrical Theme 2 (solo
+   205.3–214, 221.3–230), 4 solo cellos pp, clarinet rocking figure, flute+horn answer 213–222,
+   Vln II/vla *molto espress.* 229–236. The join from 204 is decided from the 204 side: the
+   violin ends Episode 7 pizz `<e'' g''>4\f`; **205.1 is the tutti B** (Hp-b `<b,, b,>` mf,
+   winds/strings `b` f) → recommended pizz `<b b'>4\f`, 205.2 rest (bow retaken), 205.3 the
+   solo's `fis'4\f` *appassionato* verbatim. Hp-h's 205 run `fis b dis' fis' fis` is available as
+   an alternative upbeat.
 
 Working method from Episode 5: a `@general` subagent slices exact bar ranges per voice from the
 absolute dump (sounding pitch for transposers); the architect session spends context on
 decisions only. Decided episode drafts (LilyPond text) go in the "Episode drafts" section below so
 `@build` never depends on a session transcript.
 
-## Episode drafts (decided; `\fixed c'`, sounding pitch)
+## Episode drafts (decided; sounding pitch)
 
-### Episode 5 — bars 117–136
+Pitch convention per draft: **Episode 5 is `\fixed c'`** (written an octave below sounding);
+**Episodes 6 and 7 are absolute** (= the dump). All new drafts are absolute.
+
+### Episode 5 — bars 117–136 (`\fixed c'` — @build shifts up an octave)
 
 Comments cite source voices. Engrave "ad lib." items as small notes. Col legno passages: "col
 legno battuto" at 121.2 and 129.2, "arco" (ord.) at the next stamp's second beat.
@@ -129,9 +143,146 @@ g'4-.  <bes g'>8-.\f^"col legno battuto" bes'-. <bes g'>-. a'-.               | 
 \barNumberCheck #137
 ```
 
+### Episode 6 — bars 137–172 (absolute pitch)
+
+Register ascends entry by entry as the orchestra's does. Refinement available for 172.6→173.1
+(not yet decided, see Episode 7): `dis'''` is the E♭ string's octave harmonic (midpoint node, a
+semitone above the hand's d‴), and 173.1 `e'''` is the A string's 12th harmonic.
+Double-stops `<d' f'>`, `<c' a'>`, `<d' g'>`: lower note on the G string (4th/3rd finger). Ossia
+for 169–172: the Ob1 octave (`c''…dis''`). LH-pizz ad lib: G on 161.1, 162.1, 166.1; D on 163.1,
+165.1.
+
+```
+\barNumberCheck #137
+% 137.1 V1 chord verbatim; 137.3 Bn/Vc upbeat 8va. Entry 1 = Bn quarters + Va eighth-pairs, 8va
+<g d' bes' g''>4-!\ff r4 d'4-.\mf                                  | % 137
+g'8-.-> g'8-. g'4-. g'4-.                                          | % 138
+f'8-.-> f'8-. f'4-. f'4-.                                          | % 139
+e'8-.-> e'8-. e'4-. e'4-.                                          | % 140
+ees'8-.-> ees'8-. ees'4-. ees'4-.                                  | % 141
+d'8-. d'8-. e'8-. e'8-. g'8-. g'8-.                                | % 142
+f'8-. f'8-. e'8-. e'8-. d'8-. d'8-.                                | % 143
+e'8-. e'8-. a'4-. <a e'>4-.                                        | % 144  144.3 entry 2 upbeat (Hn3/4, V2)
+% Entry 2: counter = Va/Vc "sempre stacc." 8va (surface); subject cue 145-146 (Hn/V2 at pitch)
+<d' f'>8-.->^"sempre stacc." <d' e'>8-. d'8-. e'8-. <d' f'>8-. g'8-. | % 145
+<c' a'>4-. r8 a8-. b8-. c'8-.                                      | % 146  Vc fill
+d'8-. cis'8-. d'8-. f'8-. e'8-. d'8-.                              | % 147
+g'4-. r8 g'8-. f'8-. e'8-.                                         | % 148
+f'4-. r8 e'8-. d'8-. f'8-.                                         | % 149
+a'4-. r8 e'8-. fis'8-. g'8-.                                       | % 150
+fis'8-. e'8-. fis'8-. d'8-. <d' e'>8-. <d' fis'>8-.                | % 151  151.3 entry 3 upbeat (Cl/V1 d')
+% Entry 3: surface = V2 at pitch spliced with Va/Vc fills 8va; cue 152-153 at V1 octave
+<bes g'>8-.-> <a g'>8-. <g g'>8-. a8-. bes8-. c'8-.                | % 152
+<d' f'>8-.-> <d' f'>8-. e'8-. f'8-. g'8-. a'8-.                    | % 153
+g'8-. fis'8-. g'8-. bes'8-. a'8-. g'8-.                            | % 154
+<ees' c''>8-. c'8-. d'8-. ees'8-. f'8-. fis'8-.                    | % 155  ees' = subject's chromatic note
+<bes d'>8-. <bes d'>8-. e'8-. e'8-. g'8-. g'8-.                    | % 156  subject climax (V1) over V2 bes
+<d' f'>8-. <d' f'>8-. e'8-. e'8-. <d' bes'>8-. <d' bes'>8-.        | % 157  Va bes' tied
+cis'2.\startTrillSpan( b16[ \stopTrillSpan cis'16]                 | % 158  V2 cadential trill
+% Entry 4: surface = V1 rising sequence loco; cue 159-160 (Tp2 at pitch)
+d'4-.) d'8-. e'8-. <d' f'>8-. <d' g'>8-.                           | % 159  trill resolves = subject d'
+<c' a'>8-. gis'8-. a'8-. c''8-. b'8-. a'8-.                        | % 160
+d''8-. c''8-. d''8-. f''8-. e''8-. d''8-.                          | % 161
+g''8-. fis''8-. g''8-. bes''8-. a''8-. g''8-.                      | % 162
+f''8-. a''8-. g''8-. e''8-. f''8-. d''8-.                          | % 163
+e''8-. a''8-. gis''8-. b''8-. c'''8-. a''8-.                       | % 164
+d''8-. fis''8-. a''8-. c'''8-. bes''8-. a''8-.                     | % 165
+% Entry 5: surface = Fl1 sweep (Ob drops 8va at 169 only for range); cue 166-167 (Tb1)
+<g g'>8-.->\f <g g'>8-. g'8-. a'8-. bes'8-. c''8-.                 | % 166
+<f' d''>8-.-> cis''8-. d''8-. f''8-. e''8-. d''8-.                 | % 167
+g''8-.-> fis''8-. g''8-. bes''8-. a''8-. g''8-.                    | % 168
+c'''8-. b''8-. c'''8-. ees'''8-. d'''8-. c'''8-.                   | % 169
+f'''8-.\< d'''8-. cis'''8-. c'''8-. b''8-. bes''8-.                | % 170
+a''8-. b''8-. cis'''8-. d'''8-. e'''8-. f'''8-.                    | % 171
+a''8-. b''8-. c'''8-. cis'''8-. d'''8-. dis'''8-.\!                | % 172  -> [D] 173 p
+\barNumberCheck #173
+```
+
+### Episode 7 — bars 173–204 [D] (absolute pitch)
+
+Engraving: `-+` is left-hand pizz (the open-G "cymbal" clicks are normal-size, designed, not ad
+lib); `\flageolet` notes are natural harmonics — @build adds the touch-point (173.1 `e'''`: A
+string touched at `e''`; 190–202 `e'''`: the same node, plucked). Arco turns are `\tuplet 3/2`
+slurred with the accent on the first note, as the string parts have them. Section A is entirely
+first position; section B is first position to 193, third from 194. Dynamics as source: f 173.1,
+p 173.2, cresc 194, f 204.
+
+```
+\barNumberCheck #173
+% 173-188: wind thirds (Cl2/Hb2 melody + Cl1 third above, two-line octave) as staccato double-stops
+% on 1 & 3; LH-pizz open G on 2 = cymbal (Cym p 173.2-188.2); V2's slurred triplet turn e''-f''-e''
+% attached to every <cis'' e''> chord. Not carried: Tb3/Tba E pedal, Vc/Va octaves of the turn.
+% 173.1 = wind line's resolution e''' (Fl/Pic) + strings'/Tb f stroke: A-string 12th harmonic.
+e'''8-.\flageolet\f r8  g4-+\p  \tuplet 3/2 { <cis'' e''>8->( <cis'' f''>8 <cis'' e''>8) } | % 173
+<b' d''>4-.  g4-+  \tuplet 3/2 { <cis'' e''>8->( <cis'' f''>8 <cis'' e''>8) }              | % 174
+<a' cis''>4-.  g4-+  <b' d''>4-.                                                            | % 175
+<gis' b'>4-.  g4-+  <a' cis''>4-.                                                           | % 176 click: d' ad lib (G#)
+<a' cis''>4-.  g4-+  \tuplet 3/2 { <cis'' e''>8->( <cis'' f''>8 <cis'' e''>8) }             | % 177
+\tuplet 3/2 { <cis'' e''>8->( <cis'' f''>8 <cis'' e''>8) }  g4-+  <d'' f''>4-.              | % 178
+\tuplet 3/2 { <cis'' e''>8->( <cis'' f''>8 <cis'' e''>8) }  <b' d''>4-.  <a' cis''>4-.      | % 179 cadence
+\tuplet 3/2 { <cis'' e''>8->( <cis'' f''>8 <cis'' e''>8) }  g4-+  <b' d''>4-.               | % 180
+<b' d''>4-.  g4-+  <d'' f''>4-.                                                             | % 181
+\tuplet 3/2 { <cis'' e''>8->( <cis'' f''>8 <cis'' e''>8) }  g4-+  <d'' f''>4-.              | % 182
+<b' d''>4-.  g4-+  \tuplet 3/2 { <cis'' e''>8->( <cis'' f''>8 <cis'' e''>8) }               | % 183
+<a' cis''>4-.  g4-+  <b' d''>4-.                                                            | % 184 click: d' ad lib (G#)
+<b' d''>4-.  g4-+  <d'' f''>4-.                                                             | % 185
+<d'' f''>4-.  g4-+  <e'' g''>4-.                                                            | % 186
+<d'' f''>4-.  \tuplet 3/2 { <cis'' e''>8->( <cis'' f''>8 <cis'' e''>8) }  <b' d''>4-.       | % 187 cadence
+<d'' f''>4-.  g4-+  \tuplet 3/2 { <cis'' e''>8->( <cis'' f''>8 <cis'' e''>8) }              | % 188
+% 189: last wind chord 189.1; the strings' turn is now a-bes-a (Va 189.2) -> bowed on the open A;
+% V1a "Pizz." f'' 189.3 (bow stays in hand through 204).
+<cis'' e''>4-.  \tuplet 3/2 { a'8->( bes'8 a'8) }  f''4\p^"pizz."                           | % 189
+% 189.3-204: V1a pizz line + Tb1's third (above to 201.1, below from 201.3) as pizz double-stops
+% on 1 & 3; beat 2 = pizz natural harmonic e''' (open A touched at e'') = Trg p 189.2-204.2.
+% Not carried: Ti roll a, / C3-4 pedal a, (189-203), Hb/Cl/Fl horn-call gis->a on 2-3.
+<e'' g''>4  e'''4\flageolet  <f'' a''>4                                                     | % 190
+<d'' f''>4  e'''4\flageolet  <e'' g''>4                                                     | % 191
+<cis'' e''>4  e'''4\flageolet  <d'' f''>4                                                   | % 192
+<d'' f''>4  e'''4\flageolet  <f'' a''>4                                                     | % 193
+<f'' a''>4\<  e'''4\flageolet  <g'' bes''>4                                                 | % 194 3rd pos. from here
+<f'' a''>4  <e'' g''>4  <d'' f''>4                                                          | % 195 cadence
+<f'' a''>4  e'''4\flageolet  <e'' g''>4                                                     | % 196
+<e'' g''>4  e'''4\flageolet  <g'' bes''>4                                                   | % 197
+<f'' a''>4  e'''4\flageolet  <g'' bes''>4                                                   | % 198
+<e'' g''>4  e'''4\flageolet  <f'' a''>4                                                     | % 199
+<d'' f''>4  e'''4\flageolet  <e'' g''>4                                                     | % 200
+<e'' g''>4  e'''4\flageolet  <e'' g''>4                                                     | % 201 .3: Tb1 e' below g''
+<e'' g''>4  e'''4\flageolet  <f'' a''>4                                                     | % 202
+<e'' g''>4  <d'' f''>4  <cis'' e''>4\!                                                      | % 203 cadence
+<e'' g''>4\f  r4  <e'' g''>4                                                                | % 204 -> 205.1 tutti B
+\barNumberCheck #205
+```
+
+**Ossia (arco) for 189–204**, engraved as a smaller staff below the main staff for those bars:
+`\new Staff \with { alignBelowContext = "solo" fontSize = #-3 \override StaffSymbol.staff-space
+= #(magstep -3) \override StaffSymbol.thickness = #(magstep -3) \remove Time_signature_engraver }`
+inside a `<< … >>` with the main bars 189–204. Same chords bowed staccato; beat 2 = V2's turn
+at its own octave `a''–bes''–a''` (E♭ string, in hand in both positions; open-A `a'–bes'–a'`
+may be substituted in 189–193); 204 = Fl2/Hb1's chromatic rise `a''–ais''–b''` as a double turn
+into 205.1 `b''` arco. Label the staff "ossia (arco)".
+
+```
+<cis'' e''>4-.  \tuplet 3/2 { a'8->( bes'8 a'8) }  f''4-.\p                                 | % 189
+<e'' g''>4-.  \tuplet 3/2 { a''8->( bes''8 a''8) }  <f'' a''>4-.                            | % 190
+<d'' f''>4-.  \tuplet 3/2 { a''8->( bes''8 a''8) }  <e'' g''>4-.                            | % 191
+<cis'' e''>4-.  \tuplet 3/2 { a''8->( bes''8 a''8) }  <d'' f''>4-.                          | % 192
+<d'' f''>4-.  \tuplet 3/2 { a''8->( bes''8 a''8) }  <f'' a''>4-.                            | % 193
+<f'' a''>4-.\<  \tuplet 3/2 { a''8->( bes''8 a''8) }  <g'' bes''>4-.                        | % 194
+<f'' a''>4-.  <e'' g''>4-.  <d'' f''>4-.                                                    | % 195
+<f'' a''>4-.  \tuplet 3/2 { a''8->( bes''8 a''8) }  <e'' g''>4-.                            | % 196
+<e'' g''>4-.  \tuplet 3/2 { a''8->( bes''8 a''8) }  <g'' bes''>4-.                          | % 197
+<f'' a''>4-.  \tuplet 3/2 { a''8->( bes''8 a''8) }  <g'' bes''>4-.                          | % 198
+<e'' g''>4-.  \tuplet 3/2 { a''8->( bes''8 a''8) }  <f'' a''>4-.                            | % 199
+<d'' f''>4-.  \tuplet 3/2 { a''8->( bes''8 a''8) }  <e'' g''>4-.                            | % 200
+<e'' g''>4-.  \tuplet 3/2 { a''8->( bes''8 a''8) }  <e'' g''>4-.                            | % 201
+<e'' g''>4-.  \tuplet 3/2 { a''8->( bes''8 a''8) }  <f'' a''>4-.                            | % 202
+<e'' g''>4-.  <d'' f''>4-.  <cis'' e''>4-.\!                                                | % 203
+<e'' g''>4-.\f  \tuplet 3/2 { a''8( bes''8 a''8) }  \tuplet 3/2 { ais''8( b''8 ais''8) }    | % 204 -> 205.1 b''\f
+```
+
 ## Handoff to @build (when triggered)
 
 Inputs: this file, `NOTES.md`, the decided episode drafts (LilyPond text in NOTES or session
 transcript). Tasks: steps 1–2 of the pipeline, then enter decided episodes. Constraints: sounding
-pitch, `\fixed c'`, bar checks, no edits under `source/`, 100-char lines, comments cite the source
+absolute pitch, bar checks, no edits under `source/`, 100-char lines, comments cite the source
 voice and bars for every lifted passage (e.g. `% Fl1 33.2–41.1`).

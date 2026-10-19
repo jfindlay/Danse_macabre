@@ -60,9 +60,11 @@ would be unencumbered. Decide before any commercial use; not a constraint now.
 - **Sounding pitch** throughout, as in the source. Open E♭-string notes carry the `\open` circle;
   natural harmonics carry `\flageolet` with a touch-point note. The "Accord du violon" scordatura
   header (`\scordatura` markup in `-Global.ily`) is reused.
-- Episode files use `\fixed c'` (not `\relative`) so pitches are unambiguous when spliced; the
-  source's `\relative` octaves have already been resolved by hand once (see map below) and should
-  not be re-derived per edit.
+- Episode files and drafts are at **absolute pitch** (`\absolute`), the same convention as the
+  dump, so every lift is a copy-paste with no octave shift (decided 2026-10-18, superseding
+  `\fixed c'`). Reason: the Episode 6 draft was pasted from the dump into a `\fixed c'` heading
+  and silently sounded an octave high; the only safe convention is the source's own. The
+  Episode 5 draft remains `\fixed c'` and is converted by `@build` on entry.
 - Every episode file ends with `\barNumberCheck` at its first bar and the next episode's first
   bar — the mechanical enforcement of the fidelity rule.
 - Harp → pizz. is a **composer-sanctioned substitution**: the score itself marks the string parts
@@ -85,8 +87,8 @@ K 362 · L 394 · poco stringendo 409 · Animato 416 · M 430 · Tempo 1° 438 �
 | 93–101 | Theme 1 ff "2e corde" | tutti, harp ff |
 | 102–116 | tacet | strings Theme 2 *largamente* |
 | 117–136 [B] | Theme 1 in D major at d″ 117.2–121.1 and 125.2–129.1; ff open-string chords 133.2–136 | tutti D-major stamp on 117.1/125.1/133.1; wind choir + xylophone (enters 121.2) Theme 1 in G minor 121.2–125.1, 129.2–133.1; strings pizz chords (121–124) then col legno (129–132) |
-| 137–172 [C] | tacet | development: bassoon staccato Theme 2 (137–145), string fragments, wind scale ascents (163–172) |
-| 173–204 [D] | tacet | **no melody**: p staccato wind chords, string triplet turns, Vln I pizz line 189–204 |
+| 137–172 [C] | tacet | **fugato on Theme 2's head**, five entries 7 bars apart (Bn/Vc/Va 137.3 · Hn3/4+V2 144.3 · Ob/Cl/V1 151.3 · Tp 158.3 · Tb 165.3), running staccato counter-lines; wind sweep g′→f‴ 166–172; all strings trill f′ at 172 |
+| 173–204 [D] | tacet | **one 16-bar strain twice**: 173–188 E pedal, wind thirds p stacc on 1 & 3, string turn e–f–e as a round (Vc 1 / Va 2 / V2 3), cymbal on 2; 189–204 the same strain a 4th up over an A pedal in Vln I pizz + Tp/Tb, turn a–b♭–a, triangle on 2, timp roll, horn-call g♯→a, cresc 194 → f 204 → tutti B 205.1 |
 | 205–236 [E] | lyrical Theme 2 in **B major** (205.3–214, 221.3–230) | 4 solo cellos pp, clarinet rocking figure; flute+horn answer 213–222; Vln II/vla *molto espress.* 229–236 |
 | 237–252 [F] | tacet | Vln I spiky 16th figure (237–245) — already violinistic; wind tossing 246–252 |
 | 253–272 [G] | tacet | **the knot**: Vln I whirling 16ths against brass/wind Theme 2 *ten.* |
@@ -203,6 +205,97 @@ Decisions:
 Corrections to the transcript/map: the ff chords begin **133.2** (not 134); the xylophone enters
 **121.2** as a doubling of a full wind choir, not as the theme's carrier.
 
+### Episode 6 — bars 137–172 "Fugato" [C] (decided 2026-10-18)
+
+Orchestra (from the dump): 137.1 tutti stinger (V1 `<g d' bes' g''>4-!`), then a five-entry
+fugato on Theme 2's head, entries exactly 7 bars apart alternating tonic/dominant: (1) 137.3
+Bn 1/2 + Vc + Va (Va in `g8-> g8 g4 r` pairs), small octave, mf, no counter; (2) 144.3 Hn 3/4 +
+V2 at a–d′, counter = Va/Vc *sempre stacc.* running line (small octave); (3) 151.3 Ob1 d″ +
+Cl/V1 d′, counter = V2 (one-line octave) interlocking with Va/Vc fills, V2 cadential trill cis′
+158–159; (4) 158.3 Tp 1/2 a′/a, counter = V1 rising sequence f′→c‴, Cb pizz; (5) 165.3 Tb 1/2
+g′/g mf→cresc, counter = all winds unison sweep g′→f‴ (Ob drops 8va at 169 for range), strings
+rejoin the subject's bars 5–6 in eighth pairs 170–171, every string trills f′ at 172 → [D].
+
+Decisions:
+
+1. **Surface-line principle for all-lift episodes:** one continuous line per phrase — the
+   counter-line the ear follows — at the octave the orchestra's own register implies (entries
+   1–3 first position, entry 4 V1 loco to c‴, entry 5 the flute's sweep to f‴).
+2. **Entry-cue double-stops:** the subject's upbeat + first two bars at each entry as
+   double-stops under/over the surface line, then the surface line alone with subject notes only
+   where open or in hand. This is the Bach-Sonata-fugue allusion (BWV 1001/1003/1005), not a
+   reproduced texture. `<d' f'>` / `<c' a'>` take the lower note on the G string (4th/3rd finger).
+3. Entry 1 = Bn + Va composite (`g'8-> g'8 g'4 g'4`), lifted 8va to the solo's own Theme 2 octave.
+4. 158 takes V2's cis′ trill (drops Va's descending bes–e); its resolution d′ at 159 doubles as
+   entry 4's subject note and the start of V1's rising line.
+5. 172 follows the **wind line** to d♯‴ (cliff to p at 173), not the strings' f′ trill. Ossia for
+   safety: the oboe's octave from 169.
+6. Dynamics as source: mf 137.3, "sempre stacc." 145, f 166, cresc 170–172. LH-pizz rule applies
+   on 161/162/166 (G) and 163/165 (D).
+
+Correction: the transcript's "fugato at midpoint" is **this** section, not [G] 253–272.
+
+### Episode 7 — bars 173–204 "Skeletons" [D] (decided 2026-10-18)
+
+Orchestra (from the dump): the transcript's "no melody" is right but the section is strictly
+built — **one 16-bar strain stated twice, a fourth apart.** (A) 173–188 over an E pedal (Tb3/Tba
+fp tied, Cb staccato e on 1): wind choir p staccato quarters on beats 1 and 3 in parallel thirds
+(melody Cl2/Hb2/Fl/Pic `cis'' b' a' gis' | a' cis'' …`, third above in Cl1/Bn1; harp doubles an
+octave lower), the strings' slurred triplet turn e–f–e as a round (Vc beat 1, Va beat 2, V2 beat
+3, every bar), cymbal p on 2; 179 and 187 are three-chord cadence bars. (B) 189–204 the same
+strain up a 4th over an A pedal (horns 3/4 tied, timp roll, Cb): Vln I **pizz** + Tp 1/2 + Tb 1/2
+in thirds on 1 and 3, turn a–b♭–a in the same round, triangle on 2, oboe/clarinet horn-call g♯→a
+on 2–3 in alternating four-bar blocks, cresc from 194 (horns 197) to f at 204, chromatic
+a–b♭–a–a♯–b into the tutti B at 205.1 (Cl2 carries the `\bar "||"`). The solo enters 205.3.
+
+The "Spanish" character is **E Phrygian over a pedal (G♯/G♮ mixed), with the semitone turn as
+the ornament** — guitar-strum thirds and a mordent. That is what the arrangement keeps.
+
+Decisions:
+
+1. **Section A arco, Cl/Hb2 octave, all first position.** Wind thirds as staccato double-stops
+   on 1 and 3 (`<cis'' e''>`, `<b' d''>`, `<a' cis''>`, `<gis' b'>`, `<d'' f''>`, `<e'' g''>` on
+   D/A/E♭ strings). **LH-pizz open G on beat 2 = the cymbal** (`-+`, normal-size: a designed
+   element, not the ad-lib bass device; open D ad lib in the G♯ bars 176/184). No click in the
+   three-chord bars 179/187.
+2. **The turn attaches to the chord that contains its note:** every `<cis'' e''>` chord, on
+   whichever beat it falls, becomes the slurred triplet `<cis'' e''>8->( <cis'' f''> <cis'' e''>)`
+   — V2's e″–f″–e″ mordent on the E♭ string over a held C♯. Mechanical rule; 10 of 16 bars; each
+   instance is sanctioned by whichever string part has the turn on that beat. Rejected: turn on
+   beat 2 every bar (drops the cymbal; monotone), 2+2 metrical alternation (ignores harmony).
+3. **189 is the hand-off bar:** last wind chord on 1, the new a–b♭–a turn bowed on the open A on
+   2 (the pedal announced), Vln I's "Pizz." f″ on 3; the bow stays in hand through 204.
+4. **Section B pizz throughout at the Vln I octave** (`<f'' a''>` = melody + Tb1's third, above
+   to 201.1 and below from 201.3): a lift, not a fill — the orchestra's own violins go pizz here,
+   and the colour change at 189 mirrors the orchestra's (cymbal→triangle, winds→pizz/brass). Pizz
+   carries the cresc to `<e'' g''>\f` at 204. **Beat 2 = pizz natural harmonic e‴** (open A
+   touched at e″, in hand in both positions) = the triangle: a bright tick that does not grow.
+   **Arco ossia** on a smaller staff below 189–204: same chords bowed, V2's turn `a''–b♭''–a''`
+   on 2, 204 as the chromatic double turn into b″. Rejected as the main text: arco (32 bars of
+   one texture, loses the lift) and a pizz/arco hybrid switching at 197 (switch point not in the
+   source).
+5. **Join 172→173:** 173.1 `e'''` f as the A string's 12th harmonic (touched at e″, 4th finger,
+   first position) — the wind line's resolution lands as a ring exactly as the hand drops to first
+   position for the chords. Not yet decided but noted for Episode 6: `dis'''` at 172.6 is the E♭
+   string's octave harmonic, a semitone above the hand's d‴.
+6. **Join 204→205 (for Episode 8):** 205.1 is the tutti B (harp `<b,, b,>` mf) → pizz `<b b'>`
+   recommended, 205.2 rest to retake the bow, 205.3 the solo's `fis'` appassionato verbatim.
+
+Known losses: trombone/tuba E pedal; timp roll and horn pedal; the horn-call g♯→a; two of the
+three turns per bar; the cymbal in 179/187. All accepted.
+
+Bug found and fixed in convention: the **Episode 6 draft is absolute pitch** (its 137.1 chord is
+V1a's open-string `<g d' bes' g''>`) but was headed `\fixed c'`; Episode 5 is genuinely
+`\fixed c'`. See "Conventions".
+
+### Project-wide: the tableau principle (decided 2026-10-18)
+
+*Danse macabre* is a French tableau that quotes history — plainchant (*Dies irae*), Bach-style
+fugato, the waltz. The arrangement makes each echo **legible in solo-violin terms** rather than
+replicating its texture: the fugato reads as a Bach Sonata fugue (entry cues + single-line
+episodes), the *Dies irae* as Ysaÿe's *Obsession* (sul ponticello), the harp as pizz. Allusion is
+the arranger's licence; replication is not the goal.
+
 ### Project-wide: the three death timbres (decided 2026-10-18)
 
 Each extended technique carries one orchestral identity for the whole piece; do not cross them:
@@ -212,6 +305,8 @@ Each extended technique carries one orchestral identity for the whole piece; do 
 | pizzicato | harp / string pizz | composer's "à défaut de harpe" (bar 33) |
 | col legno battuto | xylophone (bones) | composer's own strings col legno under the xylophone (129–133); Berlioz *Fantastique* V |
 | sul ponticello | *Dies irae* parody ([I] ~313–320) | Ysaÿe op. 27 no. 2 "Obsession"/"Les furies" — the solo-violin *Dies irae* precedent |
+| pizz. natural harmonic | triangle ([D] 189–204) | arranger's licence, no composer sanction; distinct from the *bowed* "ghost" harmonics of the Ep 1 shimmer |
+| LH-pizz open string on an off-beat | cymbal ([D] 173–188) | extension of the LH-pizz device from bass to percussion; normal-size, not ad lib |
 
 Future xylophone passages vary by *whether the violin carries the xylophone at all* (at 266–272
 and likely 298–309 it carries Vln I, so the xylophone drops), not by changing its timbre.
@@ -239,8 +334,9 @@ no arranger's licence per bar.
   silence.
 - **Lumo transcript errors** (keep for calibration): harp strokes are one per bar, not two; the
   coda order is horn E♭ → oboe crow → *then* the solo's déclamé, not crow-after-strings; the
-  B-major episode [E] was omitted; the "fugato at midpoint" is actually [G] 253–272 (whirl vs
-  theme); solo enters bar 25 (that one was right).
+  B-major episode [E] was omitted; the "fugato at midpoint" is [C] 137–172 (a real five-entry
+  fugato — confirmed from the dump), not [G] 253–272 (whirl vs theme); solo enters bar 25 (that
+  one was right).
 - **Hand-resolving `\relative` is not reliable across `<< \\ >>` and long rests.** The @explore
   extraction for 65–116 flagged two "source anomalies" (V1a bar 41 `g''`, Fl1 bar 77 `ees''`)
   that are almost certainly resolver slips, not source errors (the printed score shows Vln I at g″
@@ -256,6 +352,16 @@ no arranger's licence per bar.
   all 34 voices against `ly:music-length`; the subagent's parser needed two fixes (chord as
   `\repeat` body; `\afterGrace` with trailing decorations) — both would have been silent
   hand-extraction errors.
+- **Ornament attaches to the chord that contains its note.** When the orchestra sustains an
+  ornament (a turn, a trill) continuously under changing chords and the single line cannot carry
+  both, attach the ornament only to the chords that already contain its pitch, on whichever beat
+  they fall. The distribution then follows the harmony instead of the bar, and every instance is
+  sanctioned by some source voice. (Episode 7: e–f–e on every `<cis'' e''>`.)
+- **Source-convention mismatch fails silently.** The dump is absolute; a draft headed `\fixed c'`
+  with dump text pasted in compiles, plays, and sounds an octave high — nothing warns. Keep one
+  pitch convention equal to the source's; convert at the single boundary where it is unavoidable,
+  never per lift. (Found in the Episode 6 draft; also a general rule for any transcription
+  pipeline with a relative/absolute seam.)
 - **Natural-harmonic availability under scordatura** (pivotal for every shimmer/ghost passage):
   partials give D string → d″ a″ d‴ f♯‴; A string → a″ e‴ a‴ c♯⁗; G string → g′ d″ g″ b″;
   E♭ string → e♭‴ b♭‴ e♭⁗ g⁗. F♯ is available only on D; A♭/C (the Neapolitan colours) are
