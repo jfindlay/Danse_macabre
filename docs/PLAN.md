@@ -24,7 +24,7 @@ arrangement/
     ep05-fragments-bones.ily   % bars 117–136  (B)  (status: DECIDED, draft below)
     ep06-fugato.ily            % bars 137–172  (C)  (status: DECIDED, draft below)
     ep07-skeletons.ily         % bars 173–204  (D)  (status: DECIDED, draft + ossia below)
-    ep08-lyrical-bmajor.ily    % bars 205–236  (E)
+    ep08-lyrical-bmajor.ily    % bars 205–236  (E)  (status: DECIDED, draft below)
     ep09-spiky.ily             % bars 237–252  (F)
     ep10-whirl-vs-theme.ily    % bars 253–272  (G)  — the knot
     ep11-marcato-dim.ily       % bars 273–308  (H)
@@ -75,7 +75,8 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
 | 5 | 117–136 | pizz D-major stamps on 117.1/125.1/133.1; solo verbatim; wind/xylophone Theme 1 at g″ **col legno battuto** with string chords as battuto double-stops; 136.3 small-note f♯ | **decided** — draft below |
 | 6 | 137–172 | five-entry fugato: one surface line per entry (counter-lines, ascending register), subject entry-cues as double-stops (Bach Sonata-fugue allusion); 158 V2 trill; 172 wind line to d♯‴ | **decided** — draft below |
 | 7 | 173–204 | one 16-bar Phrygian strain twice (E, then A a 4th up): wind thirds as staccato double-stops, LH-pizz open G = cymbal, e–f–e turn attached to every `<cis'' e''>` chord; 189–204 Vln I pizz line in thirds, pizz harmonic e‴ = triangle; arco ossia | **decided** — draft below |
-| 8–18 | 205–477 | per transcript map, to be revised episode by episode | pending |
+| 8 | 205–236 | Theme 2 in B major ×4: solo verbatim (1, 3); wind/string answers (2, 4) as **octaves** (the orchestra's own doubling); 205.1 four-string pizz `<b dis' b' dis''>` and 221.1 `<b' dis'' b''>` use the open E♭ as the D♯ of B major; inner voice d♯→d♮→d♯ at its change points | **decided** — draft below |
+| 9–18 | 237–477 | per transcript map, to be revised episode by episode | pending |
 
 ## Resume here (next session)
 
@@ -86,15 +87,18 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
    before entering Episode 4. **Pitch-convention tasks:** the **Episode 5 draft is `\fixed c'`
    — shift every pitch up an octave** when entering it as `\absolute`; the **Episode 6 draft is
    already absolute** (verified: its 137.1 `<g d' bes' g''>` is V1a's open-string chord) despite
-   its old heading — enter it unchanged. Episode 7 is absolute. Note `slice.py` preset names are
-   `cl-bb`, `horn-g`, `horn-d`, `tp-d`.
-2. `@architect`: resume at **Episode 8, bars 205–236 [E]** — B-major lyrical Theme 2 (solo
-   205.3–214, 221.3–230), 4 solo cellos pp, clarinet rocking figure, flute+horn answer 213–222,
-   Vln II/vla *molto espress.* 229–236. The join from 204 is decided from the 204 side: the
-   violin ends Episode 7 pizz `<e'' g''>4\f`; **205.1 is the tutti B** (Hp-b `<b,, b,>` mf,
-   winds/strings `b` f) → recommended pizz `<b b'>4\f`, 205.2 rest (bow retaken), 205.3 the
-   solo's `fis'4\f` *appassionato* verbatim. Hp-h's 205 run `fis b dis' fis' fis` is available as
-   an alternative upbeat.
+   its old heading — enter it unchanged. Episodes 7 and 8 are absolute. Note `slice.py` preset
+   names are `cl-bb`, `horn-g`, `horn-d`, `tp-d`. Episode 8 adds one engraving need: the 189–204
+   arco ossia ends arco into 205.1, so the ossia staff should carry its own 205.1
+   `<b dis' b' dis''>4\f` arco (the main staff's is pizz).
+2. `@architect`: resume at **Episode 9, bars 237–252 [F]** — Vln I/II interlocking p 16th runs
+   (V1a `b16( bis cis' d' dis') r16 r8 g'16( gis' a' ais' | b'16) …`, V1b offset by a beat),
+   Vc/Cb staccato `b, dis b, cis | dis cis b,` from 237.2, wind tossing 246–252. **The join from
+   236 is decided from the 236 side:** statement 4 of Episode 8 (V2/Va octaves) ends on
+   **237.1 `<fis' fis''>` p** (V2 `fis''2.~ | fis''4`, Va `fis'2.~ | fis'4`), simultaneous with
+   V1a's run starting `b16` p on 237.1 — Episode 9 opens by resolving that collision (likely
+   `<fis' fis''>` for the first beat, then V1a's run from its second group, since the run rests
+   on 237.2 anyway). Slice 237–252 for all voices first.
 
 Working method from Episode 5: a `@general` subagent slices exact bar ranges per voice from the
 absolute dump (sounding pitch for transposers); the architect session spends context on
@@ -104,7 +108,7 @@ decisions only. Decided episode drafts (LilyPond text) go in the "Episode drafts
 ## Episode drafts (decided; sounding pitch)
 
 Pitch convention per draft: **Episode 5 is `\fixed c'`** (written an octave below sounding);
-**Episodes 6 and 7 are absolute** (= the dump). All new drafts are absolute.
+**Episodes 6, 7 and 8 are absolute** (= the dump). All new drafts are absolute.
 
 ### Episode 5 — bars 117–136 (`\fixed c'` — @build shifts up an octave)
 
@@ -278,6 +282,77 @@ into 205.1 `b''` arco. Label the staff "ossia (arco)".
 <e'' g''>4-.  \tuplet 3/2 { a''8->( bes''8 a''8) }  <f'' a''>4-.                            | % 202
 <e'' g''>4-.  <d'' f''>4-.  <cis'' e''>4-.\!                                                | % 203
 <e'' g''>4-.\f  \tuplet 3/2 { a''8( bes''8 a''8) }  \tuplet 3/2 { ais''8( b''8 ais''8) }    | % 204 -> 205.1 b''\f
+```
+
+### Episode 8 — bars 205–236 [E] (absolute pitch)
+
+Concept: **solo = single line, orchestra = octaves.** Statements 1 and 3 are the solo verbatim
+(nothing added; the bass is B throughout, so the LH-pizz device never fires). Statements 2 and 4
+are the orchestra's own octave doublings (Fl 1 + Fl 2/Hn 1; V2 + Va) rendered as violin octaves.
+Three-note chords mark the inner voice (V1 d♯′→d♮′→d♯′) at its change points. The **open E♭
+string is the D♯ of B major**: it is the top of the 205.1 strum and rings inside 221.1.
+
+Engraving/fingering notes for @build: octaves are conventional 1–4 octaves on the **D–A pair**
+(g′/f♯′/e′ lower notes cannot be on the A string, so 217–220 and 234–236 must be D–A, 3rd
+position); the b′/a♯′/a′ octaves may be taken on A–E♭ in 1st position (a 6-semitone 1–4
+stretch) or on D–A in 5th position. **221.1 `<b' dis'' b''>` requires the D–A fingering** (5th
+position) so that the open E♭ is free. 217.1 `<g' d'' g''>` is 1st position, fingers 4–3–2,
+rolled, sustain on the upper pair. 230.1 `<fis' b' b''>` is 1st position, fingers 3–1–4(ext),
+rolled into the sustained octave. Editorial dynamic *(f)* at 221.3 (the source gives none; the
+solo re-enters after the p answer). Slurs are the source's phrasing, not bowings. Statement 4's
+final note `<fis' fis''>` p falls on **237.1** and belongs to Episode 9's file.
+
+```
+\barNumberCheck #205
+% 205.1 tutti B-major stamp (Hp-b <b,, b,> mf, Cb/Tb3 b, Tb1 dis', Tp fis', V1 fis'', Fl b'') as a
+% four-string pizz strum: open E-flat = D-sharp. 205.2 rest = retake the bow. 205.3-214.1 VSolo
+% verbatim, f appassionato. Not carried: 4 solo cellos pp (dis'/b, fis/b, -> d'/g 209-212),
+% harp <b,, b,> + arpeggio r8 fis b dis' fis' fis, Cl1 "A defaut de Harpe" rocking figure (206-).
+<b dis' b' dis''>4\f^"pizz."  r4  fis'4\f^"arco"^\markup\italic "appassionato" (             | % 205
+b'2) b'4(                                                                                     | % 206
+ais'2) ais'4(                                                                                 | % 207
+a'2) a'4(                                                                                     | % 208
+g'2->) g'4                                                                                    | % 209
+fis'4( g'4 b'4)                                                                               | % 210
+a'4( g'4 fis'4)                                                                               | % 211
+g'2 g'4(                                                                                      | % 212
+% 213.3 Fl1's upbeat fis'' (espress.) over the solo's tied b' (Fl2/Hn1's fis' is on the D string:
+% not addable). 214-221 = Fl1 b'' + Fl2/Hn1 b' as octaves, Fl1's hairpins. Inner voice V1a
+% dis'(213) d'(217) dis'(221): 217.1 d'' inside the chord (the accented G-major arrival), 221.1
+% open E-flat under the octave taken on D-A, 5th position. Not carried: V2 b, Va fis/g, Cb <b, b>
+% pp div, harp.
+b'2)~ <b'~ fis''>4\p^\markup\italic "espress." (                                              | % 213
+<b' b''>2\< <b' b''>4                                                                         | % 214
+<ais' ais''>2 <ais' ais''>4                                                                   | % 215
+<a' a''>2 <a' a''>4                                                                           | % 216
+<g' d'' g''>2->)\! <g' g''>4(\>                                                               | % 217
+<fis' fis''>4 <g' g''>4 <b' b''>4                                                             | % 218
+<a' a''>4 <g' g''>4 <fis' fis''>4\!                                                           | % 219
+<g' g''>2) <g' g''>4(                                                                         | % 220
+% 221.1 answer's goal with the open D-sharp; 221.3 the solo's upbeat truncates the flutes' tail
+% (immutable note wins). 221.3-230.1 VSolo verbatim, its own hairpins (G-sharp variant: E major
+% 225-226, F-sharp7 227-228). Not carried: cellos, Fl e'/g', Cl ais'/b', harp.
+<b' dis'' b''>2) fis'4\f(                                                                     | % 221
+b'2) b'4(                                                                                     | % 222
+ais'2)\< ais'4(                                                                               | % 223
+a'2) a'4(\!                                                                                   | % 224
+gis'2->) gis'4(                                                                               | % 225
+e'4 fis'4 a'4)                                                                                | % 226
+g'4(\> fis'4 e'4)                                                                             | % 227
+g'2-.( g'4-.)\!                                                                               | % 228
+% 229.3 V2's upbeat fis'' is not addable over the solo's held fis' (D string); Va's fis' is the
+% solo's own note. 230.1 = solo's tail fis' + Va b' + V2 b'' as a rolled chord into the octave
+% (b' and b'' tied through beat 2), then V2 + Va octaves molto espress., V2's hairpins, f 233.
+% Not carried: Tb1-3/Tp1 pedal pp (b/fis/b, ; dis'->e' 233; cis'/ais 235), Cb <b, b>, harp.
+fis'2.~                                                                                       | % 229
+<fis' b'~ b''~>4^\markup\italic "molto espress." <b' b''>4\< <b' b''>4(                       | % 230
+<ais' ais''>2) <ais' ais''>4(                                                                 | % 231
+<a' a''>2) <a' a''>4(\!                                                                       | % 232
+<gis' gis''>2)\f <gis' gis''>4(                                                               | % 233
+<e' e''>4 <fis' fis''>4 <a' a''>4)                                                            | % 234
+<g' g''>4(\> <fis' fis''>4 <e' e''>4)                                                         | % 235
+<g' g''>2-.( <g' g''>4-.)\!                                                                   | % 236  -> 237.1 <fis' fis''>4 p (Ep 9)
+\barNumberCheck #237
 ```
 
 ## Handoff to @build (when triggered)

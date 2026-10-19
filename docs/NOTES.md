@@ -89,7 +89,7 @@ K 362 · L 394 · poco stringendo 409 · Animato 416 · M 430 · Tempo 1° 438 �
 | 117–136 [B] | Theme 1 in D major at d″ 117.2–121.1 and 125.2–129.1; ff open-string chords 133.2–136 | tutti D-major stamp on 117.1/125.1/133.1; wind choir + xylophone (enters 121.2) Theme 1 in G minor 121.2–125.1, 129.2–133.1; strings pizz chords (121–124) then col legno (129–132) |
 | 137–172 [C] | tacet | **fugato on Theme 2's head**, five entries 7 bars apart (Bn/Vc/Va 137.3 · Hn3/4+V2 144.3 · Ob/Cl/V1 151.3 · Tp 158.3 · Tb 165.3), running staccato counter-lines; wind sweep g′→f‴ 166–172; all strings trill f′ at 172 |
 | 173–204 [D] | tacet | **one 16-bar strain twice**: 173–188 E pedal, wind thirds p stacc on 1 & 3, string turn e–f–e as a round (Vc 1 / Va 2 / V2 3), cymbal on 2; 189–204 the same strain a 4th up over an A pedal in Vln I pizz + Tp/Tb, turn a–b♭–a, triangle on 2, timp roll, horn-call g♯→a, cresc 194 → f 204 → tutti B 205.1 |
-| 205–236 [E] | lyrical Theme 2 in **B major** (205.3–214, 221.3–230) | 4 solo cellos pp, clarinet rocking figure; flute+horn answer 213–222; Vln II/vla *molto espress.* 229–236 |
+| 205–236 [E] | lyrical Theme 2 in **B major** (205.3–214 G♮ variant, 221.3–230 G♯ variant) | **four elided 8-bar statements**: solo / Fl 1 b″ + Fl 2 & Hn 1 b′ *espress.* (213.3–222) / solo / V2 b″ + Va b′ *molto espress.* cresc → f 233 (229.3–237.1). Under: 4 solo cellos pp, harp `<b,, b,>` + arpeggio with **Cl 1 "A défaut de Harpe"** (206–), V1 inner voice d♯′→d♮′→d♯′ (213–221), Cb `<b, b>` pp, brass pedal pp 229–236. Bass is B throughout |
 | 237–252 [F] | tacet | Vln I spiky 16th figure (237–245) — already violinistic; wind tossing 246–252 |
 | 253–272 [G] | tacet | **the knot**: Vln I whirling 16ths against brass/wind Theme 2 *ten.* |
 | 273–308 [H] | tacet | marcato tutti chords alternating with rests (273–282); dim.; strings p Theme 1 (290–296); wind chromatic runs + Vln I *legg.* + xylophone (297–308) |
@@ -288,6 +288,62 @@ Bug found and fixed in convention: the **Episode 6 draft is absolute pitch** (it
 V1a's open-string `<g d' bes' g''>`) but was headed `\fixed c'`; Episode 5 is genuinely
 `\fixed c'`. See "Conventions".
 
+### Episode 8 — bars 205–236 "Lyrical B major" [E] (decided 2026-10-19)
+
+Orchestra (from the dump): Theme 2 in B major four times, 8-bar phrases elided by one bar (each
+statement's held final note is the next one's upbeat bar). (1) 205.3–214.1 solo f *appassionato*
+(G♮ variant, G-major-over-B 209–212) over four solo cellos pp (d♯′/b · f♯/B), harp `<b,, b,>` mf
++ arpeggio `r8 fis b dis' fis' fis`, **Cl 1 marked "A défaut de Harpe"** doubling the arpeggio
+from 206. (2) 213.3–222.1 Fl 1 at b″ *espress.* + Fl 2 and Hn 1 at b′ (mf), V1 "Arco" pp
+d♯′→d♮′ (217)→d♯′ (221), V2 b, Va f♯/g, Cb `<b, b>` div pp. (3) 221.3–230.1 solo (G♯ variant:
+E major 225–226, F♯7 227–228; cresc 223, dim 227) over cellos. (4) 229.3–237.1 V2 at b″ + Va at
+b′ *molto espress.*, cresc 230 → **f 233** → dim 235, over Tb 1–3 + Tp 1 pedal pp (d♯′→e′ at
+233) and Cb; ends `fis''2.~` p on 237.1 against V1's [F] run. 205.1 is a full tutti B-major
+stamp. The bass is B for all 32 bars.
+
+Decisions:
+
+1. **Solo = single line, orchestra = octaves.** Statements 1 and 3 verbatim, nothing added
+   (Episode 3 precedent). Statements 2 and 4 are the orchestra's own octave doublings rendered as
+   violin octaves — a lift, not an invention — p *espress.* then f *molto espress.* Rejected:
+   single line at the flute's b″ (my first proposal; loses the orchestra's mass and the user's
+   virtuoso register), the horn's b′ sul D, and line/line/line/octaves (saves the effect for the
+   climax but drops the doubling the orchestra writes at 213).
+2. **The open E♭ string is the D♯ of B major.** 205.1 is the four-string pizz strum
+   `<b dis' b' dis''>` (fingers 2–1–1–open; supersedes Episode 7's `<b b'>`); 221.1 is
+   `<b' dis'' b''>` — the octave on D–A in 5th position with the open E♭ ringing inside. Death's
+   tritone string is the sweet note of the oasis.
+3. **Inner voice at its change points** (sibling of Episode 7's ornament rule): V1's d♯′→d♮′→d♯′
+   is the harmonic event of the answer; it is carried as the middle note of a three-note chord
+   where it changes and the hand allows — 217.1 `<g' d'' g''>->` (the accented G-major arrival,
+   the note that distinguishes the G♮ variant) and 221.1 (above). 214.1 is a plain octave (the
+   hand arrives from the solo's 1st-position b′; the open E♭ is not free). 233.1 stays a bare
+   `<gis' gis''>` f — at the climax the octave is the power and the G♯ already implies E major.
+4. **Joins obey immutability, including tied tails.** 213.3 `<b'~ fis''>`: Fl 1's upbeat as a 5th
+   over the solo's tied b′. 214.1 `<b' b''>`: the solo's b′ is the lower octave, so the answer's
+   downbeat is on time. 221.3 `fis'4` alone: the solo's upbeat truncates the flutes' tail. 229.3
+   nothing added (V2's f♯″ is not reachable over a D-string f♯′; Va's f♯′ is the solo's note).
+   230.1 rolled `<fis' b' b''>` — solo tail + Va + V2, everything the orchestra has on that beat —
+   tied into the octave. Noted, not taken: treating the tail of a tie as "not a note" would allow
+   `<b' b''>`/`<b' b''>` directly at 214.1/230.1; the rule was kept strict.
+5. **Scordatura octave geometry:** octaves on A–E♭ need a 6-semitone 1–4 span and exist only for
+   lower notes on the A string (b′, a♯′, a′); g′/f♯′/e′ octaves must lie on D–A (3rd position).
+   The answers therefore live mostly on the D–A pair; the b′/b″ chords at 221.1 force 5th position
+   there. Fingering is the performer's; the draft notes both routes.
+6. Dynamics as source (Fl 1's hairpins in 2, V2's in 4); editorial *(f)* at 221.3. No LH-pizz
+   anywhere in the episode (bass B is not an open string) — the lyrical episode is clean of clicks.
+
+Known losses: the four solo cellos, the harp/clarinet rocking figure, the Cb and brass pedals, V2's
+f♯″ upbeat at 229.3, the flutes' tail at 221–222. All accepted.
+
+### Project-wide: virtuoso register (decided 2026-10-19)
+
+The arrangement should **sound virtuosic — Sarasate's *Carmen Fantasy* is the named model.** The
+first application: wherever the orchestra doubles a lifted line in octaves, the violin plays
+octaves (Episode 8, statements 2 and 4). This is a register choice layered on the task hierarchy,
+not a licence to add: the octaves are still lifts. Apply going forward when a lifted line is
+octave-doubled in the source and the lower octave sits on the D–A (or G–D) pair.
+
 ### Project-wide: the tableau principle (decided 2026-10-18)
 
 *Danse macabre* is a French tableau that quotes history — plainchant (*Dies irae*), Bach-style
@@ -362,6 +418,30 @@ no arranger's licence per bar.
   pitch convention equal to the source's; convert at the single boundary where it is unavoidable,
   never per lift. (Found in the Episode 6 draft; also a general rule for any transcription
   pipeline with a relative/absolute seam.)
+- **The scordatura's gift: open E♭ = D♯, the third of B major.** The tritone string that costs
+  the violin everywhere else is the sweet note of [E]: a four-string B-major strum at 205.1 and an
+  open-string third ringing inside the octave at 221.1. (Pattern: a constraint that is a cost in
+  the home key may be a free resource in a remote key — check every key change against the open
+  strings before designing the episode.)
+- **"À défaut de harpe" is a map, not a single instruction.** The second instance is Cl 1 at 206
+  (the clarinet doubles the harp's arpeggio, marked "A défaut de Harpe"); the first was strings
+  pizz at 33. Saint-Saëns provides a substitute for every harp passage — so the harp part is
+  never the arranger's problem, and the composer's substitute names the idiom (pizz where the
+  strings cover it; a sustained/rocking wind figure where the clarinet does). Check every
+  remaining harp bar for its marked cover before deciding.
+- **Sustained inner voice carried at its points of change.** When a lifted melody has a
+  sustained inner voice under it that the single line cannot hold (V1's d♯′→d♮′→d♯′ under the [E]
+  answer), carry it only where it moves, as the middle note of a chord on that beat. The
+  harmonic event survives; the texture does not pretend to. Sibling of the ornament rule
+  ("ornament attaches to the chord that contains its note").
+- **Scordatura octave geometry.** Under G–D–A–E♭, octaves on the G–D and D–A pairs are normal
+  (5-semitone 1–4 span); on A–E♭ they need 6 semitones, and only for lower notes that sit on the A
+  string. Octave passages belong on D–A, climbing to 5th position for b′/b″ — which also keeps the
+  E♭ string free to ring open. Derived for Episode 8; applies to every octave doubling later.
+- **Tied tails are notes.** The solo's `b'2.~ | b'4` at 213–214 and `fis'2.~ | fis'4` at
+  229–230 are the only places so far where immutability bites against a lift; treating the tail
+  as droppable would have cleaned both joins. Kept strict; recorded so the rule is revisited
+  deliberately if it keeps costing, not eroded case by case.
 - **Natural-harmonic availability under scordatura** (pivotal for every shimmer/ghost passage):
   partials give D string → d″ a″ d‴ f♯‴; A string → a″ e‴ a‴ c♯⁗; G string → g′ d″ g″ b″;
   E♭ string → e♭‴ b♭‴ e♭⁗ g⁗. F♯ is available only on D; A♭/C (the Neapolitan colours) are
