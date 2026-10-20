@@ -3,11 +3,21 @@
 Current sub-track: episode-by-episode sketching (architect + user), with a `@build` handoff for the
 LilyPond scaffold. Decisions and the structural map live in `NOTES.md`.
 
+**@build pipeline steps 1-4 done for Episodes 1-8 (2026-10-20).** `arrangement/danse-macabre-solo.ly`
+compiles clean: 477 bars, marks A-N land at 65/117/137/173/205/237/253/273/309/362/394/416/430/
+438/467, zero `barNumberCheck` warnings. Episodes 1-8 (bars 1-236) are fully composed; Episodes
+9-18 (237-477) are `R2.*n` placeholders, still pending @architect. See "Build-session findings"
+below for corrections and judgment calls made while entering Episodes 1-4 (no literal draft
+existed for these; only prose decisions) that the user/architect should review.
+
 ## Deliverable
 
 `arrangement/danse-macabre-solo.ly` → a single-staff solo-violin score, 477 bars of 3/4, marks A–N
 at the source bar numbers, scordatura header, sounding pitch. Compiles with the installed
-LilyPond; bar count verified mechanically against the source Trame.
+LilyPond (`lilypond danse-macabre-solo.ly`, *not* `-dbackend=null` — that flag crashes on this
+install's null backend with `Unbound variable: output-stencils`, unrelated to this project's
+content; the real PDF backend works fine). Bar count verified mechanically against the source
+Trame via `\barNumberCheck`.
 
 ## File layout (to be created by @build)
 
@@ -354,6 +364,38 @@ fis'2.~                                                                         
 <g' g''>2-.( <g' g''>4-.)\!                                                                   | % 236  -> 237.1 <fis' fis''>4 p (Ep 9)
 \barNumberCheck #237
 ```
+
+## Build-session findings (2026-10-20) — for @architect/user review
+
+Episodes 1-4 had only prose decisions in NOTES.md, no literal LilyPond draft (unlike 5-8). Entering
+them required re-grounding several details against the dump; flagging the resulting judgment calls
+since they go beyond mechanical transcription:
+
+- **Episode 1, bars 13-24: corrects the decision log.** The dump shows bar 17 is silent in every
+  voice (no bass pizz until 18), and the Vc/Cb lifted line is 7 notes (d a c fis a c ees, bars
+  18-24), not the decision log's 8-note "d...d" bracketing. Entered as 7 notes with bar 17 silent;
+  the decision log's text predates this cross-check.
+- **Episode 4, bars 65-68/73-76: octave correction.** The decision log says "oboe... own octave
+  d″" but its own worked example (`d4 d'8-.\p fis'-. d'-. e'-.`) is at the d′ octave — Bn 1's, not
+  Hb 1's. Entered at d′ (Bn 1) for register continuity from Episode 3's close, per the log's own
+  example; flagging in case d″ (Hb 1, an octave higher) was actually intended.
+  - Same pattern at 85-92: the tutti-chord octaves in the decision log's literal text
+    (`<f' c''>`) sit an octave below the V1a theme they're meant to double; entered at the theme's
+    actual octave (`<f'' c'''>`) instead.
+- **Episode 4, bars 102-116: the wind-stab realization is a genuine arranging choice, not a
+  mechanical extraction**, despite the decision log calling the underlying rule "mechanical."
+  Applying "nearest wind pitch, playable double stop" required picking a specific octave and a
+  specific string pairing (double stops need *adjacent* strings — G-D or D-A — which the raw wind
+  pitches, two+ octaves above the melody, don't specify). Realized as a sustained drone — `c'` (G
+  string) under the G-bass bars, open A under the A-bass bars — rearticulated each beat. Bar 109
+  (D bass) has no playable partner since the melody itself sits on the D string; left plain. This
+  passage is the most likely candidate for architect revision among Episodes 1-4.
+- **Episode 7's arco ossia (bars 189-204, in the PLAN draft above) is not engraved** in the current
+  `.ly` — it's a supplementary safety staff per the decision log, not the main text, and adding an
+  `alignBelowContext` staff that only spans 16 of 477 bars inside the single concatenated Voice
+  structure would need its own skip-padding scaffold. Follow-up if wanted.
+- **Tool note:** LilyPond identifiers cannot contain digits (`ep01` fails to parse — `\ep01` reads
+  as `\ep` + the number `01`). Episode variables are named `epOne`..`epEighteen`.
 
 ## Handoff to @build (when triggered)
 
