@@ -13,9 +13,9 @@ epFive = \absolute {
   \barNumberCheck #117
   % 117.1 tutti D stamp (pizz); 117.2-121.1 VSolo verbatim
   <d' a' fis''>4\f^"pizz."  d''8-.^"arco" fis''-. d''-. e''-.                        | % 117
-  fis''4\ten e''8-. fis''-. d''-. fis''-.                                            | % 118 ad lib LH-pizz d
+  fis''4-- e''8-. fis''-. d''-. fis''-.                                              | % 118 ad lib LH-pizz d
   e''8\prall( d'') d''-. fis''-. d''-. e''-.                                         | % 119 idem
-  fis''4\ten e''8-. fis''-. d''-. fis''-.                                            | % 120 idem
+  fis''4-- e''8-. fis''-. d''-. fis''-.                                              | % 120 idem
   % 121.1 VSolo g''; 121.2-125.1 wind choir Theme 1 at g''' col legno battuto; pizz double-stops
   g''4-.  <bes' g''>8-.\f^"col legno battuto" bes''-. <bes' g''>-. a''-.             | % 121
   bes''4-.  <bes' ees''>8-.\open g''-. <bes' ees''>-.\open f''-.                     | % 122
@@ -23,9 +23,9 @@ epFive = \absolute {
   ees''4--\open  <bes' ees''>8-.\open ees''-.\open <bes' ees''>-.\open ees''-.\open  | % 124
   % 125.1 stamp; 125.2-129.1 VSolo verbatim
   <d' a' fis''>4\f^"pizz."  d''8-.\f^"arco" fis''-. d''-. e''-.                      | % 125
-  fis''4\ten e''8-. fis''-. d''-. fis''-.                                            | % 126 ad lib LH-pizz d
+  fis''4-- e''8-. fis''-. d''-. fis''-.                                              | % 126 ad lib LH-pizz d
   e''8\prall( d'') d''-. fis''-. d''-. e''-.                                         | % 127 idem
-  fis''4\ten e''8-. fis''-. d''-. fis''-.                                            | % 128 idem
+  fis''4-- e''8-. fis''-. d''-. fis''-.                                              | % 128 idem
   % 129.2-133.1 as 121-125 but strings col legno incl. A's downbeat chord (130-132)
   g''4-.  <bes' g''>8-.\f^"col legno battuto" bes''-. <bes' g''>-. a''-.             | % 129
   <bes' bes''>4-.  <bes' ees''>8-.\open g''-. <bes' ees''>-.\open f''-.              | % 130

@@ -13,8 +13,15 @@
 % idiomatic "fill", not a lift; harmonics sound only in bars 5-8 and 13-16, alternating with the
 % pluck rather than overlapping it (the touch needed for f-sharp''' silences the open D's ring;
 % known loss, accepted in docs/NOTES.md). Touch points: f-sharp' on D (5th partial) and d'' on A
-% (4th partial), both 1st position, fingers 2 and 3. Bar 17 stays silent (ground truth; no bass
-% line starts until 18). 18-24: Vc/Cb pizz line lifted up one octave, pp, 1st position.
+% (4th partial), both 1st position, fingers 2 and 3. Engraved as small diamond-head touch-point
+% notes stacked under the sounding pitches (added 2026-10-20 -- NOTES "Conventions" requires a
+% touch-point note on every \flageolet; see docs/PLAN.md "Review corrections"). Bar 17 stays
+% silent (ground truth; no bass line starts until 18). 18-24: Vc/Cb pizz line lifted up one
+% octave, pp, 1st position.
+
+% Touch-point notes for the bars 5-8/13-16 shimmer dyad (small diamond noteheads).
+touchFisPrime = \tweak font-size -4 \tweak NoteHead.style #'harmonic fis'
+touchDPrimePrime = \tweak font-size -4 \tweak NoteHead.style #'harmonic d''
 
 epOne = \absolute {
   \barNumberCheck #1
@@ -23,20 +30,20 @@ epOne = \absolute {
   d'4\laissezVibrer r2                                                          | % 3
   d'4\laissezVibrer r2                                                          | % 4
   % 5-8: stroke + bowed harmonic dyad (fill, not a lift -- see header note)
-  d'4\laissezVibrer <fis''' a'''>2\ppp\flageolet                                | % 5
-  d'4\laissezVibrer <fis''' a'''>2\flageolet                                    | % 6
-  d'4\laissezVibrer <fis''' a'''>2\flageolet                                    | % 7
-  d'4\laissezVibrer <fis''' a'''>2\flageolet                                    | % 8
+  d'4\laissezVibrer <fis''' a''' \touchFisPrime \touchDPrimePrime>2\ppp\flageolet | % 5
+  d'4\laissezVibrer <fis''' a''' \touchFisPrime \touchDPrimePrime>2\flageolet     | % 6
+  d'4\laissezVibrer <fis''' a''' \touchFisPrime \touchDPrimePrime>2\flageolet     | % 7
+  d'4\laissezVibrer <fis''' a''' \touchFisPrime \touchDPrimePrime>2\flageolet     | % 8
   d'4\laissezVibrer r2                                                          | % 9
   d'4\laissezVibrer r2                                                          | % 10
   d'4\laissezVibrer r2                                                          | % 11
   d'4\laissezVibrer r2                                                          | % 12
   % 13-16: strings' own D-major shimmer continues after the harp's 12 strokes stop; no pluck to
   % alternate with here, so the harmonic dyad fills the whole bar.
-  <fis''' a'''>2.\ppp\flageolet                                                 | % 13
-  <fis''' a'''>2.\flageolet                                                     | % 14
-  <fis''' a'''>2.\flageolet                                                     | % 15
-  <fis''' a'''>2.\flageolet                                                     | % 16
+  <fis''' a''' \touchFisPrime \touchDPrimePrime>2.\ppp\flageolet                 | % 13
+  <fis''' a''' \touchFisPrime \touchDPrimePrime>2.\flageolet                     | % 14
+  <fis''' a''' \touchFisPrime \touchDPrimePrime>2.\flageolet                     | % 15
+  <fis''' a''' \touchFisPrime \touchDPrimePrime>2.\flageolet                     | % 16
   r2.                                                                           | % 17 silent (ground truth)
   % 18-24: Vc-a/Cb pizz line, up one octave, pp, 1st position throughout
   d'4\pp^"pizz." r4 r4                                                          | % 18

@@ -32,7 +32,7 @@ epEight = \absolute {
   <a' a''>4 <g' g''>4 <fis' fis''>4\!                                                           | % 219
   <g' g''>2) <g' g''>4(                                                                         | % 220
   % 221.1 answer's goal with the open D-sharp; 221.3-230.1 VSolo verbatim.
-  <b' dis'' b''>2) fis'4\f(                                                                     | % 221
+  <b' dis'' b''>2) fis'4-\tweak self-alignment-X #CENTER -\markup{\dynamic "(f)"}(               | % 221 editorial (f)
   b'2) b'4(                                                                                     | % 222
   ais'2)\< ais'4(                                                                                | % 223
   a'2) a'4(\!                                                                                    | % 224

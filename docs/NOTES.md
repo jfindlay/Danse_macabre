@@ -64,7 +64,11 @@ would be unencumbered. Decide before any commercial use; not a constraint now.
   dump, so every lift is a copy-paste with no octave shift (decided 2026-10-18, superseding
   `\fixed c'`). Reason: the Episode 6 draft was pasted from the dump into a `\fixed c'` heading
   and silently sounded an octave high; the only safe convention is the source's own. The
-  Episode 5 draft remains `\fixed c'` and is converted by `@build` on entry.
+  Episode 5 draft remains `\fixed c'` and is converted by `@build` on entry. **The literal
+  snippets in the Episode 1–4 decision logs below are also `\fixed c'`** (written before the
+  switch; found 2026-10-20 after `@build` entered them as absolute — see PLAN "Review
+  corrections"). The dump's Cl/Cor/Tp voices are written pitch; always slice them with
+  `--transpose`.
 - Every episode file ends with `\barNumberCheck` at its first bar and the next episode's first
   bar — the mechanical enforcement of the fidelity rule.
 - Harp → pizz. is a **composer-sanctioned substitution**: the score itself marks the string parts
@@ -442,6 +446,17 @@ no arranger's licence per bar.
   229–230 are the only places so far where immutability bites against a lift; treating the tail
   as droppable would have cleaned both joins. Kept strict; recorded so the rule is revisited
   deliberately if it keeps costing, not eroded case by case.
+- **A convention is a property of the document section, not the snippet** (2026-10-20 review;
+  extends "Source-convention mismatch fails silently"). The pipeline has three seams — the
+  dump's transposition flag, the draft octave convention, the score octave convention — and the
+  first `@build` pass crossed two unchecked: it read `\fixed c'` decision-log snippets as absolute
+  (five chords landed a fourth below the open G, and a correct decision was "corrected" away) and
+  sliced clarinet at written pitch (ten bars of a C♮ under a G-minor stab). Neither error
+  compiles differently or trips the bar-check gate; both are visible only against the source.
+  Rules: when a convention switches, relabel every existing snippet in the same commit; a flag
+  that can be omitted will be — bake the transposition into the dump rather than into the
+  procedure; before entering from any voice, anchor-check one bar whose harmony is known (e.g.
+  Cl at 102 must form G minor with the Cb).
 - **Natural-harmonic availability under scordatura** (pivotal for every shimmer/ghost passage):
   partials give D string → d″ a″ d‴ f♯‴; A string → a″ e‴ a‴ c♯⁗; G string → g′ d″ g″ b″;
   E♭ string → e♭‴ b♭‴ e♭⁗ g⁗. F♯ is available only on D; A♭/C (the Neapolitan colours) are

@@ -10,6 +10,18 @@ compiles clean: 477 bars, marks A-N land at 65/117/137/173/205/237/253/273/309/3
 below for corrections and judgment calls made while entering Episodes 1-4 (no literal draft
 existed for these; only prose decisions) that the user/architect should review.
 
+**Architect review of the render (2026-10-20): three blocking defects in Episodes 2 and 4, all
+from pitch-convention seams; the solo part, Trame, Episodes 1 and 5-8 verified clean against the
+dump.** Fixes and two re-decided drafts are in "Review corrections" below.
+
+**@build applied "Review corrections" (2026-10-20): all three blocking fixes, both re-decided
+drafts (65–68/73–76, 102–116), and every "Minor" item except the Episodes 2–5 ad-lib-engraving
+question (left deferred to @architect, as noted there).** Recompiled clean: zero
+`barNumberCheck` warnings, no note below the open G in the fixed chords. Also replaced every
+`"ten."` text indication in Episodes 2, 4 and 5 with the literal tenuto articulation (`--`,
+matching the `--` already used elsewhere in the score) and dropped the now-unused `ten` macro
+from `global.ily`.
+
 ## Deliverable
 
 `arrangement/danse-macabre-solo.ly` → a single-staff solo-violin score, 477 bars of 3/4, marks A–N
@@ -90,6 +102,11 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
 
 ## Resume here (next session)
 
+0. **Done 2026-10-20.** `@build` applied "Review corrections (2026-10-20)" below — the chord
+   fixes, the re-decided 65–68/73–76 and 102–116 drafts, and the minor engraving list.
+   Recompiled: zero `barNumberCheck` warnings, no note below the open G. Next actionable item
+   for this track is step 2 below (step 1's scaffold/Episodes-1–8 work is also already done, per
+   the top-of-file status line).
 1. `@build`: the dump is already rescued (`arrangement/dump/` exists, step 0 done). Do steps 1–2
    (converted reference score compiles; `arrangement/` scaffold with 18 placeholder episodes
    passing bar checks). Then enter Episodes 1–4 from the session transcript / NOTES and Episodes
@@ -115,10 +132,121 @@ absolute dump (sounding pitch for transposers); the architect session spends con
 decisions only. Decided episode drafts (LilyPond text) go in the "Episode drafts" section below so
 `@build` never depends on a session transcript.
 
+## Review corrections (2026-10-20) — applied by @build (historical record)
+
+All blocking fixes and all minor items except the deferred ad-lib-engraving question (see "Minor"
+below) are now in `arrangement/episodes/`. Kept below as the record of what was found and why;
+the literal replacement text is no longer a to-do.
+
+Architect review of the first render. Verified clean, no action: every VSolo bar matches the
+dump note-for-note (25–32, 49–64, 69–84, 93–101, 117–121, 125–129, 133–136, 205–214, 221–230);
+the Trame equals the source Trame; Episode 1's Vc/Cb lift; all explorer-checked lifts in
+Episodes 2–3 and 5–8. The defects below all come from two convention seams `@build` crossed
+unchecked: (a) the NOTES decision-log snippets for **Episodes 1–4 are `\fixed c'`** (written
+before the convention switch and never relabeled — e.g. "Bar 65 = `d4 …`" is the solo's
+immutable d′; `<g, d bes g'>` starts on the open G), and (b) the dump's transposing voices (Cl,
+Cor, Tp) are at **written** pitch unless sliced with `--transpose`.
+
+### Blocking
+
+1. **Chords an octave low (contain D3, below the open G).** Replace:
+   - ep02 32.3 `<d a fis'>` → `<d' a' fis''>` (= Ep 5's stamp; also restores the solo's own
+     immutable `<d' a'>` inside it).
+   - ep02 33.1 `<g d bes g'>` → `<g d' bes' g''>` (= V1a's chord, as at 137.1).
+   - ep04 85.1 `<g d bes g'>` → `<g d' bes' g''>`; 86.1 and 88.1 `<g d bes bes''>` →
+     `<g d' bes' bes''>`.
+2. **65–68 / 73–76: restore the decided oboe octave (d″).** The build-session "octave
+   correction" misread a `\fixed c'` snippet; prose and example both said Hb 1's d″. Re-decided
+   with one addition on the 49.1/101.1 precedent: Hb 1's phrase-closing `g''4-.` on the solo's
+   rest at 69.1 and 77.1. 73.1 carries the solo's own `-.` (currently dropped). Replace bars
+   65–69 and 73–77 with:
+
+   ```
+   d'4  d''8-.\p fis''8-. d''8-. e''8-.              | % 65  solo's own d' + Hb 1 at d''
+   fis''4^"ten." e''8-. fis''8-. d''8-. fis''8-.     | % 66
+   e''8( d''8) d''8-. fis''8-. d''8-. e''8-.         | % 67
+   fis''4^"ten." e''8-. fis''8-. d''8-. fis''8-.     | % 68
+   g''4-. g'8-.\f^"marcatissimo" bes'8-. g'8-. a'8-. | % 69  Hb 1's last note on the solo's rest
+   ```
+   ```
+   d'4-. d''8-. fis''8-. d''8-. e''8-.               | % 73  solo's own d'-. + Hb 1 (no "ten." 74/76 in Hb 1)
+   fis''4 e''8-. fis''8-. d''8-. fis''8-.            | % 74
+   e''8( d''8) d''8-. fis''8-. d''8-. e''8-.         | % 75
+   fis''4 e''8-. fis''8-. d''8-. fis''8-.            | % 76
+   g''4-. g'8-.\f bes'8-. g'8-. a'8-.                | % 77
+   ```
+3. **102–116: the "drone" is built on written-pitch clarinet and is harmonically wrong.**
+   Sounding, Cl 1/2 stab `d''·bes'` / `bes'·g'` (a G-minor triad) on beats 2–3 under the G bass
+   and rest on beat 1; the entered `c'` is not a source pitch in any of the ten G-bass bars, and
+   109.2 does have a playable partner (the melody rests). Re-decided realization: melody = V1a
+   verbatim with its own slurs/accents (dropped at 106/107/114/115 in the current file); stabs on
+   beats 2–3 as a second voice over the sustained melody; rule = nearest wind pitch forming an
+   adjacent-string double-stop in first position → bes′ (A string) under the G bass, open A under
+   the A bass, cis′ (G string) at 116.3. Replace bars 102–116 with:
+
+   ```
+   % 102-116: Theme 2 in V1a at g' (= VSolo 49-64) with the wind stabs on beats 2-3 only (winds
+   % rest on 1). Sounding: Cl1 d''/bes' + Cl2 bes'/g' under the G bass (102-106, 110-114); Cl1
+   % fis''/d'' + Cl2 d''/a' under the A bass (107, 109, 115); 108 e''/cis'' + cis''/a'; 116
+   % fis'/e' + d'/cis'; Fl/Hb/Pic double at the octave(s) above from 108. Rule: nearest wind pitch
+   % forming an adjacent-string double-stop in the melody's hand (1st position). 116.2 has no
+   % playable partner (fis'/d' share the D string; fis'' is on the non-adjacent E-flat string).
+   << { r4 bes'4-. bes'4-. } \\ { g'2 g'4 } >>      | % 102 ad lib LH-pizz G
+   << { r4 bes'4-. bes'4-. } \\ { f'2 f'4 } >>      | % 103 ad lib LH-pizz G
+   << { r4 bes'4-. bes'4-. } \\ { e'2 e'4 } >>      | % 104 ad lib LH-pizz G (e'/bes' is the source's)
+   << { r4 bes'4-. bes'4-. } \\ { ees'!2 ees'4 } >> | % 105 ad lib LH-pizz G
+   d'4->( <e' bes'>4-> <g' bes'>4->)                | % 106 ad lib LH-pizz G
+   fis'4->( <e' a'>4-> <d' a'>4->)                  | % 107
+   << { r4 a'4-. a'4-. } \\ { e'2 e'4 } >>          | % 108
+   fis'4 <fis' d''>4-. <d' a'>4                     | % 109 stab alone on the melody's rest
+   << { r4 bes'4-. bes'4-. } \\ { g'2 g'4 } >>      | % 110 ad lib LH-pizz G
+   << { r4 bes'4-. bes'4-. } \\ { f'!2 f'4 } >>     | % 111 ad lib LH-pizz G
+   << { r4 bes'4-. bes'4-. } \\ { e'2 e'4 } >>      | % 112 ad lib LH-pizz G
+   << { r4 bes'4-. bes'4-. } \\ { ees'!2 ees'4 } >> | % 113 ad lib LH-pizz G
+   d'4->( <g' bes'>4-> <g' bes'>4->)                | % 114 ad lib LH-pizz G
+   a'4->( <fis' a'>4-> <d' a'>4->)                  | % 115
+   fis'2->( <cis' e'>4->)                           | % 116 A7 -> D at 117
+   ```
+   Engraving: `<< … \\ … >>` inside the main Voice spawns temporary voices; if stems/dynamics
+   misbehave, use `<< { \voiceOne r4 bes'4-. bes'4-. } \new Voice { \voiceTwo g'2 g'4 } >>` so
+   the melody keeps the main voice. Update the ep04 header comment to match (it currently cites
+   the written-pitch `c''/e''` pedal and the "no partner at 109" claim).
+
+### Stale draft in this file
+
+- Episode 6 draft, bar 158: `cis'2.\startTrillSpan( b16[ \stopTrillSpan cis'16]` is 3½ beats.
+  `@build` correctly entered `cis'2\startTrillSpan~( cis'8\stopTrillSpan b16[ cis'16]` (matches
+  V2). Fixed in the draft below; no score action.
+
+### Minor (text/engraving; no pitch effect)
+
+- **Applied.** ep02 33.2: add "arco" (the preceding 33.1 is pizz, so *sulla tastiera* reads as
+  plucked); 41.1 "arco" → "ord." at 41.2 (cancels *sulla tastiera*; the bow never left).
+- **Applied.** ep04 85.1: drop the spurious "arco" (81–84 are already arco) and fix the comment
+  that calls the chord "V2's own pizz chord" — it is bowed.
+- **Applied.** ep04 bar-101 comment: 101.1 `g''` is **VSolo's** last note; 101.3 `d'` is
+  **V1a's** upbeat (the current comment has them reversed).
+- **Applied.** ep07 header comment: V2's turn is `e'–f'–e'` (one-line octave); the engraved
+  `e''–f''–e''` is the Va/V2 figure 8va on the E♭ string — say so. Also "entirely first position"
+  is false under scordatura: `<b' d''>` (×9) forces d″ onto the A string (a semitone under the
+  open E♭) and b′ onto the D string → 3rd position.
+- **Applied.** ep08 221.3: the editorial *(f)* is engraved as a plain `\f`; engrave as
+  `-\tweak self-alignment-X #CENTER -\markup{\dynamic "(f)"}` or `\parenthesize \f` equivalent.
+- **Applied, choosing the diamond-touch-note option.** Natural harmonics (ep01 5–8/13–16, ep07
+  173.1 and 190–202): no touch-point note is engraved; NOTES "Conventions" requires one. Realised
+  as a small (`font-size -4`) diamond notehead (`\tweak NoteHead.style #'harmonic`) stacked under
+  the sounding pitch — f♯′/d″ (ep01), e″ (ep07) — rather than a separate parenthesized note, to
+  avoid the extra voice/cue-note machinery a true small *note* would need inside a chord. Revisit
+  if the performer wants the sounding pitch shown too.
+- Episodes 2–5 "ad lib" items (LH-pizz G/D, open-D drone, 136.3 small `fis''`) were downgraded
+  from small-note engraving (NOTES "LH-pizz bass" device) to comments. Deferred, not decided:
+  @architect to rule once Episodes 9–18 exist and the device's density is known.
+
 ## Episode drafts (decided; sounding pitch)
 
 Pitch convention per draft: **Episode 5 is `\fixed c'`** (written an octave below sounding);
-**Episodes 6, 7 and 8 are absolute** (= the dump). All new drafts are absolute.
+**Episodes 6, 7 and 8 are absolute** (= the dump). All new drafts are absolute. (The NOTES
+decision-log snippets for Episodes 1–4 are `\fixed c'` — see "Review corrections".)
 
 ### Episode 5 — bars 117–136 (`\fixed c'` — @build shifts up an octave)
 
@@ -192,7 +320,7 @@ g'8-. fis'8-. g'8-. bes'8-. a'8-. g'8-.                            | % 154
 <ees' c''>8-. c'8-. d'8-. ees'8-. f'8-. fis'8-.                    | % 155  ees' = subject's chromatic note
 <bes d'>8-. <bes d'>8-. e'8-. e'8-. g'8-. g'8-.                    | % 156  subject climax (V1) over V2 bes
 <d' f'>8-. <d' f'>8-. e'8-. e'8-. <d' bes'>8-. <d' bes'>8-.        | % 157  Va bes' tied
-cis'2.\startTrillSpan( b16[ \stopTrillSpan cis'16]                 | % 158  V2 cadential trill
+cis'2\startTrillSpan~( cis'8\stopTrillSpan b16[ cis'16]            | % 158  V2 cadential trill (3 beats; fixed 2026-10-20)
 % Entry 4: surface = V1 rising sequence loco; cue 159-160 (Tp2 at pitch)
 d'4-.) d'8-. e'8-. <d' f'>8-. <d' g'>8-.                           | % 159  trill resolves = subject d'
 <c' a'>8-. gis'8-. a'8-. c''8-. b'8-. a'8-.                        | % 160
