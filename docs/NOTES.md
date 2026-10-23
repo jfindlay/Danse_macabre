@@ -94,7 +94,7 @@ K 362 · L 394 · poco stringendo 409 · Animato 416 · M 430 · Tempo 1° 438 �
 | 137–172 [C] | tacet | **fugato on Theme 2's head**, five entries 7 bars apart (Bn/Vc/Va 137.3 · Hn3/4+V2 144.3 · Ob/Cl/V1 151.3 · Tp 158.3 · Tb 165.3), running staccato counter-lines; wind sweep g′→f‴ 166–172; all strings trill f′ at 172 |
 | 173–204 [D] | tacet | **one 16-bar strain twice**: 173–188 E pedal, wind thirds p stacc on 1 & 3, string turn e–f–e as a round (Vc 1 / Va 2 / V2 3), cymbal on 2; 189–204 the same strain a 4th up over an A pedal in Vln I pizz + Tp/Tb, turn a–b♭–a, triangle on 2, timp roll, horn-call g♯→a, cresc 194 → f 204 → tutti B 205.1 |
 | 205–236 [E] | lyrical Theme 2 in **B major** (205.3–214 G♮ variant, 221.3–230 G♯ variant) | **four elided 8-bar statements**: solo / Fl 1 b″ + Fl 2 & Hn 1 b′ *espress.* (213.3–222) / solo / V2 b″ + Va b′ *molto espress.* cresc → f 233 (229.3–237.1). Under: 4 solo cellos pp, harp `<b,, b,>` + arpeggio with **Cl 1 "A défaut de Harpe"** (206–), V1 inner voice d♯′→d♮′→d♯′ (213–221), Cb `<b, b>` pp, brass pedal pp 229–236. Bass is B throughout |
-| 237–252 [F] | tacet | Vln I spiky 16th figure (237–245) — already violinistic; wind tossing 246–252 |
+| 237–252 [F] | tacet | **one continuous two-octave chromatic scale** b→b″→b in 16ths (V1a/V1b desks hand off every beat), p 237, cresc 241, f 243, dim 244, over Hb d♯′/b pedal and a staccato bass figure B/G/B/G♯; 245–252 **Theme 1's head in D♯ minor** tossed strings→winds in canon at the bar (V1a + V2 8vb lead), bass descends B→A♯→A→A♭ in 8ths (→ G 253), Va `<fis dis'>` motor, pp Tba/Tb/GC dots on block downbeats; p throughout |
 | 253–272 [G] | tacet | **the knot**: Vln I whirling 16ths against brass/wind Theme 2 *ten.* |
 | 273–308 [H] | tacet | marcato tutti chords alternating with rests (273–282); dim.; strings p Theme 1 (290–296); wind chromatic runs + Vln I *legg.* + xylophone (297–308) |
 | 309–337 [I] | tritone chords 309–312; low d♭/c/b♭ figure 313–320; Theme 2 *espress.* 324.3–337 | winds *Dies irae* parody (inferred, ~313–320); Vln I staccato answers |
@@ -130,6 +130,25 @@ is already a *doina* in Saint-Saëns's hand.
 Known loss: no major third in the shimmer harmonics' fundamental beyond the pluck — accepted. The
 F♯ harmonic exists only as the D string's 5th partial, so it cannot sound while the open D rings;
 the stroke (beat 1) and shimmer (2–3) therefore alternate rather than overlap.
+
+**Revision (decided 2026-10-23, user):** the harmonic shimmer is replaced by the strings' own
+sustained notes, transferred directly. Dump: 5–8 V1 divisi d″/a′ over V2 f♯′/d′ ppp, tied four
+bars; 13–16 V1 f♯″/d″ over V2 a′/f♯′ + Va d′, tied; horn d′ 1–16; harp's last stroke bar 12.
+No B♭ exists anywhere in 1–24 (the user's first wording; corrected against the dump).
+
+- **All twelve strokes are left-hand pizz** on the open D (`-+`, f, l.v.), bow in hand from bar
+  1. This frees the bow to sustain through the toll and keeps the toll's timbre uniform.
+- **5–8: a single tied `d''`** (V1's top note) ppp *sul tasto, senza vibrato* — 3rd finger on the
+  A string while the 4th plucks the open D on each downbeat (standard LH-pizz geometry; keep the
+  bow clear of the vibrating D string). **13–16: tied `<d'' fis''>`** — exactly V1a's divisi
+  pair, 1st position, fingers 3–2. Not carried: V2's lower pair, the viola d′ (= the ringing open
+  D anyway), the horn pedal.
+- 18–24 unchanged (stopped notes → ordinary right-hand pizz; mark "pizz." at 18).
+- The touch-point/diamond machinery for bars 5–8/13–16 is removed; the "ghost harmonics"
+  colour is no longer used in Episode 1 (still available for later episodes).
+- **"First bow at 25" rule reworded:** bars 5–16 are ppp flautando *colour*, not voice; the
+  first *voiced* bow stroke is still the tritone at 25. The rule now rests on dynamics and
+  bowing colour rather than on timbre class — weaker, accepted for the directness of the lift.
 
 ### Episode 2 — bars 25–48 "Summons and Theme 1" (decided 2026-10-18)
 
@@ -234,6 +253,17 @@ Decisions:
    entry 4's subject note and the start of V1's rising line.
 5. 172 follows the **wind line** to d♯‴ (cliff to p at 173), not the strings' f′ trill. Ossia for
    safety: the oboe's octave from 169.
+   **Revised 2026-10-23 (user): bar 172 an octave up.** `a''' b''' c'''' cis'''' d''''` stopped on
+   the E♭ string (semitones 18–23, ordinary high-position territory), then `dis''''` as the E♭
+   string's **4th-partial harmonic** (touched in place at e♭⁗ — the 3/4 node — or at a♭″ in 1st
+   position) and 173.1 `e''''` as the A string's **6th-partial harmonic** (touched at c″, low 2nd
+   finger, 1st position; the only practical node). 171 ends f‴, so 172's a‴ continues the climb
+   instead of the orchestra's register reset: 170–173 becomes one ascent and the cliff to p is
+   larger. Licence: octave placement of a lift is the arranger's throughout (Ep 1 bass line, Ep 6
+   entry 1); no notes are added. Both closing harmonics are reachable from 1st position, so the
+   hand is already down for 173's chords — the original join's logic, one octave higher. Ossia
+   (Ob octave from 169) kept as the safety text; reliability of the 6th partial at f (fast bow,
+   near the bridge) is the thing to test when played.
 6. Dynamics as source: mf 137.3, "sempre stacc." 145, f 166, cresc 170–172. LH-pizz rule applies
    on 161/162/166 (G) and 163/165 (D).
 
@@ -282,6 +312,8 @@ Decisions:
    first position) — the wind line's resolution lands as a ring exactly as the hand drops to first
    position for the chords. Not yet decided but noted for Episode 6: `dis'''` at 172.6 is the E♭
    string's octave harmonic, a semitone above the hand's d‴.
+   **Revised 2026-10-23:** 173.1 is now `e''''` (A string 6th partial, touch c″) following the
+   8va bar 172 — see Episode 6 decision 5. Same logic, one octave higher.
 6. **Join 204→205 (for Episode 8):** 205.1 is the tutti B (harp `<b,, b,>` mf) → pizz `<b b'>`
    recommended, 205.2 rest to retake the bow, 205.3 the solo's `fis'` appassionato verbatim.
 
@@ -340,6 +372,58 @@ Decisions:
 Known losses: the four solo cellos, the harp/clarinet rocking figure, the Cb and brass pedals, V2's
 f♯″ upbeat at 229.3, the flutes' tail at 221–222. All accepted.
 
+### Episode 9 — bars 237–252 "Spiky" [F] (decided 2026-10-22)
+
+Orchestra (from the dump): (a) 237–244: V1a and V1b each play slurred 5-note 16th groups a beat
+apart whose last note is the other desk's first — the composite is **one continuous chromatic
+scale b→b″ (237–239.1) and back to b (241.1)**, stated twice (p; cresc 241, f 243, dim 244 → p
+245). Under it: Hb1/Hb2 d♯′/b pedal 237–245, Bn1 f♯/g/f♯/g♯, and the staccato bass figure
+`r4 b,8 dis b, cis | dis cis b,` in Vc/Cb (+ Tb1/Tb3 even bars, Va from 239, V2 from 241) on
+B (237), G (239), B (241), G♯ (243) — i.e. B → G-augmented (with the oboes' d♯) → B → G♯ minor.
+237.1 is the B-major cadence of Episode 8 (Hp `<fis b>`/`<b,, b,>`, Tb1/Tp1 d♯′, Tb2/Cb b) with
+V2/Va's `fis''2.~`/`fis'2.~` p resolving the fourth statement. (b) 245–252: **Theme 1's head in
+D♯ minor** (`dis fis dis eis | fis . eis . dis .`) in canon at the bar, strings leading (V1a with
+V2 an octave below; V1a's own register toss d♯″ 245 → d♯‴ 247 → d♯″ 249 → c‴ 251) and winds
+echoing one bar later (Hb1/Cl1 246, Fl/Pic/Bn1 248, Hb/Cl in thirds 250, Fl/Bn1 252 → g 253),
+over a chromatic bass in repeated 8ths B (245) → A♯ (247) → A (249) → A♭ (251) → G (253), Va
+`<fis dis'>` repeated-8th motor, and pp Tba/Tb3/GC dots on each block downbeat. **No crescendo:
+p throughout; [G] 253 begins mf.**
+
+Decisions:
+
+1. **237–244 as a single line, slurred per beat.** The desk split is an orchestration artifact;
+   the slur-per-beat bowing is the violin's natural 4-to-a-bow. Dynamics V1a's. Nothing added:
+   the hand is in 16ths, so the LH-pizz device does not fire (bass G 239–240) and the B/G+/B/G♯m
+   harmony is an accepted loss.
+2. **237.1 = rolled triad `<fis' dis'' fis''>4` p** — Episode 8's octave resolution (V2/Va) with
+   the cadence's D♯ (Hb1/Tb1/Tp1/harp) as the middle note; 1st position, fingers 2–4–1. Truncated
+   to a quarter so the scale can be joined at 237.2 from V1b's group (`dis'16 e' eis' fis'`). The
+   four 16ths dropped (V1a's `b bis cis' d'`, under the tutti stamp) are the only loss. Rejected:
+   bare octave `<fis' fis''>` (user's call — the fuller cadence), and starting the scale at 237.1
+   (drops the phrase's last note).
+3. **245–252 = V1a verbatim plus the bass at its points of change.** The leader voice alone, with
+   its own register toss and its rests kept (the rests *are* the spiky character), and the bass
+   note as a short low 8th in the three downbeat rests where the tuba/trombone dots fall: 247.1
+   `ais`, 249.1 `a` (open), 251.1 `aes`. V1a's own 245.1 `b8` and 253.1 `g8` frame that line,
+   so the three added notes complete the descent the source literally has (Vc/Cb/Tba). Low dot →
+   high figure is the one-violin rendering of "tossing", and it makes the chromatic drive into
+   [G] audible. Rejected: (i) the composite that fills V1a's rests with the wind echo — turns the
+   hiccup into continuous 8ths and destroys the figure; (ii) staccato octaves (V1a + V2) — the
+   register rule's condition fails at 247–248 (lower note on the A string: a 6-semitone A–E♭
+   stretch or D–A in 7th position, p staccato at ~8th = 340/min), so applying it only in the
+   other bars breaks the figure's consistency, and it loads the heaviest technique in the piece
+   onto a p transition whose weight belongs to Episode 10 and to 273. **The octave rule applies
+   per passage, not per bar.**
+4. Dynamics as source: p 237, cresc 241, f 243, dim 244, p 245 flat to 252; 253 mf is Episode
+   10's. The bass dots carry no separate dynamic.
+
+Known losses: the wind echo (canon at the bar), V2's lower octave, the Va motor, the oboe pedal
+and the 237–244 bass figure. All accepted.
+
+Corrections to the transcript/map: 237–244 is a **continuous chromatic scale** split between
+desks, not a "spiky figure"; 245–252 is **Theme 1's head in D♯ minor in canon**, not generic
+"wind tossing"; the whole episode is p with no crescendo into [G].
+
 ### Project-wide: virtuoso register (decided 2026-10-19)
 
 The arrangement should **sound virtuosic — Sarasate's *Carmen Fantasy* is the named model.** The
@@ -382,6 +466,40 @@ Wherever the cello/bass downbeat is G, D or A and the bowed note is not on that 
 optional left-hand-pizz open string may sound the bass. Engrave as small notes + "pizz. m.g. ad
 lib." This is the "à défaut de harpe" rule extended to the bass line; it is mechanical and costs
 no arranger's licence per bar.
+
+**Engraving ruled 2026-10-23, applied 2026-10-23:** the ad-lib items (Episodes 2–6) are engraved
+as small-note chord members (`font-size -3`, `-+`) with a one-time "pizz. m.g. ad lib." at the
+first occurrence (bar 34), and the Episode 7 arco ossia (189–205) is engraved as a parallel
+padded staff. Density was known (~30 bars in 1–172, none in 7–9) and neither affects layout, so
+there was no reason to defer.
+
+### Project-wide: the fugato's model and the knot's precedents (captured 2026-10-23)
+
+- **Bach's solo-violin polyphony is compound (latent) melody**, not organ polyphony: voices exist
+  as multistops at structural points and as registral alternation in the single line between;
+  nothing sustains independently. Episode 6's "entry cue as double-stop, surface counter-line
+  between" is that model exactly, so "more Bach" can only mean more of the *subject* sustained at
+  the entries — never independent voices. (User's framing, confirmed.)
+- **Berlioz, *Symphonie fantastique* V.** The Ronde du sabbat fugue is the direct ancestor of
+  Saint-Saëns' [C] fugato (staccato dance-fugue for the dead at the programme's midpoint); it is
+  genuine orchestral polyphony, which validates reading the running counter-line as the audible
+  surface and the subject as cue. Its climax — "Dies irae et Ronde du sabbat ensemble", brass
+  chorale *tenuto* against whirling strings — is the device of **[G] 253–272 (Episode 10)**
+  almost literally. Solo-violin precedents for exactly that problem: Ysaÿe op. 27 no. 2
+  "Obsession" (Dies irae in the bass against running figuration), Ernst *Erlkönig* (melody
+  carried inside galloping triplets), Bach Chaconne arpeggio variations (the theme's notes become
+  chord tones *inside* the figuration). First lead on the knot.
+- **Catalogue beyond Paganini for fugal/polyphonic solo violin, pruned:** Ysaÿe Sonata 1 Fugato
+  (modern Bach-homage fugato); Bartók Solo Sonata Fuga (dry staccato fugue, subject in
+  double-stops, cumulative stops); Reger op. 131a (densest post-Bach solo-violin fugues); Telemann
+  12 Fantasias (fugues thinner than Bach's — closest to Saint-Saëns' lightness); Ernst Six
+  Polyphonic Studies (Paganini technique in polyphonic service, LH pizz — most apropos to this
+  project's register). Precedent claims from memory, not verified against scores.
+- **Open for Episode 6, deferred until played:** (a) flying/up-bow staccato bowing on the
+  counter-line groups 145–157 and 159–165 (Caprice 7/10; zero licence cost — the no-regret
+  addition); (b) extend entry 3's cue (151.3–155) to the subject's full head as sustained
+  double-stops where both lines sit in 1st position (needs a slice). "Nothing" is a legitimate
+  outcome.
 
 ## Capture candidates
 
@@ -457,7 +575,24 @@ no arranger's licence per bar.
   that can be omitted will be — bake the transposition into the dump rather than into the
   procedure; before entering from any voice, anchor-check one bar whose harmony is known (e.g.
   Cl at 102 must form G minor with the Cb).
+- **Desk splits are orchestration, not music.** Two desks playing overlapping 5-note slurred
+  groups whose seam notes coincide (V1a/V1b 237–244) are one line; read the composite before
+  deciding anything. Generalises: when the dump shows interlocking parts with shared seam notes,
+  check whether the union is a single scale/arpeggio before treating them as two voices.
+- **A conditional rule applies per passage, not per bar** (Episode 9, 245–252). The octave rule's
+  condition (lower note on D–A/G–D) held for six of eight bars; applying it bar by bar would have
+  given an inconsistent figure. If a rule's condition fails anywhere inside one figure, it fails
+  for the figure.
 - **Natural-harmonic availability under scordatura** (pivotal for every shimmer/ghost passage):
   partials give D string → d″ a″ d‴ f♯‴; A string → a″ e‴ a‴ c♯⁗; G string → g′ d″ g″ b″;
   E♭ string → e♭‴ b♭‴ e♭⁗ g⁗. F♯ is available only on D; A♭/C (the Neapolitan colours) are
   not available as natural harmonics at all.
+- **LilyPond 2.24.3's Slur/Script engraver has a line-break-dependent cyclic-dependency bug.**
+  Two chord-tone `\tweak font-size` notes a few bars apart, the second under a slurred ornament
+  (`\prall`/`\trill`), can trip `programming error: cyclic dependency ... Slur.control-points` —
+  reproducible only with specific surrounding bar content (isolated by bisection, not obviously
+  wrong notation) and apparently tied to which system the ornamented note's line-break lands on.
+  `\override Script.avoid-slur = #'inside` sidesteps it with no visible cost. If a LilyPond build
+  ever throws a cyclic-dependency crash on `Slur.control-points`, suspect a Script/ornament
+  interaction near a system break before suspecting the note data (found 2026-10-23 engraving the
+  Episodes 2–6 ad-lib clicks).

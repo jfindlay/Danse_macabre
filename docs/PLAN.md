@@ -22,6 +22,20 @@ question (left deferred to @architect, as noted there).** Recompiled clean: zero
 matching the `--` already used elsewhere in the score) and dropped the now-unused `ten` macro
 from `global.ily`.
 
+**Episode 9 decided 2026-10-22 (architect + user); entered 2026-10-23.** Architect resumes at
+Episode 10 [G].
+
+**User review 2026-10-23 (before playing): three revisions to entered episodes + two engraving
+tasks.** Episode 1 shimmer → sustained lifts with LH-pizz toll; bar 172 up an octave to
+harmonics; Ep 7 ossia and Ep 2–6 ad-lib small notes to be engraved. Drafts under "Revision
+drafts (2026-10-23)".
+
+**`@build` applied the 2026-10-23 batch (Episode 9 entry, Episode 1 revision, bar 172/173.1
+revision, the Episode 7 arco ossia, and the Episodes 2–6 ad-lib engraving).** Recompiled clean:
+zero `barNumberCheck` warnings. Hit and worked around a LilyPond 2.24.3 engraving bug while
+entering the ad-lib small notes — see "Build-session findings" below. Next actionable item is
+`@architect` resuming at Episode 10 (step 3 of "Resume here").
+
 ## Deliverable
 
 `arrangement/danse-macabre-solo.ly` → a single-staff solo-violin score, 477 bars of 3/4, marks A–N
@@ -47,7 +61,7 @@ arrangement/
     ep06-fugato.ily            % bars 137–172  (C)  (status: DECIDED, draft below)
     ep07-skeletons.ily         % bars 173–204  (D)  (status: DECIDED, draft + ossia below)
     ep08-lyrical-bmajor.ily    % bars 205–236  (E)  (status: DECIDED, draft below)
-    ep09-spiky.ily             % bars 237–252  (F)
+    ep09-spiky.ily             % bars 237–252  (F)  (status: DECIDED 2026-10-22, entered 2026-10-23)
     ep10-whirl-vs-theme.ily    % bars 253–272  (G)  — the knot
     ep11-marcato-dim.ily       % bars 273–308  (H)
     ep12-summons-diesirae.ily  % bars 309–337  (I)
@@ -98,7 +112,8 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
 | 6 | 137–172 | five-entry fugato: one surface line per entry (counter-lines, ascending register), subject entry-cues as double-stops (Bach Sonata-fugue allusion); 158 V2 trill; 172 wind line to d♯‴ | **decided** — draft below |
 | 7 | 173–204 | one 16-bar Phrygian strain twice (E, then A a 4th up): wind thirds as staccato double-stops, LH-pizz open G = cymbal, e–f–e turn attached to every `<cis'' e''>` chord; 189–204 Vln I pizz line in thirds, pizz harmonic e‴ = triangle; arco ossia | **decided** — draft below |
 | 8 | 205–236 | Theme 2 in B major ×4: solo verbatim (1, 3); wind/string answers (2, 4) as **octaves** (the orchestra's own doubling); 205.1 four-string pizz `<b dis' b' dis''>` and 221.1 `<b' dis'' b''>` use the open E♭ as the D♯ of B major; inner voice d♯→d♮→d♯ at its change points | **decided** — draft below |
-| 9–18 | 237–477 | per transcript map, to be revised episode by episode | pending |
+| 9 | 237–252 | two-octave chromatic scale (V1a/V1b composite) as one line, slurred per beat; 237.1 rolled `<fis' dis'' fis''>` = Ep 8's resolution + the cadence's D♯; 245–252 V1a verbatim (Theme 1's head in D♯ minor, own register toss) + bass dots `ais`/`a`/`aes` in its downbeat rests; p throughout | **decided** — draft below |
+| 10–18 | 253–477 | per transcript map, to be revised episode by episode | pending |
 
 ## Resume here (next session)
 
@@ -118,14 +133,30 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
    names are `cl-bb`, `horn-g`, `horn-d`, `tp-d`. Episode 8 adds one engraving need: the 189–204
    arco ossia ends arco into 205.1, so the ossia staff should carry its own 205.1
    `<b dis' b' dis''>4\f` arco (the main staff's is pizz).
-2. `@architect`: resume at **Episode 9, bars 237–252 [F]** — Vln I/II interlocking p 16th runs
-   (V1a `b16( bis cis' d' dis') r16 r8 g'16( gis' a' ais' | b'16) …`, V1b offset by a beat),
-   Vc/Cb staccato `b, dis b, cis | dis cis b,` from 237.2, wind tossing 246–252. **The join from
-   236 is decided from the 236 side:** statement 4 of Episode 8 (V2/Va octaves) ends on
-   **237.1 `<fis' fis''>` p** (V2 `fis''2.~ | fis''4`, Va `fis'2.~ | fis'4`), simultaneous with
-   V1a's run starting `b16` p on 237.1 — Episode 9 opens by resolving that collision (likely
-   `<fis' fis''>` for the first beat, then V1a's run from its second group, since the run rests
-   on 237.2 anyway). Slice 237–252 for all voices first.
+2. **Done 2026-10-23.** `@build` batch applied: (a) `ep09-spiky.ily` entered from the Episode 9
+   draft; (b) Episode 1 bars 1–16 replaced with the revision draft (LH-pizz toll, lifted
+   sustained shimmer, `touchFisPrime`/`touchDPrimePrime` dropped); (c) bar 172 (`ep06-fugato.ily`)
+   and 173.1 (`ep07-skeletons.ily`) revised an octave up to the harmonic join, with new diamond
+   touch-point macros (`touchAesDoublePrime`, `touchCPrimePrime`); (d) the Episode 7 arco ossia
+   engraved as a parallel `\new Staff = "ossia"` (in `episodes/ossia-ep07.ily`, spanning bars
+   189–205 including its own arco 205.1 `<b dis' b' dis''>4\f` — kept on the ossia per the
+   Episode 8 header's note that the main staff's 205.1 is pizz), `alignBelowContext`'d to the
+   main staff (named `"Violon solo"` in the actual score, not `"solo"` as drafted) via
+   `\RemoveAllEmptyStaves`, confirmed visually to appear only on the 186–205 systems; (e) the
+   Episodes 2–6 ad-lib items engraved as `\tweak font-size #-3` chord tones with `-+`, one-time
+   `^"pizz. m.g. ad lib."` at bar 34; a few items used judgment calls beyond the literal "ad lib"
+   comment markers already in the files (Episode 3 bar 62, Episode 4 bars 65–68/73–76, Episode 6
+   bar 166.1) — see "Build-session findings" below. (f) Recompiled: zero `barNumberCheck`
+   warnings. Hit and fixed a LilyPond engraving bug along the way — see "Build-session findings".
+3. `@architect`: resume at **Episode 10, bars 253–272 [G] — the knot.** Slice 252–273 for all
+   voices first (one bar of context each side; Cl/Cor/Tp with `--transpose`). Known from the
+   237–253 slice: 253.1 is a G-minor downbeat (Vc/Cb/Tb3/Tba/C1/C2/Ti g, Va `<g g'>`, Tb1
+   `g'…g`, winds `g`-octaves 8th on 1) and V1a starts the whirl at once: `g8(\mf ees'8 c''8)
+   g''8( c''8 ees'8 g4->~ |` — a C-minor arpeggio sweep over the G bass, so the join from 252
+   needs nothing on the Episode 9 side (its last sounding note is `c'''8` on 252.3). Expect the
+   episode's problem to be Theme 2 *ten.* in brass/winds against V1a's 16ths: the surface-line
+   principle (Ep 6) and the ornament/inner-voice rules (Ep 7/8) are the tools; the virtuoso
+   register is available here if the brass theme is octave-doubled.
 
 Working method from Episode 5: a `@general` subagent slices exact bar ranges per voice from the
 absolute dump (sounding pitch for transposers); the architect session spends context on
@@ -239,8 +270,53 @@ Cor, Tp) are at **written** pitch unless sliced with `--transpose`.
   avoid the extra voice/cue-note machinery a true small *note* would need inside a chord. Revisit
   if the performer wants the sounding pitch shown too.
 - Episodes 2–5 "ad lib" items (LH-pizz G/D, open-D drone, 136.3 small `fis''`) were downgraded
-  from small-note engraving (NOTES "LH-pizz bass" device) to comments. Deferred, not decided:
-  @architect to rule once Episodes 9–18 exist and the device's density is known.
+  from small-note engraving (NOTES "LH-pizz bass" device) to comments. **Ruled 2026-10-23,
+  applied 2026-10-23:** engraved (Resume-here step 2e).
+
+## Revision drafts (2026-10-23; absolute pitch)
+
+### Episode 1, bars 1–16 (replaces the current 1–16; 17–24 unchanged)
+
+All twelve strokes are left-hand pizz on the open D (`-+`), f, l.v.; the bow is in hand from bar
+1. 5–8: 3rd finger holds `d''` on the A string while the 4th plucks the D — bow clear of the D
+string. 13–16: `<d'' fis''>` fingers 3–2. Mark "pizz." (ordinary) at 18 since 18–24 are stopped.
+
+```
+\barNumberCheck #1
+% 1-12: Hp-h d'2.\f x12 (one stroke per bar) + Cor 1 d' pedal 1-16 = the open D, LH pizz l.v.
+d'4-+\f\laissezVibrer^"pizz. m.g." r2                                | % 1
+d'4-+\laissezVibrer r2                                               | % 2
+d'4-+\laissezVibrer r2                                               | % 3
+d'4-+\laissezVibrer r2                                               | % 4
+% 5-8: V1 divisi d''/a' + V2 fis'/d' ppp tied -> V1's top note d'' tied, sul tasto senza vibr.,
+% over the continuing toll. Not carried: a', fis', d' (the open D rings anyway).
+<< { d''2.\ppp~^\markup\italic "sul tasto, senza vibr." } \\ { d'4-+\laissezVibrer s2 } >> | % 5
+<< { d''2.~ } \\ { d'4-+\laissezVibrer s2 } >>                       | % 6
+<< { d''2.~ } \\ { d'4-+\laissezVibrer s2 } >>                       | % 7
+<< { d''2. } \\ { d'4-+\laissezVibrer s2 } >>                        | % 8
+d'4-+\laissezVibrer r2                                               | % 9
+d'4-+\laissezVibrer r2                                               | % 10
+d'4-+\laissezVibrer r2                                               | % 11
+d'4-+\laissezVibrer r2                                               | % 12  twelfth stroke
+% 13-16: V1 divisi fis''/d'' (+ V2 a'/fis', A d') ppp tied -> V1a's pair as a double-stop.
+<d'' fis''>2.\ppp~                                                    | % 13
+<d'' fis''>2.~                                                        | % 14
+<d'' fis''>2.~                                                        | % 15
+<d'' fis''>2.                                                         | % 16  horn pedal ends
+```
+
+### Bars 172 and 173.1 (replace in ep06 / ep07)
+
+```
+% 172 (ep06): wind line 8va; dis'''' = E-flat string 4th partial (touch at e-flat'''' in place, or
+% a-flat'' in 1st pos.); the hand is in 1st position for 173.
+a'''8-. b'''8-. c''''8-. cis''''8-. d''''8-. dis''''8-.\flageolet\!  | % 172  -> [D] 173 p
+```
+```
+% 173.1 (ep07): e'''' = A string 6th partial, touched at c'' (low 2nd finger, 1st position).
+e''''8-.\flageolet\f r8  g4-+\p  \tuplet 3/2 { <cis'' e''>8->( <cis'' f''>8 <cis'' e''>8) } | % 173
+```
+Touch-point notes: `dis''''` ← diamond `aes''` (or `ees''''`); `e''''` ← diamond `c''`.
 
 ## Episode drafts (decided; sounding pitch)
 
@@ -493,6 +569,54 @@ fis'2.~                                                                         
 \barNumberCheck #237
 ```
 
+### Episode 9 — bars 237–252 [F] (absolute pitch)
+
+Concept: **one line.** 237–244 is the V1a/V1b composite — a continuous two-octave chromatic scale
+— slurred per beat (bowing; the source's slurs are 5-note desk groups whose seam notes coincide).
+245–252 is V1a verbatim, rests kept, with the bass note as a short low 8th on the three block
+downbeats where V1a rests and the tuba/trombone dot falls. Dynamics are V1a's; there is no
+crescendo into [G] (253 mf belongs to Episode 10). Engraving: 237.1 is a rolled chord
+(`\arpeggio` optional), 1st position, fingers 2–4–1; the bass dots take only the staccato, no
+separate dynamic. Register: 247–248 lies on the E♭ string (d♯‴ is its octave harmonic; the rest
+stopped) — p, at the tip. The leaps `ais→dis'''` (247) and `aes→c'''` (251) have the 8th rest
+to shift in.
+
+```
+\barNumberCheck #237
+% 237.1 = Ep 8 statement 4's resolution (V2 fis''2.~ + Va fis'2.~, p) over the tutti B cadence
+% (Hp <fis b>/<b,, b,>, Tb1/Tp1/Hb1 dis', Tb2/Cb b): rolled <fis' dis'' fis''>, truncated to a
+% quarter so the hand is free for the run. 237.2-245.1: V1a + V1b are one continuous chromatic
+% scale b-b''-b handed between desks every beat (each 5-note slur's last 16th is the other desk's
+% first) -> single line, slurred per beat. Dropped: V1a's first four 16ths b bis cis' d' (under
+% the stamp). Not carried: Hb1/Hb2 dis'/b pedal 237-245, Bn1 fis/g/fis/gis, the Vc/Cb/Tb/Va/V2
+% staccato bass figure (B 237 / G 239 / B 241 / G-sharp 243). Dynamics = V1a: p, cresc 241, f
+% 243, dim 244.
+<fis' dis'' fis''>4\p\arpeggio dis'16( e' eis' fis') g'( gis' a' ais')   | % 237
+b'16( bis' cis'' d'') dis''( e'' eis'' fis'') g''( gis'' a'' ais'')      | % 238
+b''16( ais'' a'' gis'') g''( fis'' f'' e'') dis''( d'' cis'' c'')        | % 239
+b'16( ais' a' gis') g'( fis' f' e') dis'( d' cis' c')                    | % 240
+b16(\< bis cis' d') dis'( e' eis' fis') g'( gis' a' ais')                | % 241
+b'16( bis' cis'' d'') dis''( e'' eis'' fis'') g''( gis'' a'' ais'')\!    | % 242
+b''16(\f ais'' a'' gis'') g''( fis'' f'' e'') dis''( d'' cis'' c'')      | % 243
+b'16(\> ais' a' gis') g'( fis' f' e') dis'( d' cis' c')\!                | % 244
+% 245-252: Theme 1's head in D-sharp minor tossed strings -> winds in canon at the bar (V1a + V2
+% 8vb lead; Hb1/Cl1 246, Fl/Pic/Bn1 248, Hb/Cl 250, Fl/Bn1 252 echo one bar later) over a
+% chromatic bass B, A-sharp, A, A-flat (-> G 253) in repeated 8ths, Va <fis dis'> motor, pp
+% Tba/Tb3/GC dots on the block downbeats. Carried: V1a verbatim (own register toss dis'' ->
+% dis''' -> dis'' -> c''') + the bass on the three downbeats where V1a rests (247.1 Tba/Tb3/Vc
+% ais, 249.1 a, 251.1 aes); V1a's own 245.1 b and 253.1 g frame that line. Not carried: the wind
+% echo, V2's lower octave, the Va motor. p throughout (source has no cresc; 253 is mf).
+b8-.\p r8 dis''8-. fis''8-. dis''8-. eis''8-.                            | % 245  b = bass B
+fis''8-. r8 eis''8-. r8 dis''8-. r8                                      | % 246
+ais8-. r8 dis'''8-. fis'''8-. dis'''8-. eis'''8-.                        | % 247  ais = Tba/Tb3/Vc
+fis'''8-. r8 eis'''8-. r8 dis'''8-. r8                                   | % 248
+a8-. r8 dis''8-. fis''8-. dis''8-. eis''8-.                              | % 249  a = bass (open A)
+fis''8-. r8 eis''8-. r8 dis''8-. r8                                      | % 250
+aes8-. r8 c'''8-. ees'''8-. c'''8-. d'''8-.                              | % 251  aes = bass
+ees'''8-. r8 d'''8-. r8 c'''8-. r8                                       | % 252  -> 253.1 g8 mf [G]
+\barNumberCheck #253
+```
+
 ## Build-session findings (2026-10-20) — for @architect/user review
 
 Episodes 1-4 had only prose decisions in NOTES.md, no literal LilyPond draft (unlike 5-8). Entering
@@ -524,6 +648,32 @@ since they go beyond mechanical transcription:
   structure would need its own skip-padding scaffold. Follow-up if wanted.
 - **Tool note:** LilyPond identifiers cannot contain digits (`ep01` fails to parse — `\ep01` reads
   as `\ep` + the number `01`). Episode variables are named `epOne`..`epEighteen`.
+
+## Build-session findings (2026-10-23) — for @architect/user review
+
+- **LilyPond 2.24.3 engraving bug, found and worked around.** Two chord-tone `\tweak font-size`
+  notes (the ad-lib LH-pizz clicks) a few bars apart, the second one under a slurred ornament
+  (`\prall`/`\trill`), trip `programming error: cyclic dependency: calculation-in-progress
+  encountered for Slur.control-points` — reproducible in isolation (bisected to ~15 minimal
+  `.ly` files) and apparently dependent on which system the ornamented note's line-break lands
+  on, not on anything wrong with the notation itself. `\override Script.avoid-slur = #'inside`
+  (set once, at the top of the `"melody"` Voice in `danse-macabre-solo.ly`) sidesteps the
+  recursive branch with no visible change to the small scripts. CAPTURE-CANDIDATE: if LilyPond
+  ever reports a cyclic-dependency crash on `Slur.control-points`, suspect a Script/ornament
+  interaction near a system break before suspecting the note data.
+- **Ad-lib engraving judgment calls beyond the literal per-bar comment markers**, each decided
+  from the surrounding NOTES/header text rather than an explicit bar-by-bar tag: Episode 3 bar
+  62 (the decision log's "58–62" is five bars, symmetric with "50–54", but only 58–61 had inline
+  tags — included 62); Episode 4 bars 66–68/73–76 (the header says "ad-lib LH-pizz open D on the
+  downbeats" of 65–68/73–76, but 65/73's downbeat is already the open D itself — added the click
+  only where it adds a new pitch); Episode 6 bar 166.1 (listed in the header as an ad-lib G site,
+  but the written note there is already `<g g'>`, an octave on the open G — no separate click
+  added, since there is nothing to add). Flagged per-episode in the headers; worth an
+  @architect/user check since they go beyond mechanical transcription of an explicit list.
+- **Staff naming mismatch, resolved by using the actual name.** PLAN's original engraving note
+  for the Episode 7 ossia says the main staff is named `"solo"`; the actual score names it
+  `"Violon solo"` (with the instrument-name markup). Used `alignBelowContext = "Violon solo"` to
+  match the real context id.
 
 ## Handoff to @build (when triggered)
 

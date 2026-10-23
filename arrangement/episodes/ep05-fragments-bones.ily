@@ -8,14 +8,18 @@
 % in D major at d'' (117.2-121.1, 125.2-129.1); wind choir Theme 1 in G minor at g'' doubled by
 % xylophone (121.2-125.1, 129.2-133.1), col legno battuto string chords under it; solo ff chords
 % 133.2-136. See docs/NOTES.md Episode 5 decisions for the col-legno/xylophone rationale.
+%
+% Ad lib (engraved 2026-10-23, "LH-pizz bass" device): LH-pizz open D on the downbeats of
+% 118-120/126-128 (Cl/Bn/timp sound D there), as small chord-tone noteheads with "-+". 136.3
+% carries the tutti stamp's F-sharp (Hb2/Cl2/Tb1) as a small ad-lib chord tone the same way.
 
 epFive = \absolute {
   \barNumberCheck #117
   % 117.1 tutti D stamp (pizz); 117.2-121.1 VSolo verbatim
   <d' a' fis''>4\f^"pizz."  d''8-.^"arco" fis''-. d''-. e''-.                        | % 117
-  fis''4-- e''8-. fis''-. d''-. fis''-.                                              | % 118 ad lib LH-pizz d
-  e''8\prall( d'') d''-. fis''-. d''-. e''-.                                         | % 119 idem
-  fis''4-- e''8-. fis''-. d''-. fis''-.                                              | % 120 idem
+  <fis'' \tweak font-size #-3 d'-+>4-- e''8-. fis''-. d''-. fis''-.          | % 118 ad lib D
+  <e'' \tweak font-size #-3 d'-+>8\prall( d'') d''-. fis''-. d''-. e''-.     | % 119 idem
+  <fis'' \tweak font-size #-3 d'-+>4-- e''8-. fis''-. d''-. fis''-.          | % 120 idem
   % 121.1 VSolo g''; 121.2-125.1 wind choir Theme 1 at g''' col legno battuto; pizz double-stops
   g''4-.  <bes' g''>8-.\f^"col legno battuto" bes''-. <bes' g''>-. a''-.             | % 121
   bes''4-.  <bes' ees''>8-.\open g''-. <bes' ees''>-.\open f''-.                     | % 122
@@ -23,9 +27,9 @@ epFive = \absolute {
   ees''4--\open  <bes' ees''>8-.\open ees''-.\open <bes' ees''>-.\open ees''-.\open  | % 124
   % 125.1 stamp; 125.2-129.1 VSolo verbatim
   <d' a' fis''>4\f^"pizz."  d''8-.\f^"arco" fis''-. d''-. e''-.                      | % 125
-  fis''4-- e''8-. fis''-. d''-. fis''-.                                              | % 126 ad lib LH-pizz d
-  e''8\prall( d'') d''-. fis''-. d''-. e''-.                                         | % 127 idem
-  fis''4-- e''8-. fis''-. d''-. fis''-.                                              | % 128 idem
+  <fis'' \tweak font-size #-3 d'-+>4-- e''8-. fis''-. d''-. fis''-.          | % 126 ad lib D
+  <e'' \tweak font-size #-3 d'-+>8\prall( d'') d''-. fis''-. d''-. e''-.     | % 127 idem
+  <fis'' \tweak font-size #-3 d'-+>4-- e''8-. fis''-. d''-. fis''-.          | % 128 idem
   % 129.2-133.1 as 121-125 but strings col legno incl. A's downbeat chord (130-132)
   g''4-.  <bes' g''>8-.\f^"col legno battuto" bes''-. <bes' g''>-. a''-.             | % 129
   <bes' bes''>4-.  <bes' ees''>8-.\open g''-. <bes' ees''>-.\open f''-.              | % 130
@@ -35,6 +39,6 @@ epFive = \absolute {
   <d' a' fis''>4\f^"pizz."  <d' a'>8\ff^"arco" <d' a'> <d' a'> <d' a'>               | % 133
   <a' ees''>4-.\open <d' a'>8 <d' a'> <d' a'> <d' a'>                                | % 134
   <a' ees''>4-.\open <d' a'>4-. <a' ees''>4-.\open                                   | % 135
-  <d' a'>4-. <a' ees''>4-.\open <d' a'>4-.                                           | % 136 136.3: ad lib small fis'' (tutti stamp)
+  <d' a'>4-. <a' ees''>4-.\open <d' a' \tweak font-size #-3 fis''-+>4-.               | % 136 ad lib small fis'' (tutti stamp)
   \barNumberCheck #137
 }

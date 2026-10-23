@@ -14,8 +14,10 @@
 % tastiera; the bow never left arco -- fixed 2026-10-20, "arco" had been misplaced at 41.1).
 % (V1a's bar 49.1 note belongs to Episode 3, which opens with it per docs/PLAN.md's Episode 3
 % draft.)
-% Ad lib, not engraved (comment only, per project convention -- see Episodes 5-8): LH-pizz open G
-% on the downbeats of 34-36 and 42-44 (cello/bass pedal is G there); open-D drone under 42-44.
+% Ad lib (engraved 2026-10-23, "LH-pizz bass" device -- see NOTES "Project-wide"): LH-pizz open G
+% on the downbeats of 34-36 (cello/bass pedal is G there), as small chord-tone noteheads with the
+% "-+" pizz mark; the device's one-time "pizz. m.g. ad lib." label sits here, its first occurrence
+% in the score. Open-D drone under 42-44 (viola's own d') engraved the same way.
 
 epTwo = \absolute {
   \barNumberCheck #25
@@ -29,18 +31,18 @@ epTwo = \absolute {
   <d' a'>4-. <a' ees''>4-.\open <d' a' fis''>4-.^"pizz."                       | % 32 strings' D-major
   % 33.1 strings' pizz G-minor chord; 33.2-41.1 Fl1 Theme 1 verbatim at g', arco
   <g d' bes' g''>4-.^"pizz." g'8-.\p^"arco"^\markup{\italic "sulla tastiera, imitando il flauto"} bes'8-. g'8-. a'8-. | % 33
-  bes'4-- a'8-. bes'8-. g'8-. bes'8-.                                          | % 34 ad lib LH-pizz G
-  a'8( g'8) g'8-. bes'8-. g'8-. a'8-.                                          | % 35 ad lib LH-pizz G
-  bes'4-- a'8-. bes'8-. g'8-. bes'8-.                                          | % 36 ad lib LH-pizz G
+  <bes' \tweak font-size #-3 g-+>4--^"pizz. m.g. ad lib." a'8-. bes'8-. g'8-. bes'8-. | % 34
+  <a' \tweak font-size #-3 g-+>8( g'8) g'8-. bes'8-. g'8-. a'8-.                      | % 35
+  <bes' \tweak font-size #-3 g-+>4-- a'8-. bes'8-. g'8-. bes'8-.                      | % 36
   aes'8-. r8 aes'8-. c''8-. aes'8-. bes'8-.                                    | % 37
   c''4-- bes'8-. c''8-. aes'8-. c''8-.                                        | % 38
   bes'8( aes'8) aes'8-. c''8-. aes'8-. bes'8-.                                 | % 39
   c''4-! aes'8-. c''8-. bes'8-. aes'8-.                                        | % 40
   % 41.1 Fl1's final note; 41.2-48 V1a's restatement at g'', pp, ord., its own trills/pralls
   g'4-.  g''8-.\pp^"ord." bes''8-. g''8-. a''8-.                               | % 41
-  bes''4-- a''8-. bes''8-. g''8-. bes''8-.                                     | % 42 ad lib open-D drone
-  a''8\prall( g''8) g''8-. bes''8-. g''8-. a''8-.                              | % 43 ad lib open-D drone
-  bes''4-- a''8-. bes''8-. g''8-. bes''8-.                                     | % 44 ad lib open-D drone
+  <bes'' \tweak font-size #-3 d'-+>4-- a''8-. bes''8-. g''8-. bes''8-.         | % 42 ad lib D drone
+  <a'' \tweak font-size #-3 d'-+>8\prall( g''8) g''8-. bes''8-. g''8-. a''8-.  | % 43 idem
+  <bes'' \tweak font-size #-3 d'-+>4-- a''8-. bes''8-. g''8-. bes''8-.         | % 44 idem
   aes''8-. r8 aes''8-. c'''8-. aes''8-. bes''8-.                               | % 45
   c'''4\prall bes''8-. c'''8-. aes''8-. c'''8-.                                | % 46
   bes''8\trill( aes''8) aes''8-. c'''8-. aes''8-. bes''8-.                     | % 47

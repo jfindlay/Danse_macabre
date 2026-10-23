@@ -34,11 +34,12 @@
 \include "episodes/ep16-animato-frenzy.ily"
 \include "episodes/ep17-dawn.ily"
 \include "episodes/ep18-declame-coda.ily"
+\include "episodes/ossia-ep07.ily"
 
 \header {
   title = "Danse macabre"
   opus = "Op. 40"
-  subtitle = \markup { \column \small { "Arranged for unaccompanied violin" } }
+  subtitle = \markup { \small "Arranged for unaccompanied violin" }
   composer = "Camille Saint-Saëns"
   arranger = \markup {
     \fontsize #-3
@@ -56,17 +57,52 @@
 }
 
 \score {
-  \new Staff = "Violon solo" \with {
-    instrumentName = \markup { \center-column {"Violon Solo" \scordatura } }
-  } <<
-    \reperes
-    \trame
-    \new Voice = "melody" {
-      \clef treble
-      \epOne \epTwo \epThree \epFour \epFive \epSix \epSeven \epEight
-      \epNine \epTen \epEleven \epTwelve \epThirteen \epFourteen \epFifteen \epSixteen
-      \epSeventeen \epEighteen
-    }
+  <<
+    \new Staff = "Violon solo" \with {
+      instrumentName = \markup { \center-column {"Violon Solo" \scordatura } }
+    } <<
+      \reperes
+      \trame
+      \new Voice = "melody" {
+        \clef treble
+        % Works around a LilyPond 2.24.3 engraving bug: two small-notehead chord tones (the
+        % ad-lib LH-pizz clicks, engraved via \tweak font-size on a chord member) separated by a
+        % few bars, the second under a slurred ornament (\prall/\trill), trips a
+        % "cyclic dependency: calculation-in-progress ... Slur.control-points" crash in the
+        % default avoid-slur placement for the attached articulation. Switching Script's
+        % avoid-slur strategy sidesteps the recursive branch; no visible effect on scripts this
+        % small. Found 2026-10-23 entering the Episodes 2-6 ad-lib engraving.
+        \override Script.avoid-slur = #'inside
+        \epOne \epTwo \epThree \epFour \epFive \epSix \epSeven \epEight
+        \epNine \epTen \epEleven \epTwelve \epThirteen \epFourteen \epFifteen \epSixteen
+        \epSeventeen \epEighteen
+      }
+    >>
+    % Episode 7 arco ossia (bars 189-205): a safety staff that appears only on the systems
+    % spanning those bars (docs/PLAN.md "Resume here" step 2d).
+    \new Staff = "ossia" \with {
+      instrumentName = \markup {
+        \fontsize #-2 \italic
+        \column {
+          "ossia"
+          "(arco)"
+        }
+      }
+      shortInstrumentName = \markup {
+        \fontsize #-2 \italic
+        \column {
+          "ossia"
+          "(arco)"
+        }
+      }
+      alignBelowContext = "Violon solo"
+      fontSize = #-3
+      \override StaffSymbol.staff-space = #(magstep -3)
+      \override StaffSymbol.thickness = #(magstep -3)
+      \remove "Time_signature_engraver"
+      \RemoveAllEmptyStaves
+      \override VerticalAxisGroup.remove-first = ##t
+    } { \ossiaEpSeven }
   >>
   \layout { }
 }

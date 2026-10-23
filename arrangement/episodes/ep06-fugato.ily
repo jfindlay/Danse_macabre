@@ -6,7 +6,18 @@
 % Five-entry fugato on Theme 2's head, register ascending entry by entry as the orchestra's does.
 % Double-stops <d' f'>, <c' a'>, <d' g'>: lower note on the G string (4th/3rd finger). Ossia for
 % 169-172 would be the Ob 1 octave (c''...dis''); not engraved here (safety alternative only).
-% Ad lib, not engraved: LH-pizz open G on 161.1/162.1/166.1; open D on 163.1/165.1.
+% Ad lib (engraved 2026-10-23): LH-pizz open G on 161.1/162.1, open D on 163.1/165.1, as small
+% chord-tone noteheads with "-+". 166.1's bass G is already the written note's own lower octave
+% (<g g'>, the surface line's own open string) -- no separate click is sounded there.
+%
+% Bar 172 revised 2026-10-23 (user, before playing): an octave up from the original wind-line
+% lift. 171 ends f''', so 172's a''' continues the climb instead of resetting the register; the
+% bar's final note becomes a natural harmonic (dis'''' = the E-flat string's 4th partial, touched
+% in place at e-flat'''' -- the 3/4 node -- or at a-flat'' in 1st position), landing the hand in
+% 1st position for 173's chords, one octave higher than the original join's logic. Touch-point
+% note engraved as a small diamond notehead under the sounding pitch (NOTES "Conventions").
+
+touchAesDoublePrime = \tweak font-size -4 \tweak NoteHead.style #'harmonic aes''
 
 epSix = \absolute {
   \barNumberCheck #137
@@ -38,11 +49,11 @@ epSix = \absolute {
   % Entry 4: surface = V1 rising sequence loco; cue 159-160 (Tp2 at pitch)
   d'4-.) d'8-. e'8-. <d' f'>8-. <d' g'>8-.                           | % 159  trill resolves
   <c' a'>8-. gis'8-. a'8-. c''8-. b'8-. a'8-.                        | % 160
-  d''8-. c''8-. d''8-. f''8-. e''8-. d''8-.                          | % 161
-  g''8-. fis''8-. g''8-. bes''8-. a''8-. g''8-.                      | % 162
-  f''8-. a''8-. g''8-. e''8-. f''8-. d''8-.                          | % 163
+  <d'' \tweak font-size #-3 g-+>8-. c''8-. d''8-. f''8-. e''8-. d''8-.  | % 161 ad lib LH-pizz G
+  <g'' \tweak font-size #-3 g-+>8-. fis''8-. g''8-. bes''8-. a''8-. g''8-. | % 162 ad lib LH-pizz G
+  <f'' \tweak font-size #-3 d'-+>8-. a''8-. g''8-. e''8-. f''8-. d''8-. | % 163 ad lib LH-pizz D
   e''8-. a''8-. gis''8-. b''8-. c'''8-. a''8-.                       | % 164
-  d''8-. fis''8-. a''8-. c'''8-. bes''8-. a''8-.                     | % 165
+  <d'' \tweak font-size #-3 d'-+>8-. fis''8-. a''8-. c'''8-. bes''8-. a''8-. | % 165 ad lib D
   % Entry 5: surface = Fl 1 sweep (Ob drops 8va at 169 for range); cue 166-167 (Tb 1)
   <g g'>8-.->\f <g g'>8-. g'8-. a'8-. bes'8-. c''8-.                 | % 166
   <f' d''>8-.-> cis''8-. d''8-. f''8-. e''8-. d''8-.                 | % 167
@@ -50,6 +61,6 @@ epSix = \absolute {
   c'''8-. b''8-. c'''8-. ees'''8-. d'''8-. c'''8-.                   | % 169
   f'''8-.\< d'''8-. cis'''8-. c'''8-. b''8-. bes''8-.                | % 170
   a''8-. b''8-. cis'''8-. d'''8-. e'''8-. f'''8-.                    | % 171
-  a''8-. b''8-. c'''8-. cis'''8-. d'''8-. dis'''8-.\!                | % 172  -> [D] 173 p
+  a'''8-. b'''8-. c''''8-. cis''''8-. d''''8-. <dis'''' \touchAesDoublePrime>8-.\flageolet\! | % 172
   \barNumberCheck #173
 }

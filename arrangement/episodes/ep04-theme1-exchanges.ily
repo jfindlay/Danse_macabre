@@ -7,7 +7,10 @@
 % verbatim at Hb 1's own octave (d''), p. (The build session's "octave correction" had misread a
 % \fixed c' decision-log snippet as absolute and dropped this to Bn 1's d'; restored to Hb 1's d''
 % per the decision log's prose, with one addition: Hb 1's phrase-closing g''4-. on the solo's rest
-% at 69.1 and 77.1.) Ad lib, not engraved: LH-pizz open D on the downbeats.
+% at 69.1 and 77.1.) Ad lib (engraved 2026-10-23): bass D sounds under every downbeat of 65-68/
+% 73-76 (harp/Bn pedal); 65.1 and 73.1 are already the open D itself (the solo's own immutable
+% note), so the LH-pizz click only adds anything new at 66-68 and 74-76, as a small chord-tone
+% "-+" under the Hb 1 note there.
 % 69-84, 93-100: VSolo verbatim, nothing added (bass is C, not an open string).
 % 85-92: V1a's theme at g'', f, with the tutti downbeat chord on 86/88/90/92 only (85's chord
 % stands alone -- V1a rests on 85.1, and is bowed, not pizz: 81-84 are already arco, so 85's
@@ -25,16 +28,18 @@
 % d''/bes' + bes'/g' (a G-minor triad) under the G bass, rest on beat 1. Rule: nearest wind pitch
 % forming an adjacent-string double-stop in the melody's hand (1st position) -- bes' (A string)
 % under the G bass, open A under the A bass, cis' (G string) at 116.3. 116.2 has no playable
-% partner (fis'/d' share the D string; fis'' is on the non-adjacent E-flat string).
-% Ad lib, not engraved: LH-pizz open G on the G-bass downbeats (102-106, 110-114).
+% partner (fis'/d' share the D string; fis'' is on the non-adjacent E-flat string). 104's melody
+% note e' is the source's own (not a rounding of the rule).
+% Ad lib (engraved 2026-10-23): LH-pizz open G on the G-bass downbeats (102-106, 110-114), as a
+% small chord-tone "-+" under the sustained-melody voice's first note.
 
 epFour = \absolute {
   \barNumberCheck #65
   % 65-68: solo's own d' downbeat + Hb 1 Theme-1 head at d''
   d'4  d''8-.\p fis''8-. d''8-. e''8-.                                        | % 65
-  fis''4--  e''8-. fis''8-. d''8-. fis''8-.                                   | % 66
-  e''8( d''8) d''8-. fis''8-. d''8-. e''8-.                                   | % 67
-  fis''4--  e''8-. fis''8-. d''8-. fis''8-.                                   | % 68
+  <fis'' \tweak font-size #-3 d'-+>4-- e''8-. fis''8-. d''8-. fis''8-.      | % 66 ad lib LH-pizz D
+  <e'' \tweak font-size #-3 d'-+>8( d''8) d''8-. fis''8-. d''8-. e''8-.     | % 67 ad lib LH-pizz D
+  <fis'' \tweak font-size #-3 d'-+>4-- e''8-. fis''8-. d''8-. fis''8-.      | % 68 ad lib LH-pizz D
   % 69-72: VSolo verbatim (69.1 g''4-. is Hb 1's phrase close on the solo's rest), marcatissimo
   g''4-.  g'8-.\f^"marcatissimo" bes'8-. g'8-. a'8-.                          | % 69
   bes'4-. ees'8-. g'8-. ees'8-. f'8-.                                         | % 70
@@ -42,9 +47,9 @@ epFour = \absolute {
   ees'4-- ees'8-. ees'8-. ees'8-. ees'8-.                                     | % 72
   % 73-76: solo's own d' downbeat + Hb 1 head again (no "ten." in Hb 1 here)
   d'4-. d''8-. fis''8-. d''8-. e''8-.                                         | % 73
-  fis''4  e''8-. fis''8-. d''8-. fis''8-.                                     | % 74
-  e''8( d''8) d''8-. fis''8-. d''8-. e''8-.                                   | % 75
-  fis''4  e''8-. fis''8-. d''8-. fis''8-.                                     | % 76
+  <fis'' \tweak font-size #-3 d'-+>4 e''8-. fis''8-. d''8-. fis''8-.        | % 74 ad lib LH-pizz D
+  <e'' \tweak font-size #-3 d'-+>8( d''8) d''8-. fis''8-. d''8-. e''8-.     | % 75 ad lib LH-pizz D
+  <fis'' \tweak font-size #-3 d'-+>4 e''8-. fis''8-. d''8-. fis''8-.        | % 76 ad lib LH-pizz D
   % 77-84: VSolo verbatim (77.1 g''4-. is Hb 1's phrase close), f then ff open-string chords
   g''4-. g'8-.\f bes'8-. g'8-. a'8-.                                          | % 77
   bes'4-. ees'8-. g'8-. ees'8-. f'8-.                                         | % 78
@@ -80,19 +85,19 @@ epFour = \absolute {
   % fis'/e' + d'/cis'; Fl/Hb/Pic double at the octave(s) above from 108. Rule: nearest wind pitch
   % forming an adjacent-string double-stop in the melody's hand (1st position). 116.2 has no
   % playable partner (fis'/d' share the D string; fis'' is on the non-adjacent E-flat string).
-  << { r4 bes'4-. bes'4-. } \\ { g'2 g'4 } >>      | % 102 ad lib LH-pizz G
-  << { r4 bes'4-. bes'4-. } \\ { f'2 f'4 } >>      | % 103 ad lib LH-pizz G
-  << { r4 bes'4-. bes'4-. } \\ { e'2 e'4 } >>      | % 104 ad lib LH-pizz G (e'/bes' is the source's)
-  << { r4 bes'4-. bes'4-. } \\ { ees'!2 ees'4 } >> | % 105 ad lib LH-pizz G
-  d'4->( <e' bes'>4-> <g' bes'>4->)                | % 106 ad lib LH-pizz G
+  << { r4 bes'4-. bes'4-. } \\ { <g' \tweak font-size #-3 g-+>2 g'4 } >>      | % 102 ad lib G
+  << { r4 bes'4-. bes'4-. } \\ { <f' \tweak font-size #-3 g-+>2 f'4 } >>      | % 103 ad lib G
+  << { r4 bes'4-. bes'4-. } \\ { <e' \tweak font-size #-3 g-+>2 e'4 } >>      | % 104 ad lib G
+  << { r4 bes'4-. bes'4-. } \\ { <ees'! \tweak font-size #-3 g-+>2 ees'4 } >> | % 105 ad lib G
+  <d' \tweak font-size #-3 g-+>4->( <e' bes'>4-> <g' bes'>4->)                | % 106 ad lib G
   fis'4->( <e' a'>4-> <d' a'>4->)                  | % 107
   << { r4 a'4-. a'4-. } \\ { e'2 e'4 } >>          | % 108
   fis'4 <fis' d''>4-. <d' a'>4                     | % 109 stab alone on the melody's rest
-  << { r4 bes'4-. bes'4-. } \\ { g'2 g'4 } >>      | % 110 ad lib LH-pizz G
-  << { r4 bes'4-. bes'4-. } \\ { f'!2 f'4 } >>     | % 111 ad lib LH-pizz G
-  << { r4 bes'4-. bes'4-. } \\ { e'2 e'4 } >>      | % 112 ad lib LH-pizz G
-  << { r4 bes'4-. bes'4-. } \\ { ees'!2 ees'4 } >> | % 113 ad lib LH-pizz G
-  d'4->( <g' bes'>4-> <g' bes'>4->)                | % 114 ad lib LH-pizz G
+  << { r4 bes'4-. bes'4-. } \\ { <g' \tweak font-size #-3 g-+>2 g'4 } >>     | % 110 ad lib G
+  << { r4 bes'4-. bes'4-. } \\ { <f'! \tweak font-size #-3 g-+>2 f'4 } >>    | % 111 ad lib G
+  << { r4 bes'4-. bes'4-. } \\ { <e' \tweak font-size #-3 g-+>2 e'4 } >>     | % 112 ad lib G
+  << { r4 bes'4-. bes'4-. } \\ { <ees'! \tweak font-size #-3 g-+>2 ees'4 } >>| % 113 ad lib G
+  <d' \tweak font-size #-3 g-+>4->( <g' bes'>4-> <g' bes'>4->)               | % 114 ad lib G
   a'4->( <fis' a'>4-> <d' a'>4->)                  | % 115
   fis'2->( <cis' e'>4->)                           | % 116 A7 -> D at 117
   \barNumberCheck #117
