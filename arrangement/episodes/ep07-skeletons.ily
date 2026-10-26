@@ -19,20 +19,18 @@
 % 2026-10-20 -- NOTES "Conventions" requires a touch-point note on every \flageolet).
 %
 % 173.1 revised 2026-10-23 (user, before playing), following the octave-up revision of ep06's bar
-% 172: e'''' = the A string's 6th partial, touched at c'' (low 2nd finger, 1st position) -- the
-% only practical node, one octave higher than the original e''' / A-string-12th-harmonic join.
+% 172: e'''' one octave higher than the original e''' join. Revised again 2026-10-25: a stopped
+% note, not the A-string 6th-partial harmonic it was engraved as (likewise ep06's 172.6).
 
 touchEPrimePrime = \tweak font-size -4 \tweak NoteHead.style #'harmonic e''
-touchCPrimePrime = \tweak font-size -4 \tweak NoteHead.style #'harmonic c''
 
 epSeven = \absolute {
   \barNumberCheck #173
   % 173-188: wind thirds (two-line octave) as staccato double-stops on 1 & 3; LH-pizz open G on 2
   % = cymbal; the slurred triplet turn (Va/V2's e'-f'-e' figure, 8va) attached to every
   % <cis'' e''> chord.
-  % 173.1 = wind line's resolution (Fl/Pic) + strings'/Tb stroke: A-string 6th harmonic (revised
-  % 2026-10-23, one octave up -- see header).
-  <e'''' \touchCPrimePrime>8-.\flageolet\f r8  g4-+\p  \tuplet 3/2 { <cis'' e''>8->( <cis'' f''>8 <cis'' e''>8) } | % 173
+  % 173.1 = wind line's resolution (Fl/Pic) + strings'/Tb stroke, stopped (see header).
+  e''''8-.\f r8  g4-+\p  \tuplet 3/2 { <cis'' e''>8->( <cis'' f''>8 <cis'' e''>8) }              | % 173
   <b' d''>4-.  g4-+  \tuplet 3/2 { <cis'' e''>8->( <cis'' f''>8 <cis'' e''>8) }              | % 174
   <a' cis''>4-.  g4-+  <b' d''>4-.                                                            | % 175
   <gis' b'>4-.  g4-+  <a' cis''>4-.                                                           | % 176 click: d' ad lib (G#)
