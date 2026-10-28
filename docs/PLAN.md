@@ -51,8 +51,11 @@ decided and entered 2026-10-27 (user + agent)** — the first episode layering o
 intact. Compiles clean, zero `barNumberCheck` warnings. **Map correction:** the *Dies irae*
 parody is at 181–185 (Episode 7), not at [I] — see NOTES. **Episode 13 decided and entered
 2026-10-27 (user + agent):** the strings' long phrase through 353, the C-minor Theme 1 figure held
-back to 354; the 337 tie restored. Compiles clean. Next: Episode 14 [K], 362–393 (step 6 of
-"Resume here").
+back to 354; the 337 tie restored. Compiles clean. **Episode 14 decided and entered 2026-10-27
+(user + agent):** the brass D7 stabs in the cell's rests, the winds' rise from the open D onto
+V1a's four-string crash, Theme 1 ff plain then in sixths/octaves, the tails at V1a's d‴–a‴, the
+bare open-D vamp and the D7 stabs into [L]. Compiles clean, zero `barNumberCheck` warnings. Next:
+Episode 15 [L], 394–415 (step 7 of "Resume here").
 
 ## Deliverable
 
@@ -84,8 +87,8 @@ arrangement/
     ep11-marcato-dim.ily       % bars 273–308  (H)  (status: DECIDED + entered 2026-10-27, draft below)
     ep12-summons-diesirae.ily  % bars 309–337  (I)  (status: DECIDED + entered 2026-10-27, draft below; no Dies irae here — name kept)
     ep13-strings-sequences.ily % bars 338–361  (status: DECIDED + entered 2026-10-27, draft below)
-    ep14-runs-tutti.ily        % bars 362–393  (K)  — next
-    ep15-ornamented.ily        % bars 394–415  (L)
+    ep14-runs-tutti.ily        % bars 362–393  (K)  (status: DECIDED + entered 2026-10-27, draft below)
+    ep15-ornamented.ily        % bars 394–415  (L)  — next
     ep16-animato-frenzy.ily    % bars 416–437  (M)
     ep17-dawn.ily              % bars 438–454
     ep18-declame-coda.ily      % bars 455–477  (N)
@@ -135,7 +138,8 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
 | 11 | 273–308 | four lifts: 273–280 hammer blows every bar (Gr6/dim7 four-string chords with the open E♭ or a barre on top vs. the triad resolutions); 281–288 the wind chorale in descending shifted octaves, dim. to p; 289–292 the string wedge as double-stops with the bass 8va (M2→P4→m6→P8) → 293–296 D vamp `<d' fis' a'>` + the timp's a as open-A 8ths; 297–300/305–308 the winds' two-octave chromatic descent twice (Fl1→Cl1 relay at `g''`, then Fl1 at `g'''`), **not** V1a's legg. figure (user's call); 301–304 vamp with V1a's own `<d' a'>` + fis″, cresc. | **decided** — draft below |
 | 12 | 309–337 | 309.1 `fis'` (the run's goal); summons verbatim; **312.3–320 the strings' pizz waltz chords in the solo's rests (D, E♭7 ×2, E♭7, A♭ ×2, A♭, C♯°7 ×2 — the E♭7 strum is Ep 11's Gr6 hand) and the solo's low stamps `des'/c'/bes` as double-stops with the wind chord's D-string tone** (`<des' g'>`, `<c' aes'>`, `<bes e'>`); 320.3–321.1 the tutti G→D as open strings; 321.2–323.2 V1a's Theme-1-head cell pp in the solo's rests; **323.3–337 the solo's Theme 2 espress. intact**, cell tails in its two-beat rests (327, 331), `<bes g'>` at 331.3; editorial *(f)* at 323.3 | **decided** — draft below |
 | 13 | 338–361 | **the strings' long phrase 337.3–353 as V1a's single line** (pp/p, source swells, a″ peak at 346.1, fis″–g″ cresc. 347–353), the solo's held d′ under its first bars (G string; line on the D string), **octaves from 350** (D–A pair, 4th → 3rd position); **the winds' Theme 1 head in C minor is held back until 354–357** when the strings take it (V1a's pitch, f → ff); 358.1 the tutti hit as a quarter chord `<d' a' ees'''>-!` under the run, then V1a's non-legato D7 descent from ees‴ into [K] | **decided** — draft below |
-| 14–18 | 362–477 | per transcript map, to be revised episode by episode | pending |
+| 14 | 362–393 | **V1a's part as the spine, the tutti folded into its rests and downbeats:** 362–365 the cell with the brass D7 stab `<c' fis' a'>8-.` on each downbeat; 366–369 the winds' rise from the open D (flute octave, slurred per bar, f → ff) onto V1a's `<g d' bes' g''>` crash; 370–375 Theme 1 ff at g″ with the G-minor four-string chord on the odd-bar downbeats (Ep 4's 85–88 texture, arco); 376–377/384–385 the tails at V1a's d‴–a‴ (a‴ the piece's top), each dropping to the open A for the bass rise `a ais b cis'`; 378.1/386.1 `<d' a' fis''>` stamps; **378.2–383 the second statement in sixths/octaves over the hammered bes′**; 386–389 the strings-alone vamp bare (`cis'4 d'2:8`); 390.2 octaves `<d' d''>` on the 8ths, 391–393 the four-string D7 stab `<c' fis' a' fis''>` on the c♮ downbeats → [L]. Tb countermelody not carried | **decided** — draft below |
+| 15–18 | 394–477 | per transcript map, to be revised episode by episode | pending |
 
 ## Resume here (next session)
 
@@ -179,10 +183,14 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
 5. **Done 2026-10-27.** Episode 13 decided and entered (draft below; NOTES decision log). The
    337 tie restored (`d'2\!~ <d'~ ees'>4(` in `ep12-summons-diesirae.ily`, ties through 339.1).
    Compiles clean, zero `barNumberCheck` warnings, no tie warnings.
-6. Resume at **Episode 14 [K], bars 362–393.** Slice 361–394 for all voices first (Cl/Cor/Tp with
-   `--transpose`). Known from the 336–362 slice: **362 opens on the same cell Ep 13 ends on** —
-   V1a's non-legato descent `fis'8 c' ees' d' c' a` continues from Ep 13's 361 (`... a' g'`);
-   NOTES map: Vln I/II *non legato* runs, tutti Theme 1 371–389.
+6. **Done 2026-10-27.** Episode 14 decided and entered (draft below; NOTES decision log, map row
+   corrected). Compiles clean, zero `barNumberCheck` warnings; render checked visually (page 5).
+7. Resume at **Episode 15 [L], bars 394–415.** Slice 393–416 for all voices first (Cl/Cor/Tp with
+   `--transpose`). Known from the 361–394 slice: **394.1 is the tutti's `-!` downbeat** (Fl1/Pic
+   g‴, Hb1/Cl1 bes″, Tb `g'`/`g`/`bes,`, Ti d, GC/Cym) and V1a/V2 open `bes4 d'8 g' bes' d''`
+   (the ornamented figure, G minor); the solo's 393 ends on `<d' d''>` 8ths over the D7 stab.
+   NOTES map: Vln I/II grace-note ornamented figure 394–404, ascending figures, *poco stringendo*
+   409; horns re-crooked in E♭ from 403 (per the map's 438 note).
 
 Working method from Episode 5: a `@general` subagent slices exact bar ranges per voice from the
 absolute dump (sounding pitch for transposers); the architect session spends context on
@@ -895,6 +903,51 @@ c'''8 bes''8 a''8 fis''8 a''8 g''8                                           | %
 fis''8 c''8 ees''8 d''8 c''8 a'8                                             | % 360
 c''8 bes'8 a'8 fis'8 a'8 g'8                                                 | % 361 -> 362 fis' (Ep 14)
 \barNumberCheck #362
+```
+
+### Episode 14 — bars 362–393 [K] (absolute pitch; decided + entered 2026-10-27)
+
+Concept: **V1a's own part is the spine; the tutti's frame is folded into its rests and
+downbeats.** See NOTES Episode 14. Brass D7 stabs `<c' fis' a'>8-.` on the cell's downbeat
+8ths; the winds' rise from the open D in the flutes' octave, landing on V1a's `<g d' bes' g''>`
+(user); Theme 1 ff at g″ plain with odd-bar chords, then in sixths/octaves over bes′ (user); tails
+at V1a's d‴–a‴ (user) dropping to the open A for the bass rise; the strings-alone vamp bare,
+then octaves and the four-string D7 stab into [L] (user). The record of the file.
+
+```
+<c' fis' a'>8-. c'8( ees'8\sf d'8 c'8 a8)                                    | % 362
+<c' fis' a'>8-. c'8( ees'8\sf d'8 c'8 a8)                                    | % 363
+<c' fis' a'>8-. c'8( ees'8\sf d'8 c'8 a8)                                    | % 364
+<c' fis' a'>8-. c'8( ees'8\sf d'8 c'8 a8)                                    | % 365
+<c' fis' a'>8-. d'8(\f ees'8 e'8 f'8 fis'8)                                  | % 366 the rise
+g'8( gis'8 a'8 bes'8 b'8 c''8)                                               | % 367
+cis''8(\< d''8 ees''8 e''8 fis''8 g''8)                                      | % 368
+a''8( bes''8 c'''8 d'''8 e'''8 fis'''8)                                      | % 369 4th -> 6th pos.
+<g d' bes' g''>4\ff g''8 bes''8 g''8 a''8                                    | % 370 Theme 1
+<g d' bes' bes''>4 a''8 bes''8 g''8 bes''8                                   | % 371
+a''8( g''8) g''8 bes''8 g''8 a''8                                            | % 372
+<g d' bes' bes''>4 a''8 bes''8 g''8 bes''8                                   | % 373
+a''8( g''8) g''8 bes''8 g''8 a''8                                            | % 374
+<g d' bes' bes''>4 a''8 bes''8 g''8 bes''8                                   | % 375
+d'''4 e'''8 fis'''8 d'''8 fis'''8                                            | % 376
+a'''4-! a8_\markup \italic "non legato" ais8 b8 cis'8                        | % 377
+<d' a' fis''>4-! <bes' g''>8 <bes' bes''>8 <bes' g''>8 a''8                  | % 378 2nd statement
+<g d' bes' bes''>4 a''8 <bes' bes''>8 <bes' g''>8 <bes' bes''>8              | % 379
+a''8( g''8) <bes' g''>8 <bes' bes''>8 <bes' g''>8 a''8                       | % 380
+<g d' bes' bes''>4 a''8 <bes' bes''>8 <bes' g''>8 <bes' bes''>8              | % 381
+a''8( g''8) <bes' g''>8 <bes' bes''>8 <bes' g''>8 a''8                       | % 382
+<g d' bes' bes''>4 a''8 <bes' bes''>8 <bes' g''>8 <bes' bes''>8              | % 383
+\tuplet 3/2 { fis'''4.:8 } \tuplet 3/2 { d'''4.:8 } \tuplet 3/2 { fis'''4.:8 } | % 384
+\tuplet 3/2 { a'''4.:8 } a8 ais8 b8 cis'8                                    | % 385
+<d' a' fis''>4 d'8 d'8 d'8 d'8                                               | % 386 D; vamp
+cis'4 d'2:8                                                                  | % 387
+cis'4 d'2:8                                                                  | % 388
+cis'4 d'2:8                                                                  | % 389
+cis'4 <d' d''>2:8                                                            | % 390 winds on the 8ths
+<c' fis' a' fis''>4\ff <d' d''>2:8                                           | % 391 D7
+<c' fis' a' fis''>4 <d' d''>2:8                                              | % 392
+<c' fis' a' fis''>4 <d' d''>2:8                                              | % 393 -> 394 [L]
+\barNumberCheck #394
 ```
 
 ## Build-session findings (2026-10-20) — for @architect/user review

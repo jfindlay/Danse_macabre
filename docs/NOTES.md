@@ -107,7 +107,7 @@ K 362 · L 394 · poco stringendo 409 · Animato 416 · M 430 · Tempo 1° 438 �
 | 273–308 [H] | tacet | **273–280 hammer blows** f marcato `2^ 4^`, winds/brass (Gr6, Gr6, B°7, A°7) on the odd bars vs strings+Tp (D, D, C, B♭) on the even, each resting in the other's bar; **281–288 wind chorale** dim. → p 287, top line a″ g″ f″ e♭″ d″ e♭″ d″ e♭″ doubled 8vb; **289–292 string wedge** p (V1a d′ e♭′ f′ g′ rising, bass c b♭ a g falling) → **293–296 D vamp** (chord on 1, horn d′ pedal, timp a 8ths); **297–301 / 305–309.1 wind chromatic descent** ×2 (Fl1→Cl1 relay g″→f♯, then Fl1 alone g‴→f♯′) under V1a's *legg.* Theme-1-head figure (Va 8vb, V2 pizz + xylophone on its downbeats) over a Tb/Bn C-minor pedal; 301–304 the vamp again, cresc. Not Theme 1 in the strings as the transcript had it |
 | 309–337 [I] | tritone summons 309.3–312.2; low stamps d♭′ (313.3–316) / c′ (317.3–318) / b♭ (319.3–320) f staccato; Theme 2 *espress.* 323.3–337 | 309.1 the chromatic run's goal (Fl1 f♯′) over a p D chord; **312.3–320 strict alternation**: strings pizz waltz chords (upbeat + two) in the solo's rests — D · E♭7 E♭7 · E♭7 · A♭ A♭ · A♭ · C♯°7 C♯°7 — then the solo's stamp as the bass of a homorhythmic wind stamp (Bn1 in unison with the solo; Hb/Cl the chord above); 320.3→321.1 tutti G→D p; **321–337 Theme 2 (solo) over Theme 1's head in V1a pp staccato** (four two-bar cells on d′/c♯′/b/a, 321.2/325.2/329.2/333.2) and a pp D pedal in repeated 8ths (V2 d′/a, Va f♯, Vc/Cb d) whose harmony shifts every two bars; 337 the strings' rising chromatic line begins under the solo's tied d′ (→ Ep 13). **No *Dies irae* here** — the map's "~313–320" was a transcript inference, disproved 2026-10-27 (it is [D]) |
 | 338–361 | tacet (the solo's d′ is held to 339.1) | **corrected 2026-10-27:** 337–353 the strings' one long chromatic phrase over a D pedal (V1a top, V2/Va/Vc parallel: rising `x2 y4` and falling `x4 y z` cells, peak a″ at 346.1, then fis″–g″ F♯°→Gm oscillation, cresc. 348–353); **346.2–357 the winds' Theme 1 head in C minor** (`c ees c d \| ees c ees d c bes`, f, Fl/Hb/Cl in octaves, Pic from 350), taken over by V1a/V2 at 354–357 with Tp/Tb/Tba cresc.; 358–361 tutti D7(♭9) hit + V1a's non-legato descent from ees‴ (V2 from 360) into [K] |
-| 362–393 [K] | tacet | Vln I/II *non legato* runs; tutti Theme 1 (371–389) |
+| 362–393 [K] | tacet | **corrected 2026-10-27:** 362–365 V1a/V2's non-legato cell `fis' \| c' ees'(sf) d' c' a` ×4 (the 358 descent's landing) under brass staccato D7 downbeats (361–366); **366–369 the winds' rise** (Fl1/2, Cl1: a chromatic octave from d′, then G melodic minor to g‴, f → cresc.; Bn in contrary motion, Hb/horn d′ pedal, V2/Va join 368.3); **370–385 ff tutti Theme 1 in G minor** twice (V1a/V2 g″, Va/Vc g′; winds hammer g/b♭ 8ths; Tb1/2 chromatic countermelody g′–f′–e′–e♭′–d′), tails 376–377 (`d''' e''' fis''' d''' fis''' \| a'''-!` + bass rise `a ais b cis'`) and 384–385 (triplet-measured tremolo `fis d fis \| a` + the rise), V1a tremolo on g‴ 379–383; **386–389 strings alone** on the D pedal `cis4 d2:8` (GC mf); **390–393 D7** (c♮ downbeats, winds on the 8ths, GC/Cym ff) → [L] |
 | 394–415 [L] | tacet | Vln I/II grace-note ornamented figure (394–404); ascending figures; *poco stringendo* 409 |
 | 416–437 | tacet | *Animato* ff tutti → [M] 430 fff repeated chords |
 | 438–454 | tacet | *Tempo 1°*: horns (re-crooked in E♭ from 403) hold E♭ 438–445; oboe cock-crow 440–445; timp/GC roll + strings f→p 445–451; fermata 454 *très long* |
@@ -752,6 +752,82 @@ Decisions (user's calls marked):
 Known losses: V2/Va/Vc/Vc-b of the chain (harmony), the D pedal (Ti roll, horns, Bn), the winds'
 346–353 figure and V1a's beat-1 accents (346/348/350 — the `a''` 346.1 is kept as the phrase's
 peak), Pic's entry, Tp/Tb/Tba 354–357, V2's octave below the figure, 358.1's inner voices. All
+accepted.
+
+### Episode 14 — bars 362–393 "Runs and tutti" [K] (decided 2026-10-27, user + agent)
+
+Orchestra (from the dump; the map's reading corrected above): (1) **362–365** V1a/V2 in unison,
+`fis'8 | c'8( ees'8\sf d'8 c'8 a8)` then `r8 c'( ees'\sf d' c' a)` ×3 — the 358 descent's
+landing cell; horns/Tp staccato quarter on every downbeat 361–366 = D7 (`d`/`c'`/`a`, `a'`/`fis'`).
+(2) **366–369** Fl1/Fl2/Cl1 `r8 d'( ees' e' f' fis' | g' gis' a' bes' b' c'' | cis'' d'' ees'' e''
+fis'' g'' | a'' bes'' c''' d''' e''' fis''' | g'''4)` f, cresc. from 368 (Pic/Cl2 from 368.2); Bn1/2
+in contrary motion from d′ down to g,; Hb `d'2.~` f and C3/C4 d′ held under; V2 `fis' g' | a' bes'
+c'' d'' e'' fis'' | g''` and Va a 6th below from 368.5; Cb `r4 d c bes, a, | g,`. (3) **370–377**
+ff tutti Theme 1 in G minor: V1a `<g d' bes' g''>4 g''8 bes'' g'' a'' | bes''4 a''8 bes'' g'' bes''
+| a''( g'') g'' bes'' g'' a'' | …`, V2 the same at g″, Va/Vc at g′; Fl/Hb/Cl/Pic/Bn/horns hammer
+repeated-8th g and b♭ (no d); **Tb1/2 countermelody** `r r d' | g'2 g'4 | f' | e' | ees' | d' e'
+g' | fis' e' d' | e'2 e'4 | fis'4 r d'` (repeated 379–386 with `d' g' bes' | a' fis' d' | fis'2
+e'4 | d'`); Trg roll throughout; 376–377 `d'''4 e'''8 fis''' d''' fis''' | a'''4-!` (V1a; V2 an
+octave down) then `a8 ais b cis'` in V2/Va/Vc/Cb ("non legato" in Cb), Ti `a, ×4 | d d d g, g,`.
+(4) **378–385** 378.1 D-major stamp (`fis'''`/`fis''`/`fis'` in winds and Tb, `d'4-!` V2/Vc),
+V1a/Va/Tba/Cb `d'8 c' bes a g4`; from 378.2 V2 (g″) and Vc (g′) restate the theme, Va from 379,
+while V1a arpeggiates in triplet-measured tremolo `d'' g'' bes'' | d''' g''' g''' | g''' …` and
+sits on g‴ to 383, Pic at bes″; 384 all violins tremolo `fis d fis` (V1a at ‴), 385 `a` tremolo
+with the winds' `fis fis e e` (6–5) and the Vc/Cb rise `a ais b cis'` again. (5) **386–389** 386.1
+tutti d (V1a `d'''4`), then strings alone: V1a/V2 `d'8 d' d' d' | cis'4 d'2:8` ×3 on the open-D
+pitch, Vc d′, Va/Cb `d`/`cis` an octave down; Ti d on downbeats, GC mf from 387; no new string
+dynamic. (6) **390–393** winds re-enter `r4 d2:8` at 390.2 (Fl1 d‴, Hb/Cl d″, horns/Tp d′/d″);
+391–393 downbeats `c!` in strings/Bn/Tb3/Tba, `fis` Tb1/Fl1/Pic/Hb2/Cl2, `a` Tb2/Hb1/Cl1/horns,
+`d` Fl2/Tp/Ti = D7; GC/Cym ff 391–394 → [L] 394 `bes4 d'8 g' bes' d''` (G minor).
+
+Decisions (user's calls marked; all four recommendations confirmed by the user):
+
+1. **362–366.1: the brass stab fills the cell's downbeat 8th** as `<c' fis' a'>8-.` (7th, 3rd,
+   5th of D7, open A on top, 1st position); 362.1's `fis'` is the line's own landing note inside
+   it. The cell keeps V1a's slur and `\sf`. Rejected: the stab as a second-voice quarter (as
+   358.1) — an 8th staccato chord is the brass's articulation and keeps one voice.
+2. **366–369: the winds' rise from the open D, in the flutes' octave**, slurred per bar as
+   Episode 11's runs, f → cresc. 368 → ff 370.1. A lower octave is not available (the run would
+   have to drop a 7th at 368, and `d` below the open G is not a start). **Arrival on V1a's own
+   `<g d' bes' g''>` at 370.1 (user)**, not the flutes' g‴: the run reaches fis‴ (6th position)
+   and the four-string G-minor crash follows in 1st position — run-then-chord. Rejected: the
+   open-string `<g d' a' g'''>` (keeps the run's goal, loses the third).
+3. **370–375: Theme 1 ff at g″ with the G-minor four-string chord on the odd-bar downbeats**
+   (`<g d' bes' g''>` 370, `<g d' bes' bes''>` 371/373/375) — Episode 4's 85–88 texture, arco.
+   **The trombones' countermelody is not carried:** at any octave it lies two strings away from
+   the theme (g′–d′ on the D string vs the theme on the E♭ string; an octave up it sits inside the
+   theme), and alone it is half-notes with no tune — the "novel line" principle does not apply
+   when the novel line cannot stand without the known one.
+4. **376–377 and 384–385 at V1a's octave (user)**: `d'''4 e'''8 fis''' d''' fis''' | a'''4-!` (a‴
+   is the piece's top; 4th → 8th position) and the triplet-measured tremolo `fis''' d''' fis''' |
+   a'''`; both then drop three octaves to the open A for the bass rise `a ais b cis'` — the solo
+   makes V2's own 377 gesture (`a''4-! a8 ais b cis'`) twice. Rejected: V2's d″–a″ (safer, less
+   brilliant).
+5. **378.1 and 386.1: the D-major stamps as `<d' a' fis''>`** (open D, open A, fis″ low-2 on the
+   E♭ string), `-!` at 378 as V2/Vc. V1a's 378 descent `d' c' bes a g` yields to the theme's
+   restart at 378.2 (the theme's head would otherwise be truncated).
+6. **378.2–383: the second statement in sixths and octaves over the winds' hammered bes′
+   (user)**: `<bes' g''> <bes' bes''> <bes' g''> a''` (a″ single — bes′ under it is a major 7th),
+   same odd-bar chords. The orchestra's own thickening here (V1a's tremolo to g‴, Pic) rendered
+   as double-stops; the 1st finger stays on bes′ throughout. Rejected: V1a's tremolo arpeggio in
+   place of the theme (five bars of tremolo on one note is colour, not a line — the "known
+   themes resonate" tie-breaker needs a line to resonate against); both statements plain; both
+   double-stopped.
+7. **385: beat 1 tremolo a‴, beats 2–3 the Vc/Cb rise** — the solo becomes the moving section
+   mid-bar, exactly as V2 does at 377.
+8. **386–389: the strings-alone vamp bare (user)** — `cis'4 d'2:8`, the open D with the G-string
+   cis′ (4th finger), nothing added, ff running (no new string dynamic in the source; the GC's mf
+   is the drum's, not the strings'). **390.2–393: octaves `<d' d''>` on the 8ths** as the winds
+   enter on them, and **the four-string D7 stab `<c' fis' a' fis''>` on 391–393's c♮ downbeats**
+   — the opening stab's chord with the winds' fis″ on top, ff with the GC/Cym. Rejected: V1a's
+   single line throughout 386–393.
+9. **Dynamics:** ff from 358 runs through 365; f 366.2 (Fl), cresc. 368, ff 370.1, `-!` 377.1
+   and 378.1, ff restated 391.1 (GC/Cym).
+
+Known losses: Tb1/2's chromatic countermelody; the bassoons' contrary-motion descent, the Hb/C3–4
+d′ pedal, V2/Va's lower octaves and Cb's `d c bes, a,` under the run; the winds'/horns' g/b♭
+hammer (only as the downbeat chords); V1a's 378 descent and 379–383 tremolo arpeggio; V2's lower
+octave of both tails; the Trg roll 370–386; Ti/GC/Cym; the winds' 6–5 (`fis`→`e`) at 385. All
 accepted.
 
 ### Project-wide: known themes resonate; prefer the novel line (user, 2026-10-27)
