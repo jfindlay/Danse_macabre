@@ -21,7 +21,7 @@ epSix = \absolute {
   % e'-fis', entry 3 starts on 152.1. No dots from "sempre stacc." (145) on: the text covers them.
   % The counter's last three eighths in 145-148 are beamed as one group (departs from the source).
   << { f'4^"sempre stacc." r8 e'8[ f'8 g'8] } \\ { d'8-> d'8 d'4 } >>      | % 145
-  << { a'4 } \\ { c'8-> c'8 } >> << { c'4 } \\ { r8 a8[ b8 c'8] } >>       | % 146  Vc fill 8va
+  << { a'4 } \\ { c'8-> c'8 } >> << { c'4 r4 } \\ { r8 a8[ b8 c'8] } >>     | % 146  Vc fill 8va
   << { d'4 r8 f'8[ e'8 d'8] } \\ { b8-> b8 b4 } >>                         | % 147
   << { g'4 r8 g'8[ f'8 e'8] } \\ { bes!8-> bes8 bes4 } >>                  | % 148
   << { f'4 r8 e'8 d'8 f'8 } \\ { a8 a8 b8 b8 d'8 d'8 } >>                  | % 149  149.5 unison d'
