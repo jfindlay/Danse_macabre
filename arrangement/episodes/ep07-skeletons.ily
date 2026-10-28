@@ -124,7 +124,7 @@ epSeven = \absolute {
         e''4  s4  g''4                                                    | % 201
         g''4  s4  a''4                                                    | % 202
         <g'' a'>4^"pizz."  <f'' a'>4  <e'' a'>4                           | % 203 cadence
-        <a' g''>4  r4  <a' g''>4                                          | % 204 -> 205.1
+        <a' g''>4  <a' a''>4  <a' ais''>4                                 | % 204 -> 205.1
       }
       \\
       { % stem-down voice = the LOWER notes from 190: the open-A pedal on beat 1 and the bowed

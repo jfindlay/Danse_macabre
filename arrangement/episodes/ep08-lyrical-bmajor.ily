@@ -35,7 +35,7 @@ epEight = \absolute {
   % take the hand). No dynamic on the lower voice: it is a sustained double-stop under an f line.
   <<
     { \voiceOne
-      <b b' fis''>4\f  r4  fis'4^\markup { "arco" \hspace #1 \italic "appassionato" } (    | % 205
+      <b' b''>4\f  r4  fis'4^\markup { "arco" \hspace #1 \italic "appassionato" } (    | % 205
       b'2) b'4(                                                                                 | % 206
       ais'2) ais'4(                                                                             | % 207
       a'2) a'4(                                                                                 | % 208
