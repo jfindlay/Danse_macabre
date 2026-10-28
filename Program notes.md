@@ -1,30 +1,26 @@
 # Danse macabre, op. 40 — for unaccompanied violin
 
-Camille Saint-Saëns (1874), arranged for one violin in the work's own scordatura (G–D–A–E♭).
-These notes are the single exposition for the arrangement: the programme as a listener would want
-it told, the premise and rules the arrangement was built under, what the violin does in each
-episode and why, and what the performer needs to know. The engraved score
-(`arrangement/danse-macabre-solo.ly` and `arrangement/episodes/`) is authoritative; the git
-history is the record of how the decisions evolved, including the ones not taken.
-
 ## 1. The programme
 
 Henri Cazalis's poem (1872), which Saint-Saëns first set as a song and then rewrote as this tone
 poem, opens:
 
-> *Zig et zig et zag, la mort en cadence / Frappant une tombe avec son talon, / La mort à minuit
-> joue un air de danse, / Zig et zig et zag, sur son violon.*
+> *Zig et zig et zag, la mort en cadence
+> Frappant une tombe avec son talon,
+> La mort à minuit joue un air de danse,
+> Zig et zig et zag, sur son violon.*
 
 Midnight strikes. Death sits on a tombstone and tunes his fiddle — the E string pulled down to E♭,
 so that the first thing he plays is the tritone A–E♭, the medieval *diabolus in musica*. The dead
-climb out and dance: a waltz, first wheedling in the flute, then a sweeping second tune in the
-fiddle itself, then the two together. The xylophone rattles their bones. The old plainchant of the
-dead, the *Dies irae*, is mocked in a bright major key over a Spanish-sounding strum. The dance
-whirls through a fugue, an unexpected oasis in B major, a chromatic scale that climbs two
-octaves and falls back, hammer-blows, and a long drive to a shrieking climax. Then a horn holds
-one cold note, the oboe crows — *le coq a chanté* — and the dancers scatter. Death's fiddle
-mutters its last lines alone over the horns, the tune's first notes flicker upward through the
-strings as the last of them vanish, and the piece ends on two soft plucked chords.
+climb out and dance: a waltz, with its ingenious syncopations, first wheedling in the flute, then a
+sweeping second tune in the fiddle itself, then the two together. The xylophone rattles their bones.
+The old plainchant of the dead, the *Dies irae*, is mocked in a bright major key over a
+Spanish-sounding strum. The dance whirls through a fugue, an unexpected oasis in B major, a
+chromatic scale that climbs two octaves and falls back, hammer-blows, and a long drive to a
+shrieking climax. Then a horn holds one cold note, the oboe crows — *le coq a chanté* — and the
+dancers scatter. Death's fiddle mutters its last lines alone over the horns, the tune's first notes
+flicker upward through the strings as the last of them vanish, and the piece ends on two soft
+plucked chords.
 
 Saint-Saëns wrote to his publisher in 1876 that violinists no longer wanted their top string tuned
 any way but in E♭. The tuning is the piece's signature, and it is the one thing this arrangement
@@ -52,19 +48,21 @@ concertmaster it plays the section's own line, which is why the first-violin par
 nearly every bar in which the solo is silent, and the winds and brass are lifted only where they
 carry something the strings do not.
 
-**The source.** The full orchestral score (Le Concert edition, engraved in LilyPond), not the
-composer's violin-and-piano reduction: the reduction's violin line is a duo part that already
-absorbs orchestral material, and the arrangement wanted to make those choices itself. Bar numbers
-throughout are the full score's. The orchestral solo-violin part plays about 130 of the 477 bars;
-the other 350 are the arrangement's work.
+**The source.** The full orchestral score ([Le Concert
+edition](https://web.archive.org/web/20231001212827/https://le-concert.pagesperso-orange.fr/st-saens.html),
+engraved in LilyPond), not the composer's violin-and-piano reduction: the reduction's violin line is
+a duo part that already absorbs orchestral material, and I wanted to make those choices myself.
+Indeed, this is a project I had been planning for ~30 years. Bar numbers throughout are identical to
+the full score's for which the solo-violin part only plays about 130.
 
 **Three rules, applied bar by bar.**
 
+The arrangement was made under these constraints:
 1. *Preserve.* Every note of the orchestral solo-violin part is immutable — pitch, rhythm,
    articulation, dynamics. It is Saint-Saëns's own writing for this instrument in this tuning.
-2. *Lift.* Where the solo rests, the violin plays the orchestra's prevailing line, at the octave
-   the arranger chooses. Where the orchestra doubles that line in octaves and the violin can, the
-   violin plays octaves.
+2. *Lift.* Where the solo rests, the violin plays the orchestra's prevailing line, sometimes in a
+   different octave. Where the orchestra doubles that line in octaves and the violin can, the violin
+   plays octaves.
 3. *Fill.* Only where nothing liftable exists does the arrangement add harmony or counter-material,
    and then in a named idiom. In practice this rule almost never fires: the orchestra always has a
    line to give.
@@ -104,7 +102,7 @@ pizzicato. Allusion is the arranger's licence; replication is not the goal.
 flauto* for the flute tune, and the register of the summits; Sarasate, Saint-Saëns's own
 collaborator — the pluck-and-retake surprise and the *Carmen Fantasy*'s virtuoso register; Ysaÿe's
 *Obsession* and Ernst's *Erlkönig* — a theme carried as the bass of running figuration, and the
-solo-violin death ballad as a genre; Bach — compound melody, the only polyphony one violin has;
+solo-violin death ballad as a genre; Bach — compound melody, unaccompanied violin polyphony;
 Berlioz's *Ronde du sabbat* — the fugato's ancestor. Enescu's *doina* was held in reserve for the
 coda and never spent: Death's *déclamé* is already a *doina* in Saint-Saëns's hand, and the
 spectral and the kinetic languages belong in different episodes — the piece's power is character
@@ -350,12 +348,22 @@ flying staccato on the fugato's counter-lines (145–165), sautillé on the fina
 
 ## 5. Provenance and build
 
-| Path | What |
+| File | Description |
 |---|---|
-| `source/IMSLP272914-…-full-score.pdf` | Full score, Le Concert ed. 166 (2009), LilyPond-engraved, CC BY-NC-SA 3.0 |
-| `source/IMSLP33277-…-violin-piano-reduction.pdf` | The composer's reduction, Durand 1877 (secondary) |
-| `source/lilypond/` | The Le Concert score's LilyPond source (v2.16), one file per voice; never edited |
-| `arrangement/dump/` | Absolute-pitch dump of every voice (`abs/`) with a bar-range slicer (`slice.py`); build tooling only |
+| [`IMSLP272914-PMLP05008-166-full-score.pdf`](https://imslp.org/wiki/Special:ReverseLookup/272914) | Full score, Le Concert ed. 166 (2009), LilyPond-engraved, CC BY-NC-SA 3.0 |
+| [`IMSLP33277-PMLP05008-violin-piano-reduction.pdf`](https://imslp.org/wiki/Special:ReverseLookup/33277) | The composer's reduction, Durand 1877 (secondary) |
+| [`166-stsaens-dansemacabre-00-lys.zip`](https://web.archive.org/web/20150908095230/http://le-concert.pagesperso-orange.fr/st-saens/166-stsaens-dansemacabre-00-lys.zip) | The 2013 source release used as a reference for this arrangement |
+| [`166-StSaens-DanseMacabre-lily.zip`](https://web.archive.org/web/20231001212827/https://le-concert.pagesperso-orange.fr/st-saens/166-StSaens-DanseMacabre-lily.zip) | The January 2020 "v.2" re-release of the same source (v2.18 syntax); not used |
+
+Note that the the old version of the score source code was used inadvertently for this project, however, the latest version as of 2026-10 only contains minor and internal changes:
+1. The 2020 "v.2" archive is a re-engraving of the parts — not an editorial revision of the music. Across all 35 voice files there are zero changes to pitches, rhythms, bar counts, articulations, dynamics, slurs, tempo/expression text, rehearsal-mark positions, or the scordatura. Nothing in it would alter the arrangement.
+2. What actually changed:
+  1. LilyPond 2.16 → 2.18 syntax.
+  2. -| → -! everywhere. This looked like marcato→staccatissimo but is not: it's LilyPond's own 2.17.11 rename of the staccatissimo shorthand (the | form collided with bar checks). Your dump/src already has -! from the same conversion, and your episodes engrave it as -!. Semantically identical.
+  3. Part-extraction cosmetics.
+  4. Harp: `\repeat` percent → `\repeat` unfold; its own `\tempo/\time/\key` and `\marks` added because the score wrapper no longer feeds the harp staff from the Trame; everything after m 237 is commented out as "Le reste tacet", so the new harp files are no longer 477 bars.
+  5. Clarinets 1–2, mm 205–236: The "A défaut de Harpe" cue (clarinets covering the harp arpeggios when no harp is present) is retagged so it also appears in the score layer via `\partcombineApart`.
+  6. `Score.ly`/`Global.ily`: layout, paper spacing, engraver placement, circled measure numbers, "v.2" in the copyright line; the French-language score variant (`00-ScoreFrançais.ly`) was dropped.
 
 The music is public domain; the Le Concert engraving code is CC BY-NC-SA 3.0, and lifted bars were
 spliced from it, so the arrangement file is a derivative of that engraving — fine for
@@ -366,9 +374,15 @@ The dump's clarinets, horns and trumpets are at *written* pitch; slice them with
 `\absolute` block at sounding pitch, the dump's own convention, so a lift is a paste with no
 octave shift.
 
+One script drives the build and the reference tooling:
+
 ```
-cd arrangement
-lilypond danse-macabre-solo.ly
+./build                              # score + these notes (PDFs)
+./build score                        # arrangement/danse-macabre-solo.pdf only
+./build notes                        # "Program notes.pdf" only (pandoc + xelatex)
+./build slice Cl1 117 136 --transpose cl-bb    # a bar range of one orchestral voice
+./build verify                       # every dump is exactly 477 bars of 3/4
+./build dump                         # regenerate the dumps from source/ (rarely needed)
 ```
 
 A clean compile reports zero `barNumberCheck` warnings: each episode file checks its first bar and
