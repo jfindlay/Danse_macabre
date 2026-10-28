@@ -106,7 +106,7 @@ K 362 · L 394 · poco stringendo 409 · Animato 416 · M 430 · Tempo 1° 438 �
 | 253–272 [G] | tacet | **the knot**: Vln I whirling triplet-8th arpeggios (two-octave sweep up and down, bass note accented on 3) against Theme 2's head *ten.* three times in the brass (Tb1 at C, Tp at A, Bn/Tb at B♭), then f 265–272 D/E♭ alternation with the strings' accented C♯ (German sixth) → [H] |
 | 273–308 [H] | tacet | **273–280 hammer blows** f marcato `2^ 4^`, winds/brass (Gr6, Gr6, B°7, A°7) on the odd bars vs strings+Tp (D, D, C, B♭) on the even, each resting in the other's bar; **281–288 wind chorale** dim. → p 287, top line a″ g″ f″ e♭″ d″ e♭″ d″ e♭″ doubled 8vb; **289–292 string wedge** p (V1a d′ e♭′ f′ g′ rising, bass c b♭ a g falling) → **293–296 D vamp** (chord on 1, horn d′ pedal, timp a 8ths); **297–301 / 305–309.1 wind chromatic descent** ×2 (Fl1→Cl1 relay g″→f♯, then Fl1 alone g‴→f♯′) under V1a's *legg.* Theme-1-head figure (Va 8vb, V2 pizz + xylophone on its downbeats) over a Tb/Bn C-minor pedal; 301–304 the vamp again, cresc. Not Theme 1 in the strings as the transcript had it |
 | 309–337 [I] | tritone summons 309.3–312.2; low stamps d♭′ (313.3–316) / c′ (317.3–318) / b♭ (319.3–320) f staccato; Theme 2 *espress.* 323.3–337 | 309.1 the chromatic run's goal (Fl1 f♯′) over a p D chord; **312.3–320 strict alternation**: strings pizz waltz chords (upbeat + two) in the solo's rests — D · E♭7 E♭7 · E♭7 · A♭ A♭ · A♭ · C♯°7 C♯°7 — then the solo's stamp as the bass of a homorhythmic wind stamp (Bn1 in unison with the solo; Hb/Cl the chord above); 320.3→321.1 tutti G→D p; **321–337 Theme 2 (solo) over Theme 1's head in V1a pp staccato** (four two-bar cells on d′/c♯′/b/a, 321.2/325.2/329.2/333.2) and a pp D pedal in repeated 8ths (V2 d′/a, Va f♯, Vc/Cb d) whose harmony shifts every two bars; 337 the strings' rising chromatic line begins under the solo's tied d′ (→ Ep 13). **No *Dies irae* here** — the map's "~313–320" was a transcript inference, disproved 2026-10-27 (it is [D]) |
-| 338–361 | tacet | strings p line (338–349); wind Theme 1 ff sequences (350–358) |
+| 338–361 | tacet (the solo's d′ is held to 339.1) | **corrected 2026-10-27:** 337–353 the strings' one long chromatic phrase over a D pedal (V1a top, V2/Va/Vc parallel: rising `x2 y4` and falling `x4 y z` cells, peak a″ at 346.1, then fis″–g″ F♯°→Gm oscillation, cresc. 348–353); **346.2–357 the winds' Theme 1 head in C minor** (`c ees c d \| ees c ees d c bes`, f, Fl/Hb/Cl in octaves, Pic from 350), taken over by V1a/V2 at 354–357 with Tp/Tb/Tba cresc.; 358–361 tutti D7(♭9) hit + V1a's non-legato descent from ees‴ (V2 from 360) into [K] |
 | 362–393 [K] | tacet | Vln I/II *non legato* runs; tutti Theme 1 (371–389) |
 | 394–415 [L] | tacet | Vln I/II grace-note ornamented figure (394–404); ascending figures; *poco stringendo* 409 |
 | 416–437 | tacet | *Animato* ff tutti → [M] 430 fff repeated chords |
@@ -685,8 +685,8 @@ partly accompaniment-grade. Resolved as **layer, don't replace**:
    made audible. V1a's `d'4-.` at 323.3 is not added (the espress. entrance kept clean); its
    `c'` at 327.3 is non-adjacent to the solo's `c''`. Editorial *(f)* at 323.3 (the solo
    carries no dynamic after 309 and now follows pp cells — Episode 8's 221.3 precedent).
-6. **337 tie deferred.** `d'2.~` into Episode 13's placeholder is an "unterminated tie" warning;
-   engraved as `d'2.` until Episode 13 is entered (PLAN "Resume here" step 5).
+6. **337 tie deferred** (resolved 2026-10-27 — see Episode 13 below). `d'2.~` into Episode 13's
+   placeholder was an "unterminated tie" warning; engraved as `d'2.` until Episode 13 was entered.
 
 Known losses: the Ti figure at 309; Hb1's oscillation 314–316 and b♭″ 318; Fl1's descant
 319.3–321.1; the pp D pedal and its harmony changes 321–336; V1a's cells 2–4 under the held
@@ -696,6 +696,63 @@ Corrections to the transcript/map: **no *Dies irae* in [I]** (it is [D] 181–18
 "winds parody + Vln I answers" but the solo's own stamp doubled by Bn1 under wind chords, with
 the strings' pizz waltz in its rests; 321–337 is the **two-theme combination** (Theme 2 solo /
 Theme 1 head V1a), the structural event the transcript missed.
+
+### Episode 13 — bars 338–361 "The long string phrase" (decided 2026-10-27, user + agent)
+
+Orchestra (from the dump; the map's reading corrected above): (1) **337–353** the strings' one
+phrase over a D pedal (Ti roll pp 337–345, C3/C4/Bn/C1-2 d): V1a `d' ees' | e' f' | a' aes' g' |
+fis' g' | a' bes' | d'' des'' c'' | b' c'' | ees'' d'' | f'' ees'' | a'' aes'' g''` with V2 about a
+fourth below, Va an octave under V1a, Vc/Vc-b under (D, E♭, E, F major triads, then F♯°/A°/D° →
+G minor / C minor pairs — a V°→i chain climbing by half-steps); from 347 `fis''2( g''4)`
+repeated (F♯° → G minor), cresc. 348–353. (2) **346.2–357** the winds' Theme 1 head in **C minor**
+(`r4 c''' ees''' c''' d''' | ees''' c''' ees''' d''' c''' bes''`, f; Fl at ''', Hb/Cl in octaves
+below, Pic from 350), continuous 8ths from 352; V1a's accented `a''` fills its beat-1 rest on
+346/348/350; from 354 V1a (at ''') and V2 (an octave below) play the figure while Tp/Tb/Tba enter
+`fis g / c d / a bes` cresc. (3) **358–361** the tutti D7(♭9) chord on 358.1 and V1a's
+non-legato descent `ees''' c''' ees''' d''' c''' a'' | c''' bes'' a'' fis'' a'' g'' | fis'' c''
+ees'' d'' c'' a' | c'' bes' a' fis' a' g'` (V2 unison from 360), which continues into 362.
+
+Decisions (user's calls marked):
+
+1. **337.3–339.1: the line rides over the held d'.** The solo's d' (immutable) is held to 339.1;
+   it is played on the **G string, 4th finger**, with V1a's `ees' | e' f'` on the D string above
+   it as chord upper notes (`<d'~ ees'>`, `<d'~ e'>`, `<d'~ f'>`): the orchestra's minor-/major-
+   second clashes against the solo, kept. 339.1 is the solo's d' alone — V1a's `a'` is dropped
+   (G + A are non-adjacent strings). Rejected: the solo's d' alone with the line starting at
+   339.2 (loses the rising seed), a re-struck `<d' a'>` at 339.1 (breaks the tie early).
+2. **339.2–353: V1a's single line.** Top line with the source's swells; the chain's harmony is
+   implied. Rejected: V1a + V2 as double-stops (parallel fourths/tritones, heavy at p, 2nd/3rd
+   position shapes) and double-stops only at the peaks.
+3. **346–353: the strings' phrase is not interrupted by the winds' figure (user).** *"Let's keep
+   to the strings here and play the eighth-note figure when the strings get it later, so that the
+   sweep of the long string phrase completes all the way to the end of 353."* The winds' Theme 1
+   head (a known theme by its eleventh hearing — the "known themes resonate" principle) waits
+   until 354. The open-D drone double-stop under the figure was therefore not used.
+4. **350–353: octaves, to increase the size (user).** The orchestra's own V1a/Va octave doubling
+   (not possible earlier in the phrase, where Va's pitches fall below the open G), D–A pair,
+   positions 4 → 3: `<a' a''>-> <aes' aes''> <g' g''> | <fis' fis''> <g' g''>` ×3, as Episode
+   11's 281–288. Entrance at 350 confirmed (user): *the last chromatic descent, then the
+   repeated second subphrase half runaway until the eighth-note breakout descending line.*
+5. **354–357: the figure at V1a's pitch (ees'''–bes'')**, slurred per bar, accent on the first
+   note (the winds'), f → ff cresc. to 358.1 (the brass entry's hairpin). V2's octave below
+   not doubled (the octave is impossible on the A–E♭ pair at ees''/ees'''). Rejected: the
+   Ob/Cl octave (c''–bes', 1st position) and the open-D drone.
+6. **358–361: V1a's descent as written from ees''' (user, confirming the recommendation).** E♭
+   string, 4th position (the 354–357 hand), non legato, ff; 361 lands on `a' g'`, 362 opens
+   `fis' c' ees' d' c' a`. **358.1's tutti hit is a quarter-note wedged chord `<d' a' ees'''>4-!`
+   under the run** (user, after review): open D, open A and the run's first note — root, fifth
+   and ♭9 of D7(♭9), and the solo's own summons interval a′–e♭″ recalled at the orchestra's
+   arrival. Engraved as a second voice (stems down) so the run keeps all six 8ths; the open
+   strings ring for the quarter. The inner voices (f♯, c) are not carried.
+7. **Dynamics:** pp at 337.3 (the Ti pp), p at 346.1 (Ti "sempre p"), source swells, cresc.
+   348–354, f 354.1, cresc. to ff 358.1.
+8. **The 337 tie is restored** (`d'2\!~ <d'~ ees'>4(\pp` in `ep12-summons-diesirae.ily`): the
+   Episode 12 entry deferred it; ties run 337 → 338 → 339.1.
+
+Known losses: V2/Va/Vc/Vc-b of the chain (harmony), the D pedal (Ti roll, horns, Bn), the winds'
+346–353 figure and V1a's beat-1 accents (346/348/350 — the `a''` 346.1 is kept as the phrase's
+peak), Pic's entry, Tp/Tb/Tba 354–357, V2's octave below the figure, 358.1's inner voices. All
+accepted.
 
 ### Project-wide: known themes resonate; prefer the novel line (user, 2026-10-27)
 

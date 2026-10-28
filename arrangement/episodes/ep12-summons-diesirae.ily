@@ -32,7 +32,7 @@
 % 8ths 321-336 (V2 d'/a, A fis, Vc/Cb d) and its harmony changes; V1a's d'4-. at 323.3 (the solo's
 % espress. entrance kept clean); cells 2-4 under the solo's held notes (325-326, 329-330,
 % 333-334); V1a's c' at 327.3 (non-adjacent to the solo's c''); Ti roll + horn d pedal at 337
-% (Episode 13 decides how its rising line emerges from the solo's tied d').
+% (the strings' rising line begins on 337.3 over the solo's held d'; Episode 13 continues it).
 % Dynamics: p carried from 305 for 309.1; f 309.3 (solo); the pizz groups p (Ti pp; strings
 % unmarked), the solo's stamps f; p 320.3-321.1 (tutti); pp 321.2 (V1a); editorial (f) at 323.3
 % (the solo carries no dynamic after 309 -- Episode 8's 221.3 precedent); the solo's own hairpins
@@ -87,8 +87,9 @@ epTwelve = \absolute {
   g'2.(                                                                        | % 334
   f'2.                                                                         | % 335
   ees'2.)\>                                                                    | % 336
-  % 337: VSolo d'2.~ tied into 338 (and 338 into 339). The tie is deferred until Episode 13 is
-  % entered -- against the R2.*n placeholder it is an "unterminated tie" warning. Ep 13 restores it.
-  d'2.\!                                                                       | % 337 -> 338 d'2.~ (Ep 13)
+  % 337: VSolo d'2.~ held through 339.1 (tied 337 -> 338 -> 339). The strings' rising line begins
+  % on 337.3 (V1a ees'); it rides over the held d' as the chord's upper note (restored in Episode
+  % 13's session, 2026-10-27: d' on the G string, 4th finger; the line on the D string).
+  d'2\!~ <d'~ ees'>4(\pp                                                       | % 337 -> 338 (Ep 13)
   \barNumberCheck #338
 }
