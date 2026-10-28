@@ -54,8 +54,12 @@ parody is at 181–185 (Episode 7), not at [I] — see NOTES. **Episode 13 decid
 back to 354; the 337 tie restored. Compiles clean. **Episode 14 decided and entered 2026-10-27
 (user + agent):** the brass D7 stabs in the cell's rests, the winds' rise from the open D onto
 V1a's four-string crash, Theme 1 ff plain then in sixths/octaves, the tails at V1a's d‴–a‴, the
-bare open-D vamp and the D7 stabs into [L]. Compiles clean, zero `barNumberCheck` warnings. Next:
-Episode 15 [L], 394–415 (step 7 of "Resume here").
+bare open-D vamp and the D7 stabs into [L]. Compiles clean, zero `barNumberCheck` warnings.
+**Episode 15 decided and entered 2026-10-28 (user + agent):** V1a's ornamented figure verbatim
+(the only line; waltz frame not carried), the two tutti stamps as chords in V1a's hand
+(`<bes d' bes' g''>4-!` 394.1, `<g d' bes' bes''>8-!` 402.1), **415 an octave above V1a** (user) —
+a four-octave D-major climb from the open D to `fis''''` into the Animato. Compiles clean, zero
+`barNumberCheck` warnings. Next: Episode 16 [Animato/M], 416–437 (step 8 of "Resume here").
 
 ## Deliverable
 
@@ -88,8 +92,8 @@ arrangement/
     ep12-summons-diesirae.ily  % bars 309–337  (I)  (status: DECIDED + entered 2026-10-27, draft below; no Dies irae here — name kept)
     ep13-strings-sequences.ily % bars 338–361  (status: DECIDED + entered 2026-10-27, draft below)
     ep14-runs-tutti.ily        % bars 362–393  (K)  (status: DECIDED + entered 2026-10-27, draft below)
-    ep15-ornamented.ily        % bars 394–415  (L)  — next
-    ep16-animato-frenzy.ily    % bars 416–437  (M)
+    ep15-ornamented.ily        % bars 394–415  (L)  (status: DECIDED + entered 2026-10-28, draft below)
+    ep16-animato-frenzy.ily    % bars 416–437  (M)  — next
     ep17-dawn.ily              % bars 438–454
     ep18-declame-coda.ily      % bars 455–477  (N)
 ```
@@ -139,7 +143,8 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
 | 12 | 309–337 | 309.1 `fis'` (the run's goal); summons verbatim; **312.3–320 the strings' pizz waltz chords in the solo's rests (D, E♭7 ×2, E♭7, A♭ ×2, A♭, C♯°7 ×2 — the E♭7 strum is Ep 11's Gr6 hand) and the solo's low stamps `des'/c'/bes` as double-stops with the wind chord's D-string tone** (`<des' g'>`, `<c' aes'>`, `<bes e'>`); 320.3–321.1 the tutti G→D as open strings; 321.2–323.2 V1a's Theme-1-head cell pp in the solo's rests; **323.3–337 the solo's Theme 2 espress. intact**, cell tails in its two-beat rests (327, 331), `<bes g'>` at 331.3; editorial *(f)* at 323.3 | **decided** — draft below |
 | 13 | 338–361 | **the strings' long phrase 337.3–353 as V1a's single line** (pp/p, source swells, a″ peak at 346.1, fis″–g″ cresc. 347–353), the solo's held d′ under its first bars (G string; line on the D string), **octaves from 350** (D–A pair, 4th → 3rd position); **the winds' Theme 1 head in C minor is held back until 354–357** when the strings take it (V1a's pitch, f → ff); 358.1 the tutti hit as a quarter chord `<d' a' ees'''>-!` under the run, then V1a's non-legato D7 descent from ees‴ into [K] | **decided** — draft below |
 | 14 | 362–393 | **V1a's part as the spine, the tutti folded into its rests and downbeats:** 362–365 the cell with the brass D7 stab `<c' fis' a'>8-.` on each downbeat; 366–369 the winds' rise from the open D (flute octave, slurred per bar, f → ff) onto V1a's `<g d' bes' g''>` crash; 370–375 Theme 1 ff at g″ with the G-minor four-string chord on the odd-bar downbeats (Ep 4's 85–88 texture, arco); 376–377/384–385 the tails at V1a's d‴–a‴ (a‴ the piece's top), each dropping to the open A for the bass rise `a ais b cis'`; 378.1/386.1 `<d' a' fis''>` stamps; **378.2–383 the second statement in sixths/octaves over the hammered bes′**; 386–389 the strings-alone vamp bare (`cis'4 d'2:8`); 390.2 octaves `<d' d''>` on the 8ths, 391–393 the four-string D7 stab `<c' fis' a' fis''>` on the c♮ downbeats → [L]. Tb countermelody not carried | **decided** — draft below |
-| 15–18 | 394–477 | per transcript map, to be revised episode by episode | pending |
+| 15 | 394–415 | **V1a's line verbatim — the only line** (V1a/V2 unison, solo tacet): 394 upbeat arpeggio, 395–398 the ornamented chromatic descent in slurred pairs with upper acciaccaturas (1st position, `\open` on the ees''), 399–401 turns + D arpeggio, 403–409 the orchestra's identical repeat, 410–414 the sweeps over the D pedal; tutti stamps as chords in V1a's hand: 394.1 `<bes d' bes' g''>4-!` (Gm over the B♭ bass = V1a's bes), 402.1 `<g d' bes' bes''>8-!` then V1a's rest; **415 an octave above V1a** `a'' d''' fis''' a''' d'''' fis''''` (user) — 414–415 one four-octave climb into the Animato; ff running, ff restated 409 (Cb) with *poco stringendo*. Waltz chords (Hb/Cl/Bn, Va/Vc/Cb on 1–2) not carried | **decided + entered 2026-10-28** — draft below |
+| 16–18 | 416–477 | per transcript map, to be revised episode by episode | pending |
 
 ## Resume here (next session)
 
@@ -185,12 +190,16 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
    Compiles clean, zero `barNumberCheck` warnings, no tie warnings.
 6. **Done 2026-10-27.** Episode 14 decided and entered (draft below; NOTES decision log, map row
    corrected). Compiles clean, zero `barNumberCheck` warnings; render checked visually (page 5).
-7. Resume at **Episode 15 [L], bars 394–415.** Slice 393–416 for all voices first (Cl/Cor/Tp with
-   `--transpose`). Known from the 361–394 slice: **394.1 is the tutti's `-!` downbeat** (Fl1/Pic
-   g‴, Hb1/Cl1 bes″, Tb `g'`/`g`/`bes,`, Ti d, GC/Cym) and V1a/V2 open `bes4 d'8 g' bes' d''`
-   (the ornamented figure, G minor); the solo's 393 ends on `<d' d''>` 8ths over the D7 stab.
-   NOTES map: Vln I/II grace-note ornamented figure 394–404, ascending figures, *poco stringendo*
-   409; horns re-crooked in E♭ from 403 (per the map's 438 note).
+7. **Done 2026-10-28.** Episode 15 decided and entered (draft below; NOTES decision log, map row
+   corrected). Compiles clean, zero `barNumberCheck` warnings; render checked visually (page 6).
+8. Resume at **Episode 16 [Animato], bars 416–437 (M at 430).** Slice 415–438 for all voices
+   first (Cl/Tp with `--transpose`; **horns 1/2 are re-crooked in E♭ from 403** — no `slice.py`
+   preset: sounding = written down a major 6th; horns 3/4 stay in D). Known from the 393–416
+   slice: **416.1 is a ff G-minor tutti** (Fl1/Pic/V1a `g'''4 f'''! ees'''`, **V2 an octave below
+   `g'' f'' ees''`** — octave-rule candidate; Hb1/Cl1 `bes'' d''' g''`, Tp g″, Tb `g'`/`bes`/`g`,
+   Vc/Cb/Bn `g bes c'`, Va `a' d'' g'`, Ti `g, g, g,`, Trg/Cym/GC ff). The solo's 415 ends on
+   `fis''''` (an octave above V1a); 416's register is Episode 16's first decision — V1a's `g'''` is
+   a seventh below it. NOTES map: *Animato* ff tutti → [M] 430 fff repeated chords.
 
 Working method from Episode 5: a `@general` subagent slices exact bar ranges per voice from the
 absolute dump (sounding pitch for transposers); the architect session spends context on
@@ -948,6 +957,46 @@ cis'4 <d' d''>2:8                                                            | %
 <c' fis' a' fis''>4 <d' d''>2:8                                              | % 392
 <c' fis' a' fis''>4 <d' d''>2:8                                              | % 393 -> 394 [L]
 \barNumberCheck #394
+```
+
+### Episode 15 — bars 394–415 [L] (absolute pitch; decided + entered 2026-10-28)
+
+Concept: **V1a's line verbatim — it is the only line** (V1a/V2 unison, solo tacet, the
+accompaniment a waltz frame on beats 1–2). See NOTES Episode 15. The two tutti stamps as chords
+in V1a's hand (394.1 over the B♭ bass, 402.1 root-position G, V1a's rest kept — user); the
+orchestra's repeat identical; **415 an octave above V1a (user)** — stopped to `fis''''`, with
+the artificial-harmonic fallback noted in the file. The record of the file.
+
+```
+<bes d' bes' g''>4-! d'8 g'8 bes'8 d''8                                      | % 394 tutti -! over bes
+g''8( bes''8) \acciaccatura bes''8 a''8( gis''8) \acciaccatura a''8 gis''8( g''8) | % 395
+\acciaccatura aes''8 g''8( fis''8) \acciaccatura g''8 fis''8( f''8)
+  \acciaccatura ges''8 f''8( e''8)                                           | % 396
+\acciaccatura f''8 e''8( ees''8\open) \acciaccatura e''8 ees''8\open( d''8)
+  \acciaccatura ees''8\open d''8( cis''8)                                    | % 397
+\acciaccatura d''8 cis''8( c''8) \acciaccatura des''8 c''8( b'8)
+  \acciaccatura c''8 b'8( bes'8)                                             | % 398
+aes'8 g'8 aes'8 c''8 bes'8 aes'8                                             | % 399
+g'8 fis'8 g'8 bes'8 a'!8 g'8                                                 | % 400
+fis'8 a'8 d''8 fis''8 a''8 d'''8                                             | % 401
+<g d' bes' bes''>8-! r8 d'8 g'8 bes'8 d''8                                   | % 402 tutti hammer
+g''8( bes''8) \acciaccatura bes''8 a''8( aes''8) \acciaccatura a''8 aes''8( g''8) | % 403
+\acciaccatura aes''8 g''8( fis''8) \acciaccatura g''8 fis''8( f''8)
+  \acciaccatura ges''8 f''8( e''8)                                           | % 404
+\acciaccatura f''8 e''8( ees''8\open) \acciaccatura e''8 ees''8\open( d''8)
+  \acciaccatura ees''8\open d''8( cis''8)                                    | % 405
+\acciaccatura d''8 cis''8( c''8) \acciaccatura des''8 c''8( b'8)
+  \acciaccatura c''8 b'8( bes'8)                                             | % 406
+aes'8 g'8 aes'8 c''8 bes'8 aes'8                                             | % 407
+g'8 fis'8 g'8 bes'8 a'!8 g'8                                                 | % 408
+fis'8\ff a'8 d''8 fis''8 a''8 d'''8                                          | % 409 poco stringendo
+bes''8 g''8 d''8 bes'8 g'8 d'8                                               | % 410
+fis'8 a'8 d''8 fis''8 a''8 d'''8                                             | % 411
+bes''8 g''8 d''8 bes'8 g'8 d'8                                               | % 412
+fis'8 a'8 d''8 fis''8 a''8 d'''8                                             | % 413
+d'8 fis'8 a'8 d''8 fis''8 a''8                                               | % 414
+a''8 d'''8 fis'''8 a'''8 d''''8 fis''''8                                     | % 415 8va (user) -> 416
+\barNumberCheck #416
 ```
 
 ## Build-session findings (2026-10-20) — for @architect/user review
