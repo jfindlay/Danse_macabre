@@ -11,9 +11,8 @@
 % \barNumberCheck at its own first bar and the next episode's first bar: the fidelity gate is
 % zero \barNumberCheck warnings at compile time, for the full 477 bars, 3/4 throughout.
 %
-% Episodes 1-13 (bars 1-361) are fully composed (see docs/NOTES.md decisions log). Episodes 14-18
-% (bars 362-477) are \barNumberCheck'd multi-measure-rest placeholders pending @architect --
-% see docs/PLAN.md "Resume here".
+% All 18 episodes (bars 1-477) are composed (see docs/NOTES.md decisions log); open alternatives
+% and deferred items for the whole-piece review are in docs/PLAN.md "Resume here".
 
 \include "global.ily"
 \include "trame.ily"

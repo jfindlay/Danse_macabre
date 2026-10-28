@@ -112,8 +112,8 @@ K 362 · L 394 · poco stringendo 409 · Animato 416 · M 430 · Tempo 1° 438 �
 | 362–393 [K] | tacet | **corrected 2026-10-27:** 362–365 V1a/V2's non-legato cell `fis' \| c' ees'(sf) d' c' a` ×4 (the 358 descent's landing) under brass staccato D7 downbeats (361–366); **366–369 the winds' rise** (Fl1/2, Cl1: a chromatic octave from d′, then G melodic minor to g‴, f → cresc.; Bn in contrary motion, Hb/horn d′ pedal, V2/Va join 368.3); **370–385 ff tutti Theme 1 in G minor** twice (V1a/V2 g″, Va/Vc g′; winds hammer g/b♭ 8ths; Tb1/2 chromatic countermelody g′–f′–e′–e♭′–d′), tails 376–377 (`d''' e''' fis''' d''' fis''' \| a'''-!` + bass rise `a ais b cis'`) and 384–385 (triplet-measured tremolo `fis d fis \| a` + the rise), V1a tremolo on g‴ 379–383; **386–389 strings alone** on the D pedal `cis4 d2:8` (GC mf); **390–393 D7** (c♮ downbeats, winds on the 8ths, GC/Cym ff) → [L] |
 | 394–415 [L] | tacet | **corrected 2026-10-28:** one 8-bar phrase twice, V1a/V2 in unison throughout (the only line): 394 `bes4 d'8 g' bes' d''` under the tutti's `-!` G minor **over a B♭ bass**; **395–398 the ornamented figure** — descending chromatic slurred 8th pairs, each with an upper acciaccatura, g″–b♭″ → b′–b♭′; 399–401 `aes' g' aes' c'' bes' aes' \| g' fis' g' bes' a' g' \| fis' a' d'' fis'' a'' d'''`; 402 tutti G hammered `8 8 4` (Ti/Tp/Tb/horns; Fl/Pic `bes'' d''' g'''`) while V1a plays `bes''8 r8` and restarts; 403–409 the same (403 spelled `aes''`); 409–415 D / Gm arpeggio sweeps over a D pedal, ff (Cb) *poco stringendo* 409, V1a climbing to fis‴ (V2 an octave below in 415 only) → 416 Animato. Accompaniment: Hb/Cl/Bn + Va/Vc/Cb quarter chords on beats 1–2, rest on 3 (Gm/B♭ · Cm · D/F♯ · Gm · A♭/C · Gm/D · D; D / Gm/D alternating 409–415, Tp/Tb on D 414–415). Horns 1/2 "Changez en Mi♭" at 403 (silent to 438) |
 | 416–437 | tacet | **corrected 2026-10-28:** three terraces down, then the hammering. **416–418** ff tutti descent `g f ees \| f ees d \| ees d c` (Fl1/Pic/V1a at g‴, V2/Hb2 at g″; inner winds `bes'' d''' g''`…; bass `g bes c' \| f a bes \| ees g aes`; Tp/horns hammer each bar's root; Trg/Cym/GC 416.1); **419–420** Theme 1's head on A♭ then F♯ (`aes''8 c''' aes'' bes'' c'''4 \| fis''8 a'' fis'' g'' a''4`, V1a/V2/Pic unison) over tremolo **A♭/C → D** (the tritone pair), Trg roll; **421–423** the descent again in three octaves (Fl1 / V1a+V2+Hb2+Cl1 at g″ / Bn1), crash 421.1; **424–425** the head an octave lower, winds unison, Va/Vc tremolo, Ti 425; **426–429** all strings + Bn in unison/octaves `g8 bes g a bes4 \| c' b bes a aes4` ×2 (V1a from the open G) under the winds' bare-octave stamps on 1–2 (`g'/g''` 426/428, `fis'/fis''` 427/429 — Gm, then **C + F♯**, Tb/horns on 1); **[M] 430–432** the figure ×3, the full Gm chord stamped on 1–2 (winds/Tp/Tb/Ti/Trg/Cym/GC); **433–437 fff** the figure in continuous 8ths `g bes g a bes g \| a bes g a bes g` ×4 (Vc/Cb 8vb), the Gm chord on every beat; 438 strings silent, horns 1/2 (E♭) fp |
-| 438–454 | tacet | *Tempo 1°*: horns (re-crooked in E♭ from 403) hold E♭ 438–445; oboe cock-crow 440–445; timp/GC roll + strings f→p 445–451; fermata 454 *très long* |
-| 455–477 | *déclamé* f 455–466; [N] 467 tremolo d–e♭ fading to pp 473 | flute pp 472–474; pp wind chord 475–476; cb pizz |
+| 438–454 | tacet | **corrected 2026-10-28:** *Tempo 1°*: horns 1/2 (E♭) alone hold `ees'`/`ees` fp, tied 438–445.1; **oboe 1 cock-crow 440–445** `ees''4\f r8 bes'' bes'' \| ees'' g''2->~ \| ~ \| \> \| ~ \| g''8\pp`; **445–454 strings tremolo** C♯°7 (Vc `cis`, Va `<ees g>`, V2 `bes`, V1a `ees'`) f 445 > · p 451 > · 453 !, fermata 454 *très long* / *toujours en dim.*; timp G strokes 445–453 (mf > pp), GC roll 445–449. Nothing else |
+| 455–477 | *déclamé* f 455–466 (`d''2. \| bes' a' g' \| g'2.~ \| g'4 r r \| bes'2.` dim. `\| g' f' ees' \| ees'2.~ \| ees'4 r r \| r r ees'( \| aes) bes c' \| ees'2. \| ees'2.(`); [N] 467 measured tremolo d′–e♭′ 16ths (accents 467), p 468 > pp 473.1 | **corrected 2026-10-28:** 455.1 strings one pp quarter Gm/D (V1a `d'`, V2 `bes`, Va `<d g>`, Vc `d`); **horns p sustained** Gm (`g bes d d'`, 455–458) → Gm + horn 3 stopped `ees'` (459–462) → A♭ (`c aes c' ees'`, 463–464.1), then silent; **Theme 1's head echoed three times, rising:** Va/Vc pp `r4 g8-. bes a bes \| a( g) g a bes g \| d'8-.` (469–471), V2 p `r4 g'8-. a' bes' g' \| d''8-.` (471–472), V1a ppp `g''8-. r \| a'' r bes'' r g'' r \| d'''8-. r` (472–474); **Fl1 continues the d′–e♭′ tremolo** pp 473–476.1; **Cb pizz** `g, \| a, bes, g, \| d \| d \| g,` 473.3–477; final wind chords pp D major 476 → G minor 477 (Hb/Cl/Bn/horns 3–4), strings unison `d'` / `g` |
 
 ## Decisions log
 
@@ -960,6 +960,87 @@ and Trg roll under 419–420/424–425; V2's lower third at 425; the winds' beat
 Corrections to the transcript/map: the "ff tutti → [M] fff repeated chords" row hid the
 three-terrace shape (416 / 421 / 426), the tritone pair A♭–D under Theme 1's head (419–420,
 424–425), and the C–F♯ stamps at 427/429; fff is at 433, not [M].
+
+### Episode 17 — bars 438–454 "Dawn" (Tempo 1°) (decided 2026-10-28, user + agent)
+
+Orchestra (from the dump; map row corrected above): three events, each alone — the horns' E♭
+fp (`ees'`/`ees`, tied 438–445.1), the oboe's cock-crow (440–445, on `ees''`/`bes''`/`g''`), the
+strings' C♯°7 tremolo (`cis ees g bes ees'`) f → p → fermata *très long* with the timp's G strokes
+and a GC roll. The strings are silent 438–444; the solo is tacet throughout.
+
+Decisions:
+
+1. **The horn pedal as the open E♭ string (`ees''`), fp, 438–439.** Horn 2's `ees` is below the
+   open G; horn 1's `ees'` is in range, but the retuned string is the programme — Death's own
+   note, held alone after the climax — and it is the pitch the crow starts on. The pedal cannot
+   continue under the crow (the crow lives on the E♭ string; the D string is not adjacent), so
+   it merges into the crow's first note: 440.1 is re-attacked f, no tie. Alternative, not
+   taken: horn 1's `ees'` on the D string, then the jump to `ees''`.
+2. **The cock-crow verbatim, entirely on the E♭ string** (open `ees''`, `bes''` 3rd position,
+   `g''` 1st or 3rd). Its last 8th (445.1 `g''` pp, the end of the tie) is absorbed by the
+   strings' f entry on the same beat; the oboe's hairpin terminates at that f.
+3. **445–454 as `<g ees'>2.:16`** — the open G (the viola's `g`, and the timp's G an octave
+   up) under V1a's `ees'`, 1st position, sustainable for ten bars of dim. and a very long
+   fermata. The cello's `cis` (the dim-7th's defining note) is below range, and `cis'` cannot be
+   fingered against `ees'` (G 3rd position vs D 1st); V2's `bes` was the other candidate pair
+   (`<bes ees'>`) and lost to the open string. The timp's stroke rhythm is absorbed into the
+   sustained open G. Dynamics as V1a (f 445 >, p 451 >, 453 !, 454 fermata, *très long* above,
+   *toujours en dim.* below).
+
+Known losses: horn 2's `ees`; the viola's lower `ees`; the cello's `cis`; the timp's strokes and
+the GC roll as separate events. All accepted.
+
+### Episode 18 — bars 455–477 "Déclamé and coda" [N] (decided 2026-10-28, user + agent)
+
+Orchestra (from the dump; map row corrected above): the solo's *déclamé* f over the horns' p bed
+(Gm → Gm + stopped `ees'` → A♭, 455–464.1) with one pp string stroke at 455.1; [N] the solo's
+measured d′–e♭′ tremolo p → pp 473.1, under which Theme 1's head is echoed three times rising
+(Va/Vc `g` pp 469–471, V2 `g'` p 471–472, V1a `g''` ppp 472–474); Fl1 carries the same tremolo
+on pp to 476.1; Cb pizz `g, | a, bes, g, | d | d | g,` 473.3–477; final wind chords pp D major
+(476) → G minor (477) over the strings' unison `d'` / `g`.
+
+Decisions:
+
+1. **The solo's déclamé and tremolo verbatim and intact (455–473.1).** The Enescu/*doina*
+   licence noted at Episode 1 is not spent: the recitative is already a *doina* in Saint-Saëns's
+   hand, and the project's rule is the solo's text untouched.
+2. **455.1 the strings' pp stroke as `<g d' d''>`** — the open G and D rolled under the solo's f
+   `d''` (V2's `bes` cannot join: G, G and A strings). The two-pizz-chord idiom of 320.3–321.1.
+3. **The horns' bed as a second voice on the open strings, wherever the solo is on the D string
+   or resting:** open G under the held `g'` (457–458; horn 2's `g`), open D under the A-string
+   `bes'` (459; horn 4's `d`, 8va), open G under `g' f' ees'` and the held `ees'` (460–462 —
+   `<g ees'>` is horn 2 + horn 3's stopped note, and Episode 17's tremolo pair), horn 2's `aes`
+   under the solo's rest at 463 (a 1st-finger barre with the solo's `ees'` on beat 3). **The
+   drone holds through the solo's breaths** (458.2–3, 462.2–3, 463.1–2), as the horns do — the
+   Episode 12/13 rule, the orchestra folded into the rests. 456 and 464–466 bare: 456 is the
+   declamation's opening gesture; the horns are silent from 464.2. Engraved as ep08's pattern
+   where a spanner crosses the block (463's slur): the melody stays in the main Voice.
+4. **467–473 the tremolo under one slur from 466's `ees'` to 473.1**, accents 467, p 468 > pp
+   473. **The viola/cello's echo of Theme 1's head (469–471) as the lower voice on the G
+   string** — adjacent to the tremolo's D string, so the two sound together; the bow's 16ths
+   articulate the lower line (the dots are the source's). Its 471.1 `d'` is the open D the
+   tremolo already sounds and is absorbed. **V2's echo at `g'` and V1a's at `g''` are not
+   carried:** `g'` is on the D string the tremolo occupies, and `g''`–`d'''` sit on the A/E♭
+   strings, not adjacent to it; neither can sound against the tremolo. One of three echoes is
+   kept, the lowest.
+5. **473.2–477 the bass's pizz close, not the flute's tremolo.** After the solo's `d'8` pp the
+   violin takes Cb's `g, | a, bes, g, | d | d | g,` an octave up (open G, 1st position, open
+   D), *pizz. sempre* pp — Theme 1's head for the last time, at the bottom — and the two final
+   wind chords as the pizz chords **`<d' a' fis''>` (476, D major) and `<g d' bes' g''>` (477,
+   G minor): the chords that closed the summons at 32.3–33.1 close the piece,** and the open-G
+   pizz ends it as the open-D pizz began it. Fl1's continuation of the tremolo (473–476.1) is
+   not carried: continuing it would exclude both the bass and the chords. No fermata, no l.v. in
+   the source; none added.
+6. **Dynamics as source:** f 455 *déclamé*, *dim.* 459, p 468 >, pp 473; the horn voice p (457).
+
+Known losses: V2/Va/Vc's notes of the 455.1 stroke beyond the open strings; horn 1's `bes` and
+horn 3's `d'` (455–458), horn 1's `c'`/horn 3's `ees'` (463–464); V2's and V1a's echoes; Fl1
+473–476; the winds' inner chord tones at 476–477 beyond the three-/four-string chords. All
+accepted.
+
+Corrections to the transcript/map: the solo's tremolo fades to pp at 473.1 (not "fading to pp
+473" as a region); the flute's tremolo is 473–476.1, not 472–474; the pp wind chords are 476–477,
+not 475–476; the coda order (horn E♭ → crow → déclamé) confirmed.
 
 ### Project-wide: known themes resonate; prefer the novel line (user, 2026-10-27)
 
