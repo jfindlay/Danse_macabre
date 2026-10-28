@@ -50,6 +50,12 @@
       }
     }
   }
+  copyright = \markup {
+    \tiny \center-column {
+      "© 2026 Justin Findlay. Licensed CC BY-NC-SA 4.0: creativecommons.org/licenses/by-nc-sa/4.0/"
+      "Adapted from the Le Concert edition no. 166 (CC BY-NC-SA 3.0), Saint-Saëns's music in the public domain."
+    }
+  }
   tagline = ##f
 }
 

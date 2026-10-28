@@ -4,6 +4,14 @@ Camille Saint-Saëns's *Danse macabre*, op. 40 (1874), arranged for solo violin 
 original scordatura (G–D–A–E♭). `Program notes.md` is the single exposition: the programme, the
 arranging premise and rules, the episode-by-episode rationale, performance notes, provenance.
 
+## License
+
+© 2026 Justin Findlay. The arrangement, score and programme notes are licensed under
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](LICENSE)
+(CC BY-NC-SA 4.0). The arrangement adapts engraving code from the Le Concert edition no. 166
+(CC BY-NC-SA 3.0); version 4.0 with the same elements is a permitted adapter's license under that
+licence. Saint-Saëns's music is in the public domain. See `Program notes.md` §5 for provenance.
+
 ## Layout
 
 Data flows `source/` → `arrangement/` → `output/`:
