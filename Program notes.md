@@ -5,10 +5,10 @@
 Henri Cazalis's poem (1872), which Saint-Saëns first set as a song and then rewrote as this tone
 poem, opens:
 
-> *Zig et zig et zag, la mort en cadence
-> Frappant une tombe avec son talon,
-> La mort à minuit joue un air de danse,
-> Zig et zig et zag, sur son violon.*
+> *Zig et zig et zag, la mort en cadence*\
+> *Frappant une tombe avec son talon,*\
+> *La mort à minuit joue un air de danse,*\
+> *Zig et zig et zag, sur son violon.*
 
 Midnight strikes. Death sits on a tombstone and tunes his fiddle — the E string pulled down to E♭,
 so that the first thing he plays is the tritone A–E♭, the medieval *diabolus in musica*. The dead
