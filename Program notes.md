@@ -48,16 +48,15 @@ concertmaster it plays the section's own line, which is why the first-violin par
 nearly every bar in which the solo is silent, and the winds and brass are lifted only where they
 carry something the strings do not.
 
-**The source.** The full orchestral score ([Le Concert
-edition](https://web.archive.org/web/20231001212827/https://le-concert.pagesperso-orange.fr/st-saens.html),
-engraved in LilyPond), not the composer's violin-and-piano reduction: the reduction's violin line is
-a duo part that already absorbs orchestral material, and I wanted to make those choices myself.
-Indeed, this is a project I had been planning for ~30 years. Bar numbers throughout are identical to
-the full score's for which the solo-violin part only plays about 130.
+**The source.** The full orchestral score (provided by [Le
+Concert](https://web.archive.org/web/20231001212827/https://le-concert.pagesperso-orange.fr/st-saens.html)),
+not the composer's violin-and-piano reduction: the reduction's violin line is a duo part that
+already absorbs orchestral material, and I wanted to make those choices myself.  Indeed, this is a
+project I had been planning for ~30 years. Bar numbers throughout are identical to the full score's
+for which the solo-violin part only plays about 130.
 
-**Three rules, applied bar by bar.**
+**Three rules, applied bar by bar.** The arrangement was made under these constraints:
 
-The arrangement was made under these constraints:
 1. *Preserve.* Every note of the orchestral solo-violin part is immutable — pitch, rhythm,
    articulation, dynamics. It is Saint-Saëns's own writing for this instrument in this tuning.
 2. *Lift.* Where the solo rests, the violin plays the orchestra's prevailing line, sometimes in a
@@ -121,9 +120,10 @@ The harp strikes twelve Ds, one a bar, over a horn pedal on the same note; the s
 D-major shimmer twice (5–8, 13–16); then cellos and basses pluck a crooked little line that ends on
 E♭. The violin plucks all twelve strokes with the left hand on the open D, *f*, let ring — the
 harp's, the horn's and the open string's D are one pitch — with the bow in hand from bar 1 so it
-can draw the shimmer, *ppp sul tasto*, over the continuing toll: a single tied *d″* the first time,
-the first violins' own *d″–f♯″* pair the second. Bar 17 is silent in every voice and stays silent.
-The bass line is plucked an octave up. Nothing is improvised over the clock: the twelve strokes
+can draw the shimmer, *ppp sul tasto*, over the continuing toll: a single tied *D5* (octaves in
+scientific pitch notation, middle C = C4) the first time, the first violins' own *D5–F♯5* pair the
+second. Bar 17 is silent in every voice and stays silent. The bass line is plucked an octave up.
+Nothing is improvised over the clock: the twelve strokes
 are programme and must stay countable, and a melodic utterance before bar 25 would spend the
 entrance. The first *voiced* bow stroke in the piece is Death tuning up.
 
@@ -255,7 +255,7 @@ the top of the E♭ string: the summons interval A–E♭, recalled at the orche
 The first-violin part is the spine and the tutti folds into its rests and downbeats: the brass
 D7 stab as a three-string chord on each downbeat eighth of the landing cell; the winds' rise from
 the open D up to a four-string G-minor crash; the first tune *ff* with the chord on the odd
-downbeats, its tail at the first violins' own octave — *a‴*, then a three-octave drop to the open
+downbeats, its tail at the first violins' own octave — *A6*, then a three-octave drop to the open
 A for the basses' rise; the second statement in sixths and octaves over the winds' hammered B♭;
 the strings-alone vamp bare; the winds' return as octaves and the four-string D7 stab into [L].
 
@@ -274,9 +274,9 @@ of the E♭ string.
 Three terraces down, then the hammering: a *ff* tutti descent, the first tune's head over the
 tritone pair A♭–D, the descent an octave lower in three octaves, the head again, and then the
 whole string body on the G string in unison under the winds' stamps, *fff* from 433. The violin
-spends its virtuosic licence on register: the climb from Episode 15 resolves on *g⁗* at the end
+spends its virtuosic licence on register: the climb from Episode 15 resolves on *G7* at the end
 of the fingerboard (the piccolo's sounding pitch) and the first descent is played in octaves
-there — the first violins' *g‴* on the A string under the piccolo's *g⁗* on the E♭ — the head an
+there — the first violins' *G6* on the A string under the piccolo's *G7* on the E♭ — the head an
 octave above the first violins, the second descent in octaves an octave lower after the crash,
 then the drop of two octaves and a sixth to the open G: three terraces, each an octave apart, the
 upper two in octaves as the orchestra doubles them. The top of the A and E♭ strings delivers less
@@ -325,18 +325,18 @@ open string under a bowed note (*pizz. m.g. ad lib.*, marked once at bar 34) —
 bass G or D, costing nothing. The plucked chords on the beat with the bow back an eighth later
 (85–88, 118–128, 312–319) are the Sarasate surprise; practise the retake.
 
-**The three summits.** 172–173.1 (*d♯⁗* to *e⁗*), 415 (*f♯⁗*) and 416–418 (*g⁗* down to *c⁗*,
+**The three summits.** 172–173.1 (*D♯7* to *E7*), 415 (*F♯7*) and 416–418 (*G7* down to *C7*,
 in octaves) are stopped notes at the end of the E♭ string, at *f* and *ff*. They are meant to be
 heard as height — make them ring, do not apologise for them. If a single note will
 not speak, the fallback is the artificial harmonic in first position (stop a fourth below, touch
-a fourth above; the open E♭ touched at *a♭″* gives *e♭⁗*); if the 416–418 octaves will not, the
+a fourth above; the open E♭ touched at *A♭5* gives *E♭7*); if the 416–418 octaves will not, the
 fallback is the upper voice alone. No ottava brackets anywhere in the score: the performer sees
 the shift.
 
 **Octaves in this tuning.** On the A–E♭ pair an octave is a six-semitone 1–4 stretch and exists
 only for the lower note on the A string; everything else lies on D–A or G–D. The octaves at
 416–418 and 421–423 are the A–E♭ kind, *ff* quarters. The span shrinks as the hand climbs — about
-40 mm at *c‴/c⁗*, under 30 mm at *g‴/g⁗* — so the difficulty at the top is intonation on two
+40 mm at *C6/C7*, under 30 mm at *G6/G7* — so the difficulty at the top is intonation on two
 strings at the fingerboard's end, not reach.
 
 **Bowings.** The source's slurs are orchestral bowings and may be re-bowed. The virtuoso bowings
