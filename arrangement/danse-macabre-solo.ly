@@ -1,18 +1,15 @@
 \version "2.24.3"
 % Danse macabre, op. 40 (Saint-Saens) arranged for unaccompanied violin in the original
-% scordatura (G-D-A-E-flat). See docs/PLAN.md (deliverable, build pipeline, episode ledger) and
-% docs/NOTES.md (premises, conventions, decisions) for the full arranging rationale.
+% scordatura (G-D-A-E-flat). See "Program notes.md" for the programme, the arranging rules and the
+% episode-by-episode rationale.
 %
 % Structure: \trame (bars, tempo, key changes, rehearsal marks -- no notes) runs in parallel with
 % a single melodic \Voice inside one \Staff named "solo", so marks/keys/bar grid come from the
-% Trame and are never duplicated in the episode files. Pizz. convention (NOTES "Conventions"):
-% "pizz." on a note applies to that note only -- no "arco" follows; "pizz. sempre" runs until
-% "arco"; "-+" is left-hand pizz. Every episode ends with a
-% \barNumberCheck at its own first bar and the next episode's first bar: the fidelity gate is
-% zero \barNumberCheck warnings at compile time, for the full 477 bars, 3/4 throughout.
-%
-% All 18 episodes (bars 1-477) are composed (see docs/NOTES.md decisions log); open alternatives
-% and deferred items for the whole-piece review are in docs/PLAN.md "Resume here".
+% Trame and are never duplicated in the episode files. Pizz.: "pizz." on a note applies to that
+% note only -- no "arco" follows; "pizz. sempre" runs until "arco"; "-+" is left-hand pizz. Every
+% episode ends with a \barNumberCheck at its own first bar and the next episode's first bar: the
+% fidelity gate is zero \barNumberCheck warnings at compile time, for the full 477 bars, 3/4
+% throughout.
 
 \include "global.ily"
 \include "trame.ily"

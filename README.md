@@ -1,9 +1,8 @@
 # Danse macabre — arranged for unaccompanied violin
 
 Camille Saint-Saëns's *Danse macabre*, op. 40 (1874), arranged for solo violin in the work's
-original scordatura (G–D–A–E♭). The full orchestral score is the primary source; see
-`docs/NOTES.md` for premises, conventions, and the arranging decisions, and `docs/PLAN.md` for the
-build layout and episode-by-episode status.
+original scordatura (G–D–A–E♭). `Program notes.md` is the single exposition: the programme, the
+arranging premise and rules, the episode-by-episode rationale, performance notes, provenance.
 
 ## Layout
 
@@ -12,12 +11,8 @@ arrangement/
   danse-macabre-solo.ly   main score: \includes global.ily, trame.ily, and episodes/
   global.ily              scordatura header + text/dynamic helper macros
   trame.ily               bar/tempo/key/rehearsal-mark skeleton (carries no notes)
-  episodes/                 one .ily per episode (see docs/PLAN.md for the bar-range map)
-  dump/                   absolute-pitch dump of every orchestral voice + slicer (build tooling,
-                           not part of the score itself — see docs/PLAN.md "Build pipeline")
-docs/
-  PLAN.md                 deliverable, file layout, build pipeline, episode ledger
-  NOTES.md                sources, conventions, structural map, decisions log
+  episodes/               one .ily per episode, bars 1–477 in order
+  dump/                   absolute-pitch dump of every orchestral voice + slicer (build tooling)
 source/
   lilypond/               the orchestral score's own LilyPond source (reference; never edited)
   *.pdf                   full score and the composer's violin/piano reduction (secondary)
@@ -33,15 +28,6 @@ lilypond danse-macabre-solo.ly
 ```
 
 Produces `arrangement/danse-macabre-solo.pdf`. A clean compile reports **zero `barNumberCheck`
-warnings** — that is the project's fidelity gate (477 bars of 3/4, rehearsal marks A–N at the
-source bar numbers, enforced mechanically at every episode boundary).
-
-Do **not** pass `-dbackend=null`: on at least one tested install that flag crashes during the final
-layout stage (`Unbound variable: output-stencils`), independent of this project's content. Plain
-`lilypond` with the default PDF backend works.
-
-## Status
-
-All 18 episodes (bars 1–477) are composed and entered. Next is a whole-piece review before
-playing — see `docs/PLAN.md`'s episode ledger and "Resume here" section for the open
-alternatives and deferred items.
+warnings** — the project's fidelity gate (477 bars of 3/4, rehearsal marks A–N at the source bar
+numbers, enforced at every episode boundary). Do not pass `-dbackend=null`; it crashes during
+layout on at least one install, independent of this project.

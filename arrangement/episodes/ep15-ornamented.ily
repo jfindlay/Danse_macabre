@@ -1,38 +1,9 @@
 \version "2.24.3"
-% Episode 15 -- bars 394-415 "Ornamented" [L] (decided 2026-10-28, user + agent; see docs/NOTES.md
-% and docs/PLAN.md's Episode 15 draft). Absolute pitch.
-%
-% Concept: V1a's line verbatim -- it is the only line in the episode (V1a/V2 in unison; the solo
-% is tacet), it appears nowhere else in the piece, and it is already violin writing. 394 the
-% upbeat arpeggio from bes; 395-398 the ornamented figure, descending chromatic slurred pairs
-% each with an upper acciaccatura (g''-bes'' down to b'-bes'), all 1st position on the E-flat and
-% A strings; 399-401 the aes'-g'-aes' / g'-fis'-g' turns and the D-major arpeggio to d'''; 402
-% the tutti hammer and the restart; 403-409 the whole phrase again (the orchestra's own repeat,
-% identical; 403 spells aes'' for 395's gis''); 410-415 the D / G-minor arpeggio sweeps over the
-% D pedal, poco stringendo (Trame mark at 409), into the Animato at 416.
-% The accompaniment is a waltz frame and nothing else -- Hb/Cl/Bn + Va/Vc/Cb quarter chords on
-% beats 1-2, rest on 3 (Gm/Bb, Cm, D/F#, Gm, Ab/C, Gm/D, D; then D / Gm/D alternating over the D
-% pedal 409-415, Tp/Tb join on D at 414). Not carried: under the acciaccatura pairs a double-stop
-% would grind a leggiero figure, and 399-401 spell their own harmony.
-% The two tutti stamps (GC/Cym) become chords in the hand V1a is already in: 394.1 -! G minor over
-% a B-flat bass (Vc/Cb/Bn2/Tb3/Tba on bes; V1a's bes IS that bass) -> <bes d' bes' g''> 3-0-1-2,
-% stepwise on every string from 393's <c' fis' a' fis''>; 402.1 the root-position G hammered
-% 8 8 4 (Ti/Tp/Tb/horns g g g, Fl/Pic bes'' d''' g''') while V1a plays bes''8 r8 and restarts ->
-% <g d' bes' bes''>8-! 0-0-1-4, then V1a's rest kept (the breath before the restart; the second
-% hammer <g d'>8 was offered and declined).
-% 415 an octave above V1a (user): a'' d''' fis''' a''' d'''' fis'''' -- 414-415 become one
-% four-octave D-major climb from the open D into the Animato instead of V1a's drop back to a'.
-% a''' is 377's top, d'''' is 172's; fis'''' (27 semitones up the E-flat string, a tone above
-% 173.1's e'''') is at the fingerboard's edge. Stopped, as 172/173.1 were re-decided (2026-10-25);
-% fallback if it will not speak: the artificial harmonic fis'' stopped, touch b'' (sounds
-% fis''''). Ep 16's 416 g''' is a seventh below -- its register is Episode 16's decision.
-% Hand: 1st position for 394-400, 402-408 and the sweeps' lower halves; the arpeggio peaks
-% (401/409/411/413 d''') are V1a's own shifts; 415 climbs to the top of the E-flat string.
-% Open E-flat (ees'') marked \open where the descent reaches it (397/405).
-% Dynamics: ff running from 391 (no new string dynamic at 394); ff restated at 409 (Cb's, with
-% the Trame's "poco stringendo"); 416 ff is Episode 16's.
-% Not carried: the waltz chords (Hb/Cl/Bn, Va/Vc/Cb); the Fl/Pic d''' g''' top of the 402
-% hammer; Ti/GC/Cym; V2's low 415; horns 1/2 re-crook to E-flat at 403 (silent to 438).
+% Episode 15 -- bars 394-415 "Ornamented" [L]. V1a's line verbatim (V1a/V2 in unison; the solo is
+% tacet): 394 the upbeat arpeggio, 395-398 the ornamented figure with upper acciaccature, 399-401
+% the turns and D-major arpeggio, 402 the tutti hammer and restart, 403-409 the phrase again,
+% 410-415 the arpeggio sweeps over the D pedal, poco stringendo, into the Animato; 415 an octave
+% above V1a, stopped. Open E-flat marked \open where the descent reaches it (397/405).
 
 epFifteen = \absolute {
   \barNumberCheck #394

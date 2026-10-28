@@ -4,9 +4,7 @@
 % the "Accord du violon" scordatura markup, and the rehearsal-mark formatter. The original's
 % \paper block (page layout for a 31-part orchestral score, \epsfile credits, etc.) is dropped.
 
-% "ten." is engraved as a literal tenuto mark (the "--" articulation shorthand) in this
-% arrangement rather than as source text; the macro is dropped (no episode uses it -- see
-% docs/PLAN.md "Review corrections", 2026-10-20).
+% "ten." is engraved as the tenuto articulation (--); the source's text macro is dropped.
 arco = ^\markup {"Arco"}
 pizz = ^\markup {"Pizz."}
 espr = _\markup {\italic "espress."}

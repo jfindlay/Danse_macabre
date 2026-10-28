@@ -1,68 +1,15 @@
 \version "2.24.3"
-% Episode 7 -- bars 173-204 "Skeletons" [D] (decided 2026-10-18; reworked 2026-10-26, user --
-% see docs/NOTES.md Episode 7 "Revised 2026-10-26" and docs/PLAN.md "Revision drafts
-% (2026-10-26)"). Absolute pitch.
-%
-% One 16-bar Phrygian strain stated twice, a 4th apart, engraved as TWO VOICES throughout: in
-% 173-189 the upper voice (stems up) is bowed and the lower voice (stems down) is pizz. Every
-% pizz. there is marked individually (revised 2026-10-26: no "pizz. sempre"), and the main-staff
-% "pizz." convention (NOTES "Conventions") means no "arco" is needed -- except 205.3, where the
-% deliberate break of the convention (one "pizz." at 203.1, run through 205.1, closed by "arco")
-% needs one. From 190 the two voices are allocated by pitch, not technique (see Section B).
-%
-% Section A (173-188, the de Falla / Capriccio espagnol tableau): the wind strain as staccato
-% sixths on 1 & 3 in the upper (bowed) voice, melody (Fl/Pic/Hb1, at pitch) on top and Cl1's line
-% (at pitch) below -- the source's parallel thirds inverted so the headline theme is the top
-% voice. Beat 2 is the waltz's "pah" and nothing else, and it belongs to the LOWER voice either
-% way: a right-hand pizz open A on the hypermetrically weak bars (173/175/177, 181/183/185, 188),
-% the strings' accented triplet turn e'-f'-e' (V2's own pitch, Va's beat; bowed) on the strong
-% bars (174/176/178, 180/182/184/186) -- beat 2 below, beats 1 and 3 above in both cases; the
-% three-chord cadence bars 179/187 carry nothing on 2. The triplet's slur and accent sit on the
-% noteheads, i.e. above (the stems and beam are down). Hand: 3rd position for the sixths (d''' =
-% 4th-finger extension), with the turn on the G string (3-4-3); 1st position for the G-sharp
-% chords 176.1/184.1 and their following turn (D string, 1-2-1); 186.3 <g'' e'''> is one reach
-% into 5th position (e''' alone is acceptable there).
-%
-% Section B (189-204, where the intensity starts climbing; revised 2026-10-26 -- voices by pitch,
-% not by technique): the strain (V1a is pizz here in the source) and the winds' slurred horn-call
-% gis'->a' on beats 2-3 (Hb/Bn 190-193, Fl/Cl 194-197, all winds from 198/201) are engraved as
-% two voices: the stem-up voice carries the HIGHER notes (the melody, beats 1 and 3) and the
-% stem-down voice the LOWER notes (open-A pedal on beat 1, the call gis'->( a') on 2-3 with its
-% slur curving down, octave <gis gis'> on 2 from 198). Only beat 1 is pizz -- pedal and melody
-% plucked together, though they sit in different voices -- marked on the melody note as "pizz."
-% at 190.1-192.1 and "sim." at 193.1; the bow retakes on beat 2 (no "arco", one-note pizz convention).
-% The pedal a' is omitted where the melody is itself on the A string (191-193, 200). 198-202
-% beat 3 gives the melody back (a' in the stem-down voice, melody g''/f''/e''/g''/a'' in the
-% stem-up voice); the beat-2 octave stays. Cadence bar 195: the melody's 2nd and 3rd beats ride
-% the call (e'' d'' in the stem-up voice). 203-204 are the stem-up voice alone, a deliberate
-% break of the one-note pizz convention: a single "pizz." at 203.1 runs through 205.1 and ep08's
-% 205.3 says "arco". 203 = g f e over the a' pedal, 204 = <a' g''> on 1 and 3 with a rest on 2
-% (the chromatic rise a-ais is dropped), resolving on ep08's 205.1 pizz <b b' fis''>. Bar 189 is
-% the hand-off: the a-bes-a turn (lower voice, like Section A's) with the last wind chord above,
-% then the lower voice's pizz f'' on 3.
-%
-% Dynamics: the cresc. starts at 190.1 in the melody voice itself (not in one of the two
-% polyphonic voices) so that its dashed line runs on, across the file boundary, to the single f
-% at ep08's 205.1 that closes it.
-%
-% Rests: none are engraved in either voice (gaps are invisible spacers) except the r8 at 173.1
-% and the r4 at 204.2.
-%
-% Not carried: Tb3/Tba E pedal, Cb staccato e, two of the three turns per bar (A); the triangle
-% (dropped 2026-10-26 with the pizz-harmonic device -- beat 2 is the call now), the timp roll,
-% Tp/Tb doublings of the strain, V2/Va's 204 double turn (B). The arco ossia for 189-204 was
-% dropped 2026-10-26: its premise (16 bars of pure pizz) no longer exists.
-%
-% 173.1 revised 2026-10-23 (user, before playing), following the octave-up revision of ep06's bar
-% 172: e'''' one octave higher than the original e''' join. Revised again 2026-10-25: a stopped
-% note, not the A-string 6th-partial harmonic it was engraved as (likewise ep06's 172.6).
+% Episode 7 -- bars 173-204 "Skeletons" [D]. One Phrygian strain twice, a fourth apart, in two
+% voices: bowed sixths (melody on top) with a plucked open A or the strings' turn on beat 2; then
+% the strain plucked on the downbeat under the winds' bowed gis->a call, octaves from 198.
+% Pizz: 203.1's "pizz." runs to 205.1 (ep08's 205.3 is "arco") -- the one passage-pizz in A-B.
 
 epSeven = \absolute {
   \barNumberCheck #173
   % ---- Section A: 173-188 --------------------------------------------------------------------
   <<
     { % bowed voice
-      % 173.1 = wind line's resolution (Fl/Pic) + strings'/Tb stroke, stopped (see header).
+      % 173.1 = wind line's resolution (Fl/Pic) + strings'/Tb stroke, stopped.
       e''''8-.\f r8  s4  <e'' cis'''>4-.                                  | % 173
       <d'' b''>4-.  s4  <e'' cis'''>4-.                                   | % 174
       <cis'' a''>4-.  s4  <d'' b''>4-.                                    | % 175

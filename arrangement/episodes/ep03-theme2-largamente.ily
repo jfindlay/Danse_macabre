@@ -1,12 +1,8 @@
 \version "2.24.3"
-% Episode 3 -- bars 49-64 "Theme 2 largamente" (decided 2026-10-18, see docs/NOTES.md).
-% Bar 49: V1a's last note (g'4, closing Episode 2's restatement) then the solo's own upbeat.
-% 49.3-64: VSolo verbatim. Ad lib (engraved 2026-10-23, "LH-pizz bass" device): LH-pizz open G on
-% the downbeats of 50-54 and 58-62 (cello bass is G there; the melody sits on the D/A strings),
-% as small chord-tone noteheads with the "-+" pizz mark. Nothing on 55-57 or 63-64 (bass A/D sits
-% above or on the melody's own string). No counter-voices. 62 is included in the range per the
-% decision log's "58-62" (symmetric with 50-54's five bars), even though an earlier pass's inline
-% comments stopped at 61.
+% Episode 3 -- bars 49-64 "Theme 2 largamente". Bar 49: V1a's last g' then the solo's upbeat;
+% 49.3-64 the solo verbatim, no counter-voices. Ad lib: LH-pizz open G on the downbeats of 50-54
+% and 58-62 as small "-+" noteheads; none on 55-57, 63-64 (the bass sits on or above the
+% melody's string).
 
 epThree = \absolute {
   \barNumberCheck #49

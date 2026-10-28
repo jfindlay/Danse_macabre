@@ -1,21 +1,9 @@
 \version "2.24.3"
-% Episode 5 -- bars 117-136 "Fragments and bones" [B] (decided 2026-10-18, see docs/NOTES.md and
-% docs/PLAN.md's Episode 5 draft). The PLAN draft is written \fixed c' (written an octave below
-% sounding); every pitch below is shifted up one octave from that draft to land at sounding,
-% absolute pitch, per the project's pitch convention (see NOTES.md "Conventions").
-%
-% Orchestra: tutti D-major pizz stamps at 117.1/125.1/133.1 (harp/winds/horns/timp); solo Theme 1
-% in D major at d'' (117.2-121.1, 125.2-129.1); wind choir Theme 1 in G minor at g'' doubled by
-% xylophone (121.2-125.1, 129.2-133.1), col legno battuto string chords under it; solo ff chords
-% 133.2-136. See docs/NOTES.md Episode 5 decisions for the col-legno/xylophone rationale.
-%
-% Ad lib (engraved 2026-10-23, "LH-pizz bass" device): LH-pizz open D on 119/127 (Cl/Bn/timp
-% sound D there), as a small chord-tone notehead with "-+".
-% 118/120/126/128 (revised 2026-10-24): taken full pizz instead of the ad-lib click -- same
-% treatment as the 117/125/133 tutti stamps; the following eighth is bowed by the one-note pizz
-% convention (NOTES "Conventions"; explicit "arco" texts dropped 2026-10-26).
-% 136.3 (revised 2026-10-24): the tutti stamp's F-sharp (Hb2/Cl2/Tb1) is a regular-size ad-lib
-% chord tone with "-+", not a small notehead, just ahead of [C] at 137.
+% Episode 5 -- bars 117-136 "Fragments and bones" [B]. Tutti D-major pizz stamps at 117/125/133;
+% the solo's Theme 1 in D at d'' (117.2-121.1, 125.2-129.1); the wind choir's Theme 1 in G minor
+% at g'' doubled by xylophone (121.2-125.1, 129.2-133.1) over col legno battuto string chords; ff
+% chords 133.2-136. Ad lib: LH-pizz open D on 119/127 as a small "-+" notehead; 118/120/126/128
+% full pizz, the next eighth bowed by the one-note pizz convention; 136.3's F-sharp a full "-+".
 
 epFive = \absolute {
   \barNumberCheck #117
