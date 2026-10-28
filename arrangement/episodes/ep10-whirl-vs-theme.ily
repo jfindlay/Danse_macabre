@@ -27,7 +27,7 @@ epTen = \absolute {
   % the C-minor/C-major whirl; 254.1 accent = Tb1's. 257.3 <a f'> = V1a's held a + Tp's upbeat f'.
   % Not carried: Cor 3/4 upbeat c' 254.3, Cor 1-4 harmony g'/g'/f' 255-257, the winds' echo of the
   % head 255.3-257.1 (g' | c'' c'' | c'' -- inside the whirl's own pitches).
-  \tuplet 3/2 4 { g8(\mf ees'8 c''8) g''8( c''8 ees'8 } g4->                    | % 253 Tb1 upbeat g
+  \tuplet 3/2 4 { g8(\mf^\markup\italic "ricochet" ees'8 c''8) g''8( c''8 ees'8 } g4->                    | % 253 Tb1 upbeat g
   \omit TupletNumber
   \tuplet 3/2 4 { c'8-> ees'8 c''8) g''8( c''8 ees'8 } c'4->                    | % 254 Tb1 c' ten.
   \tuplet 3/2 4 { b8 e'8 c''8) g''8( c''8 e'8 } b4->                            | % 255 Tb1 b

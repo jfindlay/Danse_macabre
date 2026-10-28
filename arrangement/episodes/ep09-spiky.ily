@@ -34,7 +34,7 @@ epNine = \absolute {
   % dis''' -> dis'' -> c''') + the bass on the three downbeats where V1a rests (247.1 Tba/Tb3/Vc
   % ais, 249.1 a, 251.1 aes); V1a's own 245.1 b and 253.1 g frame that line. Not carried: the wind
   % echo, V2's lower octave, the Va motor. p throughout (source has no cresc; 253 is mf).
-  b8-.\p r8 dis''8-. fis''8-. dis''8-. eis''8-.                            | % 245  b = bass B
+  b8-.\p^\markup\italic "spiccato" r8 dis''8-. fis''8-. dis''8-. eis''8-.                            | % 245  b = bass B
   fis''8-. r8 eis''8-. r8 dis''8-. r8                                      | % 246
   ais8-. r8 dis'''8-. fis'''8-. dis'''8-. eis'''8-.                        | % 247  ais = Tba/Tb3/Vc
   fis'''8-. r8 eis'''8-. r8 dis'''8-. r8                                   | % 248

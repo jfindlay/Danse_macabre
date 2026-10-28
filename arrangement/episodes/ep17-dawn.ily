@@ -34,16 +34,16 @@ epSeventeen = \absolute {
   g''2.~                                                                       | % 442
   g''2.\>~                                                                     | % 443
   g''2.                                                                        | % 444 (tail absorbed at 445.1)
-  % 445-454: the strings' tremolo, f > p > fermata; the open G = Va/timp G, ees' = V1a.
-  <g ees'>2.:16\f\>                                                            | % 445 strings enter (oboe's tail absorbed)
-  <g ees'>2.:16                                                                | % 446
-  <g ees'>2.:16                                                                | % 447
-  <g ees'>2.:16                                                                | % 448
-  <g ees'>2.:16                                                                | % 449
-  <g ees'>2.:16                                                                | % 450
-  <g ees'>2.:16\p\>                                                            | % 451
-  <g ees'>2.:16                                                                | % 452
-  <g ees'>2.:16\!                                                              | % 453
-  <g ees'>2.:16\fermata^\markup\italic "très long" _\markup\italic "toujours en dim." | % 454 -> 455 déclamé
+  % 445-454: Vc cis + Va g, 8va -- the C-sharp dim 7's tritone; 2nd position, 4 on G, 3 on D.
+  <cis' g'>2.:16\f\>                                                            | % 445 strings enter (oboe's tail absorbed)
+  <cis' g'>2.:16                                                                | % 446
+  <cis' g'>2.:16                                                                | % 447
+  <cis' g'>2.:16                                                                | % 448
+  <cis' g'>2.:16                                                                | % 449
+  <cis' g'>2.:16                                                                | % 450
+  <cis' g'>2.:16\p\>                                                            | % 451
+  <cis' g'>2.:16                                                                | % 452
+  <cis' g'>2.:16\!                                                              | % 453
+  <cis' g'>2.:16\fermata^\markup\italic "très long" _\markup\italic "toujours en dim." | % 454 -> 455 déclamé
   \barNumberCheck #455
 }

@@ -38,10 +38,11 @@
 
 epSixteen = \absolute {
   \barNumberCheck #416
-  % 416-418: the tutti descent an octave above V1a (user) -- g'''' at the E-flat string's top.
-  g''''4-!\ff f''''!4 ees''''4                                                 | % 416 Animato, tutti crash
-  f''''4 ees''''4 d''''4                                                       | % 417
-  ees''''4 d''''4 c''''4                                                       | % 418
+  % 416-418: V1a (A string, 22 -> 15) under Pic's sounding pitch (E-flat string, 28 -> 21);
+  % fallback = the upper voice alone.
+  <g''' g''''>4-!\ff <f'''! f''''!>4 <ees''' ees''''>4                           | % 416 Animato, tutti crash
+  <f''' f''''>4 <ees''' ees''''>4 <d''' d''''>4                                 | % 417
+  <ees''' ees''''>4 <d''' d''''>4 <c''' c''''>4                                 | % 418
   % 419-420: Theme 1's head on A-flat (Ab/C) then F-sharp (D), an octave above V1a.
   aes'''8 c''''8 aes'''8 bes'''8 c''''4                                        | % 419
   fis'''8 a'''!8 fis'''8 g'''8 a'''4                                           | % 420
@@ -63,14 +64,14 @@ epSixteen = \absolute {
   << { s4 g'4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                                | % 428
   << { s4 fis'4 s4 } \\ { c'8 b8 bes8 a8 aes4 } >>                             | % 429
   % 430-432 [M]
-  << { s4 g'4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                                | % 430 [M]
-  << { s4 g'4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                                | % 431
-  << { s4 g'4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                                | % 432
+  << { s4 <d' g'>4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                           | % 430 [M]
+  << { s4 <d' g'>4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                           | % 431
+  << { s4 <d' g'>4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                           | % 432
   % 433-437 fff: the figure runs in continuous 8ths.
-  << { s4 g'4 s4 } \\ { g8\fff bes8 g8 a8 bes8 g8 } >>                         | % 433
-  << { s4 g'4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                             | % 434
-  << { s4 g'4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                             | % 435
-  << { s4 g'4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                             | % 436
-  << { s4 g'4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                             | % 437 -> 438 Tempo 1
+  << { s4 <d' g'>4 s4 } \\ { g8\fff_\markup\italic "sautillé" bes8 g8 a8 bes8 g8 } >> | % 433
+  << { s4 <d' g'>4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                       | % 434
+  << { s4 <d' g'>4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                       | % 435
+  << { s4 <d' g'>4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                       | % 436
+  << { s4 <d' g'>4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                       | % 437 -> 438 Tempo 1
   \barNumberCheck #438
 }
