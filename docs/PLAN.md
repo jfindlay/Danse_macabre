@@ -45,9 +45,12 @@ entering the ad-lib small notes — see "Build-session findings" below.
 
 **Episode 10 decided and entered 2026-10-27** (the deciding session left no PLAN/NOTES entry; the
 draft below and the NOTES decision log were reconstructed from `ep10-whirl-vs-theme.ily`'s header
-the same day). **Episode 11 decided and entered 2026-10-27 (user + agent).** Compiles clean, zero
-`barNumberCheck` warnings. Next: Episode 12 [I] 309–337 (step 4 of "Resume here"); its first
-decision is 309.1, the goal note of Episode 11's second chromatic run.
+the same day). **Episode 11 decided and entered 2026-10-27 (user + agent).** **Episode 12
+decided and entered 2026-10-27 (user + agent)** — the first episode layering orchestral notes
+*over* the solo's own notes (313–320 stamps as double-stops); the solo's Theme 2 statement kept
+intact. Compiles clean, zero `barNumberCheck` warnings. **Map correction:** the *Dies irae*
+parody is at 181–185 (Episode 7), not at [I] — see NOTES. Next: Episode 13, 338–361 (step 5 of
+"Resume here"); its first job is restoring the solo's 337→338→339 tie.
 
 ## Deliverable
 
@@ -77,8 +80,8 @@ arrangement/
     ep09-spiky.ily             % bars 237–252  (F)  (status: DECIDED 2026-10-22, entered 2026-10-23)
     ep10-whirl-vs-theme.ily    % bars 253–272  (G)  (status: DECIDED + entered 2026-10-27, draft below)
     ep11-marcato-dim.ily       % bars 273–308  (H)  (status: DECIDED + entered 2026-10-27, draft below)
-    ep12-summons-diesirae.ily  % bars 309–337  (I)  — next; 309.1 = Ep 11's run goal note
-    ep13-strings-sequences.ily % bars 338–361
+    ep12-summons-diesirae.ily  % bars 309–337  (I)  (status: DECIDED + entered 2026-10-27, draft below; no Dies irae here — name kept)
+    ep13-strings-sequences.ily % bars 338–361  — next; restore the solo's d' tie from 337
     ep14-runs-tutti.ily        % bars 362–393  (K)
     ep15-ornamented.ily        % bars 394–415  (L)
     ep16-animato-frenzy.ily    % bars 416–437  (M)
@@ -128,7 +131,8 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
 | 9 | 237–252 | two-octave chromatic scale (V1a/V1b composite) as one line, slurred per beat; 237.1 rolled `<fis' dis'' fis''>` = Ep 8's resolution + the cadence's D♯; 245–252 V1a verbatim (Theme 1's head in D♯ minor, own register toss) + bass dots `ais`/`a`/`aes` in its downbeat rests; p throughout | **decided** — draft below |
 | 10 | 253–272 | **the theme is the whirl's bass**: V1a's triplet arpeggio sweeps alone, with the brass Theme 2 head (Tb1 at C, Tp at A 8vb, Bn/Tb at B♭) replacing the whirl's lowest note on beats 1 and 3, upbeats riding the held bass as double-stops; 265–272 the strings'/Tb1's cis′ as the bottom of every E♭ bar (the German sixth spelled out); positions climb 1st→4th with the cresc. | **decided** — draft below |
 | 11 | 273–308 | four lifts: 273–280 hammer blows every bar (Gr6/dim7 four-string chords with the open E♭ or a barre on top vs. the triad resolutions); 281–288 the wind chorale in descending shifted octaves, dim. to p; 289–292 the string wedge as double-stops with the bass 8va (M2→P4→m6→P8) → 293–296 D vamp `<d' fis' a'>` + the timp's a as open-A 8ths; 297–300/305–308 the winds' two-octave chromatic descent twice (Fl1→Cl1 relay at `g''`, then Fl1 at `g'''`), **not** V1a's legg. figure (user's call); 301–304 vamp with V1a's own `<d' a'>` + fis″, cresc. | **decided** — draft below |
-| 12–18 | 309–477 | per transcript map, to be revised episode by episode | pending |
+| 12 | 309–337 | 309.1 `fis'` (the run's goal); summons verbatim; **312.3–320 the strings' pizz waltz chords in the solo's rests (D, E♭7 ×2, E♭7, A♭ ×2, A♭, C♯°7 ×2 — the E♭7 strum is Ep 11's Gr6 hand) and the solo's low stamps `des'/c'/bes` as double-stops with the wind chord's D-string tone** (`<des' g'>`, `<c' aes'>`, `<bes e'>`); 320.3–321.1 the tutti G→D as open strings; 321.2–323.2 V1a's Theme-1-head cell pp in the solo's rests; **323.3–337 the solo's Theme 2 espress. intact**, cell tails in its two-beat rests (327, 331), `<bes g'>` at 331.3; editorial *(f)* at 323.3 | **decided** — draft below |
+| 13–18 | 338–477 | per transcript map, to be revised episode by episode | pending |
 
 ## Resume here (next session)
 
@@ -164,15 +168,19 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
    bar 166.1) — see "Build-session findings" below. (f) Recompiled: zero `barNumberCheck`
    warnings. Hit and fixed a LilyPond engraving bug along the way — see "Build-session findings".
 3. **Done 2026-10-27.** Episodes 10 and 11 decided and entered (drafts below; NOTES decision log).
-4. Resume at **Episode 12, bars 309–337 [I].** Slice 308–338 for all voices first (Cl/Cor/Tp
-   with `--transpose`). Known from the 272–309 slice: **309.1 is Episode 11's open question** —
-   the second chromatic run (`g'''`→`g'`, 305–308) has its goal note there: Fl1 `fis'4)`, or
-   V1a's `d'8-.` as statement 1 resolved at 301.1 (consistency argues `d'8-.`; the fis′ is the
-   third of the D the solo then strikes). Also on 309: Vc/Cb pizz `d` p, Ti `d8 d8 d4-.`, Fl2
-   `d'4)`, Cl1/Bn1 `fis`/`a,`; **VSolo re-enters 309.3 `<d' a'>4-.\f`** (the tritone chords
-   309–312 per the structural map). The map's "*Dies irae* parody (~313–320)" is inferred, not
-   verified — check the slice before building the sul-ponticello device on it (NOTES "three death
-   timbres").
+4. **Done 2026-10-27.** Episode 12 decided and entered (draft below; NOTES decision log). 309.1
+   is Fl1's `fis'`. The "*Dies irae* ~313–320" inference was checked against the dump and is
+   wrong — the chant is at 181–185 (Episode 7); the sul-ponticello device was never built. The
+   solo's `d'2.~` at 337 is engraved **without its tie** (an unterminated tie against the Ep 13
+   placeholder is a compile warning).
+5. Resume at **Episode 13, bars 338–361.** Slice 336–362 for all voices first (Cl/Cor/Tp with
+   `--transpose`). Known from the 308–338 slice: **337–338 is already Episode 13's texture** —
+   the solo holds `d'2.~ | d'2.~` while the strings start a rising chromatic line in parallel
+   (V1a `d'2( ees'4 | e'2\< f'4)`, V2 `a2( bes4 | b2 c'4)`, A `d2( ees4 | e2 f4)`, Vc
+   `a,2( bes,4 | b,2 c4)`) over a Ti `d` roll pp and C3/C4 `d` pedal p. First tasks: (a)
+   restore the tie `d'2.\!~` at 337 in `ep12-summons-diesirae.ily` and tie 338→339 in Ep 13;
+   (b) decide how the rising line emerges from the solo's held open D (e.g. `<d' ees'>` with
+   the d′ on the G string, or the line alone after the solo's tie ends).
 
 Working method from Episode 5: a `@general` subagent slices exact bar ranges per voice from the
 absolute dump (sounding pitch for transposers); the architect session spends context on
@@ -592,6 +600,13 @@ into 205.1 `b''` arco. Label the staff "ossia (arco)".
 
 ### Episode 8 — bars 205–236 [E] (absolute pitch)
 
+**Revised 2026-10-27 (user): statements 1 and 3 now carry the solo cellos' tied dotted halves
+as a lower voice** (d♯′ 206–208, b 209–212, d♯′ 213; d♯′ 222–224, g♯ 225–226, a♯ 227–228, b
+229) — see NOTES Episode 8 decision 7 and the file's bar comments; the draft below is the
+2026-10-19 single-line text. The two statements are engraved as `<< { \voiceOne … }
+\new Voice { \voiceTwo … } >> \oneVoice` blocks — **not** `<< \\ >>`, which moves the melody
+into a new voice and breaks the slurs crossing the block edges (205→206, 213→214).
+
 Concept: **solo = single line, orchestra = octaves.** Statements 1 and 3 are the solo verbatim
 (nothing added; the bass is B throughout, so the LH-pizz device never fires). Statements 2 and 4
 are the orchestra's own octave doublings (Fl 1 + Fl 2/Hn 1; V2 + Va) rendered as violin octaves.
@@ -794,6 +809,49 @@ cis'''8( c'''8 b''8 bes''8 a''8 aes''8)                          | % 306
 g''8( fis''8 f''8 e''8 ees''8 d''8)                              | % 307
 cis''8( c''8 b'8 bes'8 a'8 g'8)                                  | % 308 -> 309.1 (Ep 12)
 \barNumberCheck #309
+```
+
+### Episode 12 — bars 309–337 [I] (absolute pitch; decided + entered 2026-10-27)
+
+Concept: **the orchestra layered over the solo's notes, never in place of them.** See NOTES
+Episode 12 for the reasoning and the user's calls. All 1st position: stamp double-stops 4–3 /
+3–4 / 2–1 on G–D; pizz chords 4–3–1–0 (the Ep 11 Gr6 hand), 4–2–0, 2–3–4. Each three-chord
+pizz group carries one `pizz.` and the solo's re-entry one `arco` (a short passage, as 203–205).
+The 337 tie into 338 is deferred to Episode 13's entry (see "Resume here" step 5).
+
+```
+\barNumberCheck #309
+fis'4 r4 <d' a'>4-.\f                                                        | % 309 Fl1 goal; summons
+<a' ees''>8\open <a' ees''>8\open <a' ees''>4\open <d' a'>4-.                | % 310
+<a' ees''>8\open <d' a'>8 <a' ees''>8\open <d' a'>8 <a' ees''>8\open <d' a'>8 | % 311
+<a' ees''>4\open <d' a'>4-. <d' a' fis''>4\p^"pizz."                         | % 312 strings' D
+<des' g' bes' ees''>4 <des' g' bes' ees''>4 <des' g'>4-.\f^"arco"            | % 313 E-flat 7 x2; stamp
+<des' g'>8-. <des' g'>8-. <des' g'>4-. <des' g'>4-.                          | % 314 solo des' + Cl1 g'
+<des' g'>8 <des' g'>8 <des' g'>8 <des' g'>8 <des' g'>8 <des' g'>8            | % 315
+<des' g'>4-. <des' g'>4-. <des' g' bes' ees''>4\p^"pizz."                    | % 316
+<aes' c'' ees''>4 <aes' c'' ees''>4 <c' aes'>4-.\f^"arco"                    | % 317 A-flat x2; stamp
+<c' aes'>8-> <c' aes'>8 <c' aes'>4-. <aes' c'' ees''>4\p^"pizz."             | % 318 solo c' + Cl1 aes'
+<bes g' e''>4 <bes g' e''>4 <bes e'>4-.\f^"arco"                             | % 319 C-sharp dim7 x2; stamp
+<bes e'>8-> <bes e'>8 <bes e'>4-. g4-.\p                                     | % 320 solo bes + Cl2 e'; tutti G
+d'4-. d'8-.\pp fis'8-. d'8-. e'8-.                                           | % 321 tutti D; V1a cell 1
+fis'4-. e'4-. d'4-.                                                          | % 322
+f'!4-. e'4-.
+  d''4-\tweak self-alignment-X #CENTER -\markup{\dynamic "(f)"}^\markup\italic "espress." | % 323
+f''!4( e''4 d''4)                                                            | % 324 VSolo Theme 2
+e''2.(                                                                       | % 325
+a'2.)                                                                        | % 326
+ees'!4-.\pp d'4-. c''4\>                                                     | % 327 V1a tail; solo c''
+ees''4( d''4 c''4)                                                           | % 328
+d''2.(                                                                       | % 329
+g'2.)\!                                                                      | % 330
+d'4-.\pp c'4-. <bes g'>4\p                                                   | % 331 V1a tail; solo g' + bes
+bes'4( a'4 g'4)                                                              | % 332
+a'2(\< e'4)\!                                                                | % 333
+g'2.(                                                                        | % 334
+f'2.                                                                         | % 335
+ees'2.)\>                                                                    | % 336
+d'2.\!                                                                       | % 337 (~ deferred to Ep 13)
+\barNumberCheck #338
 ```
 
 ## Build-session findings (2026-10-20) — for @architect/user review

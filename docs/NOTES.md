@@ -100,12 +100,12 @@ K 362 · L 394 · poco stringendo 409 · Animato 416 · M 430 · Tempo 1° 438 �
 | 102–116 | tacet | strings Theme 2 *largamente* |
 | 117–136 [B] | Theme 1 in D major at d″ 117.2–121.1 and 125.2–129.1; ff open-string chords 133.2–136 | tutti D-major stamp on 117.1/125.1/133.1; wind choir + xylophone (enters 121.2) Theme 1 in G minor 121.2–125.1, 129.2–133.1; strings pizz chords (121–124) then col legno (129–132) |
 | 137–172 [C] | tacet | **fugato on Theme 2's head**, five entries 7 bars apart (Bn/Vc/Va 137.3 · Hn3/4+V2 144.3 · Ob/Cl/V1 151.3 · Tp 158.3 · Tb 165.3), running staccato counter-lines; wind sweep g′→f‴ 166–172; all strings trill f′ at 172 |
-| 173–204 [D] | tacet | **one 16-bar strain twice**: 173–188 E pedal, wind thirds p stacc on 1 & 3, string turn e–f–e as a round (Vc 1 / Va 2 / V2 3), cymbal on 2; 189–204 the same strain a 4th up over an A pedal in Vln I pizz + Tp/Tb, turn a–b♭–a, triangle on 2, timp roll, horn-call g♯→a, cresc 194 → f 204 → tutti B 205.1 |
+| 173–204 [D] | tacet | **one 16-bar strain twice**: 173–188 E pedal, wind thirds p stacc on 1 & 3, string turn e–f–e as a round (Vc 1 / Va 2 / V2 3), cymbal on 2; 189–204 the same strain a 4th up over an A pedal in Vln I pizz + Tp/Tb, turn a–b♭–a, triangle on 2, timp roll, horn-call g♯→a, cresc 194 → f 204 → tutti B 205.1. **This strain is the *Dies irae* parody** (verified 2026-10-27: the chant's contour F E F D E C D D occurs in the score exactly once, as the winds' `d'' cis'' d'' b' cis'' a' b' b'` at 181–185 — and its transposition in Tb1 at 197) |
 | 205–236 [E] | lyrical Theme 2 in **B major** (205.3–214 G♮ variant, 221.3–230 G♯ variant) | **four elided 8-bar statements**: solo / Fl 1 b″ + Fl 2 & Hn 1 b′ *espress.* (213.3–222) / solo / V2 b″ + Va b′ *molto espress.* cresc → f 233 (229.3–237.1). Under: 4 solo cellos pp, harp `<b,, b,>` + arpeggio with **Cl 1 "A défaut de Harpe"** (206–), V1 inner voice d♯′→d♮′→d♯′ (213–221), Cb `<b, b>` pp, brass pedal pp 229–236. Bass is B throughout |
 | 237–252 [F] | tacet | **one continuous two-octave chromatic scale** b→b″→b in 16ths (V1a/V1b desks hand off every beat), p 237, cresc 241, f 243, dim 244, over Hb d♯′/b pedal and a staccato bass figure B/G/B/G♯; 245–252 **Theme 1's head in D♯ minor** tossed strings→winds in canon at the bar (V1a + V2 8vb lead), bass descends B→A♯→A→A♭ in 8ths (→ G 253), Va `<fis dis'>` motor, pp Tba/Tb/GC dots on block downbeats; p throughout |
 | 253–272 [G] | tacet | **the knot**: Vln I whirling triplet-8th arpeggios (two-octave sweep up and down, bass note accented on 3) against Theme 2's head *ten.* three times in the brass (Tb1 at C, Tp at A, Bn/Tb at B♭), then f 265–272 D/E♭ alternation with the strings' accented C♯ (German sixth) → [H] |
 | 273–308 [H] | tacet | **273–280 hammer blows** f marcato `2^ 4^`, winds/brass (Gr6, Gr6, B°7, A°7) on the odd bars vs strings+Tp (D, D, C, B♭) on the even, each resting in the other's bar; **281–288 wind chorale** dim. → p 287, top line a″ g″ f″ e♭″ d″ e♭″ d″ e♭″ doubled 8vb; **289–292 string wedge** p (V1a d′ e♭′ f′ g′ rising, bass c b♭ a g falling) → **293–296 D vamp** (chord on 1, horn d′ pedal, timp a 8ths); **297–301 / 305–309.1 wind chromatic descent** ×2 (Fl1→Cl1 relay g″→f♯, then Fl1 alone g‴→f♯′) under V1a's *legg.* Theme-1-head figure (Va 8vb, V2 pizz + xylophone on its downbeats) over a Tb/Bn C-minor pedal; 301–304 the vamp again, cresc. Not Theme 1 in the strings as the transcript had it |
-| 309–337 [I] | tritone chords 309–312; low d♭/c/b♭ figure 313–320; Theme 2 *espress.* 324.3–337 | winds *Dies irae* parody (inferred, ~313–320); Vln I staccato answers |
+| 309–337 [I] | tritone summons 309.3–312.2; low stamps d♭′ (313.3–316) / c′ (317.3–318) / b♭ (319.3–320) f staccato; Theme 2 *espress.* 323.3–337 | 309.1 the chromatic run's goal (Fl1 f♯′) over a p D chord; **312.3–320 strict alternation**: strings pizz waltz chords (upbeat + two) in the solo's rests — D · E♭7 E♭7 · E♭7 · A♭ A♭ · A♭ · C♯°7 C♯°7 — then the solo's stamp as the bass of a homorhythmic wind stamp (Bn1 in unison with the solo; Hb/Cl the chord above); 320.3→321.1 tutti G→D p; **321–337 Theme 2 (solo) over Theme 1's head in V1a pp staccato** (four two-bar cells on d′/c♯′/b/a, 321.2/325.2/329.2/333.2) and a pp D pedal in repeated 8ths (V2 d′/a, Va f♯, Vc/Cb d) whose harmony shifts every two bars; 337 the strings' rising chromatic line begins under the solo's tied d′ (→ Ep 13). **No *Dies irae* here** — the map's "~313–320" was a transcript inference, disproved 2026-10-27 (it is [D]) |
 | 338–361 | tacet | strings p line (338–349); wind Theme 1 ff sequences (350–358) |
 | 362–393 [K] | tacet | Vln I/II *non legato* runs; tutti Theme 1 (371–389) |
 | 394–415 [L] | tacet | Vln I/II grace-note ornamented figure (394–404); ascending figures; *poco stringendo* 409 |
@@ -458,8 +458,24 @@ Decisions:
 6. Dynamics as source (Fl 1's hairpins in 2, V2's in 4); editorial *(f)* at 221.3. No LH-pizz
    anywhere in the episode (bass B is not an open string) — the lyrical episode is clean of clicks.
 
-Known losses: the four solo cellos, the harp/clarinet rocking figure, the Cb and brass pedals, V2's
-f♯″ upbeat at 229.3, the flutes' tail at 221–222. All accepted.
+7. **Revised 2026-10-27 (user): the four solo cellos' tied dotted halves under statements 1 and
+   3**, as a stems-down lower voice (`\voiceOne` / `\new Voice { \voiceTwo }` so the melody keeps
+   the main voice and its slurs; the `<< \\ >>` shorthand broke them). Dump: solo 1 d♯′ (205–208)
+   / d′ (209–212) / d♯′ (213); solo 2 b; solo 3 f♯ / g / f♯; solo 4 B₂ — and in 221–230 solo 1
+   d♯′ / e′ (225–228) / d♯′, solo 2 b / c♯′ (227–228) / f♯, solo 3 f♯ / **g♯ (225–226) / a♯
+   (227–228) / b (229)**, solo 4 B₂. String adjacency decides which cello the violin holds:
+   under the A-string bars (206–208, 222–224) only solo 1's **d♯′** (D string); under the
+   D-string bars solo 2's **b** (209–212) and solo 3's moving **g♯ → a♯ → b** (225–229, the E
+   major → F♯7 → B resolution). Two half-bar breaks where the melody lands on a non-adjacent
+   string (210.3 b′ on A; 226.3 open A); 211.1 a′ sul D so the b holds. The user's recollection
+   (g♯ in statement 1; "f♯ for two bars" in statement 3) was reconciled against the dump: no
+   cello has g♯ under 205–213, and solo 3's f♯ (221–224) is F♯3, below the open G. No dynamic on
+   the lower voice (a sustained double-stop under an f line). 214.1/230.1 cello quarters dropped.
+
+Known losses: the harp/clarinet rocking figure, the Cb and brass pedals, V2's f♯″ upbeat at
+229.3, the flutes' tail at 221–222, solo 3's g (209–212, the open G under a D-string melody —
+not taken; solo 2's b preferred as the pedal), solo 1's d′/e′ where they share the melody's
+string. All accepted. (The four solo cellos were a known loss until 2026-10-27.)
 
 ### Episode 9 — bars 237–252 "Spiky" [F] (decided 2026-10-22)
 
@@ -610,6 +626,77 @@ Corrections to the transcript/map: 289–296 is a **wedge into a D vamp**, not "
 the "wind chromatic runs" are one two-octave descent relayed Fl1→Cl1 the first time and Fl1
 alone 8va the second.
 
+### Episode 12 — bars 309–337 "Summons, stamps, two themes" [I] (decided 2026-10-27, user + agent)
+
+Orchestra (from the dump; the structural map above is the corrected reading): (1) **309.1** the
+goal of Episode 11's second run — Fl1 `fis'4)` over a p D chord (Fl2/Cl2 d′, Cl1 f♯, Bn1 a,
+Bn2 d, V1a `d'8-.`, V2 d″/d′, Vc/Cb d pizz, Ti `d8 d8 d4-.`, Xy d′); then the solo's tritone
+summons 309.3–312.2, alone (310–311 are rests in every other voice). (2) **312.3–320** a strict
+alternation. Strings pizz, waltz-shaped (upbeat on 3, then beats 1–2), in the solo's rests: 312.3
+D (V1a d″, V2 d′, A `<a fis'>`, Vc/Cb d, Ti d pp); 313.1–2 E♭7 (V1a `<bes' g''>`, V2
+`<g' ees''>`, A `<bes g'>`, Vc/Cb d♭); 316.3 E♭7 again; 317.1–2 and 318.3 A♭ (V1a a♭″, V2
+`<aes' ees''>`, A `<aes ees'>`, Vc/Cb c); 319.1–2 C♯°7 (V1a d♭‴/d♭″ div., V2 `<g' e''>`, A
+`<g e'>`, Vc/Cb b♭). Then the solo's low staccato stamp — `des'` ×12, `c'` ×4, `bes` ×4 in
+`8 8 4 4 | 8×6 | 4 4` — with **Bn1 in unison** and the wind choir stamping the same rhythm a
+chord above: E♭7 (Cl2 e♭′, Cl1 g′, Hb2 b♭′, Hb1 f″/b♭′ oscillating), A♭ (Cl2 e♭′, Cl1 a♭′, Hb2
+e♭″, Hb1 e♭″→b♭″), C♯°7 (Cl2 e′, Cl1 g′, Hb2 c♯″, Hb1 g″); Fl1 adds a p descant
+`cis''' | fis''' fis''' fis''' e''' | d'''` 319.3–321.1. 320.3→321.1 a p tutti cadence G→D
+(brass/Bn/Ti/Trg). (3) **321–337**: Theme 2 in the solo, *espress.*, 323.3–337 (no dynamic
+given; its own hairpins 327.3–330.1, 333, 336–337; p 331.3), over **Theme 1's head in V1a pp
+staccato** in four two-bar cells — `r4 d' fis' d' e' | fis' e' d' | f' e' d'` on d′ (321.2),
+then on c♯′ (325.2), b (329.2), a (333.2, two bars only) — and a pp D pedal in repeated 8ths
+(V2 d′/a, Va f♯, Vc/Cb d) whose upper notes shift every two bars (A 325, D7 327, G 329, Gm 331,
+A 333, C/E♭ 335). 337: the solo holds `d'2.~` while the strings begin a rising chromatic line
+(V1a `d'2( ees'4 | e'2\< f'4)` with V2/Va/Vc in parallel) over a Ti roll and horn d pedal —
+Episode 13's texture starting a bar early.
+
+The user's opening proposal: *"we might actually substitute some of the orchestral notes over
+the solo notes"* — the first episode where the solo plays nearly throughout and its material is
+partly accompaniment-grade. Resolved as **layer, don't replace**:
+
+1. **309.1 = `fis'`.** The run was Fl1's, so its goal note lands (at 301.1 Cl1's `fis` was out of
+   range and V1a's `d'8-.` stood in). The Ti rhythm is not carried.
+2. **313–320: the wind chord *over* the solo's stamp, as a double-stop.** The solo's `des'`/`c'`/
+   `bes` is the bass of a homorhythmic wind stamp, and it stays on every beat at f; the one chord
+   tone that sits on the D string rides on top: `<des' g'>` (E♭7's tritone — the summons'
+   interval a semitone lower), `<c' aes'>` (A♭; `<c' ees'>` rejected as sounding C minor),
+   `<bes e'>` (C♯°7's tritone). Hb1's f″–b♭′ oscillation is on the E♭ string and unreachable
+   over a G-string bass — accepted loss. **User's call** over the full four-string stamp on every
+   8th (heavy; buries the solo's gruff line in a chord) and over the bare solo (loses the harmony
+   that gives the passage its lilt).
+3. **The pizz chords in the rests are lifts**, each voiced with its bass so that the chord's
+   bottom note becomes the solo's next stamp: `<des' g' bes' ees''>` (4–3–1–0 — **the same hand
+   as Episode 11's Gr6 hammer blow `<cis' g' bes' ees''>`**, now plucked and spelled as E♭7),
+   `<aes' c'' ees''>` (4–2–0; the bass c is the solo's 317.3), `<bes g' e''>` (2–3–4; V2's dyad
+   over the bass 8va). 312.3 is the project's D stamp `<d' a' fis''>`. Each three-chord group
+   carries one `pizz.` and the solo's re-entry one `arco` — a short passage, as 203–205, not
+   three per-note labels. The f/p alternation is engraved on every group (stamps f, chords p).
+4. **320.3–321.1: the cadence as open strings `g`→`d'`** (the brass/bass register), p; Fl1's
+   stratospheric e‴→d‴ dropped.
+5. **323.3–337: the solo's Theme 2 kept intact.** The tempting substitution — strike each held
+   note (`e''2.`, `a'2.`, …) and let V1a's cell fill the bar — was checked against the geometry
+   and rejected (user): the cells lie on G/D under a melody on A/E♭, with `cis'`/`b`/`a` on the
+   G string, so superimposition is impossible and the only way in shortens the solo's notes,
+   which inverts the texture (espress. foreground, pp shadow) and spends the last lyrical moment
+   before the 338–437 drive. The "known themes resonate" principle applies: Theme 1's head is on
+   its ninth hearing. Carried instead: **cell 1 whole** (321.2–323.2, entirely in the solo's
+   rests), **cell tails in the two-beat rests** (327.1–2 `ees' d'`, 331.1–2 `d' c'`), and
+   **331.3 `<bes g'>`** — V1a's b♭ under the solo's p entrance, the G major → G minor shift
+   made audible. V1a's `d'4-.` at 323.3 is not added (the espress. entrance kept clean); its
+   `c'` at 327.3 is non-adjacent to the solo's `c''`. Editorial *(f)* at 323.3 (the solo
+   carries no dynamic after 309 and now follows pp cells — Episode 8's 221.3 precedent).
+6. **337 tie deferred.** `d'2.~` into Episode 13's placeholder is an "unterminated tie" warning;
+   engraved as `d'2.` until Episode 13 is entered (PLAN "Resume here" step 5).
+
+Known losses: the Ti figure at 309; Hb1's oscillation 314–316 and b♭″ 318; Fl1's descant
+319.3–321.1; the pp D pedal and its harmony changes 321–336; V1a's cells 2–4 under the held
+notes; the Ti roll / horn pedal at 337. All accepted.
+
+Corrections to the transcript/map: **no *Dies irae* in [I]** (it is [D] 181–185); 313–320 is not
+"winds parody + Vln I answers" but the solo's own stamp doubled by Bn1 under wind chords, with
+the strings' pizz waltz in its rests; 321–337 is the **two-theme combination** (Theme 2 solo /
+Theme 1 head V1a), the structural event the transcript missed.
+
 ### Project-wide: known themes resonate; prefer the novel line (user, 2026-10-27)
 
 Once a theme has been stated enough times for the listener to carry it, a further orchestral
@@ -643,7 +730,7 @@ Each extended technique carries one orchestral identity for the whole piece; do 
 |---|---|---|
 | pizzicato | harp / string pizz | composer's "à défaut de harpe" (bar 33) |
 | col legno battuto | xylophone (bones) | composer's own strings col legno under the xylophone (129–133); Berlioz *Fantastique* V |
-| sul ponticello | *Dies irae* parody ([I] ~313–320) | Ysaÿe op. 27 no. 2 "Obsession"/"Les furies" — the solo-violin *Dies irae* precedent |
+| ~~sul ponticello~~ | ~~*Dies irae* parody ([I] ~313–320)~~ | **orphaned 2026-10-27**: the *Dies irae* is [D] 181–185, already engraved as Episode 7's strain without it; [I] has no chant. The device remains available, unsanctioned (Ysaÿe op. 27 no. 2 is still the solo-violin *Dies irae* precedent if Episode 7 is ever revisited) |
 | ~~pizz. natural harmonic~~ | ~~triangle ([D] 189–204)~~ | **retired 2026-10-26** (the call took beat 2); the device remains available, unsanctioned |
 | RH-pizz open string on an off-beat | cymbal ([D] 173–188) | extension of the pizz device from bass to percussion; normal-size, not ad lib (was LH-pizz G; open A, right hand, from 2026-10-26) |
 
@@ -802,6 +889,30 @@ padded staff (removed 2026-10-26 with the Episode 7 rework). Density was known (
   partials give D string → d″ a″ d‴ f♯‴; A string → a″ e‴ a‴ c♯⁗; G string → g′ d″ g″ b″;
   E♭ string → e♭‴ b♭‴ e♭⁗ g⁗. F♯ is available only on D; A♭/C (the Neapolitan colours) are
   not available as natural harmonics at all.
+- **Verify a quotation claim by contour search before building a device on it.** The map's
+  "*Dies irae* parody at [I] ~313–320" was a transcript inference that survived eleven episodes
+  and seeded a timbre reservation (sul ponticello). A seven-line script over the absolute dump
+  — match the chant's semitone deltas (−1 +1 −3 +2 −4 +2 0) in every voice — found it in one
+  place only, [D] 181–185, already engraved as Episode 7's "Spanish" strain. Generalises: any
+  "the orchestra quotes X here" claim in rolling notes is a hypothesis until the dump confirms
+  it; the search is cheap once the dump exists, and it should run before the episode that
+  depends on the claim, not during it.
+- **Layer over the solo, never replace it — and let geometry decide.** When the solo plays
+  accompaniment-grade material (Episode 12's low stamps) the orchestra's chord can ride on top as
+  a double-stop with the solo's note as bass; when the solo plays the melody (Theme 2 espress.)
+  and the orchestra's counter-line sits on non-adjacent strings, the only way to carry both is
+  to shorten the solo's notes, which is substitution by another name. The string-adjacency check
+  is the fast test: if the counter-line's notes are not adjacent-string to the melody's, the
+  counter-line goes into the rests or goes unplayed.
+- **`<< { } \\ { } >>` evicts the melody from the main voice.** Inside an existing Voice the
+  shorthand puts *both* branches in fresh temporary voices, so a slur or tie that starts before
+  the block and ends inside it (or vice versa) dies with "cannot end slur" / "unterminated
+  slur". Where a melody line must stay continuous across a two-voice passage, write
+  `<< { \voiceOne … } \new Voice { \voiceTwo … } >> \oneVoice` — the first branch is then the
+  enclosing voice itself. The shorthand is fine only where nothing spans the block edges
+  (Episode 1's bar-by-bar blocks happen to tie first-branch to first-branch, which works because
+  the temporary voice id is reused; do not rely on it for slurs). Found entering Episode 8's
+  cello voice, 2026-10-27.
 - **LilyPond 2.24.3's Slur/Script engraver has a line-break-dependent cyclic-dependency bug.**
   Two chord-tone `\tweak font-size` notes a few bars apart, the second under a slurred ornament
   (`\prall`/`\trill`), can trip `programming error: cyclic dependency ... Slur.control-points` —

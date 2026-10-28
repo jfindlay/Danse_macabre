@@ -42,6 +42,6 @@ layout stage (`Unbound variable: output-stencils`), independent of this project'
 
 ## Status
 
-Episodes 1–11 (bars 1–308) are fully composed. Episodes 12–18 (bars 309–477) are `R2.*n`
+Episodes 1–12 (bars 1–337) are fully composed. Episodes 13–18 (bars 338–477) are `R2.*n`
 multi-measure-rest placeholders pending further arranging — see `docs/PLAN.md`'s episode ledger
 and "Resume here" section for what's next.
