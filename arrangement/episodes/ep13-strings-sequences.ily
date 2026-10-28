@@ -33,7 +33,7 @@
 % 346-353 winds' figure (held until the strings take it), V2's octave doubling of the figure
 % 354-357, the inner voices of 358.1's chord (fis/c).
 % Dynamics: pp 337.3 (the Ti pp), p 346.1 (the Ti "sempre p"), the source's swells, cresc.
-% 348-353, f 354.1, cresc. to ff 358.1.
+% 348-353, f 354.1, cresc. continuing through 361 to ff at [K] 362.1 (Episode 14; no ff at 358.1).
 
 epThirteen = \absolute {
   \barNumberCheck #338
@@ -64,11 +64,14 @@ epThirteen = \absolute {
   % 358-361: V1a's descent, non legato, from the tutti D7 hit's top note; V2 unison from 360.
   % 358.1: the tutti hit as a quarter chord <d' a' ees'''> (open D, open A, the run's first note):
   % root, fifth and flat 9 of D7(b9), and the solo's own summons interval a'-ees'' recalled. Two
-  % voices so the run keeps all six 8ths; the open strings ring for the quarter.
+  % voices so the run keeps all six 8ths; the open strings ring for the quarter. No ff here (user,
+  % 2026-10-28): the cresc. from 354 runs on through 361. "non legato" hangs on the lower voice, to
+  % the right of the downbeat and above the hairpin (low outside-staff-priority).
   <<
-    { ees'''8\ff_\markup \italic "non legato" c'''8 ees'''8 d'''8 c'''8 a''8 }
+    { ees'''8 c'''8 ees'''8 d'''8 c'''8 a''8 }
     \\
-    { <d' a'>4-! s2 }
+    { <d' a'>4-! -\tweak outside-staff-priority #100 -\tweak self-alignment-X #LEFT
+      -\tweak X-offset #1.5 _\markup \italic "non legato" s2 }
   >>                                                                           | % 358
   c'''8 bes''8 a''8 fis''8 a''8 g''8                                           | % 359
   fis''8 c''8 ees''8 d''8 c''8 a'8                                             | % 360

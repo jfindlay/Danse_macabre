@@ -13,7 +13,7 @@
 % <g d' a' g'''>). (3) 370-375 Theme 1 ff at g'' (V1a/V2's octave) with the G-minor four-string
 % chord on the odd-bar downbeats -- Episode 4's 85-88 texture, now arco -- and 376-377's tail at
 % V1a's own d'''-a''' (6th-8th position; a''' is the piece's top), then the bass rise a-ais-b-cis'
-% from the open A (V2/Va/Vc/Cb, "non legato") to the D-major stamp <d' a' fis''> at 378.1.
+% from the open A (V2/Va/Vc/Cb) to the D-major stamp <d' a' fis''> at 378.1.
 % (4) 378.2-383 the second statement (V2/Vc; V1a has tremolo colour on g''', not a line) in
 % sixths and octaves over the winds' hammered bes' (<bes' g''> <bes' bes''>, a'' single: the
 % orchestra's own thickening by tremolo + piccolo rendered as double-stops), same odd-bar chords;
@@ -32,13 +32,14 @@
 % (present only as the downbeat chords); V1a's 378 descent d' c' bes a g (the theme restart
 % wins) and its 379-383 tremolo arpeggio to g'''; the Trg roll 370-386; Ti/GC/Cym; the
 % bass rise's doubling at 385 (the solo takes it from the violins' tremolo).
-% Dynamics as source: ff running from 358; f at the run's start 366.2, cresc. 368, ff 370.1;
+% Dynamics as source: cresc. running through 361 to ff at [K] 362.1 (user, 2026-10-28; no ff
+% written at 358; the "non legato" is marked once, at 358); f at the run's start 366.2, cresc. 368, ff 370.1;
 % \sf on the cell's ees'; -! on 377.1 / 378.1; ff restated at 391 with the GC/Cym.
 
 epFourteen = \absolute {
   \barNumberCheck #362
   % 362-365: the cell (V1a/V2, slurred as in the source) with the brass D7 stab on the downbeat 8th.
-  <c' fis' a'>8-. c'8( ees'8\sf d'8 c'8 a8)                                    | % 362
+  <c' fis' a'>8-.\ff c'8( ees'8\sf d'8 c'8 a8)                                 | % 362 [K] ff ends the cresc.
   <c' fis' a'>8-. c'8( ees'8\sf d'8 c'8 a8)                                    | % 363
   <c' fis' a'>8-. c'8( ees'8\sf d'8 c'8 a8)                                    | % 364
   <c' fis' a'>8-. c'8( ees'8\sf d'8 c'8 a8)                                    | % 365
@@ -54,9 +55,9 @@ epFourteen = \absolute {
   <g d' bes' bes''>4 a''8 bes''8 g''8 bes''8                                   | % 373
   a''8( g''8) g''8 bes''8 g''8 a''8                                            | % 374
   <g d' bes' bes''>4 a''8 bes''8 g''8 bes''8                                   | % 375
-  % 376-377: the tail at V1a's octave, then the bass rise from the open A (non legato).
+  % 376-377: the tail at V1a's octave, then the bass rise from the open A (the run's non legato, marked at 358, carries on).
   d'''4 e'''8 fis'''8 d'''8 fis'''8                                            | % 376
-  a'''4-! a8_\markup \italic "non legato" ais8 b8 cis'8                        | % 377
+  a'''4-! a8 ais8 b8 cis'8                                                     | % 377
   % 378-383: the second statement in sixths/octaves over the winds' bes', odd-bar chords as before;
   % 378.1 the tutti's D-major stamp.
   <d' a' fis''>4-! <bes' g''>8 <bes' bes''>8 <bes' g''>8 a''8                  | % 378

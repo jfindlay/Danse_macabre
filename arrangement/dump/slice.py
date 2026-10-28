@@ -25,7 +25,8 @@ USAGE
     python3 slice.py <abs_dir> <Voice> <bar_start> <bar_end> [--transpose PRESET]
         Print bars bar_start..bar_end (inclusive, 1-based) for <Voice>.
         PRESET is one of: cl-bb (Clarinet in Bb), horn-g (Cor 1/2 en Sol),
-        horn-d (Cor 3/4 en Re), tp-d (Trompette en Re). Omit for written pitch.
+        horn-eb (Cor 1/2 en Mi-bemol, bars 403-437), horn-d (Cor 3/4 en Re),
+        tp-d (Trompette en Re). Omit for written pitch.
 
     python3 slice.py <abs_dir> --verify-all
         Parse every *.abs.ly in abs_dir, report total bar count (expect 477
@@ -204,6 +205,7 @@ TRANSPOSE_PRESETS = {
     'cl-bb': (-1, -2),    # Clarinet in B-flat: sounds a major 2nd below written
     'horn-g': (-3, -5),   # Cor 1/2 en Sol: sounds a perfect 4th below written
     'horn-d': (-6, -10),  # Cor 3/4 en Re: sounds a minor 7th below written
+    'horn-eb': (-5, -9),  # Cor 1/2 en Mi-bemol (from 403): sounds a major 6th below written
     'tp-d': (1, 2),       # Trompette en Re: sounds a major 2nd above written
 }
 

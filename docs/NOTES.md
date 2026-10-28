@@ -48,7 +48,9 @@ here since the violin chooses its own octave).
 slicer, validated at 477 bars / 1431 quarters for every voice against LilyPond's own
 `ly:music-length`) and `build_dump.py` (regenerates). **`/tmp` is ephemeral — @build must copy
 `abs/`, `slice.py`, `build_dump.py`, `wrap/global-stub.ily` into `arrangement/dump/` first.**
-Usage: `python3 slice.py abs <Voice> <bar1> <bar2> [--transpose PRESET]`.
+Usage: `python3 slice.py abs <Voice> <bar1> <bar2> [--transpose PRESET]`. Presets: `cl-bb`,
+`horn-g` (Cor 1/2 to 402), `horn-eb` (Cor 1/2 from 403, "Changez en Mi♭" — added 2026-10-28),
+`horn-d`, `tp-d`.
 
 **Licence note.** The engraving code is CC BY-NC-SA 3.0; the music is public domain. Building the
 arrangement by literally splicing Le Concert's `.ily` text makes the arrangement file a derivative
@@ -109,7 +111,7 @@ K 362 · L 394 · poco stringendo 409 · Animato 416 · M 430 · Tempo 1° 438 �
 | 338–361 | tacet (the solo's d′ is held to 339.1) | **corrected 2026-10-27:** 337–353 the strings' one long chromatic phrase over a D pedal (V1a top, V2/Va/Vc parallel: rising `x2 y4` and falling `x4 y z` cells, peak a″ at 346.1, then fis″–g″ F♯°→Gm oscillation, cresc. 348–353); **346.2–357 the winds' Theme 1 head in C minor** (`c ees c d \| ees c ees d c bes`, f, Fl/Hb/Cl in octaves, Pic from 350), taken over by V1a/V2 at 354–357 with Tp/Tb/Tba cresc.; 358–361 tutti D7(♭9) hit + V1a's non-legato descent from ees‴ (V2 from 360) into [K] |
 | 362–393 [K] | tacet | **corrected 2026-10-27:** 362–365 V1a/V2's non-legato cell `fis' \| c' ees'(sf) d' c' a` ×4 (the 358 descent's landing) under brass staccato D7 downbeats (361–366); **366–369 the winds' rise** (Fl1/2, Cl1: a chromatic octave from d′, then G melodic minor to g‴, f → cresc.; Bn in contrary motion, Hb/horn d′ pedal, V2/Va join 368.3); **370–385 ff tutti Theme 1 in G minor** twice (V1a/V2 g″, Va/Vc g′; winds hammer g/b♭ 8ths; Tb1/2 chromatic countermelody g′–f′–e′–e♭′–d′), tails 376–377 (`d''' e''' fis''' d''' fis''' \| a'''-!` + bass rise `a ais b cis'`) and 384–385 (triplet-measured tremolo `fis d fis \| a` + the rise), V1a tremolo on g‴ 379–383; **386–389 strings alone** on the D pedal `cis4 d2:8` (GC mf); **390–393 D7** (c♮ downbeats, winds on the 8ths, GC/Cym ff) → [L] |
 | 394–415 [L] | tacet | **corrected 2026-10-28:** one 8-bar phrase twice, V1a/V2 in unison throughout (the only line): 394 `bes4 d'8 g' bes' d''` under the tutti's `-!` G minor **over a B♭ bass**; **395–398 the ornamented figure** — descending chromatic slurred 8th pairs, each with an upper acciaccatura, g″–b♭″ → b′–b♭′; 399–401 `aes' g' aes' c'' bes' aes' \| g' fis' g' bes' a' g' \| fis' a' d'' fis'' a'' d'''`; 402 tutti G hammered `8 8 4` (Ti/Tp/Tb/horns; Fl/Pic `bes'' d''' g'''`) while V1a plays `bes''8 r8` and restarts; 403–409 the same (403 spelled `aes''`); 409–415 D / Gm arpeggio sweeps over a D pedal, ff (Cb) *poco stringendo* 409, V1a climbing to fis‴ (V2 an octave below in 415 only) → 416 Animato. Accompaniment: Hb/Cl/Bn + Va/Vc/Cb quarter chords on beats 1–2, rest on 3 (Gm/B♭ · Cm · D/F♯ · Gm · A♭/C · Gm/D · D; D / Gm/D alternating 409–415, Tp/Tb on D 414–415). Horns 1/2 "Changez en Mi♭" at 403 (silent to 438) |
-| 416–437 | tacet | *Animato* ff tutti → [M] 430 fff repeated chords |
+| 416–437 | tacet | **corrected 2026-10-28:** three terraces down, then the hammering. **416–418** ff tutti descent `g f ees \| f ees d \| ees d c` (Fl1/Pic/V1a at g‴, V2/Hb2 at g″; inner winds `bes'' d''' g''`…; bass `g bes c' \| f a bes \| ees g aes`; Tp/horns hammer each bar's root; Trg/Cym/GC 416.1); **419–420** Theme 1's head on A♭ then F♯ (`aes''8 c''' aes'' bes'' c'''4 \| fis''8 a'' fis'' g'' a''4`, V1a/V2/Pic unison) over tremolo **A♭/C → D** (the tritone pair), Trg roll; **421–423** the descent again in three octaves (Fl1 / V1a+V2+Hb2+Cl1 at g″ / Bn1), crash 421.1; **424–425** the head an octave lower, winds unison, Va/Vc tremolo, Ti 425; **426–429** all strings + Bn in unison/octaves `g8 bes g a bes4 \| c' b bes a aes4` ×2 (V1a from the open G) under the winds' bare-octave stamps on 1–2 (`g'/g''` 426/428, `fis'/fis''` 427/429 — Gm, then **C + F♯**, Tb/horns on 1); **[M] 430–432** the figure ×3, the full Gm chord stamped on 1–2 (winds/Tp/Tb/Ti/Trg/Cym/GC); **433–437 fff** the figure in continuous 8ths `g bes g a bes g \| a bes g a bes g` ×4 (Vc/Cb 8vb), the Gm chord on every beat; 438 strings silent, horns 1/2 (E♭) fp |
 | 438–454 | tacet | *Tempo 1°*: horns (re-crooked in E♭ from 403) hold E♭ 438–445; oboe cock-crow 440–445; timp/GC roll + strings f→p 445–451; fermata 454 *très long* |
 | 455–477 | *déclamé* f 455–466; [N] 467 tremolo d–e♭ fading to pp 473 | flute pp 472–474; pp wind chord 475–476; cb pizz |
 
@@ -889,6 +891,75 @@ Ti/GC/Cym; V2's low 415. All accepted.
 Corrections to the transcript/map: the grace-note figure is **395–398 and 403–406** (an 8-bar
 phrase stated twice with a tutti hammer between), not "394–404"; the "ascending figures" are the
 D / G-minor arpeggio sweeps 409–415 over a D pedal; the tutti at 394 is G minor **over B♭**.
+
+### Episode 16 — bars 416–437 "Animato" [M] (decided 2026-10-28, user + agent)
+
+Orchestra (from the dump; the map's one-line reading corrected above): V1a is again the only
+moving line — the ff descent `g''' f''' ees'''…` (416–418), Theme 1's head on A♭ and F♯ over
+the tritone pair of tremolo chords (419–420), the descent an octave lower in three octaves
+(421–423), the head an octave lower (424–425), then the whole string body in unison on `g8 bes g
+a bes4 | c' b bes a aes4` from the open G (426–429) under the winds' stamps, [M] with the full
+G-minor tutti stamped on beats 1–2 (430–432), fff with the figure running in 8ths and the chord
+on every beat (433–437). Horns 1/2 are silent (re-crooked in E♭ for 438). No solo violin.
+
+Decisions (user's calls marked; the recommendations confirmed):
+
+1. **416–425 an octave above V1a (user): this is the climax of the whole piece, and the
+   virtuosic licence is spent on register.** Ep 15's climb to `fis''''` resolves to **`g''''`**
+   (28 semitones up the E♭ string, the piece's top; `ees''''` at 24 is the string's double
+   octave), the descent `g'''' f'''' ees'''' | f'''' ees'''' d'''' | ees'''' d'''' c''''`
+   stopped, as 172/173.1/415 were; fallback if it will not speak at ff: artificial harmonics in
+   1st position (stop `g''`/`f''` on the E♭, `d''`/`c''` on the A, touch a fourth above; the
+   `ees''''` = the open E♭ touched at `aes''`). 419–420 at `aes'''`/`fis'''`, 424–425 at
+   `aes''`/`fis''` (= V1a's 419–420 text). **416.1 is a plain `g''''-!`** — no chord can sit
+   under a note at the fingerboard's end; the crash resonates. Rejected (agent's offer): V1a as
+   written with a `<g d' bes'' g'''>` crash (the seventh drop after `fis''''`).
+2. **421–423 in octaves, still in the upper register (user).** The orchestra's three-octave
+   doubling (Fl1 / V1a+Hb2+Cl1 / Bn1) → the octave rule → `<g'' g'''>`…`<c'' c'''>` on the
+   A–E♭ pair, coming down from the peak. The strings are a tritone apart, so these are
+   6-semitone 1–4 octaves: at 10–16 semitones the physical span (~53 mm) is narrower than a
+   1st-position 1–4 (~73 mm), widening to ~80 mm only at the last `<c'' c'''>` (A 3 / E♭ 9) —
+   the Ep 15 objection (6-semitone stretches *in 8ths, in a stringendo*) does not apply to ff
+   quarters. **421.1 `<g d' g'' g'''>4-!`** — the tutti crash (Cym/GC/Trg) as the open G and D
+   rolled under the octave; the third (`bes`) yields to keeping the line in octaves.
+3. **426: the drop to V1a's own open G** — two octaves and a sixth from 425's `a''`. The figure
+   stays on the G string through 437.
+4. **426–432 the winds' beat-1–2 stamps as double-stops, escalating at [M].** 426/428 `<g d'>`
+   on both beats (open strings; beat 2's `d'` is a small liberty — the winds there are the bare
+   `g'/g''` octave — the chord is still Gm); 427/429 `<c' fis'>` then `<bes fis'>` — the
+   orchestra's C + F♯ stamp, the *diabolus*; [M] 430–432 `<g d' bes'>` on both beats, the full
+   chord the tutti now stamps. Rejected: beat-1-only stamps; the bare figure.
+5. **433–437 fff: single line + a chord on every beat (user).** The figure runs `g bes g a bes g
+   | a bes g a bes g` with `<g d' bes'>` / `<a d' bes'>` / `<bes d' bes'>` on the beat 8ths.
+   **Hand: half position throughout** — the 1st finger parks on `bes'` (A string, 1 semitone)
+   for all five bars; the figure is 0–3–0–2–3–0 on the G string (2nd finger `a`, 3rd `bes`), so
+   the `a`+`bes'` pair that collides in 1st position (both 1st finger) never does. `<bes d'
+   bes'>` sounds B♭ on its own but sits inside the running G; `<bes g' bes'>` (a 4th-finger
+   `g'`) was considered and dropped for speed. Rejected: the figure in octaves on the G–D pair
+   (the orchestra's Vc/Cb doubling; the agent's recommendation); chords only.
+6. **Engraving: ledger lines, no `\ottava` (user).** 416–420 sit on 7–8 ledger lines; the score
+   has no ottava bracket anywhere (172, 377, 415 are plain), and the performer sees the shift.
+7. **Dynamics as source:** ff 416 (the Trame's *Animato*), fff 433; nothing new at [M].
+8. **Revised 2026-10-28 (user): 426–437 supersede decisions 4 and 5.** The figure is V1a's single
+   line (426–429 `g bes g a bes4 | c' b bes a aes4` ×2; [M] 430–432; 433–437 continuous 8ths),
+   with the flute/piccolo's stamp imitated as a **quarter note on beat 2 above it: `g'4` / `fis'4`
+   alternating at 426–429, `g'4` throughout from [M] to the double bar.** No beat-1 double-stops,
+   no `<g d' bes'>` stamps, no fff beat chords: all the virtuosic energy goes into the single
+   line of the stringendo's final run. Engraved as two voices (stamp stems up, line stems down).
+   Hand: the stamp is on the D string over the G-string line (adjacent strings, 1st position).
+
+Revisions to Episodes 13–14 the same day (user): **358** — no *ff* (the cresc. from 354 runs on
+through 361 and now lands on an *ff* at [K] 362.1) and the single *non legato* now hangs on the lower voice, right of the downbeat and
+above the hairpin; **377** — the redundant *non legato* (copied from the basses, which only start
+that style there) is removed.
+
+Known losses: the inner wind line under the descent; the Tp/horn root pedals; the tremolo chords
+and Trg roll under 419–420/424–425; V2's lower third at 425; the winds' beat-3 chords 433–437
+(the figure's note is the chord's); Ti/GC/Cym/Trg. All accepted.
+
+Corrections to the transcript/map: the "ff tutti → [M] fff repeated chords" row hid the
+three-terrace shape (416 / 421 / 426), the tritone pair A♭–D under Theme 1's head (419–420,
+424–425), and the C–F♯ stamps at 427/429; fff is at 433, not [M].
 
 ### Project-wide: known themes resonate; prefer the novel line (user, 2026-10-27)
 
