@@ -359,7 +359,7 @@ Note that the the old version of the score source code was used inadvertently fo
 1. The 2020 "v.2" archive is a re-engraving of the parts — not an editorial revision of the music. Across all 35 voice files there are zero changes to pitches, rhythms, bar counts, articulations, dynamics, slurs, tempo/expression text, rehearsal-mark positions, or the scordatura. Nothing in it would alter the arrangement.
 2. What actually changed:
   1. LilyPond 2.16 → 2.18 syntax.
-  2. -| → -! everywhere. This looked like marcato→staccatissimo but is not: it's LilyPond's own 2.17.11 rename of the staccatissimo shorthand (the | form collided with bar checks). Your dump/src already has -! from the same conversion, and your episodes engrave it as -!. Semantically identical.
+  2. -| → -! everywhere. This looked like marcato→staccatissimo but is not: it's LilyPond's own 2.17.11 rename of the staccatissimo shorthand (the | form collided with bar checks). The `convert-ly` upgrade that `build dump` applies already yields -!, and the episodes engrave it as -!. Semantically identical.
   3. Part-extraction cosmetics.
   4. Harp: `\repeat` percent → `\repeat` unfold; its own `\tempo/\time/\key` and `\marks` added because the score wrapper no longer feeds the harp staff from the Trame; everything after m 237 is commented out as "Le reste tacet", so the new harp files are no longer 477 bars.
   5. Clarinets 1–2, mm 205–236: The "A défaut de Harpe" cue (clarinets covering the harp arpeggios when no harp is present) is retagged so it also appears in the score layer via `\partcombineApart`.
@@ -378,11 +378,11 @@ One script drives the build and the reference tooling:
 
 ```
 ./build                              # score + these notes (PDFs)
-./build score                        # arrangement/danse-macabre-solo.pdf only
-./build notes                        # "Program notes.pdf" only (pandoc + xelatex)
+./build score                        # output/danse-macabre-solo.pdf only
+./build notes                        # output/"Program notes.pdf" only (pandoc + xelatex)
 ./build slice Cl1 117 136 --transpose cl-bb    # a bar range of one orchestral voice
 ./build verify                       # every dump is exactly 477 bars of 3/4
-./build dump                         # regenerate the dumps from source/ (rarely needed)
+./build dump                         # regenerate source/dump from source/lilypond (once, after download)
 ```
 
 A clean compile reports zero `barNumberCheck` warnings: each episode file checks its first bar and

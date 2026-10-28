@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Slice absolute-pitch LilyPond voice dumps into bar ranges.
 
-Reads the `\\displayLilyMusic` output captured in abs/<Voice>.abs.ly (see
+Reads the `\\displayLilyMusic` output captured in source/dump/<Voice>.abs.ly (see
 build_dump.py) and either:
 
   1. prints a chosen bar range in absolute LilyPond pitch, bar-numbered, with
@@ -33,9 +33,9 @@ USAGE
         bars of 3/4 = 1431 quarter notes) and any "|" bar-check mismatch.
 
 Examples:
-    python3 slice.py abs Pic 117 136
-    python3 slice.py abs Cl1 117 136 --transpose cl-bb
-    python3 slice.py abs --verify-all
+    python3 tools/slice.py source/dump Pic 117 136
+    python3 tools/slice.py source/dump Cl1 117 136 --transpose cl-bb
+    python3 tools/slice.py source/dump --verify-all
 """
 from __future__ import annotations
 

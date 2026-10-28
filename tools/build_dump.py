@@ -7,8 +7,8 @@ The orchestral source is written for LilyPond 2.13/2.16, so the voice files are 
 temp directory and upgraded in place with ``convert-ly``. Then, for each Mus/166-NN-X.ily (except
 166-25b-Chant.ily, a duplicate of VSolo), a wrapper .ly is written to the same temp directory,
 `lilypond -dbackend=null` is run on it, the log is captured, the `\\absolute { ... }` block emitted
-by `\\displayLilyMusic` is extracted, and it is written to arrangement/dump/abs/<Voice>.abs.ly.
-That directory is regenerated output (git-ignored).
+by `\\displayLilyMusic` is extracted, and it is written to source/dump/<Voice>.abs.ly. That
+directory is regenerated output, under the git-ignored source/.
 
 Exit status of lilypond is not checked: once \\include'd markup/paper
 machinery outside what we stub out can raise fatal errors in later layout
@@ -24,7 +24,7 @@ import tempfile
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 SOURCE_MUS = ROOT / "source" / "lilypond" / "Mus"
-ABS = ROOT / "arrangement" / "dump" / "abs"
+ABS = ROOT / "source" / "dump"
 GLOBAL_STUB = HERE / "global-stub.ily"
 
 SKIP = {"166-25b-Chant.ily"}
