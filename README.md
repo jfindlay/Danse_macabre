@@ -18,7 +18,7 @@ arrangement/              THE ARRANGEMENT: the only hand-written music
   global.ily              scordatura header + text/dynamic helper macros
   trame.ily               bar/tempo/key/rehearsal-mark skeleton (carries no notes)
   episodes/               one .ily per episode, bars 1–477 in order
-output/                   ARTIFACTS: danse-macabre-solo.pdf, Program notes.pdf (git-ignored)
+output/                   ARTIFACTS: the score and notes PDFs (git-ignored)
 Program notes.md          the exposition, rendered to output/
 build                     build script: score, notes, reference-score tools (see Build)
 tools/                    build_dump.py, slice.py, global-stub.ily (behind `build dump`/`slice`)
@@ -59,7 +59,7 @@ notes PDF also needs pandoc and xelatex. `./build dump` upgrades `source/lilypon
 
 ```
 ./build          # score + notes
-./build score    # output/danse-macabre-solo.pdf
+./build score    # output/"Danse macabre for unaccompanied violin.pdf"
 ./build notes    # output/"Program notes.pdf"
 ./build --help   # also the reference-score tools: slice, verify, dump
 ```
