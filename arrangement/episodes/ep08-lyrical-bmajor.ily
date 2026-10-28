@@ -5,15 +5,18 @@
 % Concept: solo = single line, orchestra = octaves. Statements 1 and 3 (205.3-214, 221.3-230) are
 % the solo verbatim. Statements 2 and 4 (213.3-222, 229.3-237.1) are the orchestra's own octave
 % doublings (Fl 1 + Fl 2/Hn 1; V2 + Va) rendered as violin octaves. The open E-flat string is the
-% D-sharp of B major: the top of the 205.1 strum and ringing inside the octave at 221.1. The
+% D-sharp of B major: ringing inside the octave at 221.1 (the 205.1 strum, once four strings
+% with the open E-flat on top, is a three-string pizz <b b' fis''> since 2026-10-26). The
 % three-note chords mark the inner voice (V1's d-sharp'->d-natural'->d-sharp') at its change
 % points. Statement 4's final note <fis' fis''> p falls on 237.1 and belongs to Episode 9's file.
 
 epEight = \absolute {
   \barNumberCheck #205
-  % 205.1 tutti B-major stamp as a four-string pizz strum: open E-flat = D-sharp. 205.2 rest =
-  % retake the bow. 205.3-214.1 VSolo verbatim, f appassionato.
-  <b dis' b' dis''>4\f^"pizz."  r4  fis'4\f^"arco"^\markup\italic "appassionato" (             | % 205
+  % 205.1 tutti B-major stamp as a three-string pizz strum <b b' fis''> (open fifth), the end of
+  % the pizz. begun at 203.1 (ep07; a deliberate break of the one-note pizz convention, NOTES
+  % "Conventions"). 205.2 rest = retake the bow. 205.3-214.1 VSolo verbatim, f appassionato,
+  % with the "arco" that closes that pizz.
+  <b b' fis''>4\f  r4  fis'4^\markup { "arco" \hspace #1 \italic "appassionato" } (        | % 205
   b'2) b'4(                                                                                     | % 206
   ais'2) ais'4(                                                                                 | % 207
   a'2) a'4(                                                                                     | % 208

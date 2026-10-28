@@ -17,7 +17,8 @@
 % downbeat (bow clear of the vibrating D string); 13-16 ties V1a's own divisi pair <d'' fis''>,
 % 1st position, fingers 3-2. Not carried: V2's lower pair, the viola d' (= the ringing open D
 % anyway), the horn pedal. 18-24: Vc/Cb pizz line lifted up one octave, pp, 1st position; mark
-% "pizz." (ordinary, right-hand) at 18 since 18-24 are stopped notes.
+% "pizz. sempre" (ordinary, right-hand) at 18 since 18-24 are stopped notes -- the one passage
+% pizz in the score so far, terminated by "arco" on the first bow stroke at 25 (ep02).
 %
 % "First bow at 25" rule reworded (2026-10-23): bars 5-16 are ppp flautando colour, not voice; the
 % first *voiced* bow stroke is still the tritone at 25. The rule now rests on dynamics/bowing
@@ -47,7 +48,7 @@ epOne = \absolute {
   <d'' fis''>2.                                                         | % 16  horn pedal ends
   r2.                                                                   | % 17 silent (ground truth)
   % 18-24: Vc-a/Cb pizz line, up one octave, pp, 1st position throughout
-  d'4\pp^"pizz." r4 r4                                                  | % 18
+  d'4\pp^"pizz. sempre" r4 r4                                           | % 18
   a'4 r4 r4                                                             | % 19
   c'4 r4 r4                                                             | % 20
   fis'4 r4 r4                                                           | % 21

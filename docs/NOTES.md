@@ -73,6 +73,14 @@ would be unencumbered. Decide before any commercial use; not a constraint now.
   bar — the mechanical enforcement of the fidelity rule.
 - Harp → pizz. is a **composer-sanctioned substitution**: the score itself marks the string parts
   "A défaut de Harpe — Pizz." at bar 33. Apply freely wherever harp material is lifted.
+- **Pizz. is per-note (asserted 2026-10-26, user).** A `pizz.` text on a note or chord applies to
+  that note or beat only; the next note is bowed and carries no `arco`. A pizz *passage* is
+  marked `pizz. sempre` and runs until an explicit `arco` (so far only bars 18–25). `-+` is
+  left-hand pizz, as before. In a two-voice texture, `pizz. sempre (lower voice)` scopes the
+  stems-down voice for as long as the two-voice layout lasts (Episode 7). Reason: the score is
+  full of one-note pizz events (stamps, strums, waltz "pah"s) between bowed notes, and the
+  `pizz.`→`arco` pairs were clutter that said nothing. Applied 2026-10-26: every `arco` after a
+  one-note pizz removed (Episodes 2, 4, 5, 8); bar 18 relabelled `pizz. sempre`, bar 25 `arco`.
 
 ## Structural map (Le Concert bar numbers; marks from the Trame)
 
@@ -297,6 +305,84 @@ Decisions:
    — V2's e″–f″–e″ mordent on the E♭ string over a held C♯. Mechanical rule; 10 of 16 bars; each
    instance is sanctioned by whichever string part has the turn on that beat. Rejected: turn on
    beat 2 every bar (drops the cymbal; monotone), 2+2 metrical alternation (ignores harmony).
+   **Revised 2026-10-26 (user, before playing) — supersedes decisions 1 and 2 for 173–188.** The
+   thirds put the melody *under* the harmony note, and gluing the turn to the `<cis'' e''>`
+   chords buried it further and smeared the waltz beat. New text (PLAN "Revision drafts
+   (2026-10-26)"):
+   - **Melody on top, as sixths, at the flute/piccolo octave.** The source's third is *above* the
+     melody, so the chord that puts Fl/Pic/Hb1's `cis''' b'' a'' gis''…` on top is melody + Cl1's
+     own line (`e'' d'' cis'' b'…`) at pitch: `<e'' cis'''>`, `<d'' b''>`, `<cis'' a''>`,
+     `<b' gis''>`, `<f'' d'''>`, `<g'' e'''>`. Every pitch is still a lift; nothing invented.
+     Hand: 3rd position on A/E♭ (d‴ = 4th-finger extension), 1st position for the two G♯ chords,
+     one reach to 5th at 186.3. Fallback if the 3rd-position p staccato proves fussy: the same
+     text an octave down (Cl2/Hb2 + Bn1 at pitch, all 1st position, open D under every b′).
+   - **Beat 2 is the waltz's "pah" and nothing else:** the click and the turn *alternate* on
+     beat 2 — the viola's own beat for the turn — never on a chord, so beats 1 and 3 are always the
+     bare staccato sixth. Turn (accented in the source) on the hypermetrically strong bars
+     174/176/178, 180/182/184/186; click on the weak bars 173/175/177, 181/183/185, 188; nothing on
+     2 in the cadence bars 179/187. Both phrases therefore start the same way, and the hand-off
+     reads click (188) → new a–b♭–a turn (189) → harmonic tick (190). The G♯-bar "open D ad lib"
+     click is moot (those bars carry the turn). The "turn on beat 2 every bar" option rejected in
+     decision 2 was rejected for dropping the cymbal; alternation keeps it.
+   - Known loss added: the turn in the click bars and the click in the turn bars (the source has
+     both every bar). 189.1 follows the section (`<e'' cis'''>`).
+
+   **Revised again 2026-10-26 (user), same session — the whole episode as two voices.** The
+   episode is engraved as a bowed voice (stems up) and a pizz voice (stems down), labelled once
+   (`pizz. sempre (lower voice)`, 173.2) under the new per-note pizz convention.
+   - **Section A:** the beat-2 click is a right-hand pizz on the **open A** (`a'`; the user's
+     `a4` read as the open string — a stopped `a` is unreachable from 3rd position), not the
+     LH-pizz G. The turn drops to **V2's own pitch `e'–f'–e'`** (G string 3–4–3 in 3rd position;
+     D string 1–2–1 in the 1st-position bars). Both halves now have exactly one pizz per bar.
+     The first half is the de Falla / Rodrigo / *Capriccio espagnol* tableau; the second is where
+     Saint-Saëns starts driving the intensity back up.
+   - **Section B — the strain to the pizz voice, the horn-call to the bowed voice.** Source:
+     V1a is pizz here; the winds' slurred `gis→a` call sits on beats 2–3 of every bar 190–203
+     (Hb/Bn 190–193, Fl/Cl 194–197, Hb/Bn again from 198 with their own cresc., everyone from
+     201). Beat 1 = pizz melody with the **open A plucked under it** (= the Cb/timp/horn pedal;
+     11 of 15 downbeats — not where the melody is itself on the A string). Beat 2 = bowed
+     `gis'->`. **Beat 3 allocation:** the bow cannot hold the call's resolution while the right
+     hand plucks, so 190–197 the resolution carries the melody's beat-3 note on top as a
+     double-stop `gis'->( <a' f''>)` — both themes complete, the melody hocketing pizz/arco. From
+     198 (the oboes' re-entry and hairpin; "halfway") the call goes to **octaves `<gis gis'>(
+     <a a'>)`** on G–D (1–4 sliding; Bn1/Cl2 + Hb2/Cl1 at pitch), which leaves only the A string
+     free and none of the melody's beat-3 notes reachable — so 198–204 the melody is its
+     downbeats only (`f e d e g g g`): the call swallowing the texture, as the winds pile onto it
+     in the source. Alternative kept in reserve: octaves from 201 (the tutti point) saves three
+     melody notes at the cost of the "halfway" symmetry. Cadence 195: the melody's beats 2–3
+     ride the call (`<gis' e''>( <a' d''>)`, fingers 3–4 → 4–3). Cadence 203: octaves win.
+     Both voices `cresc.` from 190 to f at 204; 204 = the chromatic rise `a–a♯` in octaves
+     resolving on Episode 8's 205.1 strum.
+   - **Revised a third time 2026-10-26 (user) — explicit pizz marks, voices by pitch in 190–204.**
+     - **173–188:** the pedal is `a` (one octave down); `pizz. sempre (lower voice)` is retired
+       for an individual `pizz.` under each of the seven `a` (173.2, 175.2, 177.2, 181.2, 183.2,
+       185.2, 188.2). 189.3 `f''` gets its own `pizz.` (it lost the "sempre" scope).
+     - **190–204:** voices are allocated by pitch, not technique: the stem-up voice carries the
+       higher notes (melody on 1 and 3), the stem-down voice the lower notes (pedal `a'` on 1,
+       call `gis'->( a')` on 2–3, slur curving down). (First engraved with the directions the
+       other way round, stems crossing; reversed the same day.) Only beat 1 is pizz (both
+       voices, marked once on the melody note: `pizz.` at 190.1–192.1, `sim.` at 193.1, no `arco` on
+       beat 2). This restores the melody's beat-3 notes that the 198–204 octaves had swallowed:
+       198.3–202.3 `g'' f'' e'' g'' a''` over a single `a'` (the beat-2 octave `<gis gis'>`
+       stays, slurred to the `a'`).
+     - **195:** `e''`/`d''` on 2–3 ride the call in the stem-up voice, `gis'->( a')` below.
+     - **203–205.1, a deliberate break of the per-note convention:** one `pizz.` at 203.1 runs
+       through 205.1 and Episode 8's 205.3 `fis'` is marked `arco`. 203 `<g'' a'> <f'' a'>
+       <e'' a'>` and 204 `<a' g''> r <a' g''>` are the stem-up voice alone. Known loss: the
+       chromatic rise `a–a♯` into 205.
+     - **Engraving:** the triplet turns (174–186, 189) are in the lower voice, laid out like the
+       `a` pizz bars (triplet on beat 2 below, chords on 1 and 3 above), with the slur and
+       accent on the noteheads (above; stems and beam down). No rests are engraved in 173–204
+       except the `r8` at 173.1 and the `r4` at 204.2; every other gap is an invisible spacer.
+       The `cresc.` starts at 190.1 in the melody voice itself, so its dashes run across the
+       file boundary to the single `f` at 205.1 (the redundant `f` on 205.3 is gone).
+    - **Triangle dropped.** Beat 2 is the call; the pizz-harmonic tick was arranger's licence
+     without composer sanction, and a non-growing tick has no place in a 14-bar crescendo. The
+     "pizz. natural harmonic = triangle" row of the timbre table is retired.
+   - **Arco ossia dropped** (file and staff removed): its premise — 16 bars of pure pizz
+     needing a bowed safety text — no longer exists.
+   - Known losses added: the timp roll, Tp/Tb doublings of the strain, V2/Va's 204 double turn,
+     the melody's beat-3 notes 198–204 (restored in the third revision, above).
 3. **189 is the hand-off bar:** last wind chord on 1, the new a–b♭–a turn bowed on the open A on
    2 (the pedal announced), Vln I's "Pizz." f″ on 3; the bow stays in hand through 204.
 4. **Section B pizz throughout at the Vln I octave** (`<f'' a''>` = melody + Tb1's third, above
@@ -349,6 +435,9 @@ Decisions:
    `<b dis' b' dis''>` (fingers 2–1–1–open; supersedes Episode 7's `<b b'>`); 221.1 is
    `<b' dis'' b''>` — the octave on D–A in 5th position with the open E♭ ringing inside. Death's
    tritone string is the sweet note of the oasis.
+   **Revised 2026-10-26 (user):** 205.1 is now the three-string pizz `<b b' fis''>` (the open E♭
+   no longer on top; octave `b`–`b'` with the fifth above); 221.1 keeps the ringing open E♭.
+   (Entered as `fis''` — the request's `f''` read as the key signature's F♯.)
 3. **Inner voice at its change points** (sibling of Episode 7's ornament rule): V1's d♯′→d♮′→d♯′
    is the harmonic event of the answer; it is carried as the middle note of a three-note chord
    where it changes and the hand allows — 217.1 `<g' d'' g''>->` (the accented G-major arrival,
@@ -449,8 +538,8 @@ Each extended technique carries one orchestral identity for the whole piece; do 
 | pizzicato | harp / string pizz | composer's "à défaut de harpe" (bar 33) |
 | col legno battuto | xylophone (bones) | composer's own strings col legno under the xylophone (129–133); Berlioz *Fantastique* V |
 | sul ponticello | *Dies irae* parody ([I] ~313–320) | Ysaÿe op. 27 no. 2 "Obsession"/"Les furies" — the solo-violin *Dies irae* precedent |
-| pizz. natural harmonic | triangle ([D] 189–204) | arranger's licence, no composer sanction; distinct from the *bowed* "ghost" harmonics of the Ep 1 shimmer |
-| LH-pizz open string on an off-beat | cymbal ([D] 173–188) | extension of the LH-pizz device from bass to percussion; normal-size, not ad lib |
+| ~~pizz. natural harmonic~~ | ~~triangle ([D] 189–204)~~ | **retired 2026-10-26** (the call took beat 2); the device remains available, unsanctioned |
+| RH-pizz open string on an off-beat | cymbal ([D] 173–188) | extension of the pizz device from bass to percussion; normal-size, not ad lib (was LH-pizz G; open A, right hand, from 2026-10-26) |
 
 Future xylophone passages vary by *whether the violin carries the xylophone at all* (at 266–272
 and likely 298–309 it carries Vln I, so the xylophone drops), not by changing its timbre.
@@ -469,9 +558,9 @@ no arranger's licence per bar.
 
 **Engraving ruled 2026-10-23, applied 2026-10-23:** the ad-lib items (Episodes 2–6) are engraved
 as small-note chord members (`font-size -3`, `-+`) with a one-time "pizz. m.g. ad lib." at the
-first occurrence (bar 34), and the Episode 7 arco ossia (189–205) is engraved as a parallel
-padded staff. Density was known (~30 bars in 1–172, none in 7–9) and neither affects layout, so
-there was no reason to defer.
+first occurrence (bar 34), and the Episode 7 arco ossia (189–205) was engraved as a parallel
+padded staff (removed 2026-10-26 with the Episode 7 rework). Density was known (~30 bars in
+1–172, none in 7–9) and neither affects layout, so there was no reason to defer.
 
 ### Project-wide: the fugato's model and the knot's precedents (captured 2026-10-23)
 
@@ -534,7 +623,27 @@ there was no reason to defer.
   ornament (a turn, a trill) continuously under changing chords and the single line cannot carry
   both, attach the ornament only to the chords that already contain its pitch, on whichever beat
   they fall. The distribution then follows the harmony instead of the bar, and every instance is
-  sanctioned by some source voice. (Episode 7: e–f–e on every `<cis'' e''>`.)
+  sanctioned by some source voice. (Episode 7: e–f–e on every `<cis'' e''>`.) **Retracted for
+  Episode 7, 2026-10-26:** when the ornament's host chord is also the melody's chord, the rule
+  buries the melody under the ornament. Prefer the ornament's own *beat* in the source (the
+  viola's beat 2) when that beat is free — a melody-free beat is a better host than a
+  melody-bearing chord, even if the harmony-driven placement looks more principled on paper.
+- **Lifted parallel thirds put the melody on the bottom; invert to sixths.** A wind line doubled
+  in thirds *above* lands in the violin as `<melody third>` with the harmony note on top, and the
+  ear follows the top. Before inventing the sixth below, check whether the source already has it
+  (Episode 7: Cl1/Bn1 are exactly the sixth below at the two octaves) — then the inversion is
+  still a lift at pitch. Sibling of "melody on top" for every future thirds passage.
+- **Two simultaneous lines on one violin: the shared beat goes to the bow, with the other line's
+  note on top.** When a pizz line and a bowed line both claim a beat (Episode 7 B: the strain's
+  beat 3 vs the call's resolution), the bow cannot sustain while the right hand plucks, so the
+  beat is bowed and the plucked line's note rides as the upper note of the double-stop. The
+  plucked line then hockets between colours; that is the texture, not a defect. Where a bowed
+  octave takes the beat, check which string is left free before assuming the other line can
+  join — under G–D–A–E♭ an octave on G–D frees only the A string.
+- **Per-note pizz as the default reading.** In a solo-violin arrangement built from stamps,
+  strums and off-beat "pah"s, `pizz.`→`arco` pairs around single notes are pure clutter; make
+  the one-note reading the convention and reserve `sempre` for passages. Generalises to any
+  score whose plucked events are mostly isolated.
 - **Source-convention mismatch fails silently.** The dump is absolute; a draft headed `\fixed c'`
   with dump text pasted in compiles, plays, and sounds an octave high — nothing warns. Keep one
   pitch convention equal to the source's; convert at the single boundary where it is unavoidable,

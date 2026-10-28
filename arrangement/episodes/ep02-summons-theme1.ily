@@ -7,9 +7,9 @@
 % "Review corrections").
 % 33.1: strings' pizz G-minor chord <g d' bes' g''> (V1a <d' bes' g''>, V2 <bes g' d''>,
 % A <g d' bes'>), closing the summons with a second full pizz chord (octave fixed likewise).
-% 33.2-41.1: Fl1's Theme 1 lifted verbatim at its own octave (g'), p, "arco" (resuming after the
-% pizz chords) "sulla tastiera, imitando il flauto" (Paganini Caprice 9's device) -- no
-% accompaniment.
+% 33.2-41.1: Fl1's Theme 1 lifted verbatim at its own octave (g'), p, bowed (no "arco" needed:
+% the 32.3/33.1 "pizz." chords are one-note pizz under the NOTES convention, 2026-10-26) "sulla
+% tastiera, imitando il flauto" (Paganini Caprice 9's device) -- no accompaniment.
 % 41.2-49.1: V1a's restatement at g'' with its own trills/pralls, pp, "ord." (cancels sulla
 % tastiera; the bow never left arco -- fixed 2026-10-20, "arco" had been misplaced at 41.1).
 % (V1a's bar 49.1 note belongs to Episode 3, which opens with it per docs/PLAN.md's Episode 3
@@ -21,7 +21,7 @@
 
 epTwo = \absolute {
   \barNumberCheck #25
-  <a' ees''>2.\open\f                                                          | % 25 VSolo
+  <a' ees''>2.\open\f^"arco"                                                   | % 25 VSolo; ends ep01's pizz. sempre
   <d' a'>2.                                                                    | % 26
   <a' ees''>2 <a' ees''>4\open                                                 | % 27
   <d' a'>2 <d' a'>4                                                            | % 28
@@ -30,7 +30,7 @@ epTwo = \absolute {
   <a' ees''>4-.\open <d' a'>4-. <a' ees''>4-.\open                             | % 31
   <d' a'>4-. <a' ees''>4-.\open <d' a' fis''>4-.^"pizz."                       | % 32 strings' D-major
   % 33.1 strings' pizz G-minor chord; 33.2-41.1 Fl1 Theme 1 verbatim at g', arco
-  <g d' bes' g''>4-.^"pizz." g'8-.\p^"arco"^\markup{\italic "sulla tastiera, imitando il flauto"} bes'8-. g'8-. a'8-. | % 33
+  <g d' bes' g''>4-.^"pizz." g'8-.\p^\markup{\italic "sulla tastiera, imitando il flauto"} bes'8-. g'8-. a'8-. | % 33
   <bes' \tweak font-size #-3 g-+>4--^"pizz. m.g. ad lib." a'8-. bes'8-. g'8-. bes'8-. | % 34
   <a' \tweak font-size #-3 g-+>8( g'8) g'8-. bes'8-. g'8-. a'8-.                      | % 35
   <bes' \tweak font-size #-3 g-+>4-- a'8-. bes'8-. g'8-. bes'8-.                      | % 36

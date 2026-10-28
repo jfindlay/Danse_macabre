@@ -19,8 +19,9 @@
 % f/c pitches stand in, octave-matched to the theme). The 85/86/88 chords were entered a 4th
 % below the open G (read from a \fixed c' snippet as absolute) -- fixed 2026-10-20.
 % Ad lib (decided 2026-10-24): 85/86/88's downbeat chords taken pizz (the single soloist plucks
-% the chord, encoding the tutti stamp the same way the LH-pizz device does elsewhere), with arco
-% restored on the next eighth so the remainder of the theme stays bowed. 90/92 stay arco (no
+% the chord, encoding the tutti stamp the same way the LH-pizz device does elsewhere); the next
+% eighth is bowed by the one-note pizz convention (NOTES "Conventions"; the explicit "arco"
+% texts were dropped 2026-10-26). 90/92 stay arco (no
 % precedent in the dump for pizz there, and the theme line has no rest to make the switch clean).
 % 101: VSolo's last note (g'') + V1a's largamente upbeat (d') -- the current-file comment had
 % these two reversed until 2026-10-20.
@@ -67,12 +68,12 @@ epFour = \absolute {
   <a' ees''>4-.\open <d' a'>4-. <a' ees''>4-.\open                            | % 83
   <d' a'>4-. <a' ees''>4-.\open <d' a'>4-.                                    | % 84
   % 85-92: V1a's theme at g'', f, tutti chords on 86/88/90/92; 85/86/88 downbeat chords pizz
-  % (decided 2026-10-24), arco restored on the next eighth each time; tenuto dropped from the
+  % (decided 2026-10-24), the next eighth bowed by convention; tenuto dropped from the
   % 86/88 chords since it's a bowing articulation that doesn't apply to a plucked note.
-  <g d' bes' g''>4\f^"pizz."  g''8-.^"arco" bes''8-. g''8-. a''8-.            | % 85 pizz
-  <g d' bes' bes''>4^"pizz." a''8-.^"arco" bes''8-. g''8-. bes''8-.           | % 86 pizz
+  <g d' bes' g''>4\f^"pizz."  g''8-. bes''8-. g''8-. a''8-.            | % 85 pizz
+  <g d' bes' bes''>4^"pizz." a''8-. bes''8-. g''8-. bes''8-.           | % 86 pizz
   a''8( g''8) g''8-. bes''8-. g''8-. a''8-.                                   | % 87
-  <g d' bes' bes''>4^"pizz." a''8-.^"arco" bes''8-. g''8-. bes''8-.           | % 88 pizz
+  <g d' bes' bes''>4^"pizz." a''8-. bes''8-. g''8-. bes''8-.           | % 88 pizz
   aes''8-. r8 aes''8-. c'''8-. aes''8-. bes''8-.                              | % 89
   <f'' c'''>4-- bes''8-. c'''8-. aes''8-. c'''8-.                             | % 90
   bes''8( aes''8) aes''8-. c'''8-. aes''8-. bes''8-.                          | % 91

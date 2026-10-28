@@ -5,7 +5,9 @@
 %
 % Structure: \trame (bars, tempo, key changes, rehearsal marks -- no notes) runs in parallel with
 % a single melodic \Voice inside one \Staff named "solo", so marks/keys/bar grid come from the
-% Trame and are never duplicated in the episode files. Every episode ends with a
+% Trame and are never duplicated in the episode files. Pizz. convention (NOTES "Conventions"):
+% "pizz." on a note applies to that note only -- no "arco" follows; "pizz. sempre" runs until
+% "arco"; "-+" is left-hand pizz. Every episode ends with a
 % \barNumberCheck at its own first bar and the next episode's first bar: the fidelity gate is
 % zero \barNumberCheck warnings at compile time, for the full 477 bars, 3/4 throughout.
 %
@@ -34,7 +36,6 @@
 \include "episodes/ep16-animato-frenzy.ily"
 \include "episodes/ep17-dawn.ily"
 \include "episodes/ep18-declame-coda.ily"
-\include "episodes/ossia-ep07.ily"
 
 \header {
   title = "Danse macabre"
@@ -78,31 +79,6 @@
         \epSeventeen \epEighteen
       }
     >>
-    % Episode 7 arco ossia (bars 189-205): a safety staff that appears only on the systems
-    % spanning those bars (docs/PLAN.md "Resume here" step 2d).
-    \new Staff = "ossia" \with {
-      instrumentName = \markup {
-        \fontsize #-2 \italic
-        \column {
-          "ossia"
-          "(arco)"
-        }
-      }
-      shortInstrumentName = \markup {
-        \fontsize #-2 \italic
-        \column {
-          "ossia"
-          "(arco)"
-        }
-      }
-      alignBelowContext = "Violon solo"
-      fontSize = #-3
-      \override StaffSymbol.staff-space = #(magstep -3)
-      \override StaffSymbol.thickness = #(magstep -3)
-      \remove "Time_signature_engraver"
-      \RemoveAllEmptyStaves
-      \override VerticalAxisGroup.remove-first = ##t
-    } { \ossiaEpSeven }
   >>
   \layout { }
 }

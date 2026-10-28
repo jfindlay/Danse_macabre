@@ -30,6 +30,14 @@ tasks.** Episode 1 shimmer → sustained lifts with LH-pizz toll; bar 172 up an 
 harmonics; Ep 7 ossia and Ep 2–6 ad-lib small notes to be engraved. Drafts under "Revision
 drafts (2026-10-23)".
 
+**Episode 7 reworked 2026-10-26 (user), two passes:** (a) section A as sixths with the melody on
+top at the flute octave, beat 2 alternating click/turn; (b) the whole episode as two voices —
+bowed (stems up) / pizz (stems down): A = sixths + open-A pizz or V2-pitch turn on beat 2; B =
+the strain in the pizz voice (open A under it), the winds' `gis→a` call in the bowed voice, in
+octaves from 198, cresc. to f 204. Triangle device and arco ossia dropped. **Per-note pizz
+convention asserted** (NOTES "Conventions") and applied to Episodes 1, 2, 4, 5, 8. Applied and
+compiled clean; draft under "Revision drafts (2026-10-26)".
+
 **`@build` applied the 2026-10-23 batch (Episode 9 entry, Episode 1 revision, bar 172/173.1
 revision, the Episode 7 arco ossia, and the Episodes 2–6 ad-lib engraving).** Recompiled clean:
 zero `barNumberCheck` warnings. Hit and worked around a LilyPond 2.24.3 engraving bug while
@@ -59,7 +67,7 @@ arrangement/
     ep04-theme1-exchanges.ily  % bars  65–116  (A)
     ep05-fragments-bones.ily   % bars 117–136  (B)  (status: DECIDED, draft below)
     ep06-fugato.ily            % bars 137–172  (C)  (status: DECIDED, draft below)
-    ep07-skeletons.ily         % bars 173–204  (D)  (status: DECIDED, draft + ossia below)
+    ep07-skeletons.ily         % bars 173–204  (D)  (status: DECIDED; revised 2026-10-26, two-voice draft under "Revision drafts")
     ep08-lyrical-bmajor.ily    % bars 205–236  (E)  (status: DECIDED, draft below)
     ep09-spiky.ily             % bars 237–252  (F)  (status: DECIDED 2026-10-22, entered 2026-10-23)
     ep10-whirl-vs-theme.ily    % bars 253–272  (G)  — the knot
@@ -110,7 +118,7 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
 | 4 | 65–116 | Ob/Bn D-major head; Vln I 85–92 with downbeat chords; Theme 2 tutti 102–116 with written wind double-stops | **decided** — see NOTES |
 | 5 | 117–136 | pizz D-major stamps on 117.1/125.1/133.1; solo verbatim; wind/xylophone Theme 1 at g″ **col legno battuto** with string chords as battuto double-stops; 136.3 small-note f♯ | **decided** — draft below |
 | 6 | 137–172 | five-entry fugato: one surface line per entry (counter-lines, ascending register), subject entry-cues as double-stops (Bach Sonata-fugue allusion); 158 V2 trill; 172 wind line to d♯‴ | **decided** — draft below |
-| 7 | 173–204 | one 16-bar Phrygian strain twice (E, then A a 4th up): wind thirds as staccato double-stops, LH-pizz open G = cymbal, e–f–e turn attached to every `<cis'' e''>` chord; 189–204 Vln I pizz line in thirds, pizz harmonic e‴ = triangle; arco ossia | **decided** — draft below |
+| 7 | 173–204 | one 16-bar Phrygian strain twice (E, then A a 4th up), **two voices: bowed (stems up) / pizz (stems down)**. 173–188 sixths, melody (Fl/Pic) on top, Cl1 below, on 1 & 3; beat 2 alternates RH-pizz open A (cymbal) with V2's `e'–f'–e'` turn by hypermeter. 189–204 the strain in the pizz voice on the downbeats with the open A (pedal) under it; the winds' slurred `gis'→a'` call bowed on 2–3 with the melody's beat-3 note on top, octaves `<gis gis'>→<a a'>` from 198, cresc. → f 204 (revised 2026-10-26) | **decided; revised 2026-10-26** — draft below |
 | 8 | 205–236 | Theme 2 in B major ×4: solo verbatim (1, 3); wind/string answers (2, 4) as **octaves** (the orchestra's own doubling); 205.1 four-string pizz `<b dis' b' dis''>` and 221.1 `<b' dis'' b''>` use the open E♭ as the D♯ of B major; inner voice d♯→d♮→d♯ at its change points | **decided** — draft below |
 | 9 | 237–252 | two-octave chromatic scale (V1a/V1b composite) as one line, slurred per beat; 237.1 rolled `<fis' dis'' fis''>` = Ep 8's resolution + the cadence's D♯; 245–252 V1a verbatim (Theme 1's head in D♯ minor, own register toss) + bass dots `ais`/`a`/`aes` in its downbeat rests; p throughout | **decided** — draft below |
 | 10–18 | 253–477 | per transcript map, to be revised episode by episode | pending |
@@ -273,6 +281,78 @@ Cor, Tp) are at **written** pitch unless sliced with `--transpose`.
   from small-note engraving (NOTES "LH-pizz bass" device) to comments. **Ruled 2026-10-23,
   applied 2026-10-23:** engraved (Resume-here step 2e).
 
+## Revision drafts (2026-10-26; absolute pitch) — applied
+
+### Episode 7, bars 173–204 (replaces the Episode 7 draft and its ossia entirely)
+
+Two voices for the whole episode: bowed (stems up) and pizz (stems down), labelled once. See
+NOTES Episode 7 "Revised 2026-10-26" (both passes) for the reasoning; the literal text is the
+file `arrangement/episodes/ep07-skeletons.ily`, reproduced here without its comments. The arco
+ossia (`ossia-ep07.ily` and its staff in the main file) is removed.
+
+```
+\barNumberCheck #173
+<<
+  { % bowed
+    e''''8-.\f r8  s4  <e'' cis'''>4-.                                  | % 173
+    <d'' b''>4-.  \tuplet 3/2 { e'8->( f'8 e'8) }  <e'' cis'''>4-.      | % 174
+    <cis'' a''>4-.  s4  <d'' b''>4-.                                    | % 175
+    <b' gis''>4-.  \tuplet 3/2 { e'8->( f'8 e'8) }  <cis'' a''>4-.      | % 176 1st pos.
+    <cis'' a''>4-.  s4  <e'' cis'''>4-.                                 | % 177
+    <e'' cis'''>4-.  \tuplet 3/2 { e'8->( f'8 e'8) }  <f'' d'''>4-.     | % 178
+    <e'' cis'''>4-.  <d'' b''>4-.  <cis'' a''>4-.                       | % 179 cadence
+    <e'' cis'''>4-.  \tuplet 3/2 { e'8->( f'8 e'8) }  <d'' b''>4-.      | % 180
+    <d'' b''>4-.  s4  <f'' d'''>4-.                                     | % 181
+    <e'' cis'''>4-.  \tuplet 3/2 { e'8->( f'8 e'8) }  <f'' d'''>4-.     | % 182
+    <d'' b''>4-.  s4  <e'' cis'''>4-.                                   | % 183
+    <cis'' a''>4-.  \tuplet 3/2 { e'8->( f'8 e'8) }  <d'' b''>4-.       | % 184 1st pos.
+    <d'' b''>4-.  s4  <f'' d'''>4-.                                     | % 185
+    <f'' d'''>4-.  \tuplet 3/2 { e'8->( f'8 e'8) }  <g'' e'''>4-.       | % 186 .3: 5th pos.
+    <f'' d'''>4-.  <e'' cis'''>4-.  <d'' b''>4-.                        | % 187 cadence
+    <f'' d'''>4-.  s4  <e'' cis'''>4-.                                  | % 188
+  }
+  \\
+  { % pizz: open A on beat 2 of the weak bars
+    s4  a'4\p_\markup\italic "pizz. sempre (lower voice)"  s4           | % 173
+    s2.  | s4 a'4 s4  | s2.  | s4 a'4 s4  | s2.  | s2.  | s2.           | % 174-180
+    s4 a'4 s4  | s2.  | s4 a'4 s4  | s2.  | s4 a'4 s4  | s2.  | s2.     | % 181-187
+    s4  a'4  s4                                                         | % 188
+  }
+>>
+<<
+  { % bowed: last wind chord + a-bes-a turn; the call gis'->( a') with the melody's beat-3
+    % note on top (190-197); the call in octaves (198-204)
+    <e'' cis'''>4-.  \tuplet 3/2 { a'8->( bes'8 a'8) }  s4              | % 189
+    s4  gis'4->(  <a' f''>4)                                            | % 190
+    s4  gis'4->(  <a' e''>4)                                            | % 191
+    s4  gis'4->(  <a' d''>4)                                            | % 192
+    s4  gis'4->(  <a' f''>4)                                            | % 193
+    s4  gis'4->(  <a' g''>4)                                            | % 194
+    s4  <gis' e''>4->(  <a' d''>4)                                      | % 195 cadence
+    s4  gis'4->(  <a' e''>4)                                            | % 196
+    s4  gis'4->(  <a' g''>4)                                            | % 197
+    s4  <gis gis'>4->(  <a a'>4)                                        | % 198 octaves
+    s4  <gis gis'>4->(  <a a'>4)                                        | % 199
+    s4  <gis gis'>4->(  <a a'>4)                                        | % 200
+    s4  <gis gis'>4->(  <a a'>4)                                        | % 201
+    s4  <gis gis'>4->(  <a a'>4)                                        | % 202
+    s4  <gis gis'>4->(  <a a'>4)                                        | % 203 cadence
+    s4  <a a'>4(  <ais ais'>4)                                          | % 204 -> 205.1 b (strum)
+  }
+  \\
+  { % pizz: V1a's strain on the downbeats, open A (pedal) under it where free
+    s2  f''4\p                                                          | % 189
+    <a' e''>4\cresc  s2                                                 | % 190
+    d''4  s2  | cis''4  s2  | d''4  s2                                  | % 191-193
+    <a' f''>4  s2  | <a' f''>4  s2  | <a' f''>4  s2  | <a' e''>4  s2    | % 194-197
+    <a' f''>4  s2  | <a' e''>4  s2  | d''4  s2  | <a' e''>4  s2         | % 198-201
+    <a' g''>4  s2  | <a' g''>4  s2                                      | % 202-203
+    <a' g''>4\f  s2                                                     | % 204
+  }
+>>
+\barNumberCheck #205
+```
+
 ## Revision drafts (2026-10-23; absolute pitch)
 
 ### Episode 1, bars 1–16 (replaces the current 1–16; 17–24 unchanged)
@@ -416,7 +496,11 @@ a''8-. b''8-. c'''8-. cis'''8-. d'''8-. dis'''8-.\!                | % 172  -> [
 \barNumberCheck #173
 ```
 
-### Episode 7 — bars 173–204 [D] (absolute pitch)
+### Episode 7 — bars 173–204 [D] (absolute pitch) — SUPERSEDED 2026-10-26
+
+Historical record of the 2026-10-18 text (thirds with the melody underneath, turn glued to the
+`<cis'' e''>` chords, LH-pizz G cymbal, pizz thirds + harmonic triangle in B, arco ossia). The
+current text is the two-voice draft under "Revision drafts (2026-10-26)".
 
 Engraving: `-+` is left-hand pizz (the open-G "cymbal" clicks are normal-size, designed, not ad
 lib); `\flageolet` notes are natural harmonics — @build adds the touch-point (173.1 `e'''`: A
