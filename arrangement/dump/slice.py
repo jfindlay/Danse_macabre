@@ -532,6 +532,16 @@ def parse_command(tokens, i) -> Tuple[int, Fraction, List[Event]]:
         factor = Fraction(den, num) if bare == 'tuplet' else Fraction(num, den)
         j, bdur, bevents = parse_one_element(tokens, j)
         events = [(s * factor, e * factor, lane, txt) for (s, e, lane, txt) in bevents]
+        # Keep the tuplet visible in the rendered slice: without these markers a
+        # triplet-8th bar reads as four beats of 3/4 and the rhythm is misread.
+        # The markers ride on the first/last event text (not as separate
+        # zero-duration events) so a group ending on a barline closes in its
+        # own bar rather than at the start of the next.
+        if events:
+            s, e, lane, txt = events[0]
+            events[0] = (s, e, lane, f'{name} {fracstr} {{ {txt}')
+            s, e, lane, txt = events[-1]
+            events[-1] = (s, e, lane, f'{txt} }}')
         return j, bdur * factor, events
 
     if bare in ('grace', 'acciaccatura', 'appoggiatura', 'slashedGrace'):
