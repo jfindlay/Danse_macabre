@@ -103,8 +103,8 @@ K 362 · L 394 · poco stringendo 409 · Animato 416 · M 430 · Tempo 1° 438 �
 | 173–204 [D] | tacet | **one 16-bar strain twice**: 173–188 E pedal, wind thirds p stacc on 1 & 3, string turn e–f–e as a round (Vc 1 / Va 2 / V2 3), cymbal on 2; 189–204 the same strain a 4th up over an A pedal in Vln I pizz + Tp/Tb, turn a–b♭–a, triangle on 2, timp roll, horn-call g♯→a, cresc 194 → f 204 → tutti B 205.1 |
 | 205–236 [E] | lyrical Theme 2 in **B major** (205.3–214 G♮ variant, 221.3–230 G♯ variant) | **four elided 8-bar statements**: solo / Fl 1 b″ + Fl 2 & Hn 1 b′ *espress.* (213.3–222) / solo / V2 b″ + Va b′ *molto espress.* cresc → f 233 (229.3–237.1). Under: 4 solo cellos pp, harp `<b,, b,>` + arpeggio with **Cl 1 "A défaut de Harpe"** (206–), V1 inner voice d♯′→d♮′→d♯′ (213–221), Cb `<b, b>` pp, brass pedal pp 229–236. Bass is B throughout |
 | 237–252 [F] | tacet | **one continuous two-octave chromatic scale** b→b″→b in 16ths (V1a/V1b desks hand off every beat), p 237, cresc 241, f 243, dim 244, over Hb d♯′/b pedal and a staccato bass figure B/G/B/G♯; 245–252 **Theme 1's head in D♯ minor** tossed strings→winds in canon at the bar (V1a + V2 8vb lead), bass descends B→A♯→A→A♭ in 8ths (→ G 253), Va `<fis dis'>` motor, pp Tba/Tb/GC dots on block downbeats; p throughout |
-| 253–272 [G] | tacet | **the knot**: Vln I whirling 16ths against brass/wind Theme 2 *ten.* |
-| 273–308 [H] | tacet | marcato tutti chords alternating with rests (273–282); dim.; strings p Theme 1 (290–296); wind chromatic runs + Vln I *legg.* + xylophone (297–308) |
+| 253–272 [G] | tacet | **the knot**: Vln I whirling triplet-8th arpeggios (two-octave sweep up and down, bass note accented on 3) against Theme 2's head *ten.* three times in the brass (Tb1 at C, Tp at A, Bn/Tb at B♭), then f 265–272 D/E♭ alternation with the strings' accented C♯ (German sixth) → [H] |
+| 273–308 [H] | tacet | **273–280 hammer blows** f marcato `2^ 4^`, winds/brass (Gr6, Gr6, B°7, A°7) on the odd bars vs strings+Tp (D, D, C, B♭) on the even, each resting in the other's bar; **281–288 wind chorale** dim. → p 287, top line a″ g″ f″ e♭″ d″ e♭″ d″ e♭″ doubled 8vb; **289–292 string wedge** p (V1a d′ e♭′ f′ g′ rising, bass c b♭ a g falling) → **293–296 D vamp** (chord on 1, horn d′ pedal, timp a 8ths); **297–301 / 305–309.1 wind chromatic descent** ×2 (Fl1→Cl1 relay g″→f♯, then Fl1 alone g‴→f♯′) under V1a's *legg.* Theme-1-head figure (Va 8vb, V2 pizz + xylophone on its downbeats) over a Tb/Bn C-minor pedal; 301–304 the vamp again, cresc. Not Theme 1 in the strings as the transcript had it |
 | 309–337 [I] | tritone chords 309–312; low d♭/c/b♭ figure 313–320; Theme 2 *espress.* 324.3–337 | winds *Dies irae* parody (inferred, ~313–320); Vln I staccato answers |
 | 338–361 | tacet | strings p line (338–349); wind Theme 1 ff sequences (350–358) |
 | 362–393 [K] | tacet | Vln I/II *non legato* runs; tutti Theme 1 (371–389) |
@@ -512,6 +512,112 @@ and the 237–244 bass figure. All accepted.
 Corrections to the transcript/map: 237–244 is a **continuous chromatic scale** split between
 desks, not a "spiky figure"; 245–252 is **Theme 1's head in D♯ minor in canon**, not generic
 "wind tossing"; the whole episode is p with no crescendo into [G].
+
+### Episode 10 — bars 253–272 "Whirl vs theme" [G] (decided 2026-10-27; logged from the file header)
+
+The deciding session did not write this entry; reconstructed 2026-10-27 from
+`ep10-whirl-vs-theme.ily`'s comments, which remain the primary record.
+
+Orchestra (from the dump): 253.1 tutti G stamp; V1a alone whirls — two triplet-8th sweeps up
+and down a two-octave arpeggio, then the bass note as an accented quarter on beat 3 tied into
+the next bar. Theme 2's head *ten.* three times in the brass, four bars each (upbeat on 3 →
+three tenuto bars → resolution on 1): Tb1 at C 253.3–257.1, Tp 1/2 at A 257.3–261.1, Bn 1/2 +
+Tb 1–3 (octaves) at B♭ 261.3–265.1, cresc; the winds echo each head a bar later inside the
+whirl's own pitches. 265–272 f: D major / E♭ major alternating, strings' staccato quarters with
+the accented `cis'` and Tb1's `d'->( cis')` across each barline, Tp d tremolo, winds + Xy Theme
+1's head in the E♭ bars → 273.1 German sixth tutti.
+
+Decisions:
+
+1. **The theme is the whirl's bass.** The brass articulates on 1 and 3 — exactly where the whirl
+   articulates its bass — and at every upbeat/resolution the theme's note already *is* V1a's bass.
+   So the theme's note replaces the whirl's lowest note on beats 1 and 3 (V1a's ties dropped
+   where the theme re-strikes); the upbeats 257.3/261.3 ride the held bass as double-stops
+   `<a f'>`, `<bes f'>`. Tp's statement taken 8vb (the whirl's register). Exception 263–264:
+   the `c'''` peak needs 3rd position, where the small-octave a/g are out of reach, so the theme
+   rides beat 3 *above* the bass (`<c' a'>`, `<c' g'>`). Precedents: Ysaÿe "Obsession", Ernst
+   *Erlkönig*, the Chaconne's arpeggio variations (theme notes as chord tones inside figuration).
+2. **265–272: the German sixth spelled out.** The strings'/Tb1's `cis'` as the bottom note of
+   every E♭ bar (V1a's 270–272 ties dropped), Tb1's `d'->( cis')` literal across each barline.
+3. Positions climb with the crescendo: 1st (253–260), 2nd (261–262), 3rd (263–264), 4th
+   (265–272: `cis'` 1st finger, `d'''` 4th, `ees'''` = the E♭ string's octave node). Slurs are
+   V1a's own; the performer may re-bow. Dynamics V1a's: mf 253, cresc 262, f 265.
+
+Known losses: horn harmony, the wind echoes (inside the whirl's pitches except 263.3–265.1's
+`bes''` over C minor), Tp's held c″/c′ 263–264, the Tp tremolo and the strings' quarters
+265–272, the Theme-1 head in the E♭ bars (its e♭/g are in the whirl), the fis bass of the D bars.
+
+### Episode 11 — bars 273–308 "Marcato, dim., the wind" [H] (decided 2026-10-27, user + agent)
+
+Orchestra (from the dump; the structural map above is the corrected reading): (1) **273–280**
+hammer blows f, `2 4` marcato (engraved `\rtoe` in Le Concert — the printed score shows `^`),
+winds/brass on the odd bars and strings + Tp on the even, each section resting in the other's
+bar: Gr6 (c♯–e♭–g–b♭) → D, Gr6 → D, B°7 → C, A°7 → B♭. (2) **281–288** the winds' chorale
+dim. → p 287: Fl1/Pic/Hb1 `a'' g'' f'' ees'' d'' ees'' d'' ees''` (→ `d''4` 289.1) doubled at
+the octave below by Hb2, Cl/Bn/Tb in thirds beneath (F♯°7, Gm, F, E♭, then D7/E♭ alternating);
+strings silent. (3) **289–292** strings p: V1a `d' ees' f' g'` rising over the Vc/Cb bass
+`c bes, a, g,` falling (V2/Va inside), C1/C2 d′/d pedal to 296; **293–296** D chord on beat 1
+with rests (V1a `a'`, V2 `<a fis'>`, Va `fis`, Vc/Cb `d`), timp `a,` repeated 8ths on beats
+2–3, `d a, d` in 296. (4) **297–301** the winds' chromatic descent as a relay — Fl1 `g''`→`g'`
+297.1–299.1 handed to Cl1 `g'`→`fis` 299.1–301.1 (Fl2/Cl2 a third below, Bn1 an octave below
+Cl1) — under V1a's *legg.* Theme-1-head figure (`r4 g'' bes'' g'' a'' | bes'' r ees'' g'' ees''
+f'' | g'' r bes' ees'' bes' d'' | ees'' r ees' ×4 | d'8`; Va 8vb, V2 pizz div. + Xy doubling
+its downbeats), Tb/Bn2 C-minor pedal p; **301–304** the vamp again with V1a `<d' a'>`, cresc.
+hairpin to 304; **305–309.1** the same, V1a/Va/V2/Xy identical, winds now Fl1 alone running the
+whole descent an octave up `g'''`→`fis'`. VSolo re-enters 309.3 `<d' a'>4-.\f`.
+
+Decisions:
+
+1. **273–280: the violin plays every bar; the antiphony becomes dissonance/resolution and
+   voicing.** Dissonant (wind) chords four-string with the open E♭ or a barre on top, resolutions
+   mostly three-string, all 1st position: `<cis' g' bes' ees''>` (Gr6; the hand's `cis'` from
+   Episode 10 becomes the bass), `<d' a' fis''>` (the project's D stamp), `<b f' d'' aes''>`
+   (B°7, 3rd-finger barre across A/E♭), `<c' g' e''>`, `<a ees' c'' ges''>` (A°7 — the identical
+   hand shape a tone lower, half position), `<bes f' d'' bes''>` (the strings' own voicing less
+   doublings, V1a's `bes''` on top). Rejected: colouring the two sections differently (both are
+   arco f marcato in the source) and the four-string `<a d' a' fis''>` for D (the orchestra's
+   bass is d). Engraving: marcato forced above (`^\marcato`) — stems-up chords would flip it to
+   the inverted form.
+2. **281–288: shifted octaves** by the octave rule (Fl1 + Hb2 are a literal octave doubling),
+   `<a' a''>` → `<d' d''>` descending through positions 4–3–2–½–1, `2 4` rhythm kept, dim. to p
+   287. User's call over a single line at the flute's octave.
+3. **289–292: the wedge as double-stops with the bass an octave up** (Episode 1's licence):
+   `<c' d'>` `<bes ees'>` `<a f'>` `<g g'>` — M2 → P4 → m6 → P8, the orchestra's opening wedge
+   made audible on one instrument. The winds' `d''4` at 289.1 is dropped (the strings' pitch
+   class, and the hand is on the wedge).
+4. **293–296 / 301–304: the vamp with the timpani as the open A.** Chord on 1 (`<d' fis' a'>`
+   4–2–0 at p; from 302 V1a's own open strings with the third above, `<d' a' fis''>`, the brighter
+   voicing for the crescendo), then the timp's `a,` 8ths as `a'2:8` and its `d` as the open D
+   (296.3/304.3). A literal lift at the octave, the only motion in the source's vamp bars,
+   carrying the 302–304 hairpin. User's call over bare chord + rests. Horn pedal not carried.
+5. **297–308: the winds' chromatic descent both times, not V1a's figure.** User's call, and a
+   stated principle: *by now the listener knows the repeated themes — like a quantum image they
+   should resonate in the mind if the arrangement has done its work — and the novel material here
+   is excellent.* Statement 1 = the Fl1→Cl1 composite `g''`→`g` (24 8ths; Cl1's final `fis` at
+   301.1 is below the open G, so the run resolves onto V1a's own `d'8-.`, the figure's cadence
+   note and the bass D). Statement 2 = Fl1 alone an octave up, `g'''`→`g'` over 305–308 — the
+   register escalation the orchestra writes; its goal note on 309.1 (Fl1 `fis'4` or V1a's
+   `d'8-.`) is Episode 12's first decision. Runs slurred per bar (the source's slur is the whole
+   phrase; the performer re-bows), Fl1's accent on the first note, p at 305. The Tb C-minor stamp
+   under the run's accented downbeat is not carried.
+6. Dynamics as source: f 273, dim 281–286, p 287, cresc 302–304 (hairpin to 304.3 per Ti), p 305.
+
+Known losses: Tp's d″/d′ inside the string chords; Bn2/Tb3's bass octave; the horn pedals; V1a's
+*legg.* figure with its Va octave and V2 pizz/xylophone downbeats (both statements); the C-minor
+pedal; the runs' parallel voices (Fl2/Cl2/Bn1); the Cl1 handoff note `fis` at 301.1.
+
+Corrections to the transcript/map: 289–296 is a **wedge into a D vamp**, not "strings p Theme 1";
+the "wind chromatic runs" are one two-octave descent relayed Fl1→Cl1 the first time and Fl1
+alone 8va the second.
+
+### Project-wide: known themes resonate; prefer the novel line (user, 2026-10-27)
+
+Once a theme has been stated enough times for the listener to carry it, a further orchestral
+restatement of it may yield to simultaneous *novel* material in the lift — the known figure
+"resonates" unplayed. First applied in Episode 11 (the winds' chromatic descent over V1a's
+sixth-and-seventh hearing of Theme 1's head). This is a tie-breaker between two simultaneous
+liftable lines, layered on the task hierarchy; it does not override step 1 (the solo part stays
+immutable) and it is a judgment per passage, not a rule that the violin section's own line loses.
 
 ### Project-wide: virtuoso register (decided 2026-10-19)
 

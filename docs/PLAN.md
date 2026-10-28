@@ -41,8 +41,13 @@ compiled clean; draft under "Revision drafts (2026-10-26)".
 **`@build` applied the 2026-10-23 batch (Episode 9 entry, Episode 1 revision, bar 172/173.1
 revision, the Episode 7 arco ossia, and the Episodes 2–6 ad-lib engraving).** Recompiled clean:
 zero `barNumberCheck` warnings. Hit and worked around a LilyPond 2.24.3 engraving bug while
-entering the ad-lib small notes — see "Build-session findings" below. Next actionable item is
-`@architect` resuming at Episode 10 (step 3 of "Resume here").
+entering the ad-lib small notes — see "Build-session findings" below.
+
+**Episode 10 decided and entered 2026-10-27** (the deciding session left no PLAN/NOTES entry; the
+draft below and the NOTES decision log were reconstructed from `ep10-whirl-vs-theme.ily`'s header
+the same day). **Episode 11 decided and entered 2026-10-27 (user + agent).** Compiles clean, zero
+`barNumberCheck` warnings. Next: Episode 12 [I] 309–337 (step 4 of "Resume here"); its first
+decision is 309.1, the goal note of Episode 11's second chromatic run.
 
 ## Deliverable
 
@@ -70,9 +75,9 @@ arrangement/
     ep07-skeletons.ily         % bars 173–204  (D)  (status: DECIDED; revised 2026-10-26, two-voice draft under "Revision drafts")
     ep08-lyrical-bmajor.ily    % bars 205–236  (E)  (status: DECIDED, draft below)
     ep09-spiky.ily             % bars 237–252  (F)  (status: DECIDED 2026-10-22, entered 2026-10-23)
-    ep10-whirl-vs-theme.ily    % bars 253–272  (G)  — the knot
-    ep11-marcato-dim.ily       % bars 273–308  (H)
-    ep12-summons-diesirae.ily  % bars 309–337  (I)
+    ep10-whirl-vs-theme.ily    % bars 253–272  (G)  (status: DECIDED + entered 2026-10-27, draft below)
+    ep11-marcato-dim.ily       % bars 273–308  (H)  (status: DECIDED + entered 2026-10-27, draft below)
+    ep12-summons-diesirae.ily  % bars 309–337  (I)  — next; 309.1 = Ep 11's run goal note
     ep13-strings-sequences.ily % bars 338–361
     ep14-runs-tutti.ily        % bars 362–393  (K)
     ep15-ornamented.ily        % bars 394–415  (L)
@@ -121,7 +126,9 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
 | 7 | 173–204 | one 16-bar Phrygian strain twice (E, then A a 4th up), **two voices: bowed (stems up) / pizz (stems down)**. 173–188 sixths, melody (Fl/Pic) on top, Cl1 below, on 1 & 3; beat 2 alternates RH-pizz open A (cymbal) with V2's `e'–f'–e'` turn by hypermeter. 189–204 the strain in the pizz voice on the downbeats with the open A (pedal) under it; the winds' slurred `gis'→a'` call bowed on 2–3 with the melody's beat-3 note on top, octaves `<gis gis'>→<a a'>` from 198, cresc. → f 204 (revised 2026-10-26) | **decided; revised 2026-10-26** — draft below |
 | 8 | 205–236 | Theme 2 in B major ×4: solo verbatim (1, 3); wind/string answers (2, 4) as **octaves** (the orchestra's own doubling); 205.1 four-string pizz `<b dis' b' dis''>` and 221.1 `<b' dis'' b''>` use the open E♭ as the D♯ of B major; inner voice d♯→d♮→d♯ at its change points | **decided** — draft below |
 | 9 | 237–252 | two-octave chromatic scale (V1a/V1b composite) as one line, slurred per beat; 237.1 rolled `<fis' dis'' fis''>` = Ep 8's resolution + the cadence's D♯; 245–252 V1a verbatim (Theme 1's head in D♯ minor, own register toss) + bass dots `ais`/`a`/`aes` in its downbeat rests; p throughout | **decided** — draft below |
-| 10–18 | 253–477 | per transcript map, to be revised episode by episode | pending |
+| 10 | 253–272 | **the theme is the whirl's bass**: V1a's triplet arpeggio sweeps alone, with the brass Theme 2 head (Tb1 at C, Tp at A 8vb, Bn/Tb at B♭) replacing the whirl's lowest note on beats 1 and 3, upbeats riding the held bass as double-stops; 265–272 the strings'/Tb1's cis′ as the bottom of every E♭ bar (the German sixth spelled out); positions climb 1st→4th with the cresc. | **decided** — draft below |
+| 11 | 273–308 | four lifts: 273–280 hammer blows every bar (Gr6/dim7 four-string chords with the open E♭ or a barre on top vs. the triad resolutions); 281–288 the wind chorale in descending shifted octaves, dim. to p; 289–292 the string wedge as double-stops with the bass 8va (M2→P4→m6→P8) → 293–296 D vamp `<d' fis' a'>` + the timp's a as open-A 8ths; 297–300/305–308 the winds' two-octave chromatic descent twice (Fl1→Cl1 relay at `g''`, then Fl1 at `g'''`), **not** V1a's legg. figure (user's call); 301–304 vamp with V1a's own `<d' a'>` + fis″, cresc. | **decided** — draft below |
+| 12–18 | 309–477 | per transcript map, to be revised episode by episode | pending |
 
 ## Resume here (next session)
 
@@ -156,15 +163,16 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
    comment markers already in the files (Episode 3 bar 62, Episode 4 bars 65–68/73–76, Episode 6
    bar 166.1) — see "Build-session findings" below. (f) Recompiled: zero `barNumberCheck`
    warnings. Hit and fixed a LilyPond engraving bug along the way — see "Build-session findings".
-3. `@architect`: resume at **Episode 10, bars 253–272 [G] — the knot.** Slice 252–273 for all
-   voices first (one bar of context each side; Cl/Cor/Tp with `--transpose`). Known from the
-   237–253 slice: 253.1 is a G-minor downbeat (Vc/Cb/Tb3/Tba/C1/C2/Ti g, Va `<g g'>`, Tb1
-   `g'…g`, winds `g`-octaves 8th on 1) and V1a starts the whirl at once: `g8(\mf ees'8 c''8)
-   g''8( c''8 ees'8 g4->~ |` — a C-minor arpeggio sweep over the G bass, so the join from 252
-   needs nothing on the Episode 9 side (its last sounding note is `c'''8` on 252.3). Expect the
-   episode's problem to be Theme 2 *ten.* in brass/winds against V1a's 16ths: the surface-line
-   principle (Ep 6) and the ornament/inner-voice rules (Ep 7/8) are the tools; the virtuoso
-   register is available here if the brass theme is octave-doubled.
+3. **Done 2026-10-27.** Episodes 10 and 11 decided and entered (drafts below; NOTES decision log).
+4. Resume at **Episode 12, bars 309–337 [I].** Slice 308–338 for all voices first (Cl/Cor/Tp
+   with `--transpose`). Known from the 272–309 slice: **309.1 is Episode 11's open question** —
+   the second chromatic run (`g'''`→`g'`, 305–308) has its goal note there: Fl1 `fis'4)`, or
+   V1a's `d'8-.` as statement 1 resolved at 301.1 (consistency argues `d'8-.`; the fis′ is the
+   third of the D the solo then strikes). Also on 309: Vc/Cb pizz `d` p, Ti `d8 d8 d4-.`, Fl2
+   `d'4)`, Cl1/Bn1 `fis`/`a,`; **VSolo re-enters 309.3 `<d' a'>4-.\f`** (the tritone chords
+   309–312 per the structural map). The map's "*Dies irae* parody (~313–320)" is inferred, not
+   verified — check the slice before building the sul-ponticello device on it (NOTES "three death
+   timbres").
 
 Working method from Episode 5: a `@general` subagent slices exact bar ranges per voice from the
 absolute dump (sounding pitch for transposers); the architect session spends context on
@@ -699,6 +707,93 @@ fis''8-. r8 eis''8-. r8 dis''8-. r8                                      | % 250
 aes8-. r8 c'''8-. ees'''8-. c'''8-. d'''8-.                              | % 251  aes = bass
 ees'''8-. r8 d'''8-. r8 c'''8-. r8                                       | % 252  -> 253.1 g8 mf [G]
 \barNumberCheck #253
+```
+
+### Episode 10 — bars 253–272 [G] (absolute pitch; entered 2026-10-27, record of the file)
+
+Concept: **the theme is the whirl's bass.** V1a alone carries the whirl; wherever the brass states
+Theme 2's head (Tb1 at C 253.3–257.1, Tp 1/2 at A 257.3–261.1 taken 8vb, Bn/Tb at B♭
+261.3–265.1) its note replaces the whirl's lowest note on beats 1 and 3, the upbeats 257.3/261.3
+riding the held bass as double-stops; 263–264 the theme rides beat 3 *above* the bass (3rd
+position for the `c'''` peak). 265–272 f: the strings'/Tb1's accented `cis'` as the bottom note
+of every E♭ bar — the German sixth spelled out. Positions 1st → 2nd (261) → 3rd (263) → 4th
+(265–272). Dynamics V1a's: mf 253, cresc 262, f 265. Full voice-by-voice reasoning is in the
+file's comments.
+
+```
+\barNumberCheck #253
+\tuplet 3/2 4 { g8(\mf ees'8 c''8) g''8( c''8 ees'8 } g4->                    | % 253 Tb1 upbeat g
+\omit TupletNumber
+\tuplet 3/2 4 { c'8-> ees'8 c''8) g''8( c''8 ees'8 } c'4->                    | % 254 Tb1 c' ten.
+\tuplet 3/2 4 { b8 e'8 c''8) g''8( c''8 e'8 } b4->                            | % 255 Tb1 b
+\tuplet 3/2 4 { bes8 e'8 c''8) g''8( c''8 e'8 } bes4->                        | % 256 Tb1 bes
+\tuplet 3/2 4 { a8-> f'8 c''8) a''8( c''8 f'8 } <a f'>4->                     | % 257 Tb1 a; Tp f'
+\tuplet 3/2 4 { a8-> f'8 c''8) a''8( c''8 f'8 } a4->                          | % 258 Tp a' 8vb ten.
+\tuplet 3/2 4 { gis8 e'8 cis''8) a''8( cis''8 e'8 } gis4->                    | % 259 Tp gis' 8vb
+\tuplet 3/2 4 { g8 e'8 cis''8) a''8( cis''8 e'8 } g4->                        | % 260 Tp g' 8vb
+\tuplet 3/2 4 { bes8-> f'8 d''8) bes''8( d''8 f'8 } <bes f'>4->               | % 261 Tp f'; Bn/Tb f
+\tuplet 3/2 4 { bes8->\< f'8 d''8) bes''8( d''8 f'8 } bes4->                  | % 262 Bn/Tb bes
+\tuplet 3/2 4 { c'8-> g'8 e''8) c'''8( e''8 g'8 } <c' a'>4->                  | % 263 Bn/Tb a above
+\tuplet 3/2 4 { c'8 g'8 ees''!8) c'''8( ees''8 g'8 } <c' g'>4->\!             | % 264 Bn/Tb g above
+\tuplet 3/2 4 { d'8->\f a'8 fis''8) d'''8( fis''8 a'8 } d'4->                 | % 265 Tb1 d'->(
+\tuplet 3/2 4 { cis'8-> bes'8 g''8) ees'''8( g''8 bes'8 } ees'4->             | % 266 cis' = Gr6
+\tuplet 3/2 4 { d'8-> a'8 fis''8) d'''8( fis''8 a'8 } d'4->                   | % 267
+\tuplet 3/2 4 { cis'8-> bes'8 g''8) ees'''8( g''8 bes'8 } ees'4->             | % 268
+\tuplet 3/2 4 { d'8-> a'8 fis''8) d'''8( fis''8 a'8 } d'4->                   | % 269
+\tuplet 3/2 4 { cis'8-> bes'8 g''8) ees'''8( g''8 bes'8 } ees'4->             | % 270
+\tuplet 3/2 4 { cis'8-> bes'8 g''8) ees'''8( g''8 bes'8 } ees'4->             | % 271
+\tuplet 3/2 4 { cis'8-> bes'8 g''8) ees'''8( g''8 bes'8 } ees'4->)            | % 272 -> [H] 273
+\undo \omit TupletNumber
+\barNumberCheck #273
+```
+
+### Episode 11 — bars 273–308 [H] (absolute pitch; decided + entered 2026-10-27)
+
+Four lifts (see NOTES Episode 11 for the reasoning and the user's calls). Marcato forced above
+the chords (`^\marcato`; Le Concert's `\rtoe`). Chord hands, all 1st position: Gr6 = 4ext–3–1–0
+(rolled, sustain on the upper pair); B°7 and A°7 are one shape, 2–1–3–3(barre), a tone apart;
+B♭ = 2(barre)–3–4. Octaves 281–288 on D–A, positions 4→3→2→½→1. Runs slurred per bar; `a'2:8`
+is the timpani's measured 8ths on the open A. 309.1 (the second run's goal) is Episode 12's.
+
+```
+\barNumberCheck #273
+<cis' g' bes' ees''>2^\marcato\f <cis' g' bes' ees''>4^\marcato  | % 273 winds: Gr6
+<d' a' fis''>2^\marcato <d' a' fis''>4^\marcato                  | % 274 strings: D
+<cis' g' bes' ees''>2^\marcato <cis' g' bes' ees''>4^\marcato    | % 275
+<d' a' fis''>2^\marcato <d' a' fis''>4^\marcato                  | % 276
+<b f' d'' aes''>2^\marcato <b f' d'' aes''>4^\marcato            | % 277 winds: B dim7
+<c' g' e''>2^\marcato <c' g' e''>4^\marcato                      | % 278 strings: C
+<a ees' c'' ges''>2^\marcato <a ees' c'' ges''>4^\marcato        | % 279 winds: A dim7
+<bes f' d'' bes''>2^\marcato <bes f' d'' bes''>4^\marcato        | % 280 strings: B-flat
+<a' a''>2\> <a' a''>4                                            | % 281 Fl1/Pic/Hb1 + Hb2 8vb
+<g' g''>2 <g' g''>4                                              | % 282
+<f' f''>2 <f' f''>4                                              | % 283
+<ees' ees''>2 <ees' ees''>4                                      | % 284
+<d' d''>2 <d' d''>4                                              | % 285
+<ees' ees''>2 <ees' ees''>4\!                                    | % 286
+<d' d''>2\p <d' d''>4                                            | % 287
+<ees' ees''>2 <ees' ees''>4                                      | % 288
+<c' d'>2 <c' d'>4                                                | % 289 V1a + bass 8va (wedge)
+<bes ees'>2 <bes ees'>4                                          | % 290
+<a f'>2 <a f'>4                                                  | % 291
+<g g'>2 <g g'>4                                                  | % 292
+<d' fis' a'>4 a'2:8                                              | % 293 D vamp + Ti a
+<d' fis' a'>4 a'2:8                                              | % 294
+<d' fis' a'>4 a'2:8                                              | % 295
+<d' fis' a'>4 a'4 d'4                                            | % 296 Ti d a, d
+g''8->( fis''8 f''8 e''8 ees''8 d''8)                             | % 297 Fl1 ->
+cis''8( c''8 b'8 bes'8 a'8 aes'8)                                | % 298
+g'8( fis'8 f'8 e'8 ees'8 d'8)                                    | % 299 -> Cl1
+cis'8( c'8 b8 bes8 a8 g8)                                        | % 300
+d'8-. r8 a'2:8                                                   | % 301 V1a d' (Cl1's fis unplayable)
+<d' a' fis''>4\< a'2:8                                           | % 302
+<d' a' fis''>4 a'2:8                                             | % 303
+<d' a' fis''>4 a'4 d'4\!                                         | % 304
+g'''8->(\p fis'''8 f'''8 e'''8 ees'''8 d'''8)                     | % 305 Fl1 8va
+cis'''8( c'''8 b''8 bes''8 a''8 aes''8)                          | % 306
+g''8( fis''8 f''8 e''8 ees''8 d''8)                              | % 307
+cis''8( c''8 b'8 bes'8 a'8 g'8)                                  | % 308 -> 309.1 (Ep 12)
+\barNumberCheck #309
 ```
 
 ## Build-session findings (2026-10-20) — for @architect/user review
