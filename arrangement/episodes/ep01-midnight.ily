@@ -14,7 +14,8 @@ epOne = \absolute {
   d'4-+\laissezVibrer r2                                               | % 4
   % 5-8: V1 divisi d''/a' + V2 fis'/d' ppp tied -> V1's top note d'' tied, sul tasto senza vibr.,
   % over the continuing toll (the open D rings anyway).
-  << { d''2.\ppp~^\markup\italic "sul tasto, senza vibr." } \\ { d'4-+\laissezVibrer s2 } >> | % 5
+  << { \once \override DynamicLineSpanner.direction = #UP
+       d''2.\ppp~^\markup\italic "sul tasto, senza vibr." } \\ { d'4-+\laissezVibrer s2 } >> | % 5
   << { d''2.~ } \\ { d'4-+\laissezVibrer s2 } >>                       | % 6
   << { d''2.~ } \\ { d'4-+\laissezVibrer s2 } >>                       | % 7
   << { d''2. } \\ { d'4-+\laissezVibrer s2 } >>                        | % 8
