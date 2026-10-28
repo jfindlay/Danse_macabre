@@ -30,6 +30,10 @@ Saint-Saëns wrote to his publisher in 1876 that violinists no longer wanted the
 any way but in E♭. The tuning is the piece's signature, and it is the one thing this arrangement
 could not have done without.
 
+The piece was built from material that was already folklore — the medieval *danse macabre*, the
+*Dies irae* chant, the waltz — so a version for one fiddle is less a reduction than a return: it
+closes a loop the composer opened.
+
 ## 2. The premise
 
 **The occasion.** A single violinist, in costume, at a Halloween carnival or street festival. The
@@ -39,6 +43,14 @@ original is sublime — sublime. Every choice below was tested against *what wou
 take in?* rather than *what would the score-reader miss?* The performer will hear Saint-Saëns's
 whole orchestra in their head; the audience will not, and the arrangement does not pretend they
 will.
+
+**Two chairs.** *Danse macabre* is a symphonic poem with an extended solo, not a concerto: in the
+orchestra the "solo violin" is the leader standing up to play Death, a character inside the
+ensemble rather than a protagonist against it. The part lives on the concertmaster–soloist plane,
+and the one violin here plays both chairs. As soloist it plays Death's part untouched; as
+concertmaster it plays the section's own line, which is why the first-violin part is the spine of
+nearly every bar in which the solo is silent, and the winds and brass are lifted only where they
+carry something the strings do not.
 
 **The source.** The full orchestral score (Le Concert edition, engraved in LilyPond), not the
 composer's violin-and-piano reduction: the reduction's violin line is a duo part that already
@@ -87,6 +99,18 @@ replicating the orchestral texture: the fugato reads as a Bach sonata fugue (ent
 double-stops, single-line episodes between), the whirl against the brass theme reads as Ysaÿe's
 *Obsession* and Ernst's *Erlkönig* (the theme as the bass of the figuration), the harp reads as
 pizzicato. Allusion is the arranger's licence; replication is not the goal.
+
+**Lineage.** The models consulted, and what each gave: Paganini — Caprice 9's *imitando il
+flauto* for the flute tune, and the register of the summits; Sarasate, Saint-Saëns's own
+collaborator — the pluck-and-retake surprise and the *Carmen Fantasy*'s virtuoso register; Ysaÿe's
+*Obsession* and Ernst's *Erlkönig* — a theme carried as the bass of running figuration, and the
+solo-violin death ballad as a genre; Bach — compound melody, the only polyphony one violin has;
+Berlioz's *Ronde du sabbat* — the fugato's ancestor. Enescu's *doina* was held in reserve for the
+coda and never spent: Death's *déclamé* is already a *doina* in Saint-Saëns's hand, and the
+spectral and the kinetic languages belong in different episodes — the piece's power is character
+contrast. One craft rule from the same survey governs §4: a great player's idiosyncrasies are
+performance nuance, not notation; what transfers to paper is the notated fingerprint —
+figuration, chord spacing, bowing — and those cost no licence.
 
 ## 3. The dramaturgy, episode by episode
 
@@ -271,8 +295,9 @@ Three events, each alone: the horns' E♭ *fp*, the oboe's cock-crow, the string
 on C♯°7 under timpani strokes, *f* to *p* to a fermata *très long, toujours en dim.* Each is
 lifted at pitch as the one line. The horn note on the D string, the crow entirely on the E♭
 string, and the tremolo as the chord's defining interval — the cellos' C♯ against the violas' G,
-the *diabolus* that opened the piece — dissolving over ten bars and the long hold. The devils do
-not exit; they evaporate.
+the *diabolus* that opened the piece — dissolving over ten bars and the long hold. The retuned
+string that poisoned midnight is still on the instrument at dawn; every E♮ in the daylight is a
+stopped note. The devils do not exit; they evaporate.
 
 ### 18. *Déclamé* and coda (455–477, [N])
 
@@ -350,14 +375,9 @@ A clean compile reports zero `barNumberCheck` warnings: each episode file checks
 the next episode's first bar, so the 477-bar form is enforced at every boundary. Do not pass
 `-dbackend=null` (it crashes during layout on at least one install, independent of this project).
 
-## 6. Open items
+## 6. Deferred until played
 
-- Apply to the score: 445–454 as `<cis' g'>2.:16` (Episode 17); 416–418 in octaves,
-  `<g''' g''''>4-! <f''' f''''> <ees''' ees''''> | <f''' f''''> <ees''' ees''''> <d''' d''''> |
-  <ees''' ees''''> <d''' d''''> <c''' c''''>` (Episode 16); the bowing marks of §4; the beat-2
-  stamp as `<d' g'>` from [M] 430 (Episode 16). Reconcile the Episode 8 header with the engraved
-  205.1 `<b' b''>`.
-- Trim every episode header to its bar range and a one-line concept; the exposition is here.
-- Deferred until played: flying staccato on the fugato counter-lines; whether entry 3's cue
-  (151–155) should extend to the subject's full head as sustained double-stops; the pizz/arco
-  hocket of 190–202 at tempo; the three summits at *ff*.
+Flying staccato on the fugato counter-lines; whether entry 3's cue (151–155) should extend to the
+subject's full head as sustained double-stops; the pizz/arco hocket of 190–202 at tempo; the
+three summits at *ff*, and the 416–418 octaves in particular. Verify the Cazalis quatrain in §1
+against a printed source before it is printed.
