@@ -57,11 +57,11 @@ epSix = \absolute {
   % Entry 4: surface = V1 rising sequence loco; cue 159-160 (Tp2 at pitch). Single voice.
   \oneVoice d'4) d'8 e'8 <d' f'>8 <d' g'>8                                 | % 159  trill resolves
   <c' a'>8 gis'8 a'8 c''8 b'8 a'8                                          | % 160
-  <d'' \tweak font-size #-3 g-+>8 c''8 d''8 f''8 e''8 d''8                 | % 161 ad lib LH-pizz G
-  <g'' \tweak font-size #-3 g-+>8 fis''8 g''8 bes''8 a''8 g''8             | % 162 ad lib LH-pizz G
-  <f'' \tweak font-size #-3 d'-+>8 a''8 g''8 e''8 f''8 d''8                | % 163 ad lib LH-pizz D
+  <d'' \tweak font-size #-3 g_+>8 c''8 d''8 f''8 e''8 d''8                 | % 161 ad lib LH-pizz G
+  <g'' \tweak font-size #-3 g_+>8 fis''8 g''8 bes''8 a''8 g''8             | % 162 ad lib LH-pizz G
+  <f'' \tweak font-size #-3 d'_+>8 a''8 g''8 e''8 f''8 d''8                | % 163 ad lib LH-pizz D
   e''8 a''8 gis''8 b''8 c'''8 a''8                                         | % 164
-  <d'' \tweak font-size #-3 d'-+>8 fis''8 a''8 c'''8 bes''8 a''8           | % 165 ad lib D
+  <d'' \tweak font-size #-3 d'_+>8 fis''8 a''8 c'''8 bes''8 a''8           | % 165 ad lib D
   % Entry 5: surface = Fl 1 sweep (Ob drops 8va at 169 for range); cue 166.1 (Tb 1) as the two
   % octave eighths, lead from beat 2. 166 alone is split in two voices (revised 2026-10-26): the
   % octave eighths and the held low G below, the sweep's lead above after a beat-1 rest. The

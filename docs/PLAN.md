@@ -64,7 +64,7 @@ piece's climax — **416–425 an octave above V1a** (user; `g''''` the piece's 
 octaves on the A–E♭ pair, the drop to V1a's open G at 426; **426–437 later revised (user, same day): one line
 plus the flute's `g'4`/`fis'4` beat-2 stamps above it, no chords** (see the Episode 16 draft). Compiles clean, zero `barNumberCheck` warnings.
 **Episodes 17 and 18 decided and entered together 2026-10-28 (user + agent):** the horns' E♭ as
-the open E♭ string into the oboe's crow, the strings' tremolo as `<g ees'>`; the solo's déclamé
+`ees'` into the oboe's crow, the strings' tremolo as `<g ees'>`; the solo's déclamé
 intact over the horns' bed on the open strings, the viola/cello's Theme-1 echo under the
 tremolo, and the bass's pizz close ending on the summons chords `<d' a' fis''>` / `<g d' bes'
 g''>`. Compiles clean, zero `barNumberCheck` warnings. **All 477 bars are now composed;** next is
@@ -154,8 +154,8 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
 | 14 | 362–393 | **V1a's part as the spine, the tutti folded into its rests and downbeats:** 362–365 the cell with the brass D7 stab `<c' fis' a'>8-.` on each downbeat; 366–369 the winds' rise from the open D (flute octave, slurred per bar, f → ff) onto V1a's `<g d' bes' g''>` crash; 370–375 Theme 1 ff at g″ with the G-minor four-string chord on the odd-bar downbeats (Ep 4's 85–88 texture, arco); 376–377/384–385 the tails at V1a's d‴–a‴ (a‴ the piece's top), each dropping to the open A for the bass rise `a ais b cis'`; 378.1/386.1 `<d' a' fis''>` stamps; **378.2–383 the second statement in sixths/octaves over the hammered bes′**; 386–389 the strings-alone vamp bare (`cis'4 d'2:8`); 390.2 octaves `<d' d''>` on the 8ths, 391–393 the four-string D7 stab `<c' fis' a' fis''>` on the c♮ downbeats → [L]. Tb countermelody not carried | **decided** — draft below |
 | 15 | 394–415 | **V1a's line verbatim — the only line** (V1a/V2 unison, solo tacet): 394 upbeat arpeggio, 395–398 the ornamented chromatic descent in slurred pairs with upper acciaccaturas (1st position, `\open` on the ees''), 399–401 turns + D arpeggio, 403–409 the orchestra's identical repeat, 410–414 the sweeps over the D pedal; tutti stamps as chords in V1a's hand: 394.1 `<bes d' bes' g''>4-!` (Gm over the B♭ bass = V1a's bes), 402.1 `<g d' bes' bes''>8-!` then V1a's rest; **415 an octave above V1a** `a'' d''' fis''' a''' d'''' fis''''` (user) — 414–415 one four-octave climb into the Animato; ff running, ff restated 409 (Cb) with *poco stringendo*. Waltz chords (Hb/Cl/Bn, Va/Vc/Cb on 1–2) not carried | **decided + entered 2026-10-28** — draft below |
 | 16 | 416–437 | **the climax — V1a's line an octave up (user), then its own:** 416–418 the ff tutti descent at `g''''` (the piece's top; stopped, artificial-harmonic fallback), 419–420 Theme 1's head on A♭/F♯ at `aes'''`/`fis'''`, **421–423 octaves `<g'' g'''>`→`<c'' c'''>` on the A–E♭ pair** after the crash `<g d' g'' g'''>-!`, 424–425 the head at `aes''`/`fis''`, **426 the drop to the open G**; **426–437 (revised 2026-10-28, user): the unison figure `g bes g a bes4 \| c' b bes a aes4` (then continuous 8ths from 433) as V1a's single line, plus the flute/piccolo's quarter stamp on beat 2 above it — `g'4`/`fis'4` alternating 426–429, `g'4` throughout [M] to the double bar** (supersedes the earlier winds' double-stops, [M] stamps and fff beat chords). ff 416, fff 433 | **decided + entered 2026-10-28; 426–437 revised same day** — draft below |
-| 17 | 438–454 | **three events, each alone:** the horns' E♭ fp as the **open E♭ string** 438–439, merging into the oboe's cock-crow 440–445 verbatim (all on the E♭ string; 445.1's pp tail absorbed); 445–454 the strings' C♯°7 tremolo as `<g ees'>2.:16` (open G = Va/timp G; `ees'` = V1a), f > p > fermata *très long* / *toujours en dim.* The cello's `cis`, horn 2's `ees`, timp strokes and GC roll not carried | **decided + entered 2026-10-28** — draft below |
-| 18 | 455–477 | **the solo's déclamé and tremolo verbatim, intact;** 455.1 the strings' stroke as `<g d' d''>`; the horns' p bed as a lower voice on the open strings under the D-string notes and through the breaths (`g` 457–458, `d'` 459, `g` 460–462, `aes` 463); [N] 467–473 the tremolo under one slur with the **Va/Vc Theme-1 echo (469–470) on the G string as double-stops**; 473.3–477 **Cb's pizz `g \| a bes g \| d'` 8va, pizz. sempre pp, closing on the summons chords `<d' a' fis''>` (D, 476) → `<g d' bes' g''>` (Gm, 477)**. V2/V1a echoes and Fl1's tremolo continuation not carried | **decided + entered 2026-10-28** — draft below |
+| 17 | 438–454 | **three events, each alone:** the horns' E♭ fp as horn 1's **`ees'`** 438–439 (D string; revised 2026-10-28, user, from the open `ees''`), then the oboe's cock-crow 440–445 verbatim (all on the E♭ string; 445.1's pp tail absorbed); 445–454 the strings' C♯°7 tremolo as `<g ees'>2.:16` (open G = Va/timp G; `ees'` = V1a), f > p > fermata *très long* / *toujours en dim.* The cello's `cis`, horn 2's `ees`, timp strokes and GC roll not carried | **decided + entered 2026-10-28** — draft below |
+| 18 | 455–477 | **the solo's déclamé and tremolo verbatim, intact;** 455.1 the strings' stroke as `<g d' d''>`; the horns' p bed as a lower voice on the open strings under the D-string notes and through the breaths (`g` 457–458, `d'` 459, `g` 460–462, `aes` 463); [N] 467–473 the tremolo in shorthand (`\repeat tremolo`), slurred as the solo line, **stopping at 469.1 and giving way to the three Theme-1 echoes as the solo's own line** (Va/Vc 469.2–471.1, V2 471.2–472.1, V1a's first three notes 472.3–473.2; revised 2026-10-28, user, superseding the earlier G-string double-stops under the tremolo); 473.3–477 **Cb's pizz `g \| a bes g \| d'` 8va, pizz. sempre pp, closing on the summons chords `<d' a' fis''>` (D, 476) → `<g d' bes' g''>` (Gm, 477)**. V1a's echo past its third note and Fl1's tremolo continuation not carried | **decided + entered 2026-10-28** — draft below |
 
 ## Resume here (next session)
 
@@ -209,12 +209,12 @@ Toolchain (installed 2026-10-18): `lilypond`, `python3-ly`, `rosegarden`, `texli
    (page 6). Ledger lines kept for 416–420 (no `\ottava` anywhere in the score — user).
 9. **Done 2026-10-28.** Episodes 17 and 18 decided and entered together (drafts below; NOTES
    decision log, map rows corrected). Sliced 437–477 for every voice. Compiles clean, zero
-   `barNumberCheck` warnings; render checked visually (pages 6–7). Two engraving notes: 463 and
-   469–470 use ep08's `\voiceOne` + temporary `\new Voice` pattern (not `<< \\ >>`) because a
-   slur crosses the block's edge; the 454/455 system end is a little crowded (*très long* /
+   `barNumberCheck` warnings; render checked visually (pages 6–7). Two engraving notes: 463
+   uses ep08's `\voiceOne` + temporary `\new Voice` pattern (not `<< \\ >>`) because a
+   slur crosses the block's edge (469–470 did too until the 2026-10-28 revision below); the 454/455 system end is a little crowded (*très long* /
    *déclamé* above, *toujours en dim.* / *f* below) — all four are source texts, left as is.
 10. **All 477 bars composed.** Next: a whole-piece review before playing — the open alternatives
-    flagged in the Episode 17/18 decisions (the horn pedal at `ees'` vs the open `ees''`; the
+    flagged in the Episode 17/18 decisions (the horn pedal is now `ees'`, settled; the
     tremolo pair `<g ees'>` vs `<bes ees'>`; the 459 open-D drone under `bes'`; whether 476–477
     want a fermata or l.v.), the deferred Episode 6 items (NOTES "Open for Episode 6"), and the
     stale "Episodes 14–18 placeholders" wording anywhere it survives.
@@ -728,14 +728,14 @@ to shift in.
 ```
 \barNumberCheck #237
 % 237.1 = Ep 8 statement 4's resolution (V2 fis''2.~ + Va fis'2.~, p) over the tutti B cadence
-% (Hp <fis b>/<b,, b,>, Tb1/Tp1/Hb1 dis', Tb2/Cb b): rolled <fis' dis'' fis''>, truncated to a
+% (Hp <fis b>/<b,, b,>, Tb1/Tp1/Hb1 dis', Tb2/Cb b): <fis' dis'' fis''>, not rolled (user), truncated to a
 % quarter so the hand is free for the run. 237.2-245.1: V1a + V1b are one continuous chromatic
 % scale b-b''-b handed between desks every beat (each 5-note slur's last 16th is the other desk's
 % first) -> single line, slurred per beat. Dropped: V1a's first four 16ths b bis cis' d' (under
 % the stamp). Not carried: Hb1/Hb2 dis'/b pedal 237-245, Bn1 fis/g/fis/gis, the Vc/Cb/Tb/Va/V2
 % staccato bass figure (B 237 / G 239 / B 241 / G-sharp 243). Dynamics = V1a: p, cresc 241, f
 % 243, dim 244.
-<fis' dis'' fis''>4\p\arpeggio dis'16( e' eis' fis') g'( gis' a' ais')   | % 237
+<fis' dis'' fis''>4\p dis'16( e' eis' fis') g'( gis' a' ais')   | % 237
 b'16( bis' cis'' d'') dis''( e'' eis'' fis'') g''( gis'' a'' ais'')      | % 238
 b''16( ais'' a'' gis'') g''( fis'' f'' e'') dis''( d'' cis'' c'')        | % 239
 b'16( ais' a' gis') g'( fis' f' e') dis'( d' cis' c')                    | % 240
@@ -1061,14 +1061,14 @@ fis''8 a''!8 fis''8 g''8 a''4                                                | %
 ### Episode 17 — bars 438–454 "Dawn" (Tempo 1°) (absolute pitch; decided + entered 2026-10-28)
 
 Concept: **three events, each the only thing sounding, each lifted at pitch as the one line.**
-See NOTES Episode 17. The horns' E♭ as the open E♭ string (the retuned string, alone after the
-climax; the crow's starting pitch), re-attacked f at 440.1 as the oboe's entry; the crow entirely
+See NOTES Episode 17. The horns' E♭ as horn 1's `ees'` at pitch (D string; revised 2026-10-28,
+user, from the open `ees''`), then the oboe's entry a fresh f attack an octave up at 440.1; the crow entirely
 on the E♭ string; the strings' C♯°7 tremolo as `<g ees'>` — open G (viola/timp) under V1a's
 `ees'`, sustainable through the dim. and the long fermata. The record of the file.
 
 ```
-ees''2.\fp~                                                                  | % 438 Tempo 1 -- horns' E-flat
-ees''2.                                                                      | % 439
+ees'2.\fp~                                                                   | % 438 Tempo 1 -- horns' E-flat
+ees'2.                                                                       | % 439
 ees''4\f r8 bes''8-. bes''4-.                                                | % 440 cock-crow
 ees''4-. g''2->~                                                             | % 441
 g''2.~                                                                       | % 442
@@ -1090,11 +1090,12 @@ g''2.                                                                        | %
 ### Episode 18 — bars 455–477 "Déclamé and coda" [N] (absolute pitch; decided + entered 2026-10-28)
 
 Concept: **the solo's déclamé and tremolo verbatim and intact; the horns' bed folded under its
-D-string notes and through its breaths as a second voice on the open strings; the viola/cello's
-Theme-1 echo under the tremolo on the G string; then the bass's pizz close ending on the two
-chords that closed the summons (32.3–33.1).** See NOTES Episode 18. 463 and 469–470 use ep08's
-`\voiceOne` + temporary `\new Voice` pattern so the melody's slurs cross the blocks' edges. The
-record of the file.
+D-string notes and through its breaths as a second voice on the open strings; the tremolo (in
+shorthand, slurred as the solo line) giving way at 469.2 to the three Theme-1 echoes — Va/Vc, V2,
+V1a's first three notes — as the solo's own line; then the bass's pizz close ending on the two
+chords that closed the summons (32.3–33.1).** See NOTES Episode 18 (revised 2026-10-28, user). 463
+uses ep08's `\voiceOne` + temporary `\new Voice` pattern so the melody's slur crosses the block's
+edge. The record of the file.
 
 ```
 <g d' d''~>4\f^\markup\italic "déclamé" d''2                                 | % 455 strings' Gm/D stroke
@@ -1109,20 +1110,13 @@ bes'4 a'4 g'4                                                                | %
 aes4) bes4 c'4                                                               | % 464
 ees'2.                                                                       | % 465
 ees'2.(                                                                      | % 466 -> [N]
-d'16-> ees'16 d'16-> ees'16 d'16-> ees'16 d'16-> ees'16 d'16-> ees'16 d'16-> ees'16 | % 467 [N]
-d'16\p\> ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16  | % 468
-<< { \voiceOne
-     d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 | % 469 Va/Vc echo
-     d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 | % 470
-   }
-   \new Voice { \voiceTwo
-     r4 g8-.\pp bes8-. a8-. bes8-.                                           | % 469
-     a8( g8) g8-. a8-. bes8-. g8-.                                           | % 470
-   }
->> \oneVoice
-d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16      | % 471 echo's d' absorbed
-d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16      | % 472
-d'8)\pp r8 r4 g4^"pizz. sempre"                                              | % 473 solo ends; Cb's pizz
+\repeat tremolo 6 { d'16-> ees'16) }                                         | % 467 [N]
+\repeat tremolo 6 { d'16(\p\> ees'16 }                                       | % 468
+\repeat tremolo 2 { d'16 ees'16) } g8-.\pp bes8-. a8-. bes8-.               | % 469 Va/Vc echo
+a8( g8) g8-. a8-. bes8-. g8-.                                                | % 470
+d'8-. r8 g'8-.\p a'8-. bes'8-. g'8-.                                         | % 471 V2 echo
+d''8-. r8 r4 g''8-.\ppp r8                                                   | % 472 V1a echo
+a''8-. r8 bes''8-. r8 g4^"pizz. sempre"                                      | % 473 Cb's pizz
 a4 bes4 g4                                                                   | % 474
 d'4 r4 r4                                                                    | % 475
 <d' a' fis''>4 r4 r4                                                         | % 476 D major (winds pp)

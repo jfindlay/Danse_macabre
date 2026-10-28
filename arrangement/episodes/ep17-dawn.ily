@@ -4,13 +4,12 @@
 %
 % Concept: three events, each the only thing sounding -- the horns' E-flat, the oboe's cock-crow,
 % the strings' dying tremolo -- so each is lifted at pitch as the one line. No solo violin.
-%   438-439  horns 1/2 hold E-flat in octaves (ees'/ees) fp, tied to 445.1. Horn 2's ees is below
-%            the open G; horn 1's ees' is in range, but the pedal is taken AS THE OPEN E-FLAT
-%            STRING (ees''): the retuned string -- Death's own note, the tritone of bar 25 -- held
-%            alone after the climax, and the pitch the crow starts on. The pedal cannot continue
-%            under the crow (the crow lives on the E-flat string; the D string is not adjacent to
-%            it), so it merges into the crow's first note: 440.1 is re-attacked f, no tie.
-%            Alternative: horn 1's ees' on the D string for 438-439, then the jump to ees''.
+%   438-439  horns 1/2 hold E-flat in octaves (ees'/ees) fp. Horn 2's ees is below the open G;
+%            horn 1's ees' is in range and is taken as written, on the D string (1st finger)
+%            (user, 2026-10-28; the open E-flat string ees'' was the first reading). The pedal
+%            cannot continue under the crow (the crow lives on the E-flat string; the D string is
+%            not adjacent to it), so it ends at 439 and the crow's first note, ees'' at 440.1, is
+%            a fresh f attack an octave up, no tie.
 %   440-445  the oboe's cock-crow verbatim, entirely on the E-flat string (open ees'', bes'' in
 %            3rd position, g'' 1st or 3rd). Its last 8th (445.1 g'' pp, the tail of the tie) is
 %            absorbed by the strings' f entry on the same beat.
@@ -26,9 +25,9 @@
 
 epSeventeen = \absolute {
   \barNumberCheck #438
-  % 438-439: the horns' E-flat as the open E-flat string, fp, held into the crow.
-  ees''2.\fp~                                                                  | % 438 Tempo 1 -- horns' E-flat
-  ees''2.                                                                      | % 439
+  % 438-439: the horns' E-flat at pitch (horn 1's ees', D string), fp.
+  ees'2.\fp~                                                                   | % 438 Tempo 1 -- horns' E-flat
+  ees'2.                                                                       | % 439
   % 440-445: the oboe's cock-crow, verbatim, on the E-flat string.
   ees''4\f r8 bes''8-. bes''4-.                                                | % 440 cock-crow
   ees''4-. g''2->~                                                             | % 441

@@ -12,14 +12,14 @@
 epNine = \absolute {
   \barNumberCheck #237
   % 237.1 = Ep 8 statement 4's resolution (V2 fis''2.~ + Va fis'2.~, p) over the tutti B cadence
-  % (Hp <fis b>/<b,, b,>, Tb1/Tp1/Hb1 dis', Tb2/Cb b): rolled <fis' dis'' fis''>, truncated to a
+  % (Hp <fis b>/<b,, b,>, Tb1/Tp1/Hb1 dis', Tb2/Cb b): <fis' dis'' fis''>, not rolled (user), truncated to a
   % quarter so the hand is free for the run. 237.2-245.1: V1a + V1b are one continuous chromatic
   % scale b-b''-b handed between desks every beat (each 5-note slur's last 16th is the other
   % desk's first) -> single line, slurred per beat. Dropped: V1a's first four 16ths b bis cis' d'
   % (under the stamp). Not carried: Hb1/Hb2 dis'/b pedal 237-245, Bn1 fis/g/fis/gis, the
   % Vc/Cb/Tb/Va/V2 staccato bass figure (B 237 / G 239 / B 241 / G-sharp 243). Dynamics = V1a: p,
   % cresc 241, f 243, dim 244.
-  <fis' dis'' fis''>4\p\arpeggio dis'16( e' eis' fis') g'( gis' a' ais')   | % 237
+  <fis' dis'' fis''>4\p dis'16( e' eis' fis') g'( gis' a' ais')   | % 237
   b'16( bis' cis'' d'') dis''( e'' eis'' fis'') g''( gis'' a'' ais'')      | % 238
   b''16( ais'' a'' gis'') g''( fis'' f'' e'') dis''( d'' cis'' c'')        | % 239
   b'16( ais' a' gis') g'( fis' f' e') dis'( d' cis' c')                    | % 240

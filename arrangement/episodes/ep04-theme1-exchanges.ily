@@ -45,9 +45,9 @@ epFour = \absolute {
   \barNumberCheck #65
   % 65-68: solo's own d' downbeat + Hb 1 Theme-1 head at d''
   d'4  d''8-.\p fis''8-. d''8-. e''8-.                                        | % 65
-  <fis'' \tweak font-size #-3 d'-+>4-- e''8-. fis''8-. d''8-. fis''8-.      | % 66 ad lib LH-pizz D
-  <e'' \tweak font-size #-3 d'-+>8( d''8) d''8-. fis''8-. d''8-. e''8-.     | % 67 ad lib LH-pizz D
-  <fis'' \tweak font-size #-3 d'-+>4-- e''8-. fis''8-. d''8-. fis''8-.      | % 68 ad lib LH-pizz D
+  <fis'' \tweak font-size #-3 d'_+>4-- e''8-. fis''8-. d''8-. fis''8-.      | % 66 ad lib LH-pizz D
+  <e'' \tweak font-size #-3 d'_+>8( d''8) d''8-. fis''8-. d''8-. e''8-.     | % 67 ad lib LH-pizz D
+  <fis'' \tweak font-size #-3 d'_+>4-- e''8-. fis''8-. d''8-. fis''8-.      | % 68 ad lib LH-pizz D
   % 69-72: VSolo verbatim (69.1 g''4-. is Hb 1's phrase close on the solo's rest), marcatissimo
   g''4-.  g'8-.\f^"marcatissimo" bes'8-. g'8-. a'8-.                          | % 69
   bes'4-. ees'8-. g'8-. ees'8-. f'8-.                                         | % 70
@@ -55,9 +55,9 @@ epFour = \absolute {
   ees'4-- ees'8-. ees'8-. ees'8-. ees'8-.                                     | % 72
   % 73-76: solo's own d' downbeat + Hb 1 head again (no "ten." in Hb 1 here)
   d'4-. d''8-. fis''8-. d''8-. e''8-.                                         | % 73
-  <fis'' \tweak font-size #-3 d'-+>4 e''8-. fis''8-. d''8-. fis''8-.        | % 74 ad lib LH-pizz D
-  <e'' \tweak font-size #-3 d'-+>8( d''8) d''8-. fis''8-. d''8-. e''8-.     | % 75 ad lib LH-pizz D
-  <fis'' \tweak font-size #-3 d'-+>4 e''8-. fis''8-. d''8-. fis''8-.        | % 76 ad lib LH-pizz D
+  <fis'' \tweak font-size #-3 d'_+>4 e''8-. fis''8-. d''8-. fis''8-.        | % 74 ad lib LH-pizz D
+  <e'' \tweak font-size #-3 d'_+>8( d''8) d''8-. fis''8-. d''8-. e''8-.     | % 75 ad lib LH-pizz D
+  <fis'' \tweak font-size #-3 d'_+>4 e''8-. fis''8-. d''8-. fis''8-.        | % 76 ad lib LH-pizz D
   % 77-84: VSolo verbatim (77.1 g''4-. is Hb 1's phrase close), f then ff open-string chords
   g''4-. g'8-.\f bes'8-. g'8-. a'8-.                                          | % 77
   bes'4-. ees'8-. g'8-. ees'8-. f'8-.                                         | % 78

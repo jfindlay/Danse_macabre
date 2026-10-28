@@ -3,7 +3,8 @@
 % see docs/NOTES.md and docs/PLAN.md's Episode 18 draft). Absolute pitch.
 %
 % Concept: the solo's own déclamé and tremolo, verbatim and intact, with the horns' bed folded
-% under its held D-string notes and into its rests as a second voice on the open G; then the
+% under its held D-string notes and into its rests as a second voice on the open G; the tremolo
+% gives way at 469.2 to the three echoes of Theme 1's head as the solo's own line; then the
 % bass's pizz close as the piece's last gesture -- the two pizz chords that closed the summons
 % at 32.3-33.1 (<d' a' fis''>, <g d' bes' g''>) close the piece at 476-477.
 %   455-466  the solo's déclamé verbatim. 455.1 the strings' pp Gm/D stroke (V1a d', V2 bes,
@@ -17,24 +18,26 @@
 %            the solo's ees' on beat 3). The drone holds through the solo's breaths (458.2-3,
 %            462.2-3, 463.1-2) as the horns do. 456 and 464-466 are bare: 456 is the declamation's
 %            opening gesture; the horns are silent from 464.2.
-%   467-473  [N] the solo's measured tremolo d'-ees' (open D / 1st finger) verbatim, p 468 > pp
-%            473, under one slur from 466's ees' to 473.1. The viola/cello's pp staccato echo of
-%            Theme 1's head (469-471: g bes a bes | a g g a bes g | d') as the lower voice on the
-%            G string -- adjacent to the tremolo's D string, so the two sound together; the bow's
-%            16ths articulate the lower line (the dots are the source's). Its 471.1 d' is the
-%            open D the tremolo is already on and is absorbed. V2's echo at g' (471-472) and V1a's
-%            at g'' ppp (472-474) sit on the D and A/E-flat strings and cannot sound against the
-%            D-string tremolo; not carried.
-%   473-477  the solo ends 473.1 (d'8 pp). The flute's continuation of the same tremolo
-%            (473-476.1) is not carried; instead the bass's pizz close is: Cb's `g, | a, bes, g,
-%            | d | d | g,` an octave up (open G, 1st position, open D), pizz. sempre pp, then the
+%   467-473  [N] the solo's measured tremolo d'-ees' (open D / 1st finger) in shorthand
+%            (\repeat tremolo), p 468 > pp 469.2, slurred as the solo line: 466's ees' to 467's
+%            (ees') and a new slur from 468.1 to the end of the tremolo at 469.1 (the source's
+%            468-473 slur no longer runs through, the tremolo stopping at 469.1). 469.2-473.2 the
+%            solo line is the three echoes of Theme 1's head in turn, rising, as the orchestra
+%            has them: Va/Vc pp (469.2-471.1: g bes a bes | a g g a bes g | d'), V2 p (471.2-472.1:
+%            g' a' bes' g' | d''), V1a ppp's first three notes (472.3-473.2: g'' | a'' bes'' --
+%            its fourth g'' is the Cb's pizz entry at 473.3). The tremolo continuation (Fl1) and
+%            the echoes' orchestral doublings are not carried.
+%   473-477  the bass's pizz close (the flute's tremolo continuation 473-476.1 is not carried):
+%            Cb's `g, | a, bes, g, | d | d | g,` an octave up (open G, 1st position, open D),
+%            pizz. sempre pp, then the
 %            final two wind chords -- D major 476 (Hb/Cl/Bn/horns; strings unison d') and G minor
 %            477 (strings unison g) -- as the pizz chords <d' a' fis''> and <g d' bes' g''>: the
 %            piece ends with the two chords that closed the summons (32.3-33.1), and with the
 %            open G pizz as it began with the open D pizz. No fermata or l.v. in the source.
-% Dynamics as source: f 455 déclamé, dim. 459, p 468 >, pp 473; horns p (lower voice, 457).
+% Dynamics as source: f 455 déclamé, dim. 459, p 468 >, pp 469.2 (Va echo), p 471.2 (V2 echo),
+% ppp 472.3 (V1a echo); horns p (lower voice, 457).
 % Not carried: V2 bes / Va d / Vc d of the 455.1 stroke; horn 1's bes and horn 3's d'
-% (455-458), horn 1's c' / horn 3's ees' (463-464); V2's and V1a's echoes; Fl1 473-476.
+% (455-458), horn 1's c' / horn 3's ees' (463-464); V1a's echo past its third note; Fl1 473-476.
 
 epEighteen = \absolute {
   \barNumberCheck #455
@@ -53,24 +56,18 @@ epEighteen = \absolute {
   aes4) bes4 c'4                                                               | % 464
   ees'2.                                                                       | % 465
   ees'2.(                                                                      | % 466 -> [N]
-  % 467-473: [N] the solo's tremolo; the viola/cello's echo of Theme 1's head on the G string.
-  d'16-> ees'16 d'16-> ees'16 d'16-> ees'16 d'16-> ees'16 d'16-> ees'16 d'16-> ees'16 | % 467 [N]
-  d'16\p\> ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16  | % 468
-  % 469-470: the tremolo stays in the main Voice (\voiceOne) so the 466-473 slur runs through;
-  % the echo is a temporary \new Voice (ep08's pattern).
-  << { \voiceOne
-       d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 | % 469 Va/Vc echo
-       d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 | % 470
-     }
-     \new Voice { \voiceTwo
-       r4 g8-.\pp bes8-. a8-. bes8-.                                           | % 469
-       a8( g8) g8-. a8-. bes8-. g8-.                                           | % 470
-     }
-  >> \oneVoice
-  d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16      | % 471 echo's d' absorbed
-  d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16 d'16 ees'16      | % 472
-  % 473-477: the solo ends; the bass's pizz close and the two final chords.
-  d'8)\pp r8 r4 g4^"pizz. sempre"                                              | % 473 solo ends; Cb's pizz begins
+  % 467-469.1: [N] the solo's measured tremolo in shorthand, slurred as the solo line (466's
+  % ees' through 467's; a new slur from 468.1 to the end of the tremolo at 469.1).
+  \repeat tremolo 6 { d'16-> ees'16) }                                         | % 467 [N]
+  \repeat tremolo 6 { d'16(\p\> ees'16 }                                       | % 468
+  % 469.2-473.2: the solo line carries the three echoes of Theme 1's head in one line (Va/Vc,
+  % V2, then V1a's first three notes), rising, out of the tremolo and up to the bass's pizz.
+  \repeat tremolo 2 { d'16 ees'16) } g8-.\pp bes8-. a8-. bes8-.               | % 469 Va/Vc echo
+  a8( g8) g8-. a8-. bes8-. g8-.                                                | % 470
+  d'8-. r8 g'8-.\p a'8-. bes'8-. g'8-.                                         | % 471 V2 echo
+  d''8-. r8 r4 g''8-.\ppp r8                                                   | % 472 V1a echo
+  % 473-477: the echoes end; the bass's pizz close and the two final chords.
+  a''8-. r8 bes''8-. r8 g4^"pizz. sempre"                                      | % 473 Cb's pizz begins
   a4 bes4 g4                                                                   | % 474 Theme 1's head, the last time
   d'4 r4 r4                                                                    | % 475
   <d' a' fis''>4 r4 r4                                                         | % 476 D major (winds pp)

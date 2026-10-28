@@ -970,12 +970,11 @@ and a GC roll. The strings are silent 438–444; the solo is tacet throughout.
 
 Decisions:
 
-1. **The horn pedal as the open E♭ string (`ees''`), fp, 438–439.** Horn 2's `ees` is below the
-   open G; horn 1's `ees'` is in range, but the retuned string is the programme — Death's own
-   note, held alone after the climax — and it is the pitch the crow starts on. The pedal cannot
+1. **The horn pedal at pitch, `ees'` (horn 1, D string, 1st finger), fp, 438–439** (revised
+   2026-10-28, user; the first reading took it as the open E♭ string `ees''`, the retuned
+   string and the crow's starting pitch). Horn 2's `ees` is below the open G. The pedal cannot
    continue under the crow (the crow lives on the E♭ string; the D string is not adjacent), so
-   it merges into the crow's first note: 440.1 is re-attacked f, no tie. Alternative, not
-   taken: horn 1's `ees'` on the D string, then the jump to `ees''`.
+   it ends at 439 and 440.1's `ees''` is a fresh f attack an octave up, no tie.
 2. **The cock-crow verbatim, entirely on the E♭ string** (open `ees''`, `bes''` 3rd position,
    `g''` 1st or 3rd). Its last 8th (445.1 `g''` pp, the end of the tie) is absorbed by the
    strings' f entry on the same beat; the oboe's hairpin terminates at that f.
@@ -1015,15 +1014,17 @@ Decisions:
    Episode 12/13 rule, the orchestra folded into the rests. 456 and 464–466 bare: 456 is the
    declamation's opening gesture; the horns are silent from 464.2. Engraved as ep08's pattern
    where a spanner crosses the block (463's slur): the melody stays in the main Voice.
-4. **467–473 the tremolo under one slur from 466's `ees'` to 473.1**, accents 467, p 468 > pp
-   473. **The viola/cello's echo of Theme 1's head (469–471) as the lower voice on the G
-   string** — adjacent to the tremolo's D string, so the two sound together; the bow's 16ths
-   articulate the lower line (the dots are the source's). Its 471.1 `d'` is the open D the
-   tremolo already sounds and is absorbed. **V2's echo at `g'` and V1a's at `g''` are not
-   carried:** `g'` is on the D string the tremolo occupies, and `g''`–`d'''` sit on the A/E♭
-   strings, not adjacent to it; neither can sound against the tremolo. One of three echoes is
-   kept, the lowest.
-5. **473.2–477 the bass's pizz close, not the flute's tremolo.** After the solo's `d'8` pp the
+4. **467–469.1 the tremolo in shorthand (`\repeat tremolo`), bowed as the solo line** (revised
+   2026-10-28, user): 466's `ees'` slurred into 467's, a new slur from 468.1 to the end of the
+   tremolo at 469.1 (the source's 468–473 slur no longer runs through), accents 467, p 468 >.
+   **469.2–473.2 the solo line is the three echoes of Theme 1's head in turn, rising, in place
+   of the tremolo's continuation:** Va/Vc pp `g bes a bes | a( g) g a bes g | d'` (469.2–471.1),
+   V2 p `g' a' bes' g' | d''` (471.2–472.1), V1a ppp's first three notes `g'' | a'' bes''`
+   (472.3–473.2; its fourth `g''` is the Cb's pizz entry at 473.3). This supersedes the earlier
+   reading (the Va/Vc echo only, as double-stops under the tremolo on the G string, V2's and
+   V1a's dropped as unplayable against it): with the tremolo stopped at 469.1 all three fit in
+   one line.
+5. **473.3–477 the bass's pizz close, not the flute's tremolo.** After the solo's echoes the
    violin takes Cb's `g, | a, bes, g, | d | d | g,` an octave up (open G, 1st position, open
    D), *pizz. sempre* pp — Theme 1's head for the last time, at the bottom — and the two final
    wind chords as the pizz chords **`<d' a' fis''>` (476, D major) and `<g d' bes' g''>` (477,
@@ -1031,10 +1032,11 @@ Decisions:
    pizz ends it as the open-D pizz began it. Fl1's continuation of the tremolo (473–476.1) is
    not carried: continuing it would exclude both the bass and the chords. No fermata, no l.v. in
    the source; none added.
-6. **Dynamics as source:** f 455 *déclamé*, *dim.* 459, p 468 >, pp 473; the horn voice p (457).
+6. **Dynamics as source:** f 455 *déclamé*, *dim.* 459, p 468 >, pp 469.2 (Va echo), p 471.2 (V2
+   echo), ppp 472.3 (V1a echo); the horn voice p (457).
 
 Known losses: V2/Va/Vc's notes of the 455.1 stroke beyond the open strings; horn 1's `bes` and
-horn 3's `d'` (455–458), horn 1's `c'`/horn 3's `ees'` (463–464); V2's and V1a's echoes; Fl1
+horn 3's `d'` (455–458), horn 1's `c'`/horn 3's `ees'` (463–464); V1a's echo past its third note; Fl1
 473–476; the winds' inner chord tones at 476–477 beyond the three-/four-string chords. All
 accepted.
 

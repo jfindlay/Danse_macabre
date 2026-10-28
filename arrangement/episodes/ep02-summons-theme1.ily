@@ -31,18 +31,18 @@ epTwo = \absolute {
   <d' a'>4-. <a' ees''>4-.\open <d' a' fis''>4-.^"pizz."                       | % 32 strings' D-major
   % 33.1 strings' pizz G-minor chord; 33.2-41.1 Fl1 Theme 1 verbatim at g', arco
   <g d' bes' g''>4-.^"pizz." g'8-.\p^\markup{\italic "sulla tastiera, imitando il flauto"} bes'8-. g'8-. a'8-. | % 33
-  <bes' \tweak font-size #-3 g-+>4--^"pizz. m.g. ad lib." a'8-. bes'8-. g'8-. bes'8-. | % 34
-  <a' \tweak font-size #-3 g-+>8( g'8) g'8-. bes'8-. g'8-. a'8-.                      | % 35
-  <bes' \tweak font-size #-3 g-+>4-- a'8-. bes'8-. g'8-. bes'8-.                      | % 36
+  <bes' \tweak font-size #-3 g_+>4--^"pizz. m.g. ad lib." a'8-. bes'8-. g'8-. bes'8-. | % 34
+  <a' \tweak font-size #-3 g_+>8( g'8) g'8-. bes'8-. g'8-. a'8-.                      | % 35
+  <bes' \tweak font-size #-3 g_+>4-- a'8-. bes'8-. g'8-. bes'8-.                      | % 36
   aes'8-. r8 aes'8-. c''8-. aes'8-. bes'8-.                                    | % 37
   c''4-- bes'8-. c''8-. aes'8-. c''8-.                                        | % 38
   bes'8( aes'8) aes'8-. c''8-. aes'8-. bes'8-.                                 | % 39
   c''4-! aes'8-. c''8-. bes'8-. aes'8-.                                        | % 40
   % 41.1 Fl1's final note; 41.2-48 V1a's restatement at g'', pp, ord., its own trills/pralls
   g'4-.  g''8-.\pp^"ord." bes''8-. g''8-. a''8-.                               | % 41
-  <bes'' \tweak font-size #-3 d'-+>4-- a''8-. bes''8-. g''8-. bes''8-.         | % 42 ad lib D drone
-  <a'' \tweak font-size #-3 d'-+>8\prall( g''8) g''8-. bes''8-. g''8-. a''8-.  | % 43 idem
-  <bes'' \tweak font-size #-3 d'-+>4-- a''8-. bes''8-. g''8-. bes''8-.         | % 44 idem
+  <bes'' \tweak font-size #-3 d'_+>4-- a''8-. bes''8-. g''8-. bes''8-.         | % 42 ad lib D drone
+  <a'' \tweak font-size #-3 d'_+>8\prall( g''8) g''8-. bes''8-. g''8-. a''8-.  | % 43 idem
+  <bes'' \tweak font-size #-3 d'_+>4-- a''8-. bes''8-. g''8-. bes''8-.         | % 44 idem
   aes''8-. r8 aes''8-. c'''8-. aes''8-. bes''8-.                               | % 45
   c'''4\prall bes''8-. c'''8-. aes''8-. c'''8-.                                | % 46
   bes''8\trill( aes''8) aes''8-. c'''8-. aes''8-. bes''8-.                     | % 47
