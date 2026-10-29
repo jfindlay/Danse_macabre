@@ -3,7 +3,7 @@
 % register spent. 416-418 the descent in octaves, V1a (A string) under the piccolo's sounding
 % pitch (E-flat string); 419-420, 424-425 Theme 1's head an octave above V1a; 421-423 the
 % descent in octaves a register lower; 426-437 V1a's figure as one line (stems down) under the
-% flute/piccolo's stamp (stems up: g'/fis' 426-429, <d' g'> from [M]); sautillé at 433.
+% flute/piccolo's stamp (stems up: g'/fis' 426-429, g' from [M]); sautillé at 433.
 % Dynamics as source: ff 416, fff 433.
 
 epSixteen = \absolute {
@@ -26,20 +26,20 @@ epSixteen = \absolute {
   fis''8 a''!8 fis''8 g''8 a''4                                                | % 425 -> the drop to the open G
   % 426-437: V1a's figure as the one line (lower voice, stems down) with the flute/piccolo's
   % stamp as a quarter on beat 2 above it (upper voice, stems up): g'/fis' alternating 426-429,
-  % then <d' g'> (open D + 4th finger over the G-string line) from [M] to the double bar.
+  % then g' alone (no open D) from [M] to the double bar.
   << { s4 g'4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                                | % 426
   << { s4 fis'4 s4 } \\ { c'8 b8 bes8 a8 aes4 } >>                             | % 427
   << { s4 g'4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                                | % 428
   << { s4 fis'4 s4 } \\ { c'8 b8 bes8 a8 aes4 } >>                             | % 429
   % 430-432 [M]
-  << { s4 <d' g'>4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                           | % 430 [M]
-  << { s4 <d' g'>4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                           | % 431
-  << { s4 <d' g'>4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                           | % 432
+  << { s4 g'4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                           | % 430 [M]
+  << { s4 g'4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                           | % 431
+  << { s4 g'4 s4 } \\ { g8 bes8 g8 a8 bes4 } >>                           | % 432
   % 433-437 fff: the figure runs in continuous 8ths.
-  << { s4 <d' g'>4 s4 } \\ { g8\fff_\markup\italic "sautillé" bes8 g8 a8 bes8 g8 } >> | % 433
-  << { s4 <d' g'>4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                       | % 434
-  << { s4 <d' g'>4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                       | % 435
-  << { s4 <d' g'>4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                       | % 436
-  << { s4 <d' g'>4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                       | % 437 -> 438 Tempo 1
+  << { s4 g'4 s4 } \\ { g8\fff_\markup\italic "sautillé" bes8 g8 a8 bes8 g8 } >> | % 433
+  << { s4 g'4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                       | % 434
+  << { s4 g'4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                       | % 435
+  << { s4 g'4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                       | % 436
+  << { s4 g'4 s4 } \\ { a8 bes8 g8 a8 bes8 g8 } >>                       | % 437 -> 438 Tempo 1
   \barNumberCheck #438
 }

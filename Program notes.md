@@ -285,7 +285,8 @@ wonder at the towering height more than makes up for it, and a decent violin in 
 makes those notes ring like fire — the novice ear is left with nothing to imagine as to a full
 sound. From 426 the figure is a single line on the G string — the
 violin's most visceral sound at *fff* — with the flute and piccolo's stamp as a quarter on beat 2
-above it, thickening at [M]. The energy of the stringendo's last run goes into one line.
+above it, the orchestra's lower note of the stamp (the open D, from [M] to the end) left out so that
+the line stays one line. The energy of the stringendo's last run goes into one line.
 
 ### 17. Dawn (438–454, *Tempo 1°*)
 
