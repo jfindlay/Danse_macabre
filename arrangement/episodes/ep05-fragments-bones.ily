@@ -10,7 +10,7 @@ epFive = \absolute {
   % 117.1 tutti D stamp (pizz); 117.2-121.1 VSolo verbatim
   <d' a' fis''>4\f^"pizz."  d''8-. fis''-. d''-. e''-.                        | % 117
   <fis'' d'>4^"pizz." e''8-. fis''-. d''-. fis''-.                    | % 118 pizz
-  <e'' \tweak font-size #-3 d'_+>8\prall( d'') d''-. fis''-. d''-. e''-.     | % 119 ad lib D
+  <e'' \tweak font-size #-3 d'_+>8\prall^( d'') d''-. fis''-. d''-. e''-.    | % 119 ad lib D
   <fis'' d'>4^"pizz." e''8-. fis''-. d''-. fis''-.                    | % 120 pizz
   % 121.1 VSolo g''; 121.2-125.1 wind choir Theme 1 at g''' col legno battuto; pizz double-stops
   g''4-.  <bes' g''>8-.\f^"col legno battuto" bes''-. <bes' g''>-. a''-.             | % 121
@@ -20,7 +20,7 @@ epFive = \absolute {
   % 125.1 stamp; 125.2-129.1 VSolo verbatim
   <d' a' fis''>4\f^"pizz."  d''8-.\f fis''-. d''-. e''-.                      | % 125
   <fis'' d'>4^"pizz." e''8-. fis''-. d''-. fis''-.                    | % 126 pizz
-  <e'' \tweak font-size #-3 d'_+>8\prall( d'') d''-. fis''-. d''-. e''-.     | % 127 ad lib D
+  <e'' \tweak font-size #-3 d'_+>8\prall^( d'') d''-. fis''-. d''-. e''-.    | % 127 ad lib D
   <fis'' d'>4^"pizz." e''8-. fis''-. d''-. fis''-.                    | % 128 pizz
   % 129.2-133.1 as 121-125 but strings col legno incl. A's downbeat chord (130-132)
   g''4-.  <bes' g''>8-.\f^"col legno battuto" bes''-. <bes' g''>-. a''-.             | % 129
