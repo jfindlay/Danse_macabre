@@ -85,10 +85,11 @@ alternation of bow and pluck — a four-string chord plucked on the beat and the
 string an eighth later — is the Sarasate surprise (*Zigeunerweisen*'s left-hand pizzicato) that
 makes a street audience wonder how it was done.
 
-**Known themes resonate.** Once a tune has been heard enough times to be carried, a further
-restatement of it in the orchestra may yield to simultaneous *novel* material in the lift; the
-known figure sounds unplayed in the listener's mind. This is a tie-breaker between two liftable
-lines, never a licence to add.
+**Known themes resonate.** Once a theme has been heard enough times to be imprinted, we can then, as
+I think Saint-Saëns intended, opt for the *novel* material in each section rather than try to find
+the principal theme somewhere in the orchestra and transfer that. The principal themes are short,
+simple, and repeated enough, even in this arrangement, that each new theme becomes the interesting
+line and thus the theme to adopt for the unaccompanied narrative.
 
 **The tableau principle.** Saint-Saëns's piece quotes history — plainchant, a Bach-style fugato,
 the waltz — and the arrangement makes each quotation legible in solo-violin terms rather than
@@ -362,11 +363,10 @@ Note that the the old version of the score source code was used inadvertently fo
 2. What actually changed:
 
     1. LilyPond 2.16 → 2.18 syntax.
-    2. `-|` → `-!` everywhere. This looked like marcato→staccatissimo but is not: it's LilyPond's own 2.17.11 rename of the staccatissimo shorthand (the `|` form collided with bar checks). The `convert-ly` upgrade that `build dump` applies already yields `-!`, and the episodes engrave it as `-!`: semantically identical.
-    3. Part-extraction cosmetics.
-    4. Harp: `\repeat` percent → `\repeat` unfold; its own `\tempo`/`\time`/`\key` and `\marks` added because the score wrapper no longer feeds the harp staff from the Trame; everything after m 237 is commented out as "Le reste tacet", so the new harp files are no longer 477 bars.
-    5. Clarinets 1–2, mm 205–236: The "A défaut de Harpe" cue (clarinets covering the harp arpeggios when no harp is present) is retagged so it also appears in the score layer via `\partcombineApart`.
-    6. `Score.ly`/`Global.ily`: layout, paper spacing, engraver placement, circled measure numbers, "v.2" in the copyright line; the French-language score variant (`00-ScoreFrançais.ly`) was dropped.
+    2. Part-extraction cosmetics.
+    3. Harp indication style updates and because the score wrapper no longer feeds the harp staff from the Trame; everything after m 237 is commented out as "Le reste tacet", so the new harp files are no longer 477 bars.
+    4. Clarinets: The "A défaut de Harpe" cue is retagged so it also appears in the score layer via `\partcombineApart`.
+    5. Layout, paper spacing, engraver placement, circled measure numbers, "v.2" in the copyright line; the French-language score variant (`00-ScoreFrançais.ly`) was dropped.
 
 The music is public domain; the Le Concert engraving code is CC BY-NC-SA 3.0, and lifted bars were
 spliced from it, so the arrangement file is a derivative of that engraving — fine for
