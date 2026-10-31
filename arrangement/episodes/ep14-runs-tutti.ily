@@ -9,7 +9,7 @@
 epFourteen = \absolute {
   \barNumberCheck #362
   % 362-365: the cell (V1a/V2, slurred as in the source) with the brass D7 stab on the downbeat 8th.
-  <c' fis' a'>8-.\ff c'8( ees'8\sf d'8 c'8 a8)                                 | % 362 [K] ff ends the cresc.
+  <c' fis' a'>8-.\ff\upbow c'8\downbow( ees'8\sf d'8 c'8 a8)                   | % 362 [K] ff ends the cresc.
   <c' fis' a'>8-. c'8( ees'8\sf d'8 c'8 a8)                                    | % 363
   <c' fis' a'>8-. c'8( ees'8\sf d'8 c'8 a8)                                    | % 364
   <c' fis' a'>8-. c'8( ees'8\sf d'8 c'8 a8)                                    | % 365

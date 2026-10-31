@@ -10,17 +10,18 @@ epSixteen = \absolute {
   \barNumberCheck #416
   % 416-418: V1a (A string, 22 -> 15) under Pic's sounding pitch (E-flat string, 28 -> 21);
   % fallback = the upper voice alone.
-  <g''' g''''>4-!\ff <f'''! f''''!>4 <ees''' ees''''>4                         | % 416 Animato, tutti crash
-  <f''' f''''>4 <ees''' ees''''>4 <d''' d''''>4                                | % 417
-  <ees''' ees''''>4 <d''' d''''>4 <c''' c''''>4                                | % 418
+  <g''' g''''>4:8-!\ff <f'''! f''''!>4:8 <ees''' ees''''>4:8                   | % 416 Animato, tutti crash
+  <f''' f''''>4:8 <ees''' ees''''>4:8 <d''' d''''>4:8                          | % 417
+  <ees''' ees''''>4:8 <d''' d''''>4:8 <c''' c''''>4:8                          | % 418
   % 419-420: Theme 1's head on A-flat (Ab/C) then F-sharp (D), an octave above V1a.
   aes'''8 c''''8 aes'''8 bes'''8 c''''4                                        | % 419
   fis'''8 a'''!8 fis'''8 g'''8 a'''4                                           | % 420
   % 421-423: the descent in octaves (V1a + the octave above), A/E-flat pair; 421.1 the crash with
   % the open G and D rolled under the octave.
-  <g d' g'' g'''>4-! <f''! f'''!>4 <ees'' ees'''>4                             | % 421 crash
-  <f'' f'''>4 <ees'' ees'''>4 <d'' d'''>4                                      | % 422
-  <ees'' ees'''>4 <d'' d'''>4 <c'' c'''>4                                      | % 423 widest stretch (A 3 / Eb 9)
+  % Eighth-note tremolo on the octave only; the open G and D are a second voice, not tremolo'd.
+  << { <g'' g'''>4:8-! <f''! f'''!>4:8 <ees'' ees'''>4:8 } \\ { <g d'>4-! s4 s4 } >> | % 421 crash
+  <f'' f'''>4:8 <ees'' ees'''>4:8 <d'' d'''>4:8                                | % 422
+  <ees'' ees'''>4:8 <d'' d'''>4:8 <c'' c'''>4:8                                | % 423 widest stretch (A 3 / Eb 9)
   % 424-425: the head figure an octave above V1a (= V1a's 419-420).
   aes''8 c'''8 aes''8 bes''8 c'''4                                             | % 424
   fis''8 a''!8 fis''8 g''8 a''4                                                | % 425 -> the drop to the open G
