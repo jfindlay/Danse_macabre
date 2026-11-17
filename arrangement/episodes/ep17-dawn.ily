@@ -4,6 +4,8 @@
 % finger; the pedal ends at 439, the crow's ees'' at 440.1 is a fresh attack); 440-445 the oboe's
 % cock-crow on the E-flat string, its tail absorbed by the strings' entry; 445-454 the strings'
 % C-sharp dim 7 tremolo as <cis' g'> (the tritone), f > p > fermata, dynamics as V1a.
+% Two optional cuts, bracketed "opt. cut": 443-444 (the crow's held tail, 442 -> 445) and 450-454
+% (the tremolo's last five bars and the fermata, 449 -> 455). The bars stay in the score.
 
 epSeventeen = \absolute {
   \barNumberCheck #438
@@ -14,18 +16,20 @@ epSeventeen = \absolute {
   ees''4\f r8 bes''8-. bes''4-.                                                | % 440 cock-crow
   ees''4-. g''2->~                                                             | % 441
   g''2.~                                                                       | % 442
-  g''2.\>~                                                                     | % 443
-  g''2.                                                                        | % 444 (tail absorbed at 445.1)
+  \optCut
+  g''2.\>\startTextSpan~                                                       | % 443 opt. cut begins
+  g''2.\stopTextSpan                                                           | % 444 (tail absorbed at 445.1); opt. cut ends
   % 445-454: Vc cis + Va g, 8va -- the C-sharp dim 7's tritone; 2nd position, 4 on G, 3 on D.
   <cis' g'>2.:16\f\>                                                            | % 445 strings enter (oboe's tail absorbed)
   <cis' g'>2.:16                                                                | % 446
   <cis' g'>2.:16                                                                | % 447
   <cis' g'>2.:16                                                                | % 448
   <cis' g'>2.:16                                                                | % 449
-  <cis' g'>2.:16                                                                | % 450
+  \optCut
+  <cis' g'>2.:16\startTextSpan                                                  | % 450 opt. cut begins
   <cis' g'>2.:16\p\>                                                            | % 451
   <cis' g'>2.:16                                                                | % 452
   <cis' g'>2.:16\!                                                              | % 453
-  <cis' g'>2.:16\fermata^\markup\italic "très long" _\markup\italic "toujours en dim." | % 454 -> 455 déclamé
+  <cis' g'>2.:16\fermata\stopTextSpan^\markup\italic "très long" _\markup\italic "toujours en dim." | % 454 -> 455 déclamé; opt. cut ends
   \barNumberCheck #455
 }

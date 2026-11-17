@@ -11,6 +11,20 @@ espr = _\markup {\italic "espress."}
 anim = ^\markup {"Animato"}
 menop = _\markup {\italic "meno " \dynamic p}
 
+% Optional cut: a bracket over the bars a performer may skip. The bars stay in the score (the
+% 477-bar grid is the fidelity gate); the bracket only says "these may be left out". Open it with
+% \optCut before the first note of the cut with \startTextSpan on that note, and close it with
+% \stopTextSpan on the last note; the hook at the right end marks where the cut ends.
+optCut = {
+  \once \override TextSpanner.style = #'line
+  \once \override TextSpanner.bound-details.left.text = \markup { \small \italic "opt. cut" }
+  \once \override TextSpanner.bound-details.left.attach-dir = #LEFT
+  \once \override TextSpanner.bound-details.right.text = \markup { \draw-line #'(0 . -1) }
+  \once \override TextSpanner.bound-details.right.attach-dir = #RIGHT
+  \once \override TextSpanner.bound-details.right-broken.text = ##f
+  \once \override TextSpanner.bound-details.left-broken.text = ##f
+}
+
 reperes = {
   \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
   \override Score.RehearsalMark.padding = #2.0

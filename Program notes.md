@@ -67,7 +67,9 @@ for which the solo-violin part only plays about 130.
    line to give.
 
 **Fidelity of form.** 477 bars of 3/4, the rehearsal marks A–N at the source's bar numbers, no
-cuts, no insertions, no free-rhythm passages. The build enforces this mechanically (§5).
+cuts, no insertions, no free-rhythm passages. The build enforces this mechanically (§5). Two
+passages in the dawn (443–444 and 450–454) are bracketed *opt. cut*: the bars stay in the score,
+and the performer may skip them (§4, *Optional cuts*).
 
 **Two deliberate exceptions to rule 1**, both performer's-perspective calls. At 118/120/126/128 the
 solo's tenuto downbeats are plucked, and at 469 the solo's final tremolo gives way to the
@@ -297,7 +299,9 @@ lifted at pitch as the one line. The horn note on the D string, the crow entirel
 string, and the tremolo as the chord's defining interval — the cellos' C♯ against the violas' G,
 the *diabolus* that opened the piece — dissolving over ten bars and the long hold. The retuned
 string that poisoned midnight is still on the instrument at dawn; every E♮ in the daylight is a
-stopped note. The devils do not exit; they evaporate.
+stopped note. The devils do not exit; they evaporate. Two holds here are bracketed *opt. cut*: the
+crow's held tail at 443–444 and the last five bars of the tremolo, 450–454, fermata included. See
+*Optional cuts* in §4.
 
 ### 18. *Déclamé* and coda (455–477, [N])
 
@@ -346,7 +350,24 @@ that cost no licence: ricochet or saltato on the whirl (253–264), spiccato on 
 flying staccato on the fugato's counter-lines (145–165), sautillé on the final run (433–437).
 
 **Tempo.** One tempo, the source's, with the Trame's *poco stringendo* at 409 and *Tempo 1°* at
-438; the fermata at 454 is *très long*.
+438; the fermata at 454 is *très long* (unless the second optional cut below is taken).
+
+**Optional cuts.** Two passages in the dawn are bracketed *opt. cut* in the score: **443–444**
+(the cock-crow's held *G5* tail; skip from 442 to 445) and **450–454** (the last five bars of the
+tremolo and the fermata; skip from 449 to the *déclamé* at 455). Neither is a change to the
+arrangement. The full 477 bars are kept so that the player can see where every section falls in
+the orchestral score, and so that the whole piece can be practised against a recording; the cuts
+are a performance suggestion only.
+
+The reason is proportion. The dawn's long holds are written for an orchestra that has just spent
+the *Animato* at full force: *tutta forza*, frenetic, the whole hall overwhelmed, and the audience
+needs those bars of held sound and silence to come down from it. One violin never overwhelms the
+listener in the first place, so it has less to recover from, and the resolution can be scaled to
+the size of the instrument that is playing it. A held tremolo that runs on after the listener has
+already let go of the dance stops being a dissolve and becomes a delay before the déclamé. If a
+cut is taken, take the diminuendo to *p* a little earlier than written (the *p* at 451 falls in
+the second cut), so the tremolo still dies away into the *déclamé*. Playing the cuts or not is
+the performer's call; the bracket sits above the staff.
 
 ## 5. Provenance and build
 
